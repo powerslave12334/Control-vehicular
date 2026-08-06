@@ -1,0 +1,165 @@
+- generic [active] [ref=e59]:
+  - complementary [ref=e60]:
+    - generic [ref=e61]:
+      - generic [ref=e62]: A
+      - generic [ref=e63]:
+        - heading "Agua Inmaculada" [level=1] [ref=e64]
+        - paragraph [ref=e65]: Control de Flota
+    - generic [ref=e66]:
+      - paragraph [ref=e67]: Navegación Admin
+      - navigation [ref=e68]:
+        - link "Dashboard / Resumen" [ref=e69] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=e73]: Vehículos
+        - link "Vehículos" [ref=e74] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=e78] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=e82] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=e86]: Rutas
+        - link "Rutas" [ref=e87] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=e91] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=e95] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=e99]: Operaciones
+        - link "Operadores" [ref=e100] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=e104] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=e108] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=e112] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=e116] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=e120]: Administración
+        - link "Reportes" [ref=e121] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=e125] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=e129] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=e133] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=e137] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - generic [ref=e143]: AD
+        - generic [ref=e144]:
+          - paragraph [ref=e145]: Administrador
+          - paragraph [ref=e146]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=e148]
+  - generic [ref=e151]:
+    - banner [ref=e152]:
+      - generic [ref=e153]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=e154]
+        - generic [ref=e156]: OWASP Top 10 Secured
+      - generic [ref=e159]:
+        - link "46" [ref=e160] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=e164]: "--:--:--"
+        - generic [ref=e168]:
+          - generic [ref=e169]:
+            - paragraph [ref=e170]: Administrador
+            - paragraph [ref=e171]: Administrador del sistema
+          - generic [ref=e172]: AD
+    - main [ref=e173]:
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - generic [ref=e179]:
+              - generic [ref=e180]: KPI Operativo
+              - heading "Km Planeados vs Reales" [level=3] [ref=e181]
+              - paragraph [ref=e182]: 0.0%
+              - generic [ref=e183]: (Km Reales / Km Planeados) × 100
+            - generic [ref=e189]:
+              - generic [ref=e190]: "Reales: 0 km"
+              - generic [ref=e191]: "Planes: 1,537 km"
+          - generic [ref=e193]:
+            - generic [ref=e196]:
+              - generic [ref=e197]: Rendimiento
+              - heading "Rendimiento Promedio" [level=3] [ref=e198]
+              - paragraph [ref=e199]: N/D
+              - generic [ref=e200]: Km Reales / Litros Consumidos
+            - generic [ref=e205]:
+              - generic [ref=e206]: "Consumo: 65 L"
+              - generic [ref=e207]: "Costo: $1,450"
+          - generic [ref=e209]:
+            - generic [ref=e212]:
+              - generic [ref=e213]: Presupuesto
+              - heading "Combustible Consumido" [level=3] [ref=e214]
+              - paragraph [ref=e215]: 2.1%
+              - generic [ref=e216]: Consumo Real / Autorizado × 100
+            - generic [ref=e222]:
+              - generic [ref=e223]: "Real: 65 L"
+              - generic [ref=e224]: "Autorizado: 3,110 L"
+          - generic [ref=e227]:
+            - generic [ref=e230]:
+              - generic [ref=e231]: Eficiencia de Costo
+              - heading "Costo por Kilómetro" [level=3] [ref=e232]
+              - paragraph [ref=e233]: $0.00 MXN/Km
+              - generic [ref=e234]: Gasto Combustible / Km Reales
+            - generic [ref=e239]:
+              - generic [ref=e240]: "Gasto Comb.: $1,450"
+              - generic [ref=e241]: "Km Reales: 0"
+        - generic [ref=e243]:
+          - generic [ref=e244]:
+            - generic [ref=e245]:
+              - heading "Distribución de Flota" [level=3] [ref=e246]
+              - generic [ref=e247]: 11 unidades
+            - generic [ref=e248]: 11 Total
+          - generic [ref=e251]:
+            - heading "Km por Ruta" [level=3] [ref=e252]
+            - generic [ref=e253]: 4 rutas
+          - generic [ref=e256]:
+            - heading "Combustible por Unidad" [level=3] [ref=e257]
+            - generic [ref=e258]: 11 vehículos
+        - generic [ref=e260]:
+          - generic [ref=e261]:
+            - generic [ref=e266]:
+              - heading "Productividad" [level=4] [ref=e267]
+              - heading "Cumplimiento de Instalaciones" [level=3] [ref=e268]
+            - generic [ref=e269]:
+              - generic [ref=e270]: 50.0%
+              - generic [ref=e271]: "(Meta: 90%)"
+            - generic [ref=e272]:
+              - generic [ref=e273]:
+                - generic [ref=e274]: "Realizadas:"
+                - generic [ref=e275]: "2"
+              - generic [ref=e276]:
+                - generic [ref=e277]: "Programadas:"
+                - generic [ref=e278]: "4"
+          - generic [ref=e279]:
+            - generic [ref=e284]:
+              - heading "Estado de Flota" [level=4] [ref=e285]
+              - heading "Disponibilidad de Flota" [level=3] [ref=e286]
+            - generic [ref=e287]:
+              - generic [ref=e288]: 100.0%
+              - generic [ref=e289]: (11/11 Unidades)
+            - generic [ref=e290]:
+              - generic [ref=e291]:
+                - generic [ref=e292]: "En mantenimiento:"
+                - generic [ref=e293]: 0.0%
+              - generic [ref=e294]:
+                - generic [ref=e295]: "Fuera de servicio:"
+                - generic [ref=e296]: 0 unidades
+          - generic [ref=e297]:
+            - generic [ref=e302]:
+              - heading "Finanzas Flota" [level=4] [ref=e303]
+              - heading "Costos Operativos" [level=3] [ref=e304]
+            - generic [ref=e305]:
+              - generic [ref=e306]: $1,450
+              - generic [ref=e307]: MXN
+            - generic [ref=e308]:
+              - generic [ref=e309]: "Combustible: $1,450"
+              - generic [ref=e312]: "Mantenimiento: $0"
+    - contentinfo [ref=e315]:
+      - generic [ref=e316]:
+        - generic [ref=e317]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=e321]:
+          - generic [ref=e322]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=e323]: • Servidor Seguro de Producción

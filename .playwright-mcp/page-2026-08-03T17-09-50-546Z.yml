@@ -1,0 +1,81 @@
+- generic [ref=f26e1]:
+  - complementary [ref=f26e2]:
+    - generic [ref=f26e3]:
+      - generic [ref=f26e4]: A
+      - generic [ref=f26e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f26e6]
+        - paragraph [ref=f26e7]: Control de Flota
+    - generic [ref=f26e8]:
+      - paragraph [ref=f26e9]: Navegación Admin
+      - navigation [ref=f26e10]:
+        - link "Dashboard / Resumen" [ref=f26e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f26e15]: Vehículos
+        - link "Vehículos" [ref=f26e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f26e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f26e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f26e28]: Rutas
+        - link "Rutas" [ref=f26e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f26e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f26e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f26e41]: Operaciones
+        - link "Operadores" [ref=f26e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f26e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f26e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f26e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f26e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f26e62]: Administración
+        - link "Reportes" [ref=f26e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f26e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f26e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f26e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f26e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f26e83]:
+      - generic [ref=f26e84]:
+        - generic [ref=f26e85]: AD
+        - generic [ref=f26e86]:
+          - paragraph [ref=f26e87]: Administrador
+          - paragraph [ref=f26e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f26e90]
+  - generic [ref=f26e93]:
+    - banner [ref=f26e94]:
+      - generic [ref=f26e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f26e96]
+        - generic [ref=f26e98]: OWASP Top 10 Secured
+      - generic [ref=f26e101]:
+        - link "63" [ref=f26e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f26e106]: "--:--:--"
+        - generic [ref=f26e110]:
+          - generic [ref=f26e111]:
+            - paragraph [ref=f26e112]: Administrador
+            - paragraph [ref=f26e113]: Administrador del sistema
+          - generic [ref=f26e114]: AD
+    - main [ref=f26e115]:
+      - generic [ref=f26e116]:
+        - generic [ref=f26e117]:
+          - heading "Servicios de Mantenimiento Vehicular" [level=2] [ref=f26e118]
+          - button "Registrar Mantenimiento" [ref=f26e119]
+        - generic [ref=f26e122]: Sin registros de mantenimiento
+    - contentinfo [ref=f26e124]:
+      - generic [ref=f26e125]:
+        - generic [ref=f26e126]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f26e130]:
+          - generic [ref=f26e131]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f26e132]: • Servidor Seguro de Producción

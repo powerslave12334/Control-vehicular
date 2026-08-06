@@ -1,0 +1,266 @@
+- generic [active] [ref=f62e1]:
+  - complementary [ref=f62e2]:
+    - generic [ref=f62e3]:
+      - generic [ref=f62e4]: A
+      - generic [ref=f62e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f62e6]
+        - paragraph [ref=f62e7]: Control de Flota
+    - generic [ref=f62e8]:
+      - paragraph [ref=f62e9]: Navegación Admin
+      - navigation [ref=f62e10]:
+        - link "Dashboard / Resumen" [ref=f62e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f62e15]: Vehículos
+        - link "Vehículos" [ref=f62e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f62e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f62e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f62e28]: Rutas
+        - link "Rutas" [ref=f62e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f62e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f62e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f62e41]: Operaciones
+        - link "Operadores" [ref=f62e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f62e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f62e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f62e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f62e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f62e62]: Administración
+        - link "Reportes" [ref=f62e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f62e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f62e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f62e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f62e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f62e83]:
+      - generic [ref=f62e84]:
+        - generic [ref=f62e85]: AD
+        - generic [ref=f62e86]:
+          - paragraph [ref=f62e87]: Administrador
+          - paragraph [ref=f62e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f62e90]
+  - generic [ref=f62e93]:
+    - banner [ref=f62e94]:
+      - generic [ref=f62e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f62e96]
+        - generic [ref=f62e98]: OWASP Top 10 Secured
+      - generic [ref=f62e101]:
+        - link "79" [ref=f62e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f62e106]: "--:--:--"
+        - generic [ref=f62e110]:
+          - generic [ref=f62e111]:
+            - paragraph [ref=f62e112]: Administrador
+            - paragraph [ref=f62e113]: Administrador del sistema
+          - generic [ref=f62e114]: AD
+    - main [ref=f62e115]:
+      - generic [ref=f62e116]:
+        - generic [ref=f62e117]:
+          - heading "Programa de Instalaciones y Rutas de la Flota" [level=3] [ref=f62e118]
+          - button "Programar Nueva Ruta" [ref=f62e119]
+        - generic [ref=f62e122]:
+          - generic [ref=f62e123]:
+            - textbox "Buscar (cliente, operador, placa, código...)" [ref=f62e124]
+            - combobox [ref=f62e125]:
+              - 'option "Vehículo: Todos" [selected]'
+              - option "AAA-BBB-123"
+              - option "GHL-4512"
+              - option "HTR-7823"
+              - option "JKL-9911"
+              - option "MXZ-3322"
+              - option "CDE-5567"
+              - option "FGH-8876"
+              - option "RST-2233"
+              - option "WXY-1001"
+              - option "QRS-4412"
+              - option "MNO-7788"
+            - combobox [ref=f62e126]:
+              - 'option "Estatus: Todos" [selected]'
+              - option "Programada"
+              - option "Asignada"
+              - option "En Tránsito"
+              - option "Instalando"
+              - option "Completada"
+              - option "Cancelada"
+            - textbox "Desde" [ref=f62e127]
+            - generic [ref=f62e128]: →
+            - textbox "Hasta" [ref=f62e129]
+          - paragraph [ref=f62e130]: Mostrando 1-6 de 6
+        - table [ref=f62e132]:
+          - rowgroup [ref=f62e133]:
+            - row [ref=f62e134]:
+              - columnheader "ID" [ref=f62e135]
+              - columnheader "Fecha" [ref=f62e136]
+              - columnheader "Cliente / Proyecto" [ref=f62e137]
+              - columnheader "Vehículo" [ref=f62e138]
+              - columnheader "Operador" [ref=f62e139]
+              - columnheader "Km Planeados" [ref=f62e140]
+              - columnheader "Km Reales" [ref=f62e141]
+              - columnheader "Gasto Autorizado" [ref=f62e142]
+              - columnheader "Estatus" [ref=f62e143]
+              - columnheader "Acciones" [ref=f62e144]
+          - rowgroup [ref=f62e145]:
+            - row [ref=f62e146]:
+              - cell "30" [ref=f62e147]
+              - cell "03/08/2026" [ref=f62e148]
+              - cell "Sucursal Centro" [ref=f62e149]
+              - cell "AAA-BBB-123" [ref=f62e150]
+              - cell "Prueba" [ref=f62e151]
+              - cell "120 Km" [ref=f62e152]
+              - cell "--" [ref=f62e153]
+              - cell "$0 $2,500 0% $2,500 disp." [ref=f62e154]:
+                - generic [ref=f62e155]:
+                  - generic [ref=f62e156]:
+                    - generic [ref=f62e157]:
+                      - generic [ref=f62e158]: $0
+                      - generic [ref=f62e159]: $2,500
+                    - generic [ref=f62e161]:
+                      - generic [ref=f62e162]: 0%
+                      - generic [ref=f62e163]: $2,500 disp.
+                  - button "Agregar gasto autorizado" [ref=f62e164]
+              - cell "Programada" [ref=f62e167]
+              - cell [ref=f62e168]:
+                - generic [ref=f62e169]:
+                  - button "Detalle" [ref=f62e170]
+                  - button "Editar" [ref=f62e174]
+                  - button "Eliminar" [ref=f62e177]
+            - row [ref=f62e180]:
+              - cell "31" [ref=f62e181]
+              - cell "03/08/2026" [ref=f62e182]
+              - cell "Sucursal Norte" [ref=f62e183]
+              - cell "GHL-4512" [ref=f62e184]
+              - cell "Prueba" [ref=f62e185]
+              - cell "85 Km" [ref=f62e186]
+              - cell "--" [ref=f62e187]
+              - cell "$0 $2,500 0% $2,500 disp." [ref=f62e188]:
+                - generic [ref=f62e189]:
+                  - generic [ref=f62e190]:
+                    - generic [ref=f62e191]:
+                      - generic [ref=f62e192]: $0
+                      - generic [ref=f62e193]: $2,500
+                    - generic [ref=f62e195]:
+                      - generic [ref=f62e196]: 0%
+                      - generic [ref=f62e197]: $2,500 disp.
+                  - button "Agregar gasto autorizado" [ref=f62e198]
+              - cell "Programada" [ref=f62e201]
+              - cell [ref=f62e202]:
+                - generic [ref=f62e203]:
+                  - button "Detalle" [ref=f62e204]
+                  - button "Editar" [ref=f62e208]
+                  - button "Eliminar" [ref=f62e211]
+            - row [ref=f62e214]:
+              - cell "32" [ref=f62e215]
+              - cell "03/08/2026" [ref=f62e216]
+              - cell "Fraccionamiento Los Pinos" [ref=f62e217]
+              - cell "HTR-7823" [ref=f62e218]
+              - cell "Prueba" [ref=f62e219]
+              - cell "150 Km" [ref=f62e220]
+              - cell "--" [ref=f62e221]
+              - cell "$0 $2,500 0% $2,500 disp." [ref=f62e222]:
+                - generic [ref=f62e223]:
+                  - generic [ref=f62e224]:
+                    - generic [ref=f62e225]:
+                      - generic [ref=f62e226]: $0
+                      - generic [ref=f62e227]: $2,500
+                    - generic [ref=f62e229]:
+                      - generic [ref=f62e230]: 0%
+                      - generic [ref=f62e231]: $2,500 disp.
+                  - button "Agregar gasto autorizado" [ref=f62e232]
+              - cell "Programada" [ref=f62e235]
+              - cell [ref=f62e236]:
+                - generic [ref=f62e237]:
+                  - button "Detalle" [ref=f62e238]
+                  - button "Editar" [ref=f62e242]
+                  - button "Eliminar" [ref=f62e245]
+            - row [ref=f62e248]:
+              - cell "33" [ref=f62e249]
+              - cell "03/08/2026" [ref=f62e250]
+              - cell "Parque Industrial Finsa" [ref=f62e251]
+              - cell "JKL-9911" [ref=f62e252]
+              - cell "Prueba" [ref=f62e253]
+              - cell "200 Km" [ref=f62e254]
+              - cell "--" [ref=f62e255]
+              - cell "$0 $3,000 0% $3,000 disp." [ref=f62e256]:
+                - generic [ref=f62e257]:
+                  - generic [ref=f62e258]:
+                    - generic [ref=f62e259]:
+                      - generic [ref=f62e260]: $0
+                      - generic [ref=f62e261]: $3,000
+                    - generic [ref=f62e263]:
+                      - generic [ref=f62e264]: 0%
+                      - generic [ref=f62e265]: $3,000 disp.
+                  - button "Agregar gasto autorizado" [ref=f62e266]
+              - cell "Programada" [ref=f62e269]
+              - cell [ref=f62e270]:
+                - generic [ref=f62e271]:
+                  - button "Detalle" [ref=f62e272]
+                  - button "Editar" [ref=f62e276]
+                  - button "Eliminar" [ref=f62e279]
+            - row [ref=f62e282]:
+              - cell "34" [ref=f62e283]
+              - cell "03/08/2026" [ref=f62e284]
+              - cell "Aeropuerto Hermanos Serdán" [ref=f62e285]
+              - cell "MXZ-3322" [ref=f62e286]
+              - cell "Prueba" [ref=f62e287]
+              - cell "45 Km" [ref=f62e288]
+              - cell "--" [ref=f62e289]
+              - cell "$0 $4,000 0% $4,000 disp." [ref=f62e290]:
+                - generic [ref=f62e291]:
+                  - generic [ref=f62e292]:
+                    - generic [ref=f62e293]:
+                      - generic [ref=f62e294]: $0
+                      - generic [ref=f62e295]: $4,000
+                    - generic [ref=f62e297]:
+                      - generic [ref=f62e298]: 0%
+                      - generic [ref=f62e299]: $4,000 disp.
+                  - button "Agregar gasto autorizado" [ref=f62e300]
+              - cell "Programada" [ref=f62e303]
+              - cell [ref=f62e304]:
+                - generic [ref=f62e305]:
+                  - button "Detalle" [ref=f62e306]
+                  - button "Editar" [ref=f62e310]
+                  - button "Eliminar" [ref=f62e313]
+            - row [ref=f62e316]:
+              - cell "35" [ref=f62e317]
+              - cell "03/08/2026" [ref=f62e318]
+              - cell "Centro Comercial Angelópolis" [ref=f62e319]
+              - cell "CDE-5567" [ref=f62e320]
+              - cell "Prueba" [ref=f62e321]
+              - cell "30 Km" [ref=f62e322]
+              - cell "--" [ref=f62e323]
+              - cell "$0 $2,500 0% $2,500 disp." [ref=f62e324]:
+                - generic [ref=f62e325]:
+                  - generic [ref=f62e326]:
+                    - generic [ref=f62e327]:
+                      - generic [ref=f62e328]: $0
+                      - generic [ref=f62e329]: $2,500
+                    - generic [ref=f62e331]:
+                      - generic [ref=f62e332]: 0%
+                      - generic [ref=f62e333]: $2,500 disp.
+                  - button "Agregar gasto autorizado" [ref=f62e334]
+              - cell "Programada" [ref=f62e337]
+              - cell [ref=f62e338]:
+                - generic [ref=f62e339]:
+                  - button "Detalle" [ref=f62e340]
+                  - button "Editar" [ref=f62e344]
+                  - button "Eliminar" [ref=f62e347]
+    - contentinfo [ref=f62e350]:
+      - generic [ref=f62e351]:
+        - generic [ref=f62e352]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f62e356]:
+          - generic [ref=f62e357]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f62e358]: • Servidor Seguro de Producción

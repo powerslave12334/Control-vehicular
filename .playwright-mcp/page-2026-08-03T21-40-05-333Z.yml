@@ -1,0 +1,172 @@
+- generic [ref=f170e1]:
+  - complementary [ref=f170e2]:
+    - generic [ref=f170e3]:
+      - generic [ref=f170e4]: A
+      - generic [ref=f170e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f170e6]
+        - paragraph [ref=f170e7]: Control de Flota
+    - generic [ref=f170e8]:
+      - paragraph [ref=f170e9]: Navegación Admin
+      - navigation [ref=f170e10]:
+        - link "Dashboard / Resumen" [ref=f170e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f170e15]: Vehículos
+        - link "Vehículos" [ref=f170e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f170e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f170e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f170e28]: Rutas
+        - link "Rutas" [ref=f170e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f170e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f170e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f170e41]: Operaciones
+        - link "Operadores" [ref=f170e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f170e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f170e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f170e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f170e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f170e62]: Administración
+        - link "Reportes" [ref=f170e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f170e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f170e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f170e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f170e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f170e83]:
+      - generic [ref=f170e84]:
+        - generic [ref=f170e85]: AD
+        - generic [ref=f170e86]:
+          - paragraph [ref=f170e87]: Administrador
+          - paragraph [ref=f170e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f170e90]
+  - generic [ref=f170e93]:
+    - banner [ref=f170e94]:
+      - generic [ref=f170e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f170e96]
+        - generic [ref=f170e98]: OWASP Top 10 Secured
+      - generic [ref=f170e101]:
+        - link "12" [ref=f170e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f170e106]: 3:40:04 p.m.
+        - generic [ref=f170e110]:
+          - generic [ref=f170e111]:
+            - paragraph [ref=f170e112]: Administrador
+            - paragraph [ref=f170e113]: Administrador del sistema
+          - generic [ref=f170e114]: AD
+    - main [ref=f170e115]:
+      - generic [ref=f170e116]:
+        - generic [ref=f170e117]:
+          - generic [ref=f170e118]:
+            - generic [ref=f170e119]:
+              - heading "Usuarios del Sistema" [level=2] [ref=f170e120]
+              - paragraph [ref=f170e121]: 1 usuarios
+            - button "Nuevo Usuario" [active] [ref=f170e122]
+          - table [ref=f170e126]:
+            - rowgroup [ref=f170e127]:
+              - row [ref=f170e128]:
+                - columnheader "Usuario" [ref=f170e129]
+                - columnheader "Rol" [ref=f170e130]
+                - columnheader "Teléfono" [ref=f170e131]
+                - columnheader "Documento" [ref=f170e132]
+                - columnheader "Licencia" [ref=f170e133]
+                - columnheader "Estado" [ref=f170e134]
+                - columnheader "Acciones" [ref=f170e135]
+            - rowgroup [ref=f170e136]:
+              - row [ref=f170e137] [cursor=pointer]:
+                - cell "AD Administrador admin@aguainmaculada.com" [ref=f170e138]:
+                  - generic [ref=f170e139]:
+                    - generic [ref=f170e140]: AD
+                    - generic [ref=f170e141]:
+                      - paragraph [ref=f170e142]: Administrador
+                      - paragraph [ref=f170e143]: admin@aguainmaculada.com
+                - cell "Administrador del sistema" [ref=f170e144]
+                - cell "—" [ref=f170e145]
+                - cell "—" [ref=f170e146]
+                - cell "—" [ref=f170e147]
+                - cell "Activo" [ref=f170e148]
+                - cell [ref=f170e149]:
+                  - generic [ref=f170e150]:
+                    - button "Editar" [ref=f170e151]
+                    - button "Cambiar estado" [ref=f170e154]
+                    - button "Eliminar" [ref=f170e157]
+        - generic [ref=f170e171]:
+          - button [ref=f170e172]
+          - heading "Nuevo Usuario" [level=3] [ref=f170e175]
+          - generic [ref=f170e176]:
+            - generic [ref=f170e177]:
+              - generic [ref=f170e178]: Nombre
+              - textbox [ref=f170e179]
+            - generic [ref=f170e180]:
+              - generic [ref=f170e181]: Email
+              - textbox [ref=f170e182]
+            - generic [ref=f170e183]:
+              - generic [ref=f170e184]: Contraseña
+              - textbox [ref=f170e185]
+            - generic [ref=f170e186]:
+              - generic [ref=f170e187]: Rol
+              - combobox [ref=f170e188]:
+                - option "Administrador del sistema"
+                - option "Dirección"
+                - option "Calidad"
+                - option "Logística"
+                - option "Jefe de Distribución"
+                - option "Chofer"
+                - option "Instalador"
+                - option "Operador" [selected]
+            - generic [ref=f170e189]:
+              - generic [ref=f170e190]: Estado
+              - combobox [ref=f170e191]:
+                - option "Activo" [selected]
+                - option "Inactivo"
+            - generic [ref=f170e192]:
+              - generic [ref=f170e193]: Teléfono
+              - textbox [ref=f170e194]
+            - generic [ref=f170e195]:
+              - generic [ref=f170e196]: Tipo de Documento
+              - combobox [ref=f170e197]:
+                - option "Seleccionar" [selected]
+                - option "INE"
+                - option "Pasaporte"
+                - option "Cédula"
+            - generic [ref=f170e198]:
+              - generic [ref=f170e199]: Número de Documento
+              - textbox [ref=f170e200]
+            - generic [ref=f170e201]:
+              - generic [ref=f170e202]: Tipo de Licencia
+              - combobox [ref=f170e203]:
+                - option "Seleccionar" [selected]
+                - option "Chofer A"
+                - option "Chofer B"
+                - option "Chofer C"
+            - generic [ref=f170e204]:
+              - generic [ref=f170e205]: Contacto de Emergencia
+              - textbox [ref=f170e206]
+            - generic [ref=f170e207]:
+              - generic [ref=f170e208]: Tel. Emergencia
+              - textbox [ref=f170e209]
+            - generic [ref=f170e210]:
+              - generic [ref=f170e211]: Dirección
+              - textbox [ref=f170e212]
+            - generic [ref=f170e213]:
+              - button "Guardar" [ref=f170e214]
+              - button "Cancelar" [ref=f170e215]
+    - contentinfo [ref=f170e160]:
+      - generic [ref=f170e161]:
+        - generic [ref=f170e162]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f170e166]:
+          - generic [ref=f170e167]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f170e168]: • Servidor Seguro de Producción

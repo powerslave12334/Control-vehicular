@@ -1,0 +1,24 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - img "Agua Inmaculada" [ref=e6]
+    - heading "Control Vehicular" [level=1] [ref=e7]
+    - paragraph [ref=e9]: Gestión y monitoreo de la flota de Agua Inmaculada.
+  - generic [ref=e11]:
+    - generic [ref=e17]:
+      - heading "Iniciar Sesión" [level=2] [ref=e18]
+      - paragraph [ref=e19]: Ingresa tus credenciales para continuar
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]: Correo Electrónico
+        - 'textbox "ej: alberto.mendez@aguainmaculada.com" [ref=e27]'
+      - generic [ref=e28]:
+        - generic [ref=e29]: Contraseña
+        - generic [ref=e30]:
+          - textbox "••••••••" [ref=e34]
+          - button [ref=e35]
+      - button "Acceder al Sistema" [ref=e39]
+    - group [ref=e40]:
+      - generic "Credenciales de prueba ▼" [ref=e41] [cursor=pointer]:
+        - generic [ref=e42]: Credenciales de prueba
+        - generic [ref=e43]: ▼
+    - generic [ref=e44]: Entorno simulado · Sin autenticación real

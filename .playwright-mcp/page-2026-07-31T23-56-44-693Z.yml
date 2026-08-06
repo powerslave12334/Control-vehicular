@@ -1,0 +1,220 @@
+- generic [ref=f7e1]:
+  - complementary [ref=f7e2]:
+    - generic [ref=f7e3]:
+      - generic [ref=f7e4]: A
+      - generic [ref=f7e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f7e1257]
+        - paragraph [ref=f7e7]: Control de Flota
+    - generic [ref=f7e8]:
+      - paragraph [ref=f7e9]: Navegación Admin
+      - navigation [ref=f7e10]:
+        - link "Dashboard / Resumen" [ref=f7e1258] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f7e15]: Vehículos
+        - link "Vehículos" [ref=f7e1259] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f7e1260] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f7e1261] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f7e28]: Rutas
+        - link "Rutas" [ref=f7e1262] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f7e1263] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f7e1264] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f7e41]: Operaciones
+        - link "Operadores" [ref=f7e1265] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f7e1266] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f7e1267] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f7e1268] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f7e1269] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f7e62]: Administración
+        - link "Reportes" [ref=f7e1270] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f7e1271] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f7e1272] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f7e1273] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f7e1274] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f7e83]:
+      - generic [ref=f7e84]:
+        - generic [ref=f7e85]: AD
+        - generic [ref=f7e86]:
+          - paragraph [ref=f7e87]: Administrador
+          - paragraph [ref=f7e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f7e1275]
+  - generic [ref=f7e93]:
+    - banner [ref=f7e94]:
+      - generic [ref=f7e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f7e1276]
+        - generic [ref=f7e98]: OWASP Top 10 Secured
+      - generic [ref=f7e101]:
+        - link "55" [ref=f7e1277] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f7e106]: 5:56:44 p.m.
+        - generic [ref=f7e110]:
+          - generic [ref=f7e111]:
+            - paragraph [ref=f7e112]: Administrador
+            - paragraph [ref=f7e113]: Administrador del sistema
+          - generic [ref=f7e114]: AD
+    - main [ref=f7e115]:
+      - generic [ref=f7e116]:
+        - generic [ref=f7e117]:
+          - generic [ref=f7e118]:
+            - heading "Control de Gastos" [level=1] [ref=f7e1278]
+            - paragraph [ref=f7e120]: Registro y aprobación de gastos operativos.
+          - generic [ref=f7e121]:
+            - button "Nueva Tarjeta" [active] [ref=f7e1279]
+            - button "Registrar Gasto" [ref=f7e1280]
+        - generic [ref=f7e128]:
+          - heading "Tarjetas Registradas" [level=3] [ref=f7e1281]
+          - table [ref=f7e131]:
+            - rowgroup [ref=f7e132]:
+              - row [ref=f7e1282]:
+                - columnheader "Vehículo" [ref=f7e1283]
+                - columnheader "Nº Tarjeta" [ref=f7e1284]
+                - columnheader "Autorizado" [ref=f7e1285]
+                - columnheader "Gastado (Mes)" [ref=f7e1286]
+                - columnheader "Disponible" [ref=f7e1287]
+                - columnheader "Uso" [ref=f7e1288]
+                - columnheader "Acciones" [ref=f7e1289]
+            - rowgroup [ref=f7e141]:
+              - row [ref=f7e1290]:
+                - cell "AAA-BBB-123 · Toyota Hilux" [ref=f7e1291]
+                - cell "•••• 1234" [ref=f7e1292]
+                - cell "$2,500.00" [ref=f7e1293]
+                - cell "$0.00" [ref=f7e1294]
+                - cell "$2,500.00" [ref=f7e1295]
+                - cell "0%" [ref=f7e1296]
+                - cell [ref=f7e152]:
+                  - generic [ref=f7e153]:
+                    - button "Editar tarjeta" [ref=f7e1297]
+                    - button "Eliminar tarjeta" [ref=f7e1298]
+              - row [ref=f7e1299]:
+                - cell "GHL-4512 · Toyota Hiace" [ref=f7e1300]
+                - cell "•••• 0001" [ref=f7e1301]
+                - cell "$2,500.00" [ref=f7e1302]
+                - cell "$0.00" [ref=f7e1303]
+                - cell "$2,500.00" [ref=f7e1304]
+                - cell "0%" [ref=f7e1305]
+                - cell [ref=f7e260]:
+                  - generic [ref=f7e261]:
+                    - button "Editar tarjeta" [ref=f7e1306]
+                    - button "Eliminar tarjeta" [ref=f7e1307]
+              - row [ref=f7e1308]:
+                - cell "HTR-7823 · Nissan Frontier" [ref=f7e1309]
+                - cell "•••• 0002" [ref=f7e1310]
+                - cell "$2,500.00" [ref=f7e1311]
+                - cell "$0.00" [ref=f7e1312]
+                - cell "$2,500.00" [ref=f7e1313]
+                - cell "0%" [ref=f7e1314]
+                - cell [ref=f7e417]:
+                  - generic [ref=f7e418]:
+                    - button "Editar tarjeta" [ref=f7e1315]
+                    - button "Eliminar tarjeta" [ref=f7e1316]
+              - row [ref=f7e1317]:
+                - cell "JKL-9911 · Isuzu NQR" [ref=f7e1318]
+                - cell "•••• 0003" [ref=f7e1319]
+                - cell "$3,000.00" [ref=f7e1320]
+                - cell "$0.00" [ref=f7e1321]
+                - cell "$3,000.00" [ref=f7e1322]
+                - cell "0%" [ref=f7e1323]
+                - cell [ref=f7e592]:
+                  - generic [ref=f7e593]:
+                    - button "Editar tarjeta" [ref=f7e1324]
+                    - button "Eliminar tarjeta" [ref=f7e1325]
+              - row [ref=f7e1326]:
+                - cell "MXZ-3322 · Freightliner M2 106" [ref=f7e1327]
+                - cell "•••• 0004" [ref=f7e1328]
+                - cell "$4,000.00" [ref=f7e1329]
+                - cell "$0.00" [ref=f7e1330]
+                - cell "$4,000.00" [ref=f7e1331]
+                - cell "0%" [ref=f7e1332]
+                - cell [ref=f7e785]:
+                  - generic [ref=f7e786]:
+                    - button "Editar tarjeta" [ref=f7e1333]
+                    - button "Eliminar tarjeta" [ref=f7e1334]
+              - row [ref=f7e1335]:
+                - cell "CDE-5567 · Chevrolet Silverado" [ref=f7e1336]
+                - cell "•••• 0005" [ref=f7e1337]
+                - cell "$2,500.00" [ref=f7e1338]
+                - cell "$0.00" [ref=f7e1339]
+                - cell "$2,500.00" [ref=f7e1340]
+                - cell "0%" [ref=f7e1341]
+                - cell [ref=f7e996]:
+                  - generic [ref=f7e997]:
+                    - button "Editar tarjeta" [ref=f7e1342]
+                    - button "Eliminar tarjeta" [ref=f7e1343]
+              - row [ref=f7e1344]:
+                - cell "FGH-8876 · Ford Transit" [ref=f7e1345]
+                - cell "•••• 0006" [ref=f7e1346]
+                - cell "$2,500.00" [ref=f7e1347]
+                - cell "$0.00" [ref=f7e1348]
+                - cell "$2,500.00" [ref=f7e1349]
+                - cell "0%" [ref=f7e1350]
+                - cell [ref=f7e1225]:
+                  - generic [ref=f7e1226]:
+                    - button "Editar tarjeta" [ref=f7e1351]
+                    - button "Eliminar tarjeta" [ref=f7e1352]
+        - generic [ref=f7e189]:
+          - generic [ref=f7e190]:
+            - heading "Nueva Tarjeta de Gastos" [level=3] [ref=f7e191]
+            - button [ref=f7e192]
+          - generic [ref=f7e195]:
+            - generic [ref=f7e196]:
+              - generic [ref=f7e197]: Vehículo
+              - combobox [ref=f7e198]:
+                - option "Seleccionar..." [selected]
+                - option "AAA-BBB-123 · Toyota Hilux"
+                - option "GHL-4512 · Toyota Hiace"
+                - option "HTR-7823 · Nissan Frontier"
+                - option "JKL-9911 · Isuzu NQR"
+                - option "MXZ-3322 · Freightliner M2 106"
+                - option "CDE-5567 · Chevrolet Silverado"
+                - option "FGH-8876 · Ford Transit"
+                - option "RST-2233 · Mercedes Benz Sprinter"
+                - option "WXY-1001 · Kenworth T800"
+                - option "QRS-4412 · Toyota Tundra"
+                - option "MNO-7788 · Mitsubishi Fuso Canter"
+            - generic [ref=f7e199]:
+              - generic [ref=f7e200]: Número de Tarjeta
+              - textbox "0000 0000 0000 0000" [ref=f7e201]
+            - generic [ref=f7e202]:
+              - generic [ref=f7e203]: Monto Autorizado ($)
+              - spinbutton [ref=f7e204]: "0"
+            - generic [ref=f7e205]:
+              - button "Guardar Tarjeta" [ref=f7e206]
+              - button "Cancelar" [ref=f7e207]
+        - generic [ref=f7e160]:
+          - heading "Historial de Gastos" [level=3] [ref=f7e1353]
+          - table [ref=f7e163]:
+            - rowgroup [ref=f7e164]:
+              - row [ref=f7e1354]:
+                - columnheader "#" [ref=f7e1355]
+                - columnheader "Fecha" [ref=f7e1356]
+                - columnheader "Vehículo" [ref=f7e1357]
+                - columnheader "Ruta" [ref=f7e1358]
+                - columnheader "Tipo" [ref=f7e1359]
+                - columnheader "Descripción" [ref=f7e1360]
+                - columnheader "Monto" [ref=f7e1361]
+                - columnheader "Estado" [ref=f7e1362]
+                - columnheader "Acciones" [ref=f7e1363]
+            - rowgroup [ref=f7e175]:
+              - row [ref=f7e1364]:
+                - cell "Sin gastos registrados" [ref=f7e1365]
+    - contentinfo [ref=f7e178]:
+      - generic [ref=f7e179]:
+        - generic [ref=f7e180]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f7e184]:
+          - generic [ref=f7e185]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f7e186]: • Servidor Seguro de Producción

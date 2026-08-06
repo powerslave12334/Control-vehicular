@@ -1,0 +1,160 @@
+- generic [ref=f42e1]:
+  - complementary [ref=f42e2]:
+    - generic [ref=f42e3]:
+      - generic [ref=f42e4]: A
+      - generic [ref=f42e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f42e6]
+        - paragraph [ref=f42e7]: Control de Flota
+    - generic [ref=f42e8]:
+      - paragraph [ref=f42e9]: Navegación Admin
+      - navigation [ref=f42e10]:
+        - link "Dashboard / Resumen" [ref=f42e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f42e15]: Vehículos
+        - link "Vehículos" [ref=f42e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f42e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f42e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f42e28]: Rutas
+        - link "Rutas" [ref=f42e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f42e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f42e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f42e41]: Operaciones
+        - link "Operadores" [ref=f42e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f42e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f42e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f42e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f42e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f42e62]: Administración
+        - link "Reportes" [ref=f42e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f42e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f42e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f42e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f42e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f42e83]:
+      - generic [ref=f42e84]:
+        - generic [ref=f42e85]: AD
+        - generic [ref=f42e86]:
+          - paragraph [ref=f42e87]: Administrador
+          - paragraph [ref=f42e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f42e90]
+  - generic [ref=f42e93]:
+    - banner [ref=f42e94]:
+      - generic [ref=f42e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f42e96]
+        - generic [ref=f42e98]: OWASP Top 10 Secured
+      - generic [ref=f42e101]:
+        - link "74" [ref=f42e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f42e106]: 11:20:57 a.m.
+        - generic [ref=f42e110]:
+          - generic [ref=f42e111]:
+            - paragraph [ref=f42e112]: Administrador
+            - paragraph [ref=f42e113]: Administrador del sistema
+          - generic [ref=f42e114]: AD
+    - main [ref=f42e115]:
+      - generic [ref=f42e116]:
+        - generic [ref=f42e117]:
+          - heading "Servicios de Mantenimiento Vehicular" [level=2] [ref=f42e118]
+          - button "Registrar Mantenimiento" [ref=f42e119]
+        - generic [ref=f42e122]:
+          - generic [ref=f42e123]:
+            - paragraph [ref=f42e124]: Total
+            - paragraph [ref=f42e125]: "11"
+          - generic [ref=f42e126]:
+            - paragraph [ref=f42e127]: Programados
+            - paragraph [ref=f42e128]: "3"
+          - generic [ref=f42e129]:
+            - paragraph [ref=f42e130]: En Progreso
+            - paragraph [ref=f42e131]: "2"
+          - generic [ref=f42e132]:
+            - paragraph [ref=f42e133]: Completados
+            - paragraph [ref=f42e134]: "6"
+        - generic [ref=f42e135]:
+          - generic [ref=f42e136]:
+            - textbox "Buscar (placa, taller, descripción...)" [active] [ref=f42e137]: aceite
+            - combobox [ref=f42e138]:
+              - 'option "Tipo: Todos" [selected]'
+              - option "Preventivo (Afinación, Llantas, Balatas)"
+              - option "Correctivo (Reparación mecánica, Falla)"
+            - combobox [ref=f42e139]:
+              - 'option "Status: Todos"'
+              - option "Programado"
+              - option "En Progreso"
+              - option "Completado" [selected]
+              - option "Cancelado"
+            - combobox [ref=f42e140]:
+              - 'option "Vehículo: Todos" [selected]'
+              - option "AAA-BBB-123"
+              - option "GHL-4512"
+              - option "HTR-7823"
+              - option "JKL-9911"
+              - option "MXZ-3322"
+              - option "CDE-5567"
+              - option "FGH-8876"
+              - option "RST-2233"
+              - option "WXY-1001"
+              - option "QRS-4412"
+              - option "MNO-7788"
+            - button "Limpiar" [ref=f42e457]
+          - paragraph [ref=f42e141]: Mostrando 1-2 de 2
+        - generic [ref=f42e142]:
+          - generic [ref=f42e143]:
+            - generic [ref=f42e144]:
+              - generic [ref=f42e145]:
+                - generic [ref=f42e146]:
+                  - generic [ref=f42e147]: Preventivo
+                  - generic [ref=f42e148]: Completado
+                  - generic [ref=f42e149]: GHL-4512
+                - generic [ref=f42e150]: 28/07/2026
+              - paragraph [ref=f42e151]: “Cambio de aceite y filtros”
+              - separator [ref=f42e152]
+              - generic [ref=f42e153]:
+                - generic [ref=f42e154]: Taller Central
+                - generic [ref=f42e155]: $1,200.00
+                - generic [ref=f42e156]: 45,040 km
+              - generic [ref=f42e157]: Cambio de aceite
+            - generic [ref=f42e161]:
+              - button "Ver detalle" [ref=f42e162]
+              - button "Editar" [ref=f42e166]
+              - button "Eliminar" [ref=f42e169]
+          - generic [ref=f42e172]:
+            - generic [ref=f42e173]:
+              - generic [ref=f42e174]:
+                - generic [ref=f42e175]:
+                  - generic [ref=f42e176]: Preventivo
+                  - generic [ref=f42e177]: Completado
+                  - generic [ref=f42e178]: QRS-4412
+                - generic [ref=f42e179]: 27/07/2026
+              - paragraph [ref=f42e180]: “Cambio de aceite y filtros”
+              - separator [ref=f42e181]
+              - generic [ref=f42e182]:
+                - generic [ref=f42e183]: Servicio Express
+                - generic [ref=f42e184]: $1,300.00
+                - generic [ref=f42e185]: 75,000 km
+              - generic [ref=f42e186]: Cambio de aceite
+            - generic [ref=f42e190]:
+              - button "Ver detalle" [ref=f42e191]
+              - button "Editar" [ref=f42e195]
+              - button "Eliminar" [ref=f42e198]
+    - contentinfo [ref=f42e448]:
+      - generic [ref=f42e449]:
+        - generic [ref=f42e450]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f42e454]:
+          - generic [ref=f42e455]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f42e456]: • Servidor Seguro de Producción

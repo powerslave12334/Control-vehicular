@@ -1,0 +1,491 @@
+- generic [ref=f11e1]:
+  - complementary [ref=f11e2]:
+    - generic [ref=f11e3]:
+      - generic [ref=f11e4]: A
+      - generic [ref=f11e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f11e6]
+        - paragraph [ref=f11e7]: Control de Flota
+    - generic [ref=f11e8]:
+      - paragraph [ref=f11e9]: Navegación Admin
+      - navigation [ref=f11e10]:
+        - link "Dashboard / Resumen" [ref=f11e11] [cursor=pointer]:
+          - /url: http://localhost:8000/dashboard
+        - paragraph [ref=f11e15]: Vehículos
+        - link "Vehículos" [ref=f11e16] [cursor=pointer]:
+          - /url: http://localhost:8000/vehicles
+        - link "Mantenimiento" [ref=f11e20] [cursor=pointer]:
+          - /url: http://localhost:8000/maintenance
+        - link "Combustible" [ref=f11e24] [cursor=pointer]:
+          - /url: http://localhost:8000/fuel
+        - paragraph [ref=f11e28]: Rutas
+        - link "Rutas" [ref=f11e29] [cursor=pointer]:
+          - /url: http://localhost:8000/routes
+        - link "Geolocalización" [ref=f11e33] [cursor=pointer]:
+          - /url: http://localhost:8000/geolocation
+        - link "Calendario" [ref=f11e37] [cursor=pointer]:
+          - /url: http://localhost:8000/calendar
+        - paragraph [ref=f11e41]: Operaciones
+        - link "Operadores" [ref=f11e42] [cursor=pointer]:
+          - /url: http://localhost:8000/operators
+        - link "Gastos" [ref=f11e46] [cursor=pointer]:
+          - /url: http://localhost:8000/expenses
+        - link "Incidencias" [ref=f11e50] [cursor=pointer]:
+          - /url: http://localhost:8000/incidents
+        - link "Evidencias" [ref=f11e54] [cursor=pointer]:
+          - /url: http://localhost:8000/evidence
+        - link "Portería" [ref=f11e58] [cursor=pointer]:
+          - /url: http://localhost:8000/gate
+        - paragraph [ref=f11e62]: Administración
+        - link "Reportes" [ref=f11e63] [cursor=pointer]:
+          - /url: http://localhost:8000/reports
+        - link "Usuarios" [ref=f11e67] [cursor=pointer]:
+          - /url: http://localhost:8000/users
+        - link "Seguridad OWASP" [ref=f11e71] [cursor=pointer]:
+          - /url: http://localhost:8000/security
+        - link "Catálogos" [ref=f11e75] [cursor=pointer]:
+          - /url: http://localhost:8000/catalogs
+        - link "Notificaciones" [ref=f11e79] [cursor=pointer]:
+          - /url: http://localhost:8000/notifications
+    - generic [ref=f11e83]:
+      - generic [ref=f11e84]:
+        - generic [ref=f11e85]: AD
+        - generic [ref=f11e86]:
+          - paragraph [ref=f11e87]: Administrador
+          - paragraph [ref=f11e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f11e90]
+  - generic [ref=f11e93]:
+    - banner [ref=f11e94]:
+      - generic [ref=f11e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f11e96]
+        - generic [ref=f11e98]: OWASP Top 10 Secured
+      - generic [ref=f11e101]:
+        - link "30" [ref=f11e102] [cursor=pointer]:
+          - /url: http://localhost:8000/notifications
+        - generic [ref=f11e106]: "--:--:--"
+        - generic [ref=f11e110]:
+          - generic [ref=f11e111]:
+            - paragraph [ref=f11e112]: Administrador
+            - paragraph [ref=f11e113]: Administrador del sistema
+          - generic [ref=f11e114]: AD
+    - main [ref=f11e115]:
+      - generic [ref=f11e116]:
+        - generic [ref=f11e117]:
+          - heading "Expediente de Unidades Vehiculares (11)" [level=3] [ref=f11e118]
+          - button "Registrar Vehículo" [ref=f11e119]
+        - generic [ref=f11e123]:
+          - textbox "Buscar por marca, modelo, placas o VIN..." [ref=f11e125]
+          - combobox [ref=f11e126]:
+            - option "Todos los estatus" [selected]
+            - option "Activa"
+            - option "En mantenimiento"
+            - option "Fuera de servicio"
+          - combobox [ref=f11e127]:
+            - option "Todos los combustibles" [selected]
+            - option "Gasolina"
+            - option "Diesel"
+            - option "Gas LP"
+          - combobox [ref=f11e128]:
+            - option "Todos los tipos" [selected]
+            - option "Torton"
+            - option "Rabón"
+            - option "Camión"
+            - option "Pickup"
+            - option "Panel"
+            - option "Caja Seca"
+            - option "Plataforma"
+            - option "Refrigerado"
+            - option "Van"
+          - combobox [ref=f11e129]:
+            - 'option "GPS: Todos" [selected]'
+            - option "GPS Instalado"
+            - option "GPS No instalado"
+          - combobox [ref=f11e130]:
+            - option "Todos los choferes" [selected]
+            - option "Prueba"
+        - generic [ref=f11e131]:
+          - generic [ref=f11e132]:
+            - generic [ref=f11e133]:
+              - generic [ref=f11e134]:
+                - text: V-11 · JLCBE14AD7X121111
+                - heading "Mitsubishi Fuso Canter (2022)" [level=4] [ref=f11e135]
+              - generic [ref=f11e136]: Activa
+            - generic [ref=f11e137]:
+              - generic [ref=f11e138]:
+                - generic [ref=f11e139]: "Placas:"
+                - generic [ref=f11e140]: MNO-7788
+              - generic [ref=f11e141]:
+                - generic [ref=f11e142]: "Kilometraje Actual:"
+                - generic [ref=f11e143]: 60,000 Km
+              - generic [ref=f11e144]:
+                - generic [ref=f11e145]: "Combustible / Tanque:"
+                - generic [ref=f11e146]: Diesel (110.00 L)
+              - generic [ref=f11e147]:
+                - generic [ref=f11e148]: "Último Servicio:"
+                - generic [ref=f11e149]: 2026-07-31 00:00:00
+              - generic [ref=f11e150]:
+                - generic [ref=f11e151]: "Próximo Servicio:"
+                - generic [ref=f11e152]: 2026-10-29 00:00:00
+              - generic [ref=f11e153]:
+                - generic [ref=f11e154]: "Límite Semanal Autorizado:"
+                - generic [ref=f11e155]: 280.00 L
+              - generic [ref=f11e156]:
+                - generic [ref=f11e157]: "Incidencias Totales:"
+                - generic [ref=f11e158]: 0 registradas
+              - generic [ref=f11e159]:
+                - generic [ref=f11e160]: "GPS:"
+                - generic [ref=f11e161]: Instalado
+            - generic [ref=f11e162]:
+              - generic [ref=f11e163]: "Cambiar Estatus:"
+              - generic [ref=f11e164]:
+                - button "Activa" [ref=f11e165]
+                - button "Taller" [ref=f11e166]
+                - button "Baja" [ref=f11e167]
+            - generic [ref=f11e168]:
+              - button "Expediente" [ref=f11e169]
+              - button "Editar" [ref=f11e170]
+              - button "Eliminar" [ref=f11e171]
+          - generic [ref=f11e172]:
+            - generic [ref=f11e173]:
+              - generic [ref=f11e174]:
+                - text: V-10 · 5TFBY5F17KX121010
+                - heading "Toyota Tundra (2020)" [level=4] [ref=f11e175]
+              - generic [ref=f11e176]: Activa
+            - generic [ref=f11e177]:
+              - generic [ref=f11e178]:
+                - generic [ref=f11e179]: "Placas:"
+                - generic [ref=f11e180]: QRS-4412
+              - generic [ref=f11e181]:
+                - generic [ref=f11e182]: "Kilometraje Actual:"
+                - generic [ref=f11e183]: 75,000 Km
+              - generic [ref=f11e184]:
+                - generic [ref=f11e185]: "Combustible / Tanque:"
+                - generic [ref=f11e186]: Gasolina (100.00 L)
+              - generic [ref=f11e187]:
+                - generic [ref=f11e188]: "Último Servicio:"
+                - generic [ref=f11e189]: 2026-07-31 00:00:00
+              - generic [ref=f11e190]:
+                - generic [ref=f11e191]: "Próximo Servicio:"
+                - generic [ref=f11e192]: 2026-10-29 00:00:00
+              - generic [ref=f11e193]:
+                - generic [ref=f11e194]: "Límite Semanal Autorizado:"
+                - generic [ref=f11e195]: 220.00 L
+              - generic [ref=f11e196]:
+                - generic [ref=f11e197]: "Incidencias Totales:"
+                - generic [ref=f11e198]: 0 registradas
+              - generic [ref=f11e199]:
+                - generic [ref=f11e200]: "GPS:"
+                - generic [ref=f11e201]: Instalado
+            - generic [ref=f11e202]:
+              - generic [ref=f11e203]: "Cambiar Estatus:"
+              - generic [ref=f11e204]:
+                - button "Activa" [ref=f11e205]
+                - button "Taller" [ref=f11e206]
+                - button "Baja" [ref=f11e207]
+            - generic [ref=f11e208]:
+              - button "Expediente" [ref=f11e209]
+              - button "Editar" [ref=f11e210]
+              - button "Eliminar" [ref=f11e211]
+          - generic [ref=f11e212]:
+            - generic [ref=f11e213]:
+              - generic [ref=f11e214]:
+                - text: V-9 · 1XKYD49X9KJ120909
+                - heading "Kenworth T800 (2019)" [level=4] [ref=f11e215]
+              - generic [ref=f11e216]: Activa
+            - generic [ref=f11e217]:
+              - generic [ref=f11e218]:
+                - generic [ref=f11e219]: "Placas:"
+                - generic [ref=f11e220]: WXY-1001
+              - generic [ref=f11e221]:
+                - generic [ref=f11e222]: "Kilometraje Actual:"
+                - generic [ref=f11e223]: 230,000 Km
+              - generic [ref=f11e224]:
+                - generic [ref=f11e225]: "Combustible / Tanque:"
+                - generic [ref=f11e226]: Diesel (300.00 L)
+              - generic [ref=f11e227]:
+                - generic [ref=f11e228]: "Último Servicio:"
+                - generic [ref=f11e229]: 2026-07-31 00:00:00
+              - generic [ref=f11e230]:
+                - generic [ref=f11e231]: "Próximo Servicio:"
+                - generic [ref=f11e232]: 2026-10-29 00:00:00
+              - generic [ref=f11e233]:
+                - generic [ref=f11e234]: "Límite Semanal Autorizado:"
+                - generic [ref=f11e235]: 500.00 L
+              - generic [ref=f11e236]:
+                - generic [ref=f11e237]: "Incidencias Totales:"
+                - generic [ref=f11e238]: 0 registradas
+              - generic [ref=f11e239]:
+                - generic [ref=f11e240]: "GPS:"
+                - generic [ref=f11e241]: Instalado
+            - generic [ref=f11e242]:
+              - generic [ref=f11e243]: "Cambiar Estatus:"
+              - generic [ref=f11e244]:
+                - button "Activa" [ref=f11e245]
+                - button "Taller" [ref=f11e246]
+                - button "Baja" [ref=f11e247]
+            - generic [ref=f11e248]:
+              - button "Expediente" [ref=f11e249]
+              - button "Editar" [ref=f11e250]
+              - button "Eliminar" [ref=f11e251]
+          - generic [ref=f11e252]:
+            - generic [ref=f11e253]:
+              - generic [ref=f11e254]:
+                - text: V-8 · W1W907BA1MC110808
+                - heading "Mercedes Benz Sprinter (2021)" [level=4] [ref=f11e255]
+              - generic [ref=f11e256]: Activa
+            - generic [ref=f11e257]:
+              - generic [ref=f11e258]:
+                - generic [ref=f11e259]: "Placas:"
+                - generic [ref=f11e260]: RST-2233
+              - generic [ref=f11e261]:
+                - generic [ref=f11e262]: "Kilometraje Actual:"
+                - generic [ref=f11e263]: 52,000 Km
+              - generic [ref=f11e264]:
+                - generic [ref=f11e265]: "Combustible / Tanque:"
+                - generic [ref=f11e266]: Diesel (95.00 L)
+              - generic [ref=f11e267]:
+                - generic [ref=f11e268]: "Último Servicio:"
+                - generic [ref=f11e269]: 2026-07-31 00:00:00
+              - generic [ref=f11e270]:
+                - generic [ref=f11e271]: "Próximo Servicio:"
+                - generic [ref=f11e272]: 2026-10-29 00:00:00
+              - generic [ref=f11e273]:
+                - generic [ref=f11e274]: "Límite Semanal Autorizado:"
+                - generic [ref=f11e275]: 260.00 L
+              - generic [ref=f11e276]:
+                - generic [ref=f11e277]: "Incidencias Totales:"
+                - generic [ref=f11e278]: 0 registradas
+              - generic [ref=f11e279]:
+                - generic [ref=f11e280]: "GPS:"
+                - generic [ref=f11e281]: Instalado
+            - generic [ref=f11e282]:
+              - generic [ref=f11e283]: "Cambiar Estatus:"
+              - generic [ref=f11e284]:
+                - button "Activa" [ref=f11e285]
+                - button "Taller" [ref=f11e286]
+                - button "Baja" [ref=f11e287]
+            - generic [ref=f11e288]:
+              - button "Expediente" [ref=f11e289]
+              - button "Editar" [ref=f11e290]
+              - button "Eliminar" [ref=f11e291]
+          - generic [ref=f11e292]:
+            - generic [ref=f11e293]:
+              - generic [ref=f11e294]:
+                - text: V-7 · 1FTYE4XM9PKA00707
+                - heading "Ford Transit (2023)" [level=4] [ref=f11e295]
+              - generic [ref=f11e296]: Activa
+            - generic [ref=f11e297]:
+              - generic [ref=f11e298]:
+                - generic [ref=f11e299]: "Placas:"
+                - generic [ref=f11e300]: FGH-8876
+              - generic [ref=f11e301]:
+                - generic [ref=f11e302]: "Kilometraje Actual:"
+                - generic [ref=f11e303]: 22,000 Km
+              - generic [ref=f11e304]:
+                - generic [ref=f11e305]: "Combustible / Tanque:"
+                - generic [ref=f11e306]: Diesel (70.00 L)
+              - generic [ref=f11e307]:
+                - generic [ref=f11e308]: "Último Servicio:"
+                - generic [ref=f11e309]: 2026-07-31 00:00:00
+              - generic [ref=f11e310]:
+                - generic [ref=f11e311]: "Próximo Servicio:"
+                - generic [ref=f11e312]: 2026-10-29 00:00:00
+              - generic [ref=f11e313]:
+                - generic [ref=f11e314]: "Límite Semanal Autorizado:"
+                - generic [ref=f11e315]: 220.00 L
+              - generic [ref=f11e316]:
+                - generic [ref=f11e317]: "Incidencias Totales:"
+                - generic [ref=f11e318]: 0 registradas
+              - generic [ref=f11e319]:
+                - generic [ref=f11e320]: "GPS:"
+                - generic [ref=f11e321]: Instalado
+            - generic [ref=f11e322]:
+              - generic [ref=f11e323]: "Cambiar Estatus:"
+              - generic [ref=f11e324]:
+                - button "Activa" [ref=f11e325]
+                - button "Taller" [ref=f11e326]
+                - button "Baja" [ref=f11e327]
+            - generic [ref=f11e328]:
+              - button "Expediente" [ref=f11e329]
+              - button "Editar" [ref=f11e330]
+              - button "Eliminar" [ref=f11e331]
+          - generic [ref=f11e332]:
+            - generic [ref=f11e333]:
+              - generic [ref=f11e334]:
+                - text: V-6 · 3GCUKREC9JG100606
+                - heading "Chevrolet Silverado (2018)" [level=4] [ref=f11e335]
+              - generic [ref=f11e336]: Activa
+            - generic [ref=f11e337]:
+              - generic [ref=f11e338]:
+                - generic [ref=f11e339]: "Placas:"
+                - generic [ref=f11e340]: CDE-5567
+              - generic [ref=f11e341]:
+                - generic [ref=f11e342]: "Kilometraje Actual:"
+                - generic [ref=f11e343]: 105,000 Km
+              - generic [ref=f11e344]:
+                - generic [ref=f11e345]: "Combustible / Tanque:"
+                - generic [ref=f11e346]: Gasolina (75.00 L)
+              - generic [ref=f11e347]:
+                - generic [ref=f11e348]: "Último Servicio:"
+                - generic [ref=f11e349]: 2026-07-31 00:00:00
+              - generic [ref=f11e350]:
+                - generic [ref=f11e351]: "Próximo Servicio:"
+                - generic [ref=f11e352]: 2026-10-29 00:00:00
+              - generic [ref=f11e353]:
+                - generic [ref=f11e354]: "Límite Semanal Autorizado:"
+                - generic [ref=f11e355]: 180.00 L
+              - generic [ref=f11e356]:
+                - generic [ref=f11e357]: "Incidencias Totales:"
+                - generic [ref=f11e358]: 0 registradas
+              - generic [ref=f11e359]:
+                - generic [ref=f11e360]: "GPS:"
+                - generic [ref=f11e361]: Instalado
+            - generic [ref=f11e362]:
+              - generic [ref=f11e363]: "Cambiar Estatus:"
+              - generic [ref=f11e364]:
+                - button "Activa" [ref=f11e365]
+                - button "Taller" [ref=f11e366]
+                - button "Baja" [ref=f11e367]
+            - generic [ref=f11e368]:
+              - button "Expediente" [ref=f11e369]
+              - button "Editar" [ref=f11e370]
+              - button "Eliminar" [ref=f11e371]
+          - generic [ref=f11e372]:
+            - generic [ref=f11e373]:
+              - generic [ref=f11e374]:
+                - text: V-5 · 2FZGB6BA1C1000505
+                - heading "Freightliner M2 106 (2022)" [level=4] [ref=f11e375]
+              - generic [ref=f11e376]: Activa
+            - generic [ref=f11e377]:
+              - generic [ref=f11e378]:
+                - generic [ref=f11e379]: "Placas:"
+                - generic [ref=f11e380]: MXZ-3322
+              - generic [ref=f11e381]:
+                - generic [ref=f11e382]: "Kilometraje Actual:"
+                - generic [ref=f11e383]: 41,000 Km
+              - generic [ref=f11e384]:
+                - generic [ref=f11e385]: "Combustible / Tanque:"
+                - generic [ref=f11e386]: Diesel (200.00 L)
+              - generic [ref=f11e387]:
+                - generic [ref=f11e388]: "Último Servicio:"
+                - generic [ref=f11e389]: 2026-07-31 00:00:00
+              - generic [ref=f11e390]:
+                - generic [ref=f11e391]: "Próximo Servicio:"
+                - generic [ref=f11e392]: 2026-10-29 00:00:00
+              - generic [ref=f11e393]:
+                - generic [ref=f11e394]: "Límite Semanal Autorizado:"
+                - generic [ref=f11e395]: 400.00 L
+              - generic [ref=f11e396]:
+                - generic [ref=f11e397]: "Incidencias Totales:"
+                - generic [ref=f11e398]: 0 registradas
+              - generic [ref=f11e399]:
+                - generic [ref=f11e400]: "GPS:"
+                - generic [ref=f11e401]: Instalado
+            - generic [ref=f11e402]:
+              - generic [ref=f11e403]: "Cambiar Estatus:"
+              - generic [ref=f11e404]:
+                - button "Activa" [ref=f11e405]
+                - button "Taller" [ref=f11e406]
+                - button "Baja" [ref=f11e407]
+            - generic [ref=f11e408]:
+              - button "Expediente" [ref=f11e409]
+              - button "Editar" [ref=f11e410]
+              - button "Eliminar" [ref=f11e411]
+          - generic [ref=f11e412]:
+            - generic [ref=f11e413]:
+              - generic [ref=f11e414]:
+                - text: V-4 · JALC4B160K7000404
+                - heading "Isuzu NQR (2020)" [level=4] [ref=f11e415]
+              - generic [ref=f11e416]: Activa
+            - generic [ref=f11e417]:
+              - generic [ref=f11e418]:
+                - generic [ref=f11e419]: "Placas:"
+                - generic [ref=f11e420]: JKL-9911
+              - generic [ref=f11e421]:
+                - generic [ref=f11e422]: "Kilometraje Actual:"
+                - generic [ref=f11e423]: 88,000 Km
+              - generic [ref=f11e424]:
+                - generic [ref=f11e425]: "Combustible / Tanque:"
+                - generic [ref=f11e426]: Diesel (120.00 L)
+              - generic [ref=f11e427]:
+                - generic [ref=f11e428]: "Último Servicio:"
+                - generic [ref=f11e429]: 2026-07-31 00:00:00
+              - generic [ref=f11e430]:
+                - generic [ref=f11e431]: "Próximo Servicio:"
+                - generic [ref=f11e432]: 2026-10-29 00:00:00
+              - generic [ref=f11e433]:
+                - generic [ref=f11e434]: "Límite Semanal Autorizado:"
+                - generic [ref=f11e435]: 300.00 L
+              - generic [ref=f11e436]:
+                - generic [ref=f11e437]: "Incidencias Totales:"
+                - generic [ref=f11e438]: 0 registradas
+              - generic [ref=f11e439]:
+                - generic [ref=f11e440]: "GPS:"
+                - generic [ref=f11e441]: Instalado
+            - generic [ref=f11e442]:
+              - generic [ref=f11e443]: "Cambiar Estatus:"
+              - generic [ref=f11e444]:
+                - button "Activa" [ref=f11e445]
+                - button "Taller" [ref=f11e446]
+                - button "Baja" [ref=f11e447]
+            - generic [ref=f11e448]:
+              - button "Expediente" [ref=f11e449]
+              - button "Editar" [ref=f11e450]
+              - button "Eliminar" [ref=f11e451]
+          - generic [ref=f11e452]:
+            - generic [ref=f11e453]:
+              - generic [ref=f11e454]:
+                - text: V-3 · 3N6AD34C8KK100203
+                - heading "Nissan Frontier (2019)" [level=4] [ref=f11e455]
+              - generic [ref=f11e456]: Activa
+            - generic [ref=f11e457]:
+              - generic [ref=f11e458]:
+                - generic [ref=f11e459]: "Placas:"
+                - generic [ref=f11e460]: HTR-7823
+              - generic [ref=f11e461]:
+                - generic [ref=f11e462]: "Kilometraje Actual:"
+                - generic [ref=f11e463]: 62,000 Km
+              - generic [ref=f11e464]:
+                - generic [ref=f11e465]: "Combustible / Tanque:"
+                - generic [ref=f11e466]: Gasolina (60.00 L)
+              - generic [ref=f11e467]:
+                - generic [ref=f11e468]: "Último Servicio:"
+                - generic [ref=f11e469]: 2026-07-31 00:00:00
+              - generic [ref=f11e470]:
+                - generic [ref=f11e471]: "Próximo Servicio:"
+                - generic [ref=f11e472]: 2026-10-29 00:00:00
+              - generic [ref=f11e473]:
+                - generic [ref=f11e474]: "Límite Semanal Autorizado:"
+                - generic [ref=f11e475]: 200.00 L
+              - generic [ref=f11e476]:
+                - generic [ref=f11e477]: "Incidencias Totales:"
+                - generic [ref=f11e478]: 0 registradas
+              - generic [ref=f11e479]:
+                - generic [ref=f11e480]: "GPS:"
+                - generic [ref=f11e481]: Instalado
+            - generic [ref=f11e482]:
+              - generic [ref=f11e483]: "Cambiar Estatus:"
+              - generic [ref=f11e484]:
+                - button "Activa" [ref=f11e485]
+                - button "Taller" [ref=f11e486]
+                - button "Baja" [ref=f11e487]
+            - generic [ref=f11e488]:
+              - button "Expediente" [ref=f11e489]
+              - button "Editar" [ref=f11e490]
+              - button "Eliminar" [ref=f11e491]
+        - navigation "Paginación" [ref=f11e493]:
+          - generic [ref=f11e494]:
+            - paragraph [ref=f11e496]: Mostrando 1 a 9 de 11 resultados
+            - generic [ref=f11e498]:
+              - generic "Anterior" [ref=f11e499]
+              - generic [ref=f11e503]: "1"
+              - link "Ir a la página 2" [ref=f11e505] [cursor=pointer]:
+                - /url: http://localhost:8000/vehicles?page=2
+                - text: "2"
+              - link "Siguiente" [ref=f11e506] [cursor=pointer]:
+                - /url: http://localhost:8000/vehicles?page=2
+    - contentinfo [ref=f11e509]:
+      - generic [ref=f11e510]:
+        - generic [ref=f11e511]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f11e515]:
+          - generic [ref=f11e516]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f11e517]: • Servidor Seguro de Producción

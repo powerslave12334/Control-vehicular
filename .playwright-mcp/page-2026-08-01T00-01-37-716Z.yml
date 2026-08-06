@@ -1,0 +1,80 @@
+- generic [active] [ref=f10e1]:
+  - banner [ref=f10e2]:
+    - generic [ref=f10e3]:
+      - generic [ref=f10e4]:
+        - generic [ref=f10e5]: A
+        - generic [ref=f10e6]:
+          - text: Chofer
+          - paragraph [ref=f10e7]: Prueba
+      - generic [ref=f10e8]:
+        - link "Inicio" [ref=f10e9] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/driver/dashboard
+        - button "Cerrar sesión" [ref=f10e13]
+  - main [ref=f10e16]:
+    - generic [ref=f10e17]:
+      - link "Volver al inicio" [ref=f10e18] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/driver/dashboard
+      - generic [ref=f10e21]:
+        - generic [ref=f10e22]:
+          - generic [ref=f10e23]:
+            - heading "Sucursal Centro" [level=1] [ref=f10e24]
+            - paragraph [ref=f10e25]: Emilio Carranza 7, Agrícola Ignacio Zaragoza, 72710 Heroica Puebla de Zaragoza, Pue. → Planta Norte, Puebla
+          - generic [ref=f10e26]: Programada
+        - generic [ref=f10e27]:
+          - generic [ref=f10e28]:
+            - paragraph [ref=f10e29]: Unidad
+            - paragraph [ref=f10e30]: AAA-BBB-123
+          - generic [ref=f10e31]:
+            - paragraph [ref=f10e32]: Km Planeados
+            - paragraph [ref=f10e33]: 120.00 km
+      - generic [ref=f10e34]:
+        - generic [ref=f10e35]:
+          - button "Bitácora" [ref=f10e36]
+          - button "Mov. Extras" [ref=f10e37]
+          - button "Reportar Fallas" [ref=f10e38]
+        - generic [ref=f10e39]:
+          - generic [ref=f10e40]:
+            - generic [ref=f10e41]:
+              - heading "1. Registro de Salida de Planta" [level=2] [ref=f10e42]
+              - generic [ref=f10e43]: Pendiente
+            - generic [ref=f10e44]:
+              - generic [ref=f10e45]: Kilometraje Inicial
+              - spinbutton "Ej. 1002" [ref=f10e46]
+              - paragraph [ref=f10e47]: "Mínimo: 1,001 km (odómetro actual del vehículo)"
+            - generic [ref=f10e48]:
+              - generic [ref=f10e49]: Nivel de Combustible
+              - combobox [ref=f10e50]:
+                - option "— Sin especificar —" [selected]
+                - option "1/4 (~20L)"
+                - option "1/2 (~40L)"
+                - option "3/4 (~60L)"
+                - option "Lleno (~80L)"
+            - generic [ref=f10e51]:
+              - generic [ref=f10e52]: Foto de Evidencia
+              - button "Choose File" [ref=f10e54]
+              - paragraph [ref=f10e55]: La cámara se abrirá automáticamente en dispositivos móviles
+            - generic [ref=f10e56]:
+              - generic [ref=f10e57]: Observaciones
+              - textbox "Notas adicionales..." [ref=f10e58]
+            - button "Iniciar Viaje" [ref=f10e59]
+          - button "Carga de Combustible" [ref=f10e63]
+          - generic [ref=f10e70]:
+            - heading "Progreso" [level=3] [ref=f10e71]
+            - generic [ref=f10e72]:
+              - generic [ref=f10e73]: "1"
+              - paragraph [ref=f10e75]: 1. Salida de Planta
+            - generic [ref=f10e76]:
+              - generic [ref=f10e77]: "2"
+              - paragraph [ref=f10e79]: 2. Llegada con Cliente
+            - generic [ref=f10e80]:
+              - generic [ref=f10e81]: "3"
+              - paragraph [ref=f10e83]: 3. Inicio de Instalación
+            - generic [ref=f10e84]:
+              - generic [ref=f10e85]: "4"
+              - paragraph [ref=f10e87]: 4. Fin de Instalación
+            - generic [ref=f10e88]:
+              - generic [ref=f10e89]: "5"
+              - paragraph [ref=f10e91]: 5. Regreso a Planta
+            - generic [ref=f10e92]:
+              - generic [ref=f10e93]: "6"
+              - paragraph [ref=f10e95]: 6. Llegada a Planta

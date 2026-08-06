@@ -1,0 +1,171 @@
+- generic [ref=f60e1]:
+  - complementary [ref=f60e2]:
+    - generic [ref=f60e3]:
+      - generic [ref=f60e4]: A
+      - generic [ref=f60e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f60e6]
+        - paragraph [ref=f60e7]: Control de Flota
+    - generic [ref=f60e8]:
+      - paragraph [ref=f60e9]: Navegación Admin
+      - navigation [ref=f60e10]:
+        - link "Dashboard / Resumen" [ref=f60e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f60e15]: Vehículos
+        - link "Vehículos" [ref=f60e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f60e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f60e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f60e28]: Rutas
+        - link "Rutas" [ref=f60e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f60e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f60e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f60e41]: Operaciones
+        - link "Operadores" [ref=f60e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f60e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f60e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f60e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f60e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f60e62]: Administración
+        - link "Reportes" [ref=f60e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f60e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f60e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f60e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f60e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f60e83]:
+      - generic [ref=f60e84]:
+        - generic [ref=f60e85]: AD
+        - generic [ref=f60e86]:
+          - paragraph [ref=f60e87]: Administrador
+          - paragraph [ref=f60e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f60e90]
+  - generic [ref=f60e93]:
+    - banner [ref=f60e94]:
+      - generic [ref=f60e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f60e96]
+        - generic [ref=f60e98]: OWASP Top 10 Secured
+      - generic [ref=f60e101]:
+        - link "79" [ref=f60e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f60e106]: 11:48:24 a.m.
+        - generic [ref=f60e110]:
+          - generic [ref=f60e111]:
+            - paragraph [ref=f60e112]: Administrador
+            - paragraph [ref=f60e113]: Administrador del sistema
+          - generic [ref=f60e114]: AD
+    - main [ref=f60e115]:
+      - generic [ref=f60e116]:
+        - generic [ref=f60e117]:
+          - heading "Programa de Instalaciones y Rutas de la Flota" [level=3] [ref=f60e118]
+          - button "Programar Nueva Ruta" [ref=f60e119]
+        - generic [ref=f60e122]:
+          - generic [ref=f60e123]:
+            - textbox "Buscar (cliente, operador, placa, código...)" [active] [ref=f60e124]: Sucursal
+            - combobox [ref=f60e125]:
+              - 'option "Vehículo: Todos" [selected]'
+              - option "AAA-BBB-123"
+              - option "GHL-4512"
+              - option "HTR-7823"
+              - option "JKL-9911"
+              - option "MXZ-3322"
+              - option "CDE-5567"
+              - option "FGH-8876"
+              - option "RST-2233"
+              - option "WXY-1001"
+              - option "QRS-4412"
+              - option "MNO-7788"
+            - combobox [ref=f60e126]:
+              - 'option "Estatus: Todos" [selected]'
+              - option "Programada"
+              - option "Asignada"
+              - option "En Tránsito"
+              - option "Instalando"
+              - option "Completada"
+              - option "Cancelada"
+            - textbox "Desde" [ref=f60e127]
+            - generic [ref=f60e128]: →
+            - textbox "Hasta" [ref=f60e129]
+            - button "Limpiar" [ref=f60e713]
+          - paragraph [ref=f60e130]: Mostrando 1-2 de 2
+        - table [ref=f60e132]:
+          - rowgroup [ref=f60e133]:
+            - row [ref=f60e134]:
+              - columnheader "ID" [ref=f60e135]
+              - columnheader "Fecha" [ref=f60e136]
+              - columnheader "Cliente / Proyecto" [ref=f60e137]
+              - columnheader "Vehículo" [ref=f60e138]
+              - columnheader "Operador" [ref=f60e139]
+              - columnheader "Km Planeados" [ref=f60e140]
+              - columnheader "Km Reales" [ref=f60e141]
+              - columnheader "Gasto Autorizado" [ref=f60e142]
+              - columnheader "Estatus" [ref=f60e143]
+              - columnheader "Acciones" [ref=f60e144]
+          - rowgroup [ref=f60e145]:
+            - row [ref=f60e714]:
+              - cell "30" [ref=f60e715]
+              - cell "03/08/2026" [ref=f60e148]
+              - cell "Sucursal Centro" [ref=f60e716]
+              - cell "AAA-BBB-123" [ref=f60e717]
+              - cell "Prueba" [ref=f60e151]
+              - cell "120 Km" [ref=f60e718]
+              - cell "--" [ref=f60e153]
+              - cell "$0 $2,500 0% $2,500 disp." [ref=f60e719]:
+                - generic [ref=f60e155]:
+                  - generic [ref=f60e156]:
+                    - generic [ref=f60e157]:
+                      - generic [ref=f60e158]: $0
+                      - generic [ref=f60e159]: $2,500
+                    - generic [ref=f60e161]:
+                      - generic [ref=f60e162]: 0%
+                      - generic [ref=f60e163]: $2,500 disp.
+                  - button "Agregar gasto autorizado" [ref=f60e164]
+              - cell "Programada" [ref=f60e167]
+              - cell [ref=f60e168]:
+                - generic [ref=f60e169]:
+                  - button "Detalle" [ref=f60e170]
+                  - button "Editar" [ref=f60e174]
+                  - button "Eliminar" [ref=f60e177]
+            - row [ref=f60e720]:
+              - cell "31" [ref=f60e721]
+              - cell "03/08/2026" [ref=f60e182]
+              - cell "Sucursal Norte" [ref=f60e722]
+              - cell "GHL-4512" [ref=f60e723]
+              - cell "Prueba" [ref=f60e185]
+              - cell "85 Km" [ref=f60e724]
+              - cell "--" [ref=f60e187]
+              - cell "$0 $2,500 0% $2,500 disp." [ref=f60e188]:
+                - generic [ref=f60e189]:
+                  - generic [ref=f60e190]:
+                    - generic [ref=f60e191]:
+                      - generic [ref=f60e192]: $0
+                      - generic [ref=f60e193]: $2,500
+                    - generic [ref=f60e195]:
+                      - generic [ref=f60e196]: 0%
+                      - generic [ref=f60e197]: $2,500 disp.
+                  - button "Agregar gasto autorizado" [ref=f60e198]
+              - cell "Programada" [ref=f60e201]
+              - cell [ref=f60e202]:
+                - generic [ref=f60e203]:
+                  - button "Detalle" [ref=f60e204]
+                  - button "Editar" [ref=f60e208]
+                  - button "Eliminar" [ref=f60e211]
+    - contentinfo [ref=f60e678]:
+      - generic [ref=f60e679]:
+        - generic [ref=f60e680]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f60e684]:
+          - generic [ref=f60e685]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f60e686]: • Servidor Seguro de Producción

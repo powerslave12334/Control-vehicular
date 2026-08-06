@@ -1,0 +1,89 @@
+- generic [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - generic [ref=f2e4]:
+        - generic [ref=f2e5]: A
+        - generic [ref=f2e6]:
+          - text: Chofer
+          - paragraph [ref=f2e7]: Prueba
+      - generic [ref=f2e8]:
+        - link "Inicio" [ref=f2e379] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/driver/dashboard
+        - button "Cerrar sesión" [ref=f2e380]
+  - main [ref=f2e16]:
+    - generic [ref=f2e17]:
+      - link "Volver al inicio" [ref=f2e381] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/driver/dashboard
+      - generic [ref=f2e21]:
+        - generic [ref=f2e22]:
+          - generic [ref=f2e23]:
+            - heading "Fraccionamiento Los Pinos" [level=1] [ref=f2e382]
+            - paragraph [ref=f2e25]: Emilio Carranza 7, Agrícola Ignacio Zaragoza, 72710 Heroica Puebla de Zaragoza, Pue. → Fracc. Los Pinos, San Andrés Cholula
+          - generic [ref=f2e26]: Instalando
+        - generic [ref=f2e27]:
+          - generic [ref=f2e28]:
+            - paragraph [ref=f2e29]: Unidad
+            - paragraph [ref=f2e30]: HTR-7823
+          - generic [ref=f2e31]:
+            - paragraph [ref=f2e32]: Km Planeados
+            - paragraph [ref=f2e33]: 150.00 km
+      - generic [ref=f2e34]:
+        - generic [ref=f2e35]:
+          - button "Bitácora" [ref=f2e383]
+          - button "Mov. Extras" [ref=f2e384]
+          - button "Reportar Fallas" [ref=f2e385]
+        - generic [ref=f2e39]:
+          - generic [ref=f2e40]:
+            - generic [ref=f2e41]:
+              - heading "5. Registro de Regreso a Planta" [level=2] [ref=f2e386]
+              - generic [ref=f2e43]: Pendiente
+            - generic [ref=f2e357]:
+              - generic [ref=f2e358]: Nivel de Combustible
+              - combobox [ref=f2e359]:
+                - option "— Sin especificar —"
+                - option "1/4 (~15L)"
+                - option "1/2 (~30L)" [selected]
+                - option "3/4 (~45L)"
+                - option "Lleno (~60L)"
+            - generic [ref=f2e51]:
+              - generic [ref=f2e52]: Foto de Evidencia
+              - button "Choose File" [active] [ref=f2e387]
+              - paragraph [ref=f2e55]: La cámara se abrirá automáticamente en dispositivos móviles
+            - generic [ref=f2e56]:
+              - generic [ref=f2e57]: Observaciones
+              - textbox "Notas adicionales..." [ref=f2e388]
+            - button "Iniciar Regreso" [ref=f2e389]
+          - generic [ref=f2e62]:
+            - button "Carga de Combustible" [ref=f2e390]
+            - generic [ref=f2e169]:
+              - paragraph [ref=f2e170]: Cargas Registradas
+              - generic [ref=f2e171]:
+                - generic [ref=f2e175]:
+                  - paragraph [ref=f2e176]: 18.00L — $750.00
+                  - paragraph [ref=f2e177]: 62180 km · 3/4
+                - generic [ref=f2e178]: 16:17
+              - generic [ref=f2e236]:
+                - generic [ref=f2e240]:
+                  - paragraph [ref=f2e241]: 20.50L — $850.00
+                  - paragraph [ref=f2e242]: 62100 km · 1/2
+                - generic [ref=f2e243]: 16:16
+          - generic [ref=f2e70]:
+            - heading "Progreso" [level=3] [ref=f2e391]
+            - generic [ref=f2e74]:
+              - paragraph [ref=f2e75]: 1. Salida de Planta
+              - paragraph [ref=f2e112]: 16:15 · Lleno (~60L)
+            - generic [ref=f2e78]:
+              - paragraph [ref=f2e79]: 2. Llegada con Cliente
+              - paragraph [ref=f2e284]: 16:18 · 3/4 (~45L)
+            - generic [ref=f2e82]:
+              - paragraph [ref=f2e83]: 3. Inicio de Instalación
+              - paragraph [ref=f2e324]: 16:18
+            - generic [ref=f2e86]:
+              - paragraph [ref=f2e87]: 4. Fin de Instalación
+              - paragraph [ref=f2e367]: 16:19
+            - generic [ref=f2e88]:
+              - generic [ref=f2e89]: "5"
+              - paragraph [ref=f2e91]: 5. Regreso a Planta
+            - generic [ref=f2e92]:
+              - generic [ref=f2e93]: "6"
+              - paragraph [ref=f2e95]: 6. Llegada a Planta

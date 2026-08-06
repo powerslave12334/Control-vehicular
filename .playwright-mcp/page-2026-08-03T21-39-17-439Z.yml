@@ -1,0 +1,252 @@
+- generic [active] [ref=f167e1]:
+  - complementary [ref=f167e2]:
+    - generic [ref=f167e3]:
+      - generic [ref=f167e4]: A
+      - generic [ref=f167e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f167e6]
+        - paragraph [ref=f167e7]: Control de Flota
+    - generic [ref=f167e8]:
+      - paragraph [ref=f167e9]: Navegación Admin
+      - navigation [ref=f167e10]:
+        - link "Dashboard / Resumen" [ref=f167e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f167e15]: Vehículos
+        - link "Vehículos" [ref=f167e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f167e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f167e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f167e28]: Rutas
+        - link "Rutas" [ref=f167e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f167e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f167e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f167e41]: Operaciones
+        - link "Operadores" [ref=f167e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f167e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f167e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f167e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f167e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f167e62]: Administración
+        - link "Reportes" [ref=f167e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f167e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f167e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f167e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f167e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f167e83]:
+      - generic [ref=f167e84]:
+        - generic [ref=f167e85]: AD
+        - generic [ref=f167e86]:
+          - paragraph [ref=f167e87]: Administrador
+          - paragraph [ref=f167e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f167e90]
+  - generic [ref=f167e93]:
+    - banner [ref=f167e94]:
+      - generic [ref=f167e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f167e96]
+        - generic [ref=f167e98]: OWASP Top 10 Secured
+      - generic [ref=f167e101]:
+        - link "12" [ref=f167e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f167e106]: "--:--:--"
+        - generic [ref=f167e110]:
+          - generic [ref=f167e111]:
+            - paragraph [ref=f167e112]: Administrador
+            - paragraph [ref=f167e113]: Administrador del sistema
+          - generic [ref=f167e114]: AD
+    - main [ref=f167e115]:
+      - generic [ref=f167e116]:
+        - generic [ref=f167e117]:
+          - heading "Servicios de Mantenimiento Vehicular" [level=2] [ref=f167e118]
+          - button "Registrar Mantenimiento" [ref=f167e119]
+        - generic [ref=f167e122]:
+          - generic [ref=f167e123]:
+            - paragraph [ref=f167e124]: Total
+            - paragraph [ref=f167e125]: "6"
+          - generic [ref=f167e126]:
+            - paragraph [ref=f167e127]: Programados
+            - paragraph [ref=f167e128]: "1"
+          - generic [ref=f167e129]:
+            - paragraph [ref=f167e130]: En Progreso
+            - paragraph [ref=f167e131]: "1"
+          - generic [ref=f167e132]:
+            - paragraph [ref=f167e133]: Completados
+            - paragraph [ref=f167e134]: "4"
+        - generic [ref=f167e135]:
+          - generic [ref=f167e136]:
+            - textbox "Buscar (placa, taller, descripción...)" [ref=f167e137]
+            - combobox [ref=f167e138]:
+              - 'option "Tipo: Todos" [selected]'
+              - option "Preventivo (Afinación, Llantas, Balatas)"
+              - option "Correctivo (Reparación mecánica, Falla)"
+            - combobox [ref=f167e139]:
+              - 'option "Status: Todos" [selected]'
+              - option "Programado"
+              - option "En Progreso"
+              - option "Completado"
+              - option "Cancelado"
+            - combobox [ref=f167e140]:
+              - 'option "Vehículo: Todos" [selected]'
+              - option "AAA-BBB-123"
+              - option "GHL-4512"
+              - option "HTR-7823"
+              - option "JKL-9911"
+              - option "MXZ-3322"
+              - option "CDE-5567"
+          - paragraph [ref=f167e141]: Mostrando 1-6 de 6
+        - generic [ref=f167e142]:
+          - generic [ref=f167e143]:
+            - generic [ref=f167e144]:
+              - generic [ref=f167e145]:
+                - generic [ref=f167e146]:
+                  - generic [ref=f167e147]: Preventivo
+                  - generic [ref=f167e148]: Completado
+                  - generic [ref=f167e149]: AAA-BBB-123
+                - generic [ref=f167e150]: 03/08/2026
+              - paragraph [ref=f167e151]: “Afinación mayor y cambio de bujías”
+              - separator [ref=f167e152]
+              - generic [ref=f167e153]:
+                - generic [ref=f167e154]: Taller Central
+                - generic [ref=f167e155]: $3,200.00
+                - generic [ref=f167e156]: 47,800 km
+              - generic [ref=f167e157]:
+                - generic [ref=f167e158]: Afinación
+                - generic [ref=f167e159]: "Programado: 03/08/2026"
+                - generic [ref=f167e160]: "Inicio: 03/08/2026"
+                - generic [ref=f167e161]: "Fin: 03/08/2026"
+            - generic [ref=f167e163]:
+              - button "Ver detalle" [ref=f167e164]
+              - button "Editar" [ref=f167e168]
+              - button "Eliminar" [ref=f167e171]
+          - generic [ref=f167e174]:
+            - generic [ref=f167e175]:
+              - generic [ref=f167e176]:
+                - generic [ref=f167e177]:
+                  - generic [ref=f167e178]: Preventivo
+                  - generic [ref=f167e179]: En Progreso
+                  - generic [ref=f167e180]: GHL-4512
+                - generic [ref=f167e181]: 03/08/2026
+              - paragraph [ref=f167e182]: “Cambio de las 4 llantas y alineación”
+              - separator [ref=f167e183]
+              - generic [ref=f167e184]:
+                - generic [ref=f167e185]: Vulcanizadora López
+                - generic [ref=f167e186]: $8,500.00
+                - generic [ref=f167e187]: 61,000 km
+              - generic [ref=f167e188]:
+                - generic [ref=f167e189]: Llantas
+                - generic [ref=f167e190]: "Programado: 03/08/2026"
+                - generic [ref=f167e191]: "Inicio: 03/08/2026"
+                - generic [ref=f167e192]: "Fin: 04/08/2026"
+            - generic [ref=f167e194]:
+              - button "Ver detalle" [ref=f167e195]
+              - button "Editar" [ref=f167e199]
+              - button "Eliminar" [ref=f167e202]
+          - generic [ref=f167e205]:
+            - generic [ref=f167e206]:
+              - generic [ref=f167e207]:
+                - generic [ref=f167e208]:
+                  - generic [ref=f167e209]: Preventivo
+                  - generic [ref=f167e210]: Programado
+                  - generic [ref=f167e211]: HTR-7823
+                - generic [ref=f167e212]: 03/08/2026
+              - paragraph [ref=f167e213]: “Rotación y balanceo preventivo”
+              - separator [ref=f167e214]
+              - generic [ref=f167e215]:
+                - generic [ref=f167e216]: Vulcanizadora López
+                - generic [ref=f167e217]: $1,500.00
+                - generic [ref=f167e218]: 38,000 km
+              - generic [ref=f167e219]:
+                - generic [ref=f167e220]: Llantas
+                - generic [ref=f167e221]: "Programado: 10/08/2026"
+            - generic [ref=f167e223]:
+              - button "Ver detalle" [ref=f167e224]
+              - button "Editar" [ref=f167e228]
+              - button "Eliminar" [ref=f167e231]
+          - generic [ref=f167e234]:
+            - generic [ref=f167e235]:
+              - generic [ref=f167e236]:
+                - generic [ref=f167e237]:
+                  - generic [ref=f167e238]: Correctivo
+                  - generic [ref=f167e239]: Completado
+                  - generic [ref=f167e240]: JKL-9911
+                - generic [ref=f167e241]: 03/08/2026
+              - paragraph [ref=f167e242]: “Reparación del sistema de frenos traseros”
+              - separator [ref=f167e243]
+              - generic [ref=f167e244]:
+                - generic [ref=f167e245]: Taller Central
+                - generic [ref=f167e246]: $4,800.00
+                - generic [ref=f167e247]: 141,000 km
+              - generic [ref=f167e248]:
+                - generic [ref=f167e249]: Frenos
+                - generic [ref=f167e250]: "Programado: 03/08/2026"
+                - generic [ref=f167e251]: "Inicio: 03/08/2026"
+                - generic [ref=f167e252]: "Fin: 03/08/2026"
+            - generic [ref=f167e254]:
+              - button "Ver detalle" [ref=f167e255]
+              - button "Editar" [ref=f167e259]
+              - button "Eliminar" [ref=f167e262]
+          - generic [ref=f167e265]:
+            - generic [ref=f167e266]:
+              - generic [ref=f167e267]:
+                - generic [ref=f167e268]:
+                  - generic [ref=f167e269]: Correctivo
+                  - generic [ref=f167e270]: Completado
+                  - generic [ref=f167e271]: MXZ-3322
+                - generic [ref=f167e272]: 03/08/2026
+              - paragraph [ref=f167e273]: “Cambio de embrague y volante de inercia”
+              - separator [ref=f167e274]
+              - generic [ref=f167e275]:
+                - generic [ref=f167e276]: Diesel Services
+                - generic [ref=f167e277]: $14,500.00
+                - generic [ref=f167e278]: 197,500 km
+              - generic [ref=f167e279]:
+                - generic [ref=f167e280]: Transmisión
+                - generic [ref=f167e281]: "Programado: 03/08/2026"
+                - generic [ref=f167e282]: "Inicio: 03/08/2026"
+                - generic [ref=f167e283]: "Fin: 05/08/2026"
+            - generic [ref=f167e285]:
+              - button "Ver detalle" [ref=f167e286]
+              - button "Editar" [ref=f167e290]
+              - button "Eliminar" [ref=f167e293]
+          - generic [ref=f167e296]:
+            - generic [ref=f167e297]:
+              - generic [ref=f167e298]:
+                - generic [ref=f167e299]:
+                  - generic [ref=f167e300]: Preventivo
+                  - generic [ref=f167e301]: Completado
+                  - generic [ref=f167e302]: CDE-5567
+                - generic [ref=f167e303]: 03/08/2026
+              - paragraph [ref=f167e304]: “Cambio de aceite y filtros”
+              - separator [ref=f167e305]
+              - generic [ref=f167e306]:
+                - generic [ref=f167e307]: Taller Central
+                - generic [ref=f167e308]: $1,900.00
+                - generic [ref=f167e309]: 28,000 km
+              - generic [ref=f167e310]:
+                - generic [ref=f167e311]: Servicio
+                - generic [ref=f167e312]: "Programado: 03/08/2026"
+                - generic [ref=f167e313]: "Inicio: 03/08/2026"
+                - generic [ref=f167e314]: "Fin: 03/08/2026"
+            - generic [ref=f167e316]:
+              - button "Ver detalle" [ref=f167e317]
+              - button "Editar" [ref=f167e321]
+              - button "Eliminar" [ref=f167e324]
+    - contentinfo [ref=f167e327]:
+      - generic [ref=f167e328]:
+        - generic [ref=f167e329]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f167e333]:
+          - generic [ref=f167e334]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f167e335]: • Servidor Seguro de Producción

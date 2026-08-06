@@ -1,0 +1,352 @@
+- generic [ref=f232e1]:
+  - complementary [ref=f232e2]:
+    - generic [ref=f232e3]:
+      - generic [ref=f232e4]: A
+      - generic [ref=f232e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f232e6]
+        - paragraph [ref=f232e7]: Control de Flota
+    - generic [ref=f232e8]:
+      - paragraph [ref=f232e9]: Navegación Admin
+      - navigation [ref=f232e10]:
+        - link "Dashboard / Resumen" [ref=f232e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f232e15]: Vehículos
+        - link "Vehículos" [ref=f232e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f232e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f232e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f232e28]: Rutas
+        - link "Rutas" [ref=f232e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f232e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f232e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f232e41]: Operaciones
+        - link "Operadores" [ref=f232e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f232e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f232e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f232e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f232e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f232e62]: Administración
+        - link "Reportes" [ref=f232e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f232e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f232e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f232e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f232e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f232e83]:
+      - generic [ref=f232e84]:
+        - generic [ref=f232e85]: AD
+        - generic [ref=f232e86]:
+          - paragraph [ref=f232e87]: Administrador
+          - paragraph [ref=f232e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f232e90]
+  - generic [ref=f232e93]:
+    - banner [ref=f232e94]:
+      - generic [ref=f232e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f232e96]
+        - generic [ref=f232e98]: OWASP Top 10 Secured
+      - generic [ref=f232e101]:
+        - link "35" [ref=f232e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f232e106]: "--:--:--"
+        - generic [ref=f232e110]:
+          - generic [ref=f232e111]:
+            - paragraph [ref=f232e112]: Administrador
+            - paragraph [ref=f232e113]: Administrador del sistema
+          - generic [ref=f232e114]: AD
+    - main [ref=f232e115]:
+      - generic [ref=f232e116]:
+        - generic [ref=f232e117]:
+          - heading "Programa de Instalaciones y Rutas de la Flota" [level=3] [ref=f232e118]
+          - button "Programar Nueva Ruta" [ref=f232e119]
+        - generic [ref=f232e122]:
+          - generic [ref=f232e123]:
+            - textbox "Buscar (cliente, operador, placa, código...)" [ref=f232e124]
+            - combobox [ref=f232e125]:
+              - 'option "Vehículo: Todos" [selected]'
+              - option "AAA-BBB-123"
+              - option "GHL-4512"
+              - option "HTR-7823"
+              - option "JKL-9911"
+              - option "MXZ-3322"
+              - option "CDE-5567"
+              - option "FGH-8876"
+              - option "RST-2233"
+              - option "WXY-1001"
+              - option "QRS-4412"
+              - option "MNO-7788"
+              - option "PQR-3344"
+            - combobox [ref=f232e126]:
+              - 'option "Estatus: Todos" [selected]'
+              - option "Programada"
+              - option "Asignada"
+              - option "En Tránsito"
+              - option "Instalando"
+              - option "Completada"
+              - option "Cancelada"
+            - textbox "Desde" [ref=f232e127]
+            - generic [ref=f232e128]: →
+            - textbox "Hasta" [ref=f232e129]
+          - paragraph [ref=f232e130]: Mostrando 1-10 de 10
+        - table [ref=f232e132]:
+          - rowgroup [ref=f232e133]:
+            - row [ref=f232e134]:
+              - columnheader "ID" [ref=f232e135]
+              - columnheader "Fecha" [ref=f232e136]
+              - columnheader "Cliente / Proyecto" [ref=f232e137]
+              - columnheader "Vehículo" [ref=f232e138]
+              - columnheader "Operador" [ref=f232e139]
+              - columnheader "Km Planeados" [ref=f232e140]
+              - columnheader "Gasto Autorizado" [ref=f232e141]
+              - columnheader "Estatus" [ref=f232e142]
+              - columnheader "Acciones" [ref=f232e143]
+          - rowgroup [ref=f232e144]:
+            - row [ref=f232e145]:
+              - cell "9" [ref=f232e146]
+              - cell "07/08/2026" [ref=f232e147]
+              - cell "Sanctorum Centro" [ref=f232e148]
+              - cell "HTR-7823" [ref=f232e149]
+              - cell "Juan Pérez" [ref=f232e150]
+              - cell "90 Km" [ref=f232e151]
+              - cell "$0 $2,500 0% $2,500 disp." [ref=f232e152]:
+                - generic [ref=f232e153]:
+                  - generic [ref=f232e154]:
+                    - generic [ref=f232e155]:
+                      - generic [ref=f232e156]: $0
+                      - generic [ref=f232e157]: $2,500
+                    - generic [ref=f232e159]:
+                      - generic [ref=f232e160]: 0%
+                      - generic [ref=f232e161]: $2,500 disp.
+                  - button "Agregar gasto autorizado" [ref=f232e162]
+              - cell "Programada" [ref=f232e165]
+              - cell [ref=f232e166]:
+                - generic [ref=f232e167]:
+                  - button "Detalle" [ref=f232e168]
+                  - button "Editar" [ref=f232e172]
+                  - button "Eliminar" [ref=f232e175]
+            - row [ref=f232e178]:
+              - cell "10" [ref=f232e179]
+              - cell "07/08/2026" [ref=f232e180]
+              - cell "Planta Cholula" [ref=f232e181]
+              - cell "JKL-9911" [ref=f232e182]
+              - cell "Juan Pérez" [ref=f232e183]
+              - cell "65 Km" [ref=f232e184]
+              - cell "$0 $3,000 0% $3,000 disp." [ref=f232e185]:
+                - generic [ref=f232e186]:
+                  - generic [ref=f232e187]:
+                    - generic [ref=f232e188]:
+                      - generic [ref=f232e189]: $0
+                      - generic [ref=f232e190]: $3,000
+                    - generic [ref=f232e192]:
+                      - generic [ref=f232e193]: 0%
+                      - generic [ref=f232e194]: $3,000 disp.
+                  - button "Agregar gasto autorizado" [ref=f232e195]
+              - cell "Programada" [ref=f232e198]
+              - cell [ref=f232e199]:
+                - generic [ref=f232e200]:
+                  - button "Detalle" [ref=f232e201]
+                  - button "Editar" [ref=f232e205]
+                  - button "Eliminar" [ref=f232e208]
+            - row [ref=f232e211]:
+              - cell "7" [ref=f232e212]
+              - cell "06/08/2026" [ref=f232e213]
+              - cell "Colonia La Paz" [ref=f232e214]
+              - cell "AAA-BBB-123" [ref=f232e215]
+              - cell "Juan Pérez" [ref=f232e216]
+              - cell "75 Km" [ref=f232e217]
+              - cell "$0 $2,500 0% $2,500 disp." [ref=f232e218]:
+                - generic [ref=f232e219]:
+                  - generic [ref=f232e220]:
+                    - generic [ref=f232e221]:
+                      - generic [ref=f232e222]: $0
+                      - generic [ref=f232e223]: $2,500
+                    - generic [ref=f232e225]:
+                      - generic [ref=f232e226]: 0%
+                      - generic [ref=f232e227]: $2,500 disp.
+                  - button "Agregar gasto autorizado" [ref=f232e228]
+              - cell "Programada" [ref=f232e231]
+              - cell [ref=f232e232]:
+                - generic [ref=f232e233]:
+                  - button "Detalle" [ref=f232e234]
+                  - button "Editar" [ref=f232e238]
+                  - button "Eliminar" [ref=f232e241]
+            - row [ref=f232e244]:
+              - cell "8" [ref=f232e245]
+              - cell "06/08/2026" [ref=f232e246]
+              - cell "Mercado La Acocota" [ref=f232e247]
+              - cell "GHL-4512" [ref=f232e248]
+              - cell "Juan Pérez" [ref=f232e249]
+              - cell "55 Km" [ref=f232e250]
+              - cell "$0 $2,500 0% $2,500 disp." [ref=f232e251]:
+                - generic [ref=f232e252]:
+                  - generic [ref=f232e253]:
+                    - generic [ref=f232e254]:
+                      - generic [ref=f232e255]: $0
+                      - generic [ref=f232e256]: $2,500
+                    - generic [ref=f232e258]:
+                      - generic [ref=f232e259]: 0%
+                      - generic [ref=f232e260]: $2,500 disp.
+                  - button "Agregar gasto autorizado" [ref=f232e261]
+              - cell "Programada" [ref=f232e264]
+              - cell [ref=f232e265]:
+                - generic [ref=f232e266]:
+                  - button "Detalle" [ref=f232e267]
+                  - button "Editar" [ref=f232e271]
+                  - button "Eliminar" [ref=f232e274]
+            - row [ref=f232e277]:
+              - cell "5" [ref=f232e278]
+              - cell "05/08/2026" [ref=f232e279]
+              - cell "Aeropuerto Hermanos Serdán" [ref=f232e280]
+              - cell "MXZ-3322" [ref=f232e281]
+              - cell "Juan Pérez" [ref=f232e282]
+              - cell "45 Km" [ref=f232e283]
+              - cell "$0 $4,000 0% $4,000 disp." [ref=f232e284]:
+                - generic [ref=f232e285]:
+                  - generic [ref=f232e286]:
+                    - generic [ref=f232e287]:
+                      - generic [ref=f232e288]: $0
+                      - generic [ref=f232e289]: $4,000
+                    - generic [ref=f232e291]:
+                      - generic [ref=f232e292]: 0%
+                      - generic [ref=f232e293]: $4,000 disp.
+                  - button "Agregar gasto autorizado" [ref=f232e294]
+              - cell "Programada" [ref=f232e297]
+              - cell [ref=f232e298]:
+                - generic [ref=f232e299]:
+                  - button "Detalle" [ref=f232e300]
+                  - button "Editar" [ref=f232e304]
+                  - button "Eliminar" [ref=f232e307]
+            - row [ref=f232e310]:
+              - cell "6" [ref=f232e311]
+              - cell "05/08/2026" [ref=f232e312]
+              - cell "Centro Comercial Angelópolis" [ref=f232e313]
+              - cell "CDE-5567" [ref=f232e314]
+              - cell "Juan Pérez" [ref=f232e315]
+              - cell "30 Km" [ref=f232e316]
+              - cell "$0 $2,500 0% $2,500 disp." [ref=f232e317]:
+                - generic [ref=f232e318]:
+                  - generic [ref=f232e319]:
+                    - generic [ref=f232e320]:
+                      - generic [ref=f232e321]: $0
+                      - generic [ref=f232e322]: $2,500
+                    - generic [ref=f232e324]:
+                      - generic [ref=f232e325]: 0%
+                      - generic [ref=f232e326]: $2,500 disp.
+                  - button "Agregar gasto autorizado" [ref=f232e327]
+              - cell "Asignada" [ref=f232e330]
+              - cell [ref=f232e331]:
+                - generic [ref=f232e332]:
+                  - button "Detalle" [ref=f232e333]
+                  - button "Editar" [ref=f232e337]
+                  - button "Eliminar" [ref=f232e340]
+            - row [ref=f232e343]:
+              - cell "3" [ref=f232e344]
+              - cell "04/08/2026" [ref=f232e345]
+              - cell "Fraccionamiento Los Pinos" [ref=f232e346]
+              - cell "HTR-7823" [ref=f232e347]
+              - cell "Juan Pérez" [ref=f232e348]
+              - cell "150 Km" [ref=f232e349]
+              - cell "$0 $2,500 0% $2,500 disp." [ref=f232e350]:
+                - generic [ref=f232e351]:
+                  - generic [ref=f232e352]:
+                    - generic [ref=f232e353]:
+                      - generic [ref=f232e354]: $0
+                      - generic [ref=f232e355]: $2,500
+                    - generic [ref=f232e357]:
+                      - generic [ref=f232e358]: 0%
+                      - generic [ref=f232e359]: $2,500 disp.
+                  - button "Agregar gasto autorizado" [ref=f232e360]
+              - cell "Asignada" [ref=f232e363]
+              - cell [ref=f232e364]:
+                - generic [ref=f232e365]:
+                  - button "Detalle" [ref=f232e366]
+                  - button "Editar" [ref=f232e370]
+                  - button "Eliminar" [ref=f232e373]
+            - row [ref=f232e376]:
+              - cell "4" [ref=f232e377]
+              - cell "04/08/2026" [ref=f232e378]
+              - cell "Parque Industrial Finsa" [ref=f232e379]
+              - cell "JKL-9911" [ref=f232e380]
+              - cell "Juan Pérez" [ref=f232e381]
+              - cell "200 Km" [ref=f232e382]
+              - cell "$0 $3,000 0% $3,000 disp." [ref=f232e383]:
+                - generic [ref=f232e384]:
+                  - generic [ref=f232e385]:
+                    - generic [ref=f232e386]:
+                      - generic [ref=f232e387]: $0
+                      - generic [ref=f232e388]: $3,000
+                    - generic [ref=f232e390]:
+                      - generic [ref=f232e391]: 0%
+                      - generic [ref=f232e392]: $3,000 disp.
+                  - button "Agregar gasto autorizado" [ref=f232e393]
+              - cell "Programada" [ref=f232e396]
+              - cell [ref=f232e397]:
+                - generic [ref=f232e398]:
+                  - button "Detalle" [ref=f232e399]
+                  - button "Editar" [ref=f232e403]
+                  - button "Eliminar" [ref=f232e406]
+            - row [ref=f232e409]:
+              - cell "1" [ref=f232e410]
+              - cell "03/08/2026" [ref=f232e411]
+              - cell "Sucursal Centro" [ref=f232e412]
+              - cell "AAA-BBB-123" [ref=f232e413]
+              - cell "Juan Pérez" [ref=f232e414]
+              - cell "120 Km" [ref=f232e415]
+              - cell "$0 $2,500 0% $2,500 disp." [ref=f232e416]:
+                - generic [ref=f232e417]:
+                  - generic [ref=f232e418]:
+                    - generic [ref=f232e419]:
+                      - generic [ref=f232e420]: $0
+                      - generic [ref=f232e421]: $2,500
+                    - generic [ref=f232e423]:
+                      - generic [ref=f232e424]: 0%
+                      - generic [ref=f232e425]: $2,500 disp.
+                  - button "Agregar gasto autorizado" [ref=f232e426]
+              - cell "Completada" [ref=f232e429]
+              - cell [ref=f232e430]:
+                - generic [ref=f232e431]:
+                  - button "Detalle" [ref=f232e432]
+                  - button "Editar" [ref=f232e436]
+                  - button "Eliminar" [ref=f232e439]
+            - row [ref=f232e442]:
+              - cell "2" [ref=f232e443]
+              - cell "03/08/2026" [ref=f232e444]
+              - cell "Sucursal Norte" [ref=f232e445]
+              - cell "GHL-4512" [ref=f232e446]
+              - cell "Juan Pérez" [ref=f232e447]
+              - cell "85 Km" [ref=f232e448]
+              - cell "$0 $2,500 0% $2,500 disp." [ref=f232e449]:
+                - generic [ref=f232e450]:
+                  - generic [ref=f232e451]:
+                    - generic [ref=f232e452]:
+                      - generic [ref=f232e453]: $0
+                      - generic [ref=f232e454]: $2,500
+                    - generic [ref=f232e456]:
+                      - generic [ref=f232e457]: 0%
+                      - generic [ref=f232e458]: $2,500 disp.
+                  - button "Agregar gasto autorizado" [ref=f232e459]
+              - cell "Programada" [ref=f232e462]
+              - cell [ref=f232e463]:
+                - generic [ref=f232e464]:
+                  - button "Detalle" [ref=f232e465]
+                  - button "Editar" [ref=f232e469]
+                  - button "Eliminar" [ref=f232e472]
+    - contentinfo [ref=f232e475]:
+      - generic [ref=f232e476]:
+        - generic [ref=f232e477]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f232e481]:
+          - generic [ref=f232e482]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f232e483]: • Servidor Seguro de Producción

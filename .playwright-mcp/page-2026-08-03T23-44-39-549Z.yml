@@ -1,0 +1,461 @@
+- generic [ref=f231e1]:
+  - complementary [ref=f231e2]:
+    - generic [ref=f231e3]:
+      - generic [ref=f231e4]: A
+      - generic [ref=f231e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f231e6]
+        - paragraph [ref=f231e7]: Control de Flota
+    - generic [ref=f231e8]:
+      - paragraph [ref=f231e9]: Navegación Admin
+      - navigation [ref=f231e10]:
+        - link "Dashboard / Resumen" [ref=f231e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f231e15]: Vehículos
+        - link "Vehículos" [ref=f231e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f231e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f231e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f231e28]: Rutas
+        - link "Rutas" [ref=f231e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f231e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f231e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f231e41]: Operaciones
+        - link "Operadores" [ref=f231e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f231e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f231e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f231e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f231e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f231e62]: Administración
+        - link "Reportes" [ref=f231e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f231e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f231e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f231e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f231e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f231e83]:
+      - generic [ref=f231e84]:
+        - generic [ref=f231e85]: AD
+        - generic [ref=f231e86]:
+          - paragraph [ref=f231e87]: Administrador
+          - paragraph [ref=f231e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f231e90]
+  - generic [ref=f231e93]:
+    - banner [ref=f231e94]:
+      - generic [ref=f231e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f231e96]
+        - generic [ref=f231e98]: OWASP Top 10 Secured
+      - generic [ref=f231e101]:
+        - link "35" [ref=f231e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f231e106]: "--:--:--"
+        - generic [ref=f231e110]:
+          - generic [ref=f231e111]:
+            - paragraph [ref=f231e112]: Administrador
+            - paragraph [ref=f231e113]: Administrador del sistema
+          - generic [ref=f231e114]: AD
+    - main [ref=f231e115]:
+      - generic [ref=f231e116]:
+        - generic [ref=f231e117]:
+          - generic [ref=f231e118]:
+            - heading "Control de Combustible y Presupuestos Semanales" [level=1] [ref=f231e119]
+            - paragraph [ref=f231e120]: Contraste de Consumo Real vs. Consumo Autorizado por semana.
+          - button "Registrar Carga" [ref=f231e121]
+        - generic [ref=f231e124]:
+          - generic [ref=f231e125]: "Semana:"
+          - combobox [ref=f231e126]:
+            - option "Esta semana" [selected]
+            - option "Semana del 27/07/2026"
+            - option "Semana del 20/07/2026"
+            - option "Semana del 13/07/2026"
+            - option "Semana del 06/07/2026"
+            - option "Semana del 29/06/2026"
+            - option "Semana del 22/06/2026"
+            - option "Semana del 15/06/2026"
+          - generic [ref=f231e127]: (03/08/2026 — 09/08/2026)
+        - generic [ref=f231e128]:
+          - generic [ref=f231e129]:
+            - paragraph [ref=f231e130]: "315.0"
+            - paragraph [ref=f231e131]: litros
+          - generic [ref=f231e132]:
+            - paragraph [ref=f231e133]: $8,610.00
+            - paragraph [ref=f231e134]: monto
+          - generic [ref=f231e135]:
+            - paragraph [ref=f231e136]: "260"
+            - paragraph [ref=f231e137]: km recorridos
+          - generic [ref=f231e138]:
+            - paragraph [ref=f231e139]: "0.8"
+            - paragraph [ref=f231e140]: km/litro
+        - generic [ref=f231e141]:
+          - generic [ref=f231e142]:
+            - heading "Consumo de Combustible por Unidad (Semanal)" [level=3] [ref=f231e143]
+            - paragraph [ref=f231e144]: Mostrando 1-8 de 12
+          - generic [ref=f231e145]:
+            - generic [ref=f231e146]:
+              - generic [ref=f231e147]:
+                - generic [ref=f231e148]: AAA-BBB-123
+                - generic [ref=f231e149]: 23.3%
+              - generic [ref=f231e152]:
+                - generic [ref=f231e153]:
+                  - paragraph [ref=f231e154]: "70.0"
+                  - paragraph [ref=f231e155]: consumido
+                - generic [ref=f231e156]:
+                  - paragraph [ref=f231e157]: "300.0"
+                  - paragraph [ref=f231e158]: autorizado
+                - generic [ref=f231e159]:
+                  - paragraph [ref=f231e160]: "70.0"
+                  - paragraph [ref=f231e161]: comprado
+              - generic [ref=f231e162]:
+                - generic [ref=f231e163]: 260 km
+                - generic [ref=f231e165]: 3.7 km/L R
+                - generic [ref=f231e167]: $7.38/km
+              - generic [ref=f231e169]:
+                - generic [ref=f231e170]: "Autorizado:"
+                - generic [ref=f231e171]: 300.0 L
+                - button [ref=f231e172]
+            - generic [ref=f231e175]:
+              - generic [ref=f231e176]:
+                - generic [ref=f231e177]: GHL-4512
+                - generic [ref=f231e178]: 12.0%
+              - generic [ref=f231e181]:
+                - generic [ref=f231e182]:
+                  - paragraph [ref=f231e183]: —
+                  - paragraph [ref=f231e184]: consumido
+                - generic [ref=f231e185]:
+                  - paragraph [ref=f231e186]: "250.0"
+                  - paragraph [ref=f231e187]: autorizado
+                - generic [ref=f231e188]:
+                  - paragraph [ref=f231e189]: "30.0"
+                  - paragraph [ref=f231e190]: comprado
+              - paragraph [ref=f231e191]: "* Basado en litros comprados"
+              - generic [ref=f231e193]:
+                - generic [ref=f231e194]: "Autorizado:"
+                - generic [ref=f231e195]: 250.0 L
+                - button [ref=f231e196]
+            - generic [ref=f231e199]:
+              - generic [ref=f231e200]:
+                - generic [ref=f231e201]: HTR-7823
+                - generic [ref=f231e202]: 12.5%
+              - generic [ref=f231e205]:
+                - generic [ref=f231e206]:
+                  - paragraph [ref=f231e207]: —
+                  - paragraph [ref=f231e208]: consumido
+                - generic [ref=f231e209]:
+                  - paragraph [ref=f231e210]: "280.0"
+                  - paragraph [ref=f231e211]: autorizado
+                - generic [ref=f231e212]:
+                  - paragraph [ref=f231e213]: "35.0"
+                  - paragraph [ref=f231e214]: comprado
+              - paragraph [ref=f231e215]: "* Basado en litros comprados"
+              - generic [ref=f231e217]:
+                - generic [ref=f231e218]: "Autorizado:"
+                - generic [ref=f231e219]: 280.0 L
+                - button [ref=f231e220]
+            - generic [ref=f231e223]:
+              - generic [ref=f231e224]:
+                - generic [ref=f231e225]: JKL-9911
+                - generic [ref=f231e226]: 12.0%
+              - generic [ref=f231e229]:
+                - generic [ref=f231e230]:
+                  - paragraph [ref=f231e231]: —
+                  - paragraph [ref=f231e232]: consumido
+                - generic [ref=f231e233]:
+                  - paragraph [ref=f231e234]: "500.0"
+                  - paragraph [ref=f231e235]: autorizado
+                - generic [ref=f231e236]:
+                  - paragraph [ref=f231e237]: "60.0"
+                  - paragraph [ref=f231e238]: comprado
+              - paragraph [ref=f231e239]: "* Basado en litros comprados"
+              - generic [ref=f231e241]:
+                - generic [ref=f231e242]: "Autorizado:"
+                - generic [ref=f231e243]: 500.0 L
+                - button [ref=f231e244]
+            - generic [ref=f231e247]:
+              - generic [ref=f231e248]:
+                - generic [ref=f231e249]: MXZ-3322
+                - generic [ref=f231e250]: 11.5%
+              - generic [ref=f231e253]:
+                - generic [ref=f231e254]:
+                  - paragraph [ref=f231e255]: —
+                  - paragraph [ref=f231e256]: consumido
+                - generic [ref=f231e257]:
+                  - paragraph [ref=f231e258]: "650.0"
+                  - paragraph [ref=f231e259]: autorizado
+                - generic [ref=f231e260]:
+                  - paragraph [ref=f231e261]: "75.0"
+                  - paragraph [ref=f231e262]: comprado
+              - paragraph [ref=f231e263]: "* Basado en litros comprados"
+              - generic [ref=f231e265]:
+                - generic [ref=f231e266]: "Autorizado:"
+                - generic [ref=f231e267]: 650.0 L
+                - button [ref=f231e268]
+            - generic [ref=f231e271]:
+              - generic [ref=f231e272]:
+                - generic [ref=f231e273]: CDE-5567
+                - generic [ref=f231e274]: 14.1%
+              - generic [ref=f231e277]:
+                - generic [ref=f231e278]:
+                  - paragraph [ref=f231e279]: —
+                  - paragraph [ref=f231e280]: consumido
+                - generic [ref=f231e281]:
+                  - paragraph [ref=f231e282]: "320.0"
+                  - paragraph [ref=f231e283]: autorizado
+                - generic [ref=f231e284]:
+                  - paragraph [ref=f231e285]: "45.0"
+                  - paragraph [ref=f231e286]: comprado
+              - paragraph [ref=f231e287]: "* Basado en litros comprados"
+              - generic [ref=f231e289]:
+                - generic [ref=f231e290]: "Autorizado:"
+                - generic [ref=f231e291]: 320.0 L
+                - button [ref=f231e292]
+            - generic [ref=f231e295]:
+              - generic [ref=f231e296]: FGH-8876
+              - generic [ref=f231e299]:
+                - generic [ref=f231e300]:
+                  - paragraph [ref=f231e301]: —
+                  - paragraph [ref=f231e302]: consumido
+                - generic [ref=f231e303]:
+                  - paragraph [ref=f231e304]: "280.0"
+                  - paragraph [ref=f231e305]: autorizado
+                - generic [ref=f231e306]:
+                  - paragraph [ref=f231e307]: "0.0"
+                  - paragraph [ref=f231e308]: comprado
+              - generic [ref=f231e310]:
+                - generic [ref=f231e311]: "Autorizado:"
+                - generic [ref=f231e312]: 280.0 L
+                - button [ref=f231e313]
+            - generic [ref=f231e316]:
+              - generic [ref=f231e317]: RST-2233
+              - generic [ref=f231e320]:
+                - generic [ref=f231e321]:
+                  - paragraph [ref=f231e322]: —
+                  - paragraph [ref=f231e323]: consumido
+                - generic [ref=f231e324]:
+                  - paragraph [ref=f231e325]: "380.0"
+                  - paragraph [ref=f231e326]: autorizado
+                - generic [ref=f231e327]:
+                  - paragraph [ref=f231e328]: "0.0"
+                  - paragraph [ref=f231e329]: comprado
+              - generic [ref=f231e331]:
+                - generic [ref=f231e332]: "Autorizado:"
+                - generic [ref=f231e333]: 380.0 L
+                - button [ref=f231e334]
+          - generic [ref=f231e337]:
+            - paragraph [ref=f231e338]: Mostrando 1-8 de 12
+            - generic [ref=f231e339]:
+              - button "Anterior" [disabled] [ref=f231e340]
+              - button "Siguiente" [ref=f231e341]
+        - generic [ref=f231e342]:
+          - generic [ref=f231e343]:
+            - heading "Historial de Tickets" [level=3] [ref=f231e344]
+            - generic [ref=f231e345]:
+              - textbox "Buscar (folio, operador, placa...)" [ref=f231e346]
+              - combobox [ref=f231e347]:
+                - 'option "Vehículo: Todos" [selected]'
+                - option "AAA-BBB-123"
+                - option "GHL-4512"
+                - option "HTR-7823"
+                - option "JKL-9911"
+                - option "MXZ-3322"
+                - option "CDE-5567"
+                - option "FGH-8876"
+                - option "RST-2233"
+                - option "WXY-1001"
+                - option "QRS-4412"
+                - option "MNO-7788"
+                - option "PQR-3344"
+              - combobox [ref=f231e348]:
+                - 'option "Status: Todos" [selected]'
+                - option "Pendiente"
+                - option "Aprobado"
+                - option "Rechazado"
+          - table [ref=f231e350]:
+            - rowgroup [ref=f231e351]:
+              - row [ref=f231e352]:
+                - columnheader "#" [ref=f231e353]
+                - columnheader "Fecha" [ref=f231e354]
+                - columnheader "Vehículo" [ref=f231e355]
+                - columnheader "Operador" [ref=f231e356]
+                - columnheader "Litros" [ref=f231e357]
+                - columnheader "Monto" [ref=f231e358]
+                - columnheader "Método" [ref=f231e359]
+                - columnheader "Status" [ref=f231e360]
+                - columnheader "Ticket" [ref=f231e361]
+                - columnheader "Acciones" [ref=f231e362]
+            - rowgroup [ref=f231e363]:
+              - row [ref=f231e364]:
+                - cell "#1" [ref=f231e365]
+                - cell "03/08/2026" [ref=f231e366]
+                - cell "AAA-BBB-123" [ref=f231e367]
+                - cell "Juan Pérez" [ref=f231e368]
+                - cell "40.0" [ref=f231e369]
+                - cell "$960.00" [ref=f231e370]
+                - cell "Tarjeta" [ref=f231e371]
+                - cell "Aprobado" [ref=f231e372]
+                - cell "—" [ref=f231e373]
+                - cell [ref=f231e374]:
+                  - generic [ref=f231e375]:
+                    - button "Ver detalle" [ref=f231e376]
+                    - button "Editar" [ref=f231e380]
+                    - button "Eliminar" [ref=f231e383]
+              - row [ref=f231e386]:
+                - cell "#2" [ref=f231e387]
+                - cell "03/08/2026" [ref=f231e388]
+                - cell "GHL-4512" [ref=f231e389]
+                - cell "Juan Pérez" [ref=f231e390]
+                - cell "30.0" [ref=f231e391]
+                - cell "$720.00" [ref=f231e392]
+                - cell "Tarjeta" [ref=f231e393]
+                - cell "Aprobado" [ref=f231e394]
+                - cell "—" [ref=f231e395]
+                - cell [ref=f231e396]:
+                  - generic [ref=f231e397]:
+                    - button "Ver detalle" [ref=f231e398]
+                    - button "Editar" [ref=f231e402]
+                    - button "Eliminar" [ref=f231e405]
+              - row [ref=f231e408]:
+                - cell "#3" [ref=f231e409]
+                - cell "03/08/2026" [ref=f231e410]
+                - cell "HTR-7823" [ref=f231e411]
+                - cell "Juan Pérez" [ref=f231e412]
+                - cell "35.0" [ref=f231e413]
+                - cell "$840.00" [ref=f231e414]
+                - cell "Efectivo" [ref=f231e415]
+                - cell "Pendiente" [ref=f231e416]
+                - cell "—" [ref=f231e417]
+                - cell [ref=f231e418]:
+                  - generic [ref=f231e419]:
+                    - button "Ver detalle" [ref=f231e420]
+                    - button "Editar" [ref=f231e424]
+                    - button "Aprobar" [ref=f231e427]
+                    - button "Rechazar" [ref=f231e430]
+                    - button "Eliminar" [ref=f231e433]
+              - row [ref=f231e436]:
+                - cell "#4" [ref=f231e437]
+                - cell "03/08/2026" [ref=f231e438]
+                - cell "JKL-9911" [ref=f231e439]
+                - cell "Juan Pérez" [ref=f231e440]
+                - cell "60.0" [ref=f231e441]
+                - cell "$1,800.00" [ref=f231e442]
+                - cell "Tarjeta" [ref=f231e443]
+                - cell "Aprobado" [ref=f231e444]
+                - cell "—" [ref=f231e445]
+                - cell [ref=f231e446]:
+                  - generic [ref=f231e447]:
+                    - button "Ver detalle" [ref=f231e448]
+                    - button "Editar" [ref=f231e452]
+                    - button "Eliminar" [ref=f231e455]
+              - row [ref=f231e458]:
+                - cell "#5" [ref=f231e459]
+                - cell "03/08/2026" [ref=f231e460]
+                - cell "MXZ-3322" [ref=f231e461]
+                - cell "Juan Pérez" [ref=f231e462]
+                - cell "75.0" [ref=f231e463]
+                - cell "$2,250.00" [ref=f231e464]
+                - cell "Vales" [ref=f231e465]
+                - cell "Pendiente" [ref=f231e466]
+                - cell "—" [ref=f231e467]
+                - cell [ref=f231e468]:
+                  - generic [ref=f231e469]:
+                    - button "Ver detalle" [ref=f231e470]
+                    - button "Editar" [ref=f231e474]
+                    - button "Aprobar" [ref=f231e477]
+                    - button "Rechazar" [ref=f231e480]
+                    - button "Eliminar" [ref=f231e483]
+              - row [ref=f231e486]:
+                - cell "#6" [ref=f231e487]
+                - cell "03/08/2026" [ref=f231e488]
+                - cell "CDE-5567" [ref=f231e489]
+                - cell "Juan Pérez" [ref=f231e490]
+                - cell "45.0" [ref=f231e491]
+                - cell "$1,080.00" [ref=f231e492]
+                - cell "Tarjeta" [ref=f231e493]
+                - cell "Aprobado" [ref=f231e494]
+                - cell "—" [ref=f231e495]
+                - cell [ref=f231e496]:
+                  - generic [ref=f231e497]:
+                    - button "Ver detalle" [ref=f231e498]
+                    - button "Editar" [ref=f231e502]
+                    - button "Eliminar" [ref=f231e505]
+              - row [ref=f231e508]:
+                - cell "#7" [ref=f231e509]
+                - cell "03/08/2026" [ref=f231e510]
+                - cell "AAA-BBB-123" [ref=f231e511]
+                - cell "Juan Pérez" [ref=f231e512]
+                - cell "30.0" [ref=f231e513]
+                - cell "$960.00" [ref=f231e514]
+                - cell "Efectivo" [ref=f231e515]
+                - cell "pending" [ref=f231e516]
+                - cell [ref=f231e517]:
+                  - img "Ticket" [ref=f231e518] [cursor=pointer]
+                - cell [ref=f231e519]:
+                  - generic [ref=f231e520]:
+                    - button "Ver detalle" [ref=f231e521]
+                    - button "Editar" [ref=f231e525]
+                    - button "Eliminar" [ref=f231e528]
+        - generic [ref=f231e531]:
+          - generic [ref=f231e532]:
+            - heading "Consumo por Ruta" [level=3] [ref=f231e533]
+            - paragraph [ref=f231e534]: Mostrando 1-1 de 1
+          - table [ref=f231e536]:
+            - rowgroup [ref=f231e537]:
+              - row [ref=f231e538]:
+                - columnheader "Cliente" [ref=f231e539]
+                - columnheader "Fecha" [ref=f231e540]
+                - columnheader "Unidad" [ref=f231e541]
+                - columnheader "Km" [ref=f231e542]
+                - columnheader "Compra" [ref=f231e543]
+                - columnheader "km/L" [ref=f231e544]
+                - columnheader "C. Real" [ref=f231e545]
+                - columnheader "km/L R" [ref=f231e546]
+                - columnheader "Nivel Ini" [ref=f231e547]
+                - columnheader "Nivel Fin" [ref=f231e548]
+                - columnheader "Gasto" [ref=f231e549]
+                - columnheader "$/km" [ref=f231e550]
+                - columnheader "Cargas" [ref=f231e551]
+            - rowgroup [ref=f231e552]:
+              - row [ref=f231e553] [cursor=pointer]:
+                - cell "Sucursal Centro" [ref=f231e554]
+                - cell "03/08/2026" [ref=f231e555]
+                - cell "AAA-BBB-123" [ref=f231e556]
+                - cell "260" [ref=f231e557]
+                - cell "30.0" [ref=f231e558]
+                - cell "8.7" [ref=f231e559]
+                - cell "70.0" [ref=f231e560]
+                - cell "3.7" [ref=f231e561]
+                - cell "3/4" [ref=f231e562]
+                - cell "1/4" [ref=f231e563]
+                - cell "$960.00" [ref=f231e564]
+                - cell "$3.69" [ref=f231e565]
+                - cell "1" [ref=f231e566]
+            - rowgroup [ref=f231e567]:
+              - row [ref=f231e568]:
+                - cell "Totales" [ref=f231e569]
+                - cell "260" [ref=f231e570]
+                - cell "30.0" [ref=f231e571]
+                - cell "8.7" [ref=f231e572]
+                - cell "70.0" [ref=f231e573]
+                - cell "3.7" [ref=f231e574]
+                - cell [ref=f231e575]
+                - cell "$960.00" [ref=f231e576]
+                - cell "$3.69" [ref=f231e577]
+                - cell [ref=f231e578]
+    - contentinfo [ref=f231e579]:
+      - generic [ref=f231e580]:
+        - generic [ref=f231e581]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f231e585]:
+          - generic [ref=f231e586]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f231e587]: • Servidor Seguro de Producción

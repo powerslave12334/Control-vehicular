@@ -1,0 +1,328 @@
+- generic [ref=f42e1]:
+  - complementary [ref=f42e2]:
+    - generic [ref=f42e3]:
+      - generic [ref=f42e4]: A
+      - generic [ref=f42e5]:
+        - heading [level=1] [ref=f42e759]: Agua Inmaculada
+        - paragraph [ref=f42e7]: Control de Flota
+    - generic [ref=f42e8]:
+      - paragraph [ref=f42e9]: Navegación Admin
+      - navigation [ref=f42e10]:
+        - link [ref=f42e760] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+          - generic [ref=f42e14]: Dashboard / Resumen
+        - paragraph [ref=f42e15]: Vehículos
+        - link [ref=f42e761] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+          - generic [ref=f42e19]: Vehículos
+        - link [ref=f42e762] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+          - generic [ref=f42e23]: Mantenimiento
+        - link [ref=f42e763] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+          - generic [ref=f42e27]: Combustible
+        - paragraph [ref=f42e28]: Rutas
+        - link [ref=f42e764] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+          - generic [ref=f42e32]: Rutas
+        - link [ref=f42e765] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+          - generic [ref=f42e36]: Geolocalización
+        - link [ref=f42e766] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+          - generic [ref=f42e40]: Calendario
+        - paragraph [ref=f42e41]: Operaciones
+        - link [ref=f42e767] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+          - generic [ref=f42e45]: Operadores
+        - link [ref=f42e768] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+          - generic [ref=f42e49]: Gastos
+        - link [ref=f42e769] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+          - generic [ref=f42e53]: Incidencias
+        - link [ref=f42e770] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+          - generic [ref=f42e57]: Evidencias
+        - link [ref=f42e771] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+          - generic [ref=f42e61]: Portería
+        - paragraph [ref=f42e62]: Administración
+        - link [ref=f42e772] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+          - generic [ref=f42e66]: Reportes
+        - link [ref=f42e773] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+          - generic [ref=f42e70]: Usuarios
+        - link [ref=f42e774] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+          - generic [ref=f42e74]: Seguridad OWASP
+        - link [ref=f42e775] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+          - generic [ref=f42e78]: Catálogos
+        - link [ref=f42e776] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+          - generic [ref=f42e82]: Notificaciones
+    - generic [ref=f42e83]:
+      - generic [ref=f42e84]:
+        - generic [ref=f42e85]: AD
+        - generic [ref=f42e86]:
+          - paragraph [ref=f42e87]: Administrador
+          - paragraph [ref=f42e88]: Administrador del sistema
+      - button [ref=f42e777]: Cerrar Sesión
+  - generic [ref=f42e93]:
+    - banner [ref=f42e94]:
+      - generic [ref=f42e95]:
+        - heading [level=2] [ref=f42e778]: Monitoreo de Flota & Control en Tiempo Real
+        - generic [ref=f42e98]: OWASP Top 10 Secured
+      - generic [ref=f42e101]:
+        - link [ref=f42e779] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+          - generic [ref=f42e105]: "74"
+        - generic [ref=f42e106]: 11:22:00 a.m.
+        - generic [ref=f42e110]:
+          - generic [ref=f42e111]:
+            - paragraph [ref=f42e112]: Administrador
+            - paragraph [ref=f42e113]: Administrador del sistema
+          - generic [ref=f42e114]: AD
+    - main [ref=f42e115]:
+      - generic [ref=f42e116]:
+        - generic [ref=f42e117]:
+          - heading [level=2] [ref=f42e780]: Servicios de Mantenimiento Vehicular
+          - button [ref=f42e781]: Registrar Mantenimiento
+        - generic [ref=f42e122]:
+          - generic [ref=f42e123]:
+            - paragraph [ref=f42e124]: Total
+            - paragraph [ref=f42e125]: "12"
+          - generic [ref=f42e126]:
+            - paragraph [ref=f42e127]: Programados
+            - paragraph [ref=f42e128]: "3"
+          - generic [ref=f42e129]:
+            - paragraph [ref=f42e130]: En Progreso
+            - paragraph [ref=f42e131]: "3"
+          - generic [ref=f42e132]:
+            - paragraph [ref=f42e133]: Completados
+            - paragraph [ref=f42e134]: "6"
+        - generic [ref=f42e135]:
+          - generic [ref=f42e136]:
+            - textbox [ref=f42e782]:
+              - /placeholder: Buscar (placa, taller, descripción...)
+            - combobox [ref=f42e138]
+            - combobox [ref=f42e139]
+            - combobox [ref=f42e140]
+          - paragraph [ref=f42e141]: Mostrando 1-10 de 12
+        - generic [ref=f42e142]:
+          - generic [ref=f42e143]:
+            - generic [ref=f42e144]:
+              - generic [ref=f42e145]:
+                - generic [ref=f42e146]:
+                  - generic [ref=f42e147]: Preventivo
+                  - generic [ref=f42e148]: Programado
+                  - generic [ref=f42e149]: JKL-9911
+                - generic [ref=f42e150]: 03/08/2026
+              - paragraph [ref=f42e151]: “Cambio de llantas traseras”
+              - separator [ref=f42e152]
+              - generic [ref=f42e153]:
+                - generic [ref=f42e154]: Servicio Express
+                - generic [ref=f42e155]: $5,200.00
+                - generic [ref=f42e156]: 88,000 km
+              - generic [ref=f42e157]:
+                - generic [ref=f42e158]: Llantas
+                - generic [ref=f42e458]: "Programado: 05/08/2026"
+            - generic [ref=f42e161]:
+              - button [ref=f42e783]
+              - button [ref=f42e784]
+              - button [ref=f42e785]
+          - generic [ref=f42e172]:
+            - generic [ref=f42e173]:
+              - generic [ref=f42e174]:
+                - generic [ref=f42e175]:
+                  - generic [ref=f42e176]: Correctivo
+                  - generic [ref=f42e177]: Programado
+                  - generic [ref=f42e178]: CDE-5567
+                - generic [ref=f42e179]: 03/08/2026
+              - paragraph [ref=f42e180]: “Reparación de frenos delanteros”
+              - separator [ref=f42e181]
+              - generic [ref=f42e182]:
+                - generic [ref=f42e183]: Talleres Puebla
+                - generic [ref=f42e184]: $3,800.00
+                - generic [ref=f42e185]: 105,000 km
+              - generic [ref=f42e186]:
+                - generic [ref=f42e187]: Frenos
+                - generic [ref=f42e459]: "Programado: 04/08/2026"
+            - generic [ref=f42e190]:
+              - button [ref=f42e786]
+              - button [ref=f42e787]
+              - button [ref=f42e788]
+          - generic [ref=f42e460]:
+            - generic [ref=f42e461]:
+              - generic [ref=f42e462]:
+                - generic [ref=f42e463]:
+                  - generic [ref=f42e464]: Correctivo
+                  - generic [ref=f42e465]: Programado
+                  - generic [ref=f42e466]: WXY-1001
+                - generic [ref=f42e467]: 03/08/2026
+              - paragraph [ref=f42e468]: “Reparación mayor de motor”
+              - separator [ref=f42e469]
+              - generic [ref=f42e470]:
+                - generic [ref=f42e471]: Talleres Puebla
+                - generic [ref=f42e472]: $18,500.00
+                - generic [ref=f42e473]: 230,000 km
+              - generic [ref=f42e474]:
+                - generic [ref=f42e475]: Motor
+                - generic [ref=f42e476]: "Programado: 10/08/2026"
+            - generic [ref=f42e478]:
+              - button [ref=f42e789]
+              - button [ref=f42e790]
+              - button [ref=f42e791]
+          - generic [ref=f42e489]:
+            - generic [ref=f42e490]:
+              - generic [ref=f42e491]:
+                - generic [ref=f42e492]:
+                  - generic [ref=f42e493]: Preventivo
+                  - generic [ref=f42e494]: En Progreso
+                  - generic [ref=f42e495]: AAA-BBB-123
+                - generic [ref=f42e496]: 03/08/2026
+              - paragraph [ref=f42e497]: “Prueba de evidencia y fechas inicio/fin”
+              - separator [ref=f42e498]
+              - generic [ref=f42e499]:
+                - generic [ref=f42e500]: Taller Prueba
+                - generic [ref=f42e501]: $1,500.00
+              - generic [ref=f42e503]:
+                - generic [ref=f42e504]: Prueba UI
+                - generic [ref=f42e794]: "Inicio: 03/08/2026"
+            - generic [ref=f42e506]:
+              - button [ref=f42e795]
+              - button [ref=f42e796]
+              - button [ref=f42e797]
+          - generic [ref=f42e517]:
+            - generic [ref=f42e518]:
+              - generic [ref=f42e519]:
+                - generic [ref=f42e520]:
+                  - generic [ref=f42e521]: Correctivo
+                  - generic [ref=f42e522]: En Progreso
+                  - generic [ref=f42e523]: HTR-7823
+                - generic [ref=f42e524]: 02/08/2026
+              - paragraph [ref=f42e525]: “Reparación de suspensión trasera”
+              - separator [ref=f42e526]
+              - generic [ref=f42e527]:
+                - generic [ref=f42e528]: Talleres Puebla
+                - generic [ref=f42e529]: $4,500.00
+                - generic [ref=f42e530]: 62,185 km
+              - generic [ref=f42e531]: Suspensión
+            - generic [ref=f42e534]:
+              - button [ref=f42e798]
+              - button [ref=f42e799]
+              - button [ref=f42e800]
+          - generic [ref=f42e545]:
+            - generic [ref=f42e546]:
+              - generic [ref=f42e547]:
+                - generic [ref=f42e548]:
+                  - generic [ref=f42e549]: Preventivo
+                  - generic [ref=f42e550]: En Progreso
+                  - generic [ref=f42e551]: RST-2233
+                - generic [ref=f42e552]: 01/08/2026
+              - paragraph [ref=f42e553]: “Servicio mayor 50,000 km”
+              - separator [ref=f42e554]
+              - generic [ref=f42e555]:
+                - generic [ref=f42e556]: Taller Central
+                - generic [ref=f42e557]: $2,800.00
+                - generic [ref=f42e558]: 52,000 km
+              - generic [ref=f42e559]: Servicio 50k
+            - generic [ref=f42e562]:
+              - button [ref=f42e801]
+              - button [ref=f42e802]
+              - button [ref=f42e803]
+          - generic [ref=f42e573]:
+            - generic [ref=f42e574]:
+              - generic [ref=f42e575]:
+                - generic [ref=f42e576]:
+                  - generic [ref=f42e577]: Preventivo
+                  - generic [ref=f42e578]: Completado
+                  - generic [ref=f42e579]: MXZ-3322
+                - generic [ref=f42e580]: 30/07/2026
+              - paragraph [ref=f42e581]: “Alineación y balanceo”
+              - separator [ref=f42e582]
+              - generic [ref=f42e583]:
+                - generic [ref=f42e584]: Taller Central
+                - generic [ref=f42e585]: $900.00
+                - generic [ref=f42e586]: 41,000 km
+              - generic [ref=f42e587]: Alineación
+            - generic [ref=f42e590]:
+              - button [ref=f42e804]
+              - button [ref=f42e805]
+              - button [ref=f42e806]
+          - generic [ref=f42e601]:
+            - generic [ref=f42e602]:
+              - generic [ref=f42e603]:
+                - generic [ref=f42e604]:
+                  - generic [ref=f42e605]: Preventivo
+                  - generic [ref=f42e606]: Completado
+                  - generic [ref=f42e607]: MNO-7788
+                - generic [ref=f42e608]: 29/07/2026
+              - paragraph [ref=f42e609]: “Rotación y balanceo de llantas”
+              - separator [ref=f42e610]
+              - generic [ref=f42e611]:
+                - generic [ref=f42e612]: Taller Central
+                - generic [ref=f42e613]: $700.00
+                - generic [ref=f42e614]: 60,000 km
+              - generic [ref=f42e615]: Rotación
+            - generic [ref=f42e618]:
+              - button [ref=f42e807]
+              - button [ref=f42e808]
+              - button [ref=f42e809]
+          - generic [ref=f42e629]:
+            - generic [ref=f42e630]:
+              - generic [ref=f42e631]:
+                - generic [ref=f42e632]:
+                  - generic [ref=f42e633]: Preventivo
+                  - generic [ref=f42e634]: Completado
+                  - generic [ref=f42e635]: GHL-4512
+                - generic [ref=f42e636]: 28/07/2026
+              - paragraph [ref=f42e637]: “Cambio de aceite y filtros”
+              - separator [ref=f42e638]
+              - generic [ref=f42e639]:
+                - generic [ref=f42e640]: Taller Central
+                - generic [ref=f42e641]: $1,200.00
+                - generic [ref=f42e642]: 45,040 km
+              - generic [ref=f42e643]: Cambio de aceite
+            - generic [ref=f42e646]:
+              - button [ref=f42e810]
+              - button [ref=f42e811]
+              - button [ref=f42e812]
+          - generic [ref=f42e657]:
+            - generic [ref=f42e658]:
+              - generic [ref=f42e659]:
+                - generic [ref=f42e660]:
+                  - generic [ref=f42e661]: Preventivo
+                  - generic [ref=f42e662]: Completado
+                  - generic [ref=f42e663]: QRS-4412
+                - generic [ref=f42e664]: 27/07/2026
+              - paragraph [ref=f42e665]: “Cambio de aceite y filtros”
+              - separator [ref=f42e666]
+              - generic [ref=f42e667]:
+                - generic [ref=f42e668]: Servicio Express
+                - generic [ref=f42e669]: $1,300.00
+                - generic [ref=f42e670]: 75,000 km
+              - generic [ref=f42e671]: Cambio de aceite
+            - generic [ref=f42e674]:
+              - button [ref=f42e813]
+              - button [ref=f42e814]
+              - button [ref=f42e815]
+        - navigation [ref=f42e816]:
+          - generic [ref=f42e688]:
+            - paragraph [ref=f42e690]: Showing 1 to 10 of 12 results
+            - generic [ref=f42e692]:
+              - generic [ref=f42e698]: "1"
+              - button [ref=f42e818]: "2"
+              - button [ref=f42e819]
+    - contentinfo [ref=f42e448]:
+      - generic [ref=f42e449]:
+        - generic [ref=f42e450]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f42e454]:
+          - generic [ref=f42e455]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f42e456]: • Servidor Seguro de Producción
+  - dialog [active] [ref=f42e821]:
+    - heading "Registrado" [level=2] [ref=f42e829]
+    - generic [ref=f42e830]: Mantenimiento registrado.
+    - text: "!"

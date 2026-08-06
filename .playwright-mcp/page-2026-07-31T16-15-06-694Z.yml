@@ -1,0 +1,181 @@
+- generic [ref=f4e1]:
+  - complementary [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - generic [ref=f4e4]: A
+      - generic [ref=f4e5]:
+        - heading [level=1] [ref=f4e237]: Agua Inmaculada
+        - paragraph [ref=f4e7]: Control de Flota
+    - generic [ref=f4e8]:
+      - paragraph [ref=f4e9]: Navegación Admin
+      - navigation [ref=f4e10]:
+        - link [ref=f4e238] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+          - generic [ref=f4e14]: Dashboard / Resumen
+        - paragraph [ref=f4e15]: Vehículos
+        - link [ref=f4e239] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+          - generic [ref=f4e19]: Vehículos
+        - link [ref=f4e240] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+          - generic [ref=f4e23]: Mantenimiento
+        - link [ref=f4e241] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+          - generic [ref=f4e27]: Combustible
+        - paragraph [ref=f4e28]: Rutas
+        - link [ref=f4e242] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+          - generic [ref=f4e32]: Rutas
+        - link [ref=f4e243] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+          - generic [ref=f4e36]: Geolocalización
+        - link [ref=f4e244] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+          - generic [ref=f4e40]: Calendario
+        - paragraph [ref=f4e41]: Operaciones
+        - link [ref=f4e245] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+          - generic [ref=f4e45]: Operadores
+        - link [ref=f4e246] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+          - generic [ref=f4e49]: Gastos
+        - link [ref=f4e247] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+          - generic [ref=f4e53]: Incidencias
+        - link [ref=f4e248] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+          - generic [ref=f4e57]: Evidencias
+        - link [ref=f4e249] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+          - generic [ref=f4e61]: Portería
+        - paragraph [ref=f4e62]: Administración
+        - link [ref=f4e250] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+          - generic [ref=f4e66]: Reportes
+        - link [ref=f4e251] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+          - generic [ref=f4e70]: Usuarios
+        - link [ref=f4e252] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+          - generic [ref=f4e74]: Seguridad OWASP
+        - link [ref=f4e253] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+          - generic [ref=f4e78]: Catálogos
+        - link [ref=f4e254] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+          - generic [ref=f4e82]: Notificaciones
+    - generic [ref=f4e83]:
+      - generic [ref=f4e84]:
+        - generic [ref=f4e85]: AD
+        - generic [ref=f4e86]:
+          - paragraph [ref=f4e87]: Administrador
+          - paragraph [ref=f4e88]: Administrador del sistema
+      - button [ref=f4e255]: Cerrar Sesión
+  - generic [ref=f4e93]:
+    - banner [ref=f4e94]:
+      - generic [ref=f4e95]:
+        - heading [level=2] [ref=f4e256]: Monitoreo de Flota & Control en Tiempo Real
+        - generic [ref=f4e98]: OWASP Top 10 Secured
+      - generic [ref=f4e101]:
+        - link [ref=f4e257] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+          - generic [ref=f4e105]: "18"
+        - generic [ref=f4e106]: 10:15:06 a.m.
+        - generic [ref=f4e110]:
+          - generic [ref=f4e111]:
+            - paragraph [ref=f4e112]: Administrador
+            - paragraph [ref=f4e113]: Administrador del sistema
+          - generic [ref=f4e114]: AD
+    - main [ref=f4e115]:
+      - generic [ref=f4e116]:
+        - generic [ref=f4e117]:
+          - heading [level=3] [ref=f4e258]: Expediente de Unidades Vehiculares (2)
+          - button [ref=f4e259]: Registrar Vehículo
+        - generic [ref=f4e122]:
+          - generic [ref=f4e123]:
+            - generic [ref=f4e124]:
+              - generic [ref=f4e125]:
+                - text: V-1 · MUAKFLOW341
+                - heading [level=4] [ref=f4e260]: Toyota Hilux (2026)
+              - generic [ref=f4e127]: Activa
+            - generic [ref=f4e128]:
+              - generic [ref=f4e129]:
+                - generic [ref=f4e130]: "Placas:"
+                - generic [ref=f4e131]: AAA-BBB-123
+              - generic [ref=f4e132]:
+                - generic [ref=f4e133]: "Kilometraje Actual:"
+                - generic [ref=f4e134]: 1,001 Km
+              - generic [ref=f4e135]:
+                - generic [ref=f4e136]: "Combustible / Tanque:"
+                - generic [ref=f4e137]: Gasolina (80.00 L)
+              - generic [ref=f4e138]: "Último Servicio:"
+              - generic [ref=f4e140]: "Próximo Servicio:"
+              - generic [ref=f4e142]:
+                - generic [ref=f4e143]: "Límite Semanal Autorizado:"
+                - generic [ref=f4e144]: 300.00 L
+              - generic [ref=f4e145]:
+                - generic [ref=f4e146]: "Incidencias Totales:"
+                - generic [ref=f4e147]: 0 registradas
+              - generic [ref=f4e148]:
+                - generic [ref=f4e149]: "GPS:"
+                - generic [ref=f4e150]: Instalado
+            - generic [ref=f4e151]:
+              - generic [ref=f4e152]: "Cambiar Estatus:"
+              - generic [ref=f4e153]:
+                - button [ref=f4e261]: Activa
+                - button [ref=f4e262]: Taller
+                - button [ref=f4e263]: Baja
+            - generic [ref=f4e157]:
+              - button [ref=f4e264]: Expediente
+              - button [ref=f4e265]: Editar
+              - button [ref=f4e266]: Eliminar
+          - generic [ref=f4e267]:
+            - generic [ref=f4e268]:
+              - generic [ref=f4e269]:
+                - text: V-2 · JHFPA23E1K2000101
+                - heading [level=4] [ref=f4e270]: Toyota Hiace (2021)
+              - generic [ref=f4e271]: Activa
+            - generic [ref=f4e272]:
+              - generic [ref=f4e273]:
+                - generic [ref=f4e274]: "Placas:"
+                - generic [ref=f4e275]: GHL-4512
+              - generic [ref=f4e276]:
+                - generic [ref=f4e277]: "Kilometraje Actual:"
+                - generic [ref=f4e278]: 45,000 Km
+              - generic [ref=f4e279]:
+                - generic [ref=f4e280]: "Combustible / Tanque:"
+                - generic [ref=f4e281]: Diesel (80.00 L)
+              - generic [ref=f4e282]:
+                - generic [ref=f4e283]: "Último Servicio:"
+                - generic [ref=f4e284]: 2026-07-31 00:00:00
+              - generic [ref=f4e285]:
+                - generic [ref=f4e286]: "Próximo Servicio:"
+                - generic [ref=f4e287]: 2026-10-29 00:00:00
+              - generic [ref=f4e288]:
+                - generic [ref=f4e289]: "Límite Semanal Autorizado:"
+                - generic [ref=f4e290]: 250.00 L
+              - generic [ref=f4e291]:
+                - generic [ref=f4e292]: "Incidencias Totales:"
+                - generic [ref=f4e293]: 0 registradas
+              - generic [ref=f4e294]:
+                - generic [ref=f4e295]: "GPS:"
+                - generic [ref=f4e296]: Instalado
+            - generic [ref=f4e297]:
+              - generic [ref=f4e298]: "Cambiar Estatus:"
+              - generic [ref=f4e299]:
+                - button [ref=f4e300]: Activa
+                - button [ref=f4e301]: Taller
+                - button [ref=f4e302]: Baja
+            - generic [ref=f4e303]:
+              - button [ref=f4e304]: Expediente
+              - button [ref=f4e305]: Editar
+              - button [ref=f4e306]: Eliminar
+    - contentinfo [ref=f4e161]:
+      - generic [ref=f4e162]:
+        - generic [ref=f4e163]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f4e167]:
+          - generic [ref=f4e168]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f4e169]: • Servidor Seguro de Producción
+  - dialog [active] [ref=f4e308]:
+    - heading "Creado" [level=2] [ref=f4e316]
+    - generic [ref=f4e317]: Vehículo creado correctamente.
+    - text: "!"

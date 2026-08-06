@@ -1,0 +1,289 @@
+- generic [ref=f173e1]:
+  - complementary [ref=f173e2]:
+    - generic [ref=f173e3]:
+      - generic [ref=f173e4]: A
+      - generic [ref=f173e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f173e6]
+        - paragraph [ref=f173e7]: Control de Flota
+    - generic [ref=f173e8]:
+      - paragraph [ref=f173e9]: Navegación Admin
+      - navigation [ref=f173e10]:
+        - link "Dashboard / Resumen" [ref=f173e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f173e15]: Vehículos
+        - link "Vehículos" [ref=f173e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f173e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f173e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f173e28]: Rutas
+        - link "Rutas" [ref=f173e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f173e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f173e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f173e41]: Operaciones
+        - link "Operadores" [ref=f173e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f173e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f173e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f173e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f173e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f173e62]: Administración
+        - link "Reportes" [ref=f173e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f173e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f173e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f173e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f173e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f173e83]:
+      - generic [ref=f173e84]:
+        - generic [ref=f173e85]: AD
+        - generic [ref=f173e86]:
+          - paragraph [ref=f173e87]: Administrador
+          - paragraph [ref=f173e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f173e90]
+  - generic [ref=f173e93]:
+    - banner [ref=f173e94]:
+      - generic [ref=f173e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f173e96]
+        - generic [ref=f173e98]: OWASP Top 10 Secured
+      - generic [ref=f173e101]:
+        - link "18" [ref=f173e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f173e106]: "--:--:--"
+        - generic [ref=f173e110]:
+          - generic [ref=f173e111]:
+            - paragraph [ref=f173e112]: Administrador
+            - paragraph [ref=f173e113]: Administrador del sistema
+          - generic [ref=f173e114]: AD
+    - main [ref=f173e115]:
+      - generic [ref=f173e116]:
+        - generic [ref=f173e117]:
+          - generic [ref=f173e118]:
+            - heading "Control de Combustible y Presupuestos Semanales" [level=1] [ref=f173e119]
+            - paragraph [ref=f173e120]: Contraste de Consumo Real vs. Consumo Autorizado por semana.
+          - button "Registrar Carga" [ref=f173e121]
+        - generic [ref=f173e124]:
+          - generic [ref=f173e125]: "Semana:"
+          - combobox [ref=f173e126]:
+            - option "Esta semana" [selected]
+            - option "Semana del 27/07/2026"
+            - option "Semana del 20/07/2026"
+            - option "Semana del 13/07/2026"
+            - option "Semana del 06/07/2026"
+            - option "Semana del 29/06/2026"
+            - option "Semana del 22/06/2026"
+            - option "Semana del 15/06/2026"
+          - generic [ref=f173e127]: (03/08/2026 — 09/08/2026)
+        - generic [ref=f173e128]:
+          - generic [ref=f173e129]:
+            - heading "Consumo de Combustible por Unidad (Semanal)" [level=3] [ref=f173e130]
+            - generic [ref=f173e131]:
+              - generic [ref=f173e132]:
+                - generic [ref=f173e133]:
+                  - generic [ref=f173e134]: AAA-BBB-123
+                  - generic [ref=f173e135]:
+                    - generic [ref=f173e136]: — / 300.0L
+                    - generic [ref=f173e137]: 13.3%
+                - paragraph [ref=f173e140]: "* Basado en litros comprados (sin datos de nivel de combustible)"
+                - generic [ref=f173e141]:
+                  - generic [ref=f173e142]: "Autorizado:"
+                  - generic [ref=f173e143]: 300.0 L
+                  - button [ref=f173e144]
+              - generic [ref=f173e147]:
+                - generic [ref=f173e148]:
+                  - generic [ref=f173e149]: GHL-4512
+                  - generic [ref=f173e150]:
+                    - generic [ref=f173e151]: — / 250.0L
+                    - generic [ref=f173e152]: 12.0%
+                - paragraph [ref=f173e155]: "* Basado en litros comprados (sin datos de nivel de combustible)"
+                - generic [ref=f173e156]:
+                  - generic [ref=f173e157]: "Autorizado:"
+                  - generic [ref=f173e158]: 250.0 L
+                  - button [ref=f173e159]
+              - generic [ref=f173e162]:
+                - generic [ref=f173e163]:
+                  - generic [ref=f173e164]: HTR-7823
+                  - generic [ref=f173e165]:
+                    - generic [ref=f173e166]: — / 280.0L
+                    - generic [ref=f173e167]: 12.5%
+                - paragraph [ref=f173e170]: "* Basado en litros comprados (sin datos de nivel de combustible)"
+                - generic [ref=f173e171]:
+                  - generic [ref=f173e172]: "Autorizado:"
+                  - generic [ref=f173e173]: 280.0 L
+                  - button [ref=f173e174]
+              - generic [ref=f173e177]:
+                - generic [ref=f173e178]:
+                  - generic [ref=f173e179]: JKL-9911
+                  - generic [ref=f173e180]:
+                    - generic [ref=f173e181]: — / 500.0L
+                    - generic [ref=f173e182]: 12.0%
+                - paragraph [ref=f173e185]: "* Basado en litros comprados (sin datos de nivel de combustible)"
+                - generic [ref=f173e186]:
+                  - generic [ref=f173e187]: "Autorizado:"
+                  - generic [ref=f173e188]: 500.0 L
+                  - button [ref=f173e189]
+              - generic [ref=f173e192]:
+                - generic [ref=f173e193]:
+                  - generic [ref=f173e194]: MXZ-3322
+                  - generic [ref=f173e195]:
+                    - generic [ref=f173e196]: — / 650.0L
+                    - generic [ref=f173e197]: 11.5%
+                - paragraph [ref=f173e200]: "* Basado en litros comprados (sin datos de nivel de combustible)"
+                - generic [ref=f173e201]:
+                  - generic [ref=f173e202]: "Autorizado:"
+                  - generic [ref=f173e203]: 650.0 L
+                  - button [ref=f173e204]
+              - generic [ref=f173e207]:
+                - generic [ref=f173e208]:
+                  - generic [ref=f173e209]: CDE-5567
+                  - generic [ref=f173e210]:
+                    - generic [ref=f173e211]: — / 320.0L
+                    - generic [ref=f173e212]: 14.1%
+                - paragraph [ref=f173e215]: "* Basado en litros comprados (sin datos de nivel de combustible)"
+                - generic [ref=f173e216]:
+                  - generic [ref=f173e217]: "Autorizado:"
+                  - generic [ref=f173e218]: 320.0 L
+                  - button [ref=f173e219]
+          - generic [ref=f173e222]:
+            - heading "Historial de Tickets" [level=3] [ref=f173e224]
+            - generic [ref=f173e225]:
+              - textbox "Buscar (folio, operador, placa...)" [ref=f173e226]
+              - generic [ref=f173e227]:
+                - combobox [ref=f173e228]:
+                  - 'option "Vehículo: Todos" [selected]'
+                  - option "AAA-BBB-123"
+                  - option "GHL-4512"
+                  - option "HTR-7823"
+                  - option "JKL-9911"
+                  - option "MXZ-3322"
+                  - option "CDE-5567"
+                - combobox [ref=f173e229]:
+                  - 'option "Status: Todos" [selected]'
+                  - option "Pendiente"
+                  - option "Aprobado"
+                  - option "Rechazado"
+            - generic [ref=f173e230]:
+              - generic [ref=f173e231]:
+                - generic [ref=f173e232]:
+                  - generic [ref=f173e233]: "#1"
+                  - generic [ref=f173e234]: Aprobado
+                - generic [ref=f173e235]:
+                  - generic [ref=f173e236]: 40.0L
+                  - generic [ref=f173e237]: Juan Pérez
+                - generic [ref=f173e238]:
+                  - generic [ref=f173e239]: 48,200 km
+                  - generic [ref=f173e240]: $960.00
+                - generic [ref=f173e241]:
+                  - generic [ref=f173e242]: Tarjeta
+                  - generic [ref=f173e243]: 03/08/2026
+                - generic [ref=f173e244]:
+                  - button "Ver detalle" [ref=f173e245]
+                  - button "Editar" [ref=f173e249]
+                  - button "Eliminar" [ref=f173e252]
+              - generic [ref=f173e255]:
+                - generic [ref=f173e256]:
+                  - generic [ref=f173e257]: "#2"
+                  - generic [ref=f173e258]: Aprobado
+                - generic [ref=f173e259]:
+                  - generic [ref=f173e260]: 30.0L
+                  - generic [ref=f173e261]: Juan Pérez
+                - generic [ref=f173e262]:
+                  - generic [ref=f173e263]: 61,200 km
+                  - generic [ref=f173e264]: $720.00
+                - generic [ref=f173e265]:
+                  - generic [ref=f173e266]: Tarjeta
+                  - generic [ref=f173e267]: 03/08/2026
+                - generic [ref=f173e268]:
+                  - button "Ver detalle" [ref=f173e269]
+                  - button "Editar" [ref=f173e273]
+                  - button "Eliminar" [ref=f173e276]
+              - generic [ref=f173e279]:
+                - generic [ref=f173e280]:
+                  - generic [ref=f173e281]: "#3"
+                  - generic [ref=f173e282]: Pendiente
+                - generic [ref=f173e283]:
+                  - generic [ref=f173e284]: 35.0L
+                  - generic [ref=f173e285]: Juan Pérez
+                - generic [ref=f173e286]:
+                  - generic [ref=f173e287]: 38,500 km
+                  - generic [ref=f173e288]: $840.00
+                - generic [ref=f173e289]:
+                  - generic [ref=f173e290]: Efectivo
+                  - generic [ref=f173e291]: 03/08/2026
+                - generic [ref=f173e292]:
+                  - button "Ver detalle" [ref=f173e293]
+                  - button "Editar" [ref=f173e297]
+                  - button "Aprobar" [ref=f173e300]
+                  - button "Rechazar" [ref=f173e303]
+                  - button "Eliminar" [ref=f173e306]
+              - generic [ref=f173e309]:
+                - generic [ref=f173e310]:
+                  - generic [ref=f173e311]: "#4"
+                  - generic [ref=f173e312]: Aprobado
+                - generic [ref=f173e313]:
+                  - generic [ref=f173e314]: 60.0L
+                  - generic [ref=f173e315]: Juan Pérez
+                - generic [ref=f173e316]:
+                  - generic [ref=f173e317]: 142,000 km
+                  - generic [ref=f173e318]: $1,800.00
+                - generic [ref=f173e319]:
+                  - generic [ref=f173e320]: Tarjeta
+                  - generic [ref=f173e321]: 03/08/2026
+                - generic [ref=f173e322]:
+                  - button "Ver detalle" [ref=f173e323]
+                  - button "Editar" [ref=f173e327]
+                  - button "Eliminar" [ref=f173e330]
+              - generic [ref=f173e333]:
+                - generic [ref=f173e334]:
+                  - generic [ref=f173e335]: "#5"
+                  - generic [ref=f173e336]: Pendiente
+                - generic [ref=f173e337]:
+                  - generic [ref=f173e338]: 75.0L
+                  - generic [ref=f173e339]: Juan Pérez
+                - generic [ref=f173e340]:
+                  - generic [ref=f173e341]: 198,500 km
+                  - generic [ref=f173e342]: $2,250.00
+                - generic [ref=f173e343]:
+                  - generic [ref=f173e344]: Vales
+                  - generic [ref=f173e345]: 03/08/2026
+                - generic [ref=f173e346]:
+                  - button "Ver detalle" [ref=f173e347]
+                  - button "Editar" [ref=f173e351]
+                  - button "Aprobar" [ref=f173e354]
+                  - button "Rechazar" [ref=f173e357]
+                  - button "Eliminar" [ref=f173e360]
+              - generic [ref=f173e363]:
+                - generic [ref=f173e364]:
+                  - generic [ref=f173e365]: "#6"
+                  - generic [ref=f173e366]: Aprobado
+                - generic [ref=f173e367]:
+                  - generic [ref=f173e368]: 45.0L
+                  - generic [ref=f173e369]: Juan Pérez
+                - generic [ref=f173e370]:
+                  - generic [ref=f173e371]: 28,700 km
+                  - generic [ref=f173e372]: $1,080.00
+                - generic [ref=f173e373]:
+                  - generic [ref=f173e374]: Tarjeta
+                  - generic [ref=f173e375]: 03/08/2026
+                - generic [ref=f173e376]:
+                  - button "Ver detalle" [ref=f173e377]
+                  - button "Editar" [ref=f173e381]
+                  - button "Eliminar" [ref=f173e384]
+    - contentinfo [ref=f173e387]:
+      - generic [ref=f173e388]:
+        - generic [ref=f173e389]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f173e393]:
+          - generic [ref=f173e394]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f173e395]: • Servidor Seguro de Producción

@@ -1,0 +1,184 @@
+- generic [ref=f7e1]:
+  - complementary [ref=f7e2]:
+    - generic [ref=f7e3]:
+      - generic [ref=f7e4]: A
+      - generic [ref=f7e5]:
+        - heading [level=1] [ref=f7e522]: Agua Inmaculada
+        - paragraph [ref=f7e7]: Control de Flota
+    - generic [ref=f7e8]:
+      - paragraph [ref=f7e9]: Navegación Admin
+      - navigation [ref=f7e10]:
+        - link [ref=f7e523] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+          - generic [ref=f7e14]: Dashboard / Resumen
+        - paragraph [ref=f7e15]: Vehículos
+        - link [ref=f7e524] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+          - generic [ref=f7e19]: Vehículos
+        - link [ref=f7e525] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+          - generic [ref=f7e23]: Mantenimiento
+        - link [ref=f7e526] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+          - generic [ref=f7e27]: Combustible
+        - paragraph [ref=f7e28]: Rutas
+        - link [ref=f7e527] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+          - generic [ref=f7e32]: Rutas
+        - link [ref=f7e528] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+          - generic [ref=f7e36]: Geolocalización
+        - link [ref=f7e529] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+          - generic [ref=f7e40]: Calendario
+        - paragraph [ref=f7e41]: Operaciones
+        - link [ref=f7e530] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+          - generic [ref=f7e45]: Operadores
+        - link [ref=f7e531] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+          - generic [ref=f7e49]: Gastos
+        - link [ref=f7e532] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+          - generic [ref=f7e53]: Incidencias
+        - link [ref=f7e533] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+          - generic [ref=f7e57]: Evidencias
+        - link [ref=f7e534] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+          - generic [ref=f7e61]: Portería
+        - paragraph [ref=f7e62]: Administración
+        - link [ref=f7e535] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+          - generic [ref=f7e66]: Reportes
+        - link [ref=f7e536] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+          - generic [ref=f7e70]: Usuarios
+        - link [ref=f7e537] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+          - generic [ref=f7e74]: Seguridad OWASP
+        - link [ref=f7e538] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+          - generic [ref=f7e78]: Catálogos
+        - link [ref=f7e539] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+          - generic [ref=f7e82]: Notificaciones
+    - generic [ref=f7e83]:
+      - generic [ref=f7e84]:
+        - generic [ref=f7e85]: AD
+        - generic [ref=f7e86]:
+          - paragraph [ref=f7e87]: Administrador
+          - paragraph [ref=f7e88]: Administrador del sistema
+      - button [ref=f7e540]: Cerrar Sesión
+  - generic [ref=f7e93]:
+    - banner [ref=f7e94]:
+      - generic [ref=f7e95]:
+        - heading [level=2] [ref=f7e541]: Monitoreo de Flota & Control en Tiempo Real
+        - generic [ref=f7e98]: OWASP Top 10 Secured
+      - generic [ref=f7e101]:
+        - link [ref=f7e542] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+          - generic [ref=f7e105]: "55"
+        - generic [ref=f7e106]: 5:55:39 p.m.
+        - generic [ref=f7e110]:
+          - generic [ref=f7e111]:
+            - paragraph [ref=f7e112]: Administrador
+            - paragraph [ref=f7e113]: Administrador del sistema
+          - generic [ref=f7e114]: AD
+    - main [ref=f7e115]:
+      - generic [ref=f7e116]:
+        - generic [ref=f7e117]:
+          - generic [ref=f7e118]:
+            - heading [level=1] [ref=f7e543]: Control de Gastos
+            - paragraph [ref=f7e120]: Registro y aprobación de gastos operativos.
+          - generic [ref=f7e121]:
+            - button [ref=f7e544]: Nueva Tarjeta
+            - button [ref=f7e545]: Registrar Gasto
+        - generic [ref=f7e128]:
+          - heading [level=3] [ref=f7e546]: Tarjetas Registradas
+          - table [ref=f7e131]:
+            - rowgroup [ref=f7e132]:
+              - row [ref=f7e547]:
+                - columnheader [ref=f7e548]: Vehículo
+                - columnheader [ref=f7e549]: Nº Tarjeta
+                - columnheader [ref=f7e550]: Autorizado
+                - columnheader [ref=f7e551]: Gastado (Mes)
+                - columnheader [ref=f7e552]: Disponible
+                - columnheader [ref=f7e553]: Uso
+                - columnheader [ref=f7e554]: Acciones
+            - rowgroup [ref=f7e141]:
+              - row [ref=f7e555]:
+                - cell [ref=f7e556]: AAA-BBB-123 · Toyota Hilux
+                - cell [ref=f7e557]: •••• 1234
+                - cell [ref=f7e558]: $2,500.00
+                - cell [ref=f7e559]: $0.00
+                - cell [ref=f7e560]: $2,500.00
+                - cell [ref=f7e561]:
+                  - generic [ref=f7e149]: 0%
+                - cell [ref=f7e152]:
+                  - generic [ref=f7e153]:
+                    - button [ref=f7e562]
+                    - button [ref=f7e563]
+              - row [ref=f7e564]:
+                - cell [ref=f7e565]: GHL-4512 · Toyota Hiace
+                - cell [ref=f7e566]: •••• 0001
+                - cell [ref=f7e567]: $2,500.00
+                - cell [ref=f7e568]: $0.00
+                - cell [ref=f7e569]: $2,500.00
+                - cell [ref=f7e570]:
+                  - generic [ref=f7e257]: 0%
+                - cell [ref=f7e260]:
+                  - generic [ref=f7e261]:
+                    - button [ref=f7e571]
+                    - button [ref=f7e572]
+              - row [ref=f7e573]:
+                - cell [ref=f7e574]: HTR-7823 · Nissan Frontier
+                - cell [ref=f7e575]: •••• 0002
+                - cell [ref=f7e576]: $2,500.00
+                - cell [ref=f7e577]: $0.00
+                - cell [ref=f7e578]: $2,500.00
+                - cell [ref=f7e579]:
+                  - generic [ref=f7e414]: 0%
+                - cell [ref=f7e417]:
+                  - generic [ref=f7e418]:
+                    - button [ref=f7e580]
+                    - button [ref=f7e581]
+              - row [ref=f7e582]:
+                - cell [ref=f7e583]: JKL-9911 · Isuzu NQR
+                - cell [ref=f7e584]: •••• 0003
+                - cell [ref=f7e585]: $3,000.00
+                - cell [ref=f7e586]: $0.00
+                - cell [ref=f7e587]: $3,000.00
+                - cell [ref=f7e588]:
+                  - generic [ref=f7e589]: 0%
+                - cell [ref=f7e592]:
+                  - generic [ref=f7e593]:
+                    - button [ref=f7e594]
+                    - button [ref=f7e597]
+        - generic [ref=f7e160]:
+          - heading [level=3] [ref=f7e600]: Historial de Gastos
+          - table [ref=f7e163]:
+            - rowgroup [ref=f7e164]:
+              - row [ref=f7e601]:
+                - columnheader [ref=f7e602]: "#"
+                - columnheader [ref=f7e603]: Fecha
+                - columnheader [ref=f7e604]: Vehículo
+                - columnheader [ref=f7e605]: Ruta
+                - columnheader [ref=f7e606]: Tipo
+                - columnheader [ref=f7e607]: Descripción
+                - columnheader [ref=f7e608]: Monto
+                - columnheader [ref=f7e609]: Estado
+                - columnheader [ref=f7e610]: Acciones
+            - rowgroup [ref=f7e175]:
+              - row [ref=f7e611]:
+                - cell [ref=f7e612]: Sin gastos registrados
+    - contentinfo [ref=f7e178]:
+      - generic [ref=f7e179]:
+        - generic [ref=f7e180]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f7e184]:
+          - generic [ref=f7e185]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f7e186]: • Servidor Seguro de Producción
+  - dialog [active] [ref=f7e614]:
+    - heading "Tarjeta registrada" [level=2] [ref=f7e622]
+    - generic [ref=f7e623]: Tarjeta asignada al vehículo correctamente.
+    - text: "!"

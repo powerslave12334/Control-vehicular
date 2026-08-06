@@ -1,0 +1,118 @@
+- generic [ref=f3e1]:
+  - complementary [ref=f3e2]:
+    - generic [ref=f3e3]:
+      - generic [ref=f3e4]: A
+      - generic [ref=f3e5]:
+        - heading [level=1] [ref=f3e757]: Agua Inmaculada
+        - paragraph [ref=f3e7]: Control de Flota
+    - generic [ref=f3e8]:
+      - paragraph [ref=f3e9]: Navegación Admin
+      - navigation [ref=f3e10]:
+        - link [ref=f3e758] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+          - generic [ref=f3e14]: Dashboard / Resumen
+        - paragraph [ref=f3e15]: Vehículos
+        - link [ref=f3e759] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+          - generic [ref=f3e19]: Vehículos
+        - link [ref=f3e760] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+          - generic [ref=f3e23]: Mantenimiento
+        - link [ref=f3e761] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+          - generic [ref=f3e27]: Combustible
+        - paragraph [ref=f3e28]: Rutas
+        - link [ref=f3e762] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+          - generic [ref=f3e32]: Rutas
+        - link [ref=f3e763] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+          - generic [ref=f3e36]: Geolocalización
+        - link [ref=f3e764] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+          - generic [ref=f3e40]: Calendario
+        - paragraph [ref=f3e41]: Operaciones
+        - link [ref=f3e765] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+          - generic [ref=f3e45]: Operadores
+        - link [ref=f3e766] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+          - generic [ref=f3e49]: Gastos
+        - link [ref=f3e767] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+          - generic [ref=f3e53]: Incidencias
+        - link [ref=f3e768] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+          - generic [ref=f3e57]: Evidencias
+        - link [ref=f3e769] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+          - generic [ref=f3e61]: Portería
+        - paragraph [ref=f3e62]: Administración
+        - link [ref=f3e770] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+          - generic [ref=f3e66]: Reportes
+        - link [ref=f3e771] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+          - generic [ref=f3e70]: Usuarios
+        - link [ref=f3e772] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+          - generic [ref=f3e74]: Seguridad OWASP
+        - link [ref=f3e773] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+          - generic [ref=f3e78]: Catálogos
+        - link [ref=f3e774] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+          - generic [ref=f3e82]: Notificaciones
+    - generic [ref=f3e83]:
+      - generic [ref=f3e84]:
+        - generic [ref=f3e85]: AD
+        - generic [ref=f3e86]:
+          - paragraph [ref=f3e87]: Administrador
+          - paragraph [ref=f3e88]: Administrador del sistema
+      - button [ref=f3e775]: Cerrar Sesión
+  - generic [ref=f3e93]:
+    - banner [ref=f3e94]:
+      - generic [ref=f3e95]:
+        - heading [level=2] [ref=f3e776]: Monitoreo de Flota & Control en Tiempo Real
+        - generic [ref=f3e98]: OWASP Top 10 Secured
+      - generic [ref=f3e101]:
+        - link [ref=f3e777] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+          - generic [ref=f3e105]: "46"
+        - generic [ref=f3e106]: 5:46:19 p.m.
+        - generic [ref=f3e110]:
+          - generic [ref=f3e111]:
+            - paragraph [ref=f3e112]: Administrador
+            - paragraph [ref=f3e113]: Administrador del sistema
+          - generic [ref=f3e114]: AD
+    - main [ref=f3e115]:
+      - generic [ref=f3e116]:
+        - generic [ref=f3e117]:
+          - heading [level=3] [ref=f3e778]: Programa de Instalaciones y Rutas de la Flota
+          - button [ref=f3e779]: Programar Nueva Ruta
+        - table [ref=f3e123]:
+          - rowgroup [ref=f3e124]:
+            - row [ref=f3e780]:
+              - columnheader [ref=f3e781]: ID
+              - columnheader [ref=f3e782]: Fecha
+              - columnheader [ref=f3e783]: Cliente / Proyecto
+              - columnheader [ref=f3e784]: Vehículo
+              - columnheader [ref=f3e785]: Operador
+              - columnheader [ref=f3e786]: Km Planeados
+              - columnheader [ref=f3e787]: Km Reales
+              - columnheader [ref=f3e788]: Gasto Autorizado
+              - columnheader [ref=f3e789]: Estatus
+              - columnheader [ref=f3e790]: Acciones
+          - rowgroup [ref=f3e136]:
+            - row [ref=f3e791]:
+              - cell [ref=f3e792]: No hay rutas registradas
+    - contentinfo [ref=f3e266]:
+      - generic [ref=f3e267]:
+        - generic [ref=f3e268]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f3e272]:
+          - generic [ref=f3e273]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f3e274]: • Servidor Seguro de Producción
+  - dialog [active] [ref=f3e815]:
+    - heading "Eliminada" [level=2] [ref=f3e823]
+    - generic [ref=f3e824]: Ruta eliminada correctamente.
+    - text: "!"

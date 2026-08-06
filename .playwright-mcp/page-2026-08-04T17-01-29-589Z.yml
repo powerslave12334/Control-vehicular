@@ -1,0 +1,251 @@
+- generic [ref=f22e1]:
+  - banner [ref=f22e2]:
+    - generic [ref=f22e3]:
+      - generic [ref=f22e4]:
+        - generic [ref=f22e5]: P
+        - generic [ref=f22e6]:
+          - text: Portería
+          - paragraph [ref=f22e7]: Administrador
+      - generic [ref=f22e8]:
+        - link "Inicio" [ref=f22e9] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - button "Cerrar sesión" [ref=f22e13]
+  - main [ref=f22e16]:
+    - generic [ref=f22e17]:
+      - generic [ref=f22e18]:
+        - generic [ref=f22e19]:
+          - generic [ref=f22e20]:
+            - paragraph [ref=f22e21]: Garita · Agua Inmaculada
+            - heading "Bitácora de portería" [level=2] [ref=f22e22]
+            - paragraph [ref=f22e23]: Registro de entradas y salidas de vehículos de la flota.
+          - generic [ref=f22e24]:
+            - paragraph [ref=f22e25]: 04 AGO. 2026
+            - generic [ref=f22e26]:
+              - generic [ref=f22e27]: Hora
+              - generic [ref=f22e28]: 11:01:29
+        - generic [ref=f22e29]:
+          - generic [ref=f22e34]:
+            - paragraph [ref=f22e35]: "5"
+            - paragraph [ref=f22e36]: Entradas hoy
+          - generic [ref=f22e41]:
+            - paragraph [ref=f22e42]: "5"
+            - paragraph [ref=f22e43]: Salidas hoy
+          - generic [ref=f22e48]:
+            - paragraph [ref=f22e49]: "5"
+            - paragraph [ref=f22e50]: En patio
+      - generic [ref=f22e51]:
+        - generic [ref=f22e53]:
+          - generic [ref=f22e54]:
+            - paragraph [ref=f22e55]: Nuevo pase
+            - heading "Registrar pase" [level=3] [ref=f22e56]
+          - generic [ref=f22e57]:
+            - generic [ref=f22e58]:
+              - generic [ref=f22e59]: Sentido
+              - generic [ref=f22e60]:
+                - generic [ref=f22e61] [cursor=pointer]:
+                  - radio "Entrada" [checked] [ref=f22e62]
+                  - text: Entrada
+                - generic [ref=f22e65] [cursor=pointer]:
+                  - radio "Salida" [ref=f22e66]
+                  - text: Salida
+            - generic [ref=f22e69]:
+              - generic [ref=f22e70]: Vehículo
+              - combobox [ref=f22e71]:
+                - option "Seleccionar…" [selected]
+                - option "AAA-BBB-123 · Toyota Hilux 4x4"
+                - option "GHL-4512 · Toyota Hiace"
+                - option "HTR-7823 · Nissan Frontier"
+                - option "JKL-9911 · Isuzu NQR"
+                - option "MXZ-3322 · Freightliner M2 106"
+                - option "CDE-5567 · Chevrolet Silverado"
+                - option "FGH-8876 · Ford Transit"
+                - option "RST-2233 · Mercedes Benz Sprinter"
+                - option "WXY-1001 · Kenworth T800"
+                - option "QRS-4412 · Toyota Tundra"
+                - option "MNO-7788 · Mitsubishi Fuso Canter"
+                - option "PQR-3344 · RAM Promaster"
+            - generic [ref=f22e72]:
+              - generic [ref=f22e73]:
+                - generic [ref=f22e74]: Conductor
+                - textbox [ref=f22e75]
+              - generic [ref=f22e76]:
+                - generic [ref=f22e77]: Folio
+                - textbox "R-2026-001" [ref=f22e78]
+              - generic [ref=f22e79]:
+                - generic [ref=f22e80]: Fecha entrada
+                - textbox [ref=f22e81]: 2026-08-04
+              - generic [ref=f22e82]:
+                - generic [ref=f22e83]: Hora entrada
+                - textbox [ref=f22e84]: 17:01
+              - generic [ref=f22e85]:
+                - generic [ref=f22e86]: Kilometraje
+                - spinbutton "45 230" [ref=f22e87]
+              - generic [ref=f22e88]:
+                - generic [ref=f22e89]: Gasolina
+                - combobox [ref=f22e90]:
+                  - option "Seleccionar…" [selected]
+                  - option "80%"
+                  - option "60%"
+                  - option "40%"
+                  - option "20% (Reserva)"
+                  - option "100% (Lleno)"
+            - generic [ref=f22e91]:
+              - generic [ref=f22e92]:
+                - generic [ref=f22e93]: Estado del vehículo
+                - combobox [ref=f22e94]:
+                  - option "Seleccionar…" [selected]
+                  - option "Bueno"
+                  - option "Regular"
+                  - option "Malo"
+              - generic [ref=f22e95]:
+                - generic [ref=f22e96]: Foto del vehículo
+                - button "Choose File" [ref=f22e97]
+            - generic [ref=f22e98]:
+              - generic [ref=f22e99]: Firma
+              - generic [ref=f22e102]:
+                - generic [ref=f22e103]: Firme aquí
+                - button "Borrar firma" [ref=f22e104]
+            - generic [ref=f22e105]:
+              - generic [ref=f22e106]: Observaciones
+              - textbox [ref=f22e107]
+            - generic [ref=f22e108]:
+              - button "Registrar pase" [ref=f22e109]
+              - button "Borrar campos" [ref=f22e110]
+        - generic [ref=f22e112]:
+          - generic [ref=f22e113]:
+            - generic [ref=f22e114]:
+              - paragraph [ref=f22e115]: Bitácora
+              - heading "martes 04 de agosto" [level=3] [ref=f22e116]
+            - generic [ref=f22e117]: 10 pases
+          - table [ref=f22e119]:
+            - rowgroup [ref=f22e120]:
+              - row [ref=f22e121]:
+                - columnheader "Hora" [ref=f22e122]
+                - columnheader "Sentido" [ref=f22e123]
+                - columnheader "Placa" [ref=f22e124]
+                - columnheader "Conductor" [ref=f22e125]
+                - columnheader "Km" [ref=f22e126]
+                - columnheader "Gas" [ref=f22e127]
+                - columnheader "Firma" [ref=f22e128]
+                - columnheader "Acciones" [ref=f22e129]
+            - rowgroup [ref=f22e131]:
+              - row [ref=f22e132]:
+                - cell "12:00:00" [ref=f22e133]
+                - cell [ref=f22e134]
+                - cell "WXY-1001" [ref=f22e138]
+                - cell "Ana Torres" [ref=f22e139]
+                - cell "221,340" [ref=f22e140]
+                - cell "80%" [ref=f22e141]
+                - cell "Firmado" [ref=f22e142]
+                - cell [ref=f22e143]:
+                  - generic [ref=f22e144]:
+                    - button "Ver firma" [ref=f22e145]
+                    - button "Eliminar" [ref=f22e148]
+              - row [ref=f22e151]:
+                - cell "10:30:00" [ref=f22e152]
+                - cell [ref=f22e153]
+                - cell "FGH-8876" [ref=f22e157]
+                - cell "Carlos Ruiz" [ref=f22e158]
+                - cell "66,320" [ref=f22e159]
+                - cell "100%" [ref=f22e160]
+                - cell "Firmado" [ref=f22e161]
+                - cell [ref=f22e162]:
+                  - generic [ref=f22e163]:
+                    - button "Ver firma" [ref=f22e164]
+                    - button "Eliminar" [ref=f22e167]
+              - row [ref=f22e170]:
+                - cell "09:50:00" [ref=f22e171]
+                - cell [ref=f22e172]
+                - cell "MXZ-3322" [ref=f22e176]
+                - cell "María Gómez" [ref=f22e177]
+                - cell "118,450" [ref=f22e178]
+                - cell "40%" [ref=f22e179]
+                - cell "Firmado" [ref=f22e180]
+                - cell [ref=f22e181]:
+                  - generic [ref=f22e182]:
+                    - button "Ver firma" [ref=f22e183]
+                    - button "Eliminar" [ref=f22e186]
+              - row [ref=f22e189]:
+                - cell "08:40:00" [ref=f22e190]
+                - cell [ref=f22e191]
+                - cell "JKL-9911" [ref=f22e195]
+                - cell "Luis Martínez" [ref=f22e196]
+                - cell "42,110" [ref=f22e197]
+                - cell "80%" [ref=f22e198]
+                - cell "Firmado" [ref=f22e199]
+                - cell [ref=f22e200]:
+                  - generic [ref=f22e201]:
+                    - button "Ver firma" [ref=f22e202]
+                    - button "Eliminar" [ref=f22e205]
+              - row [ref=f22e208]:
+                - cell "07:30:00" [ref=f22e209]
+                - cell [ref=f22e210]
+                - cell "GHL-4512" [ref=f22e214]
+                - cell "Juan Pérez" [ref=f22e215]
+                - cell "78,010" [ref=f22e216]
+                - cell "60%" [ref=f22e217]
+                - cell "Firmado" [ref=f22e218]
+                - cell [ref=f22e219]:
+                  - generic [ref=f22e220]:
+                    - button "Ver firma" [ref=f22e221]
+                    - button "Eliminar" [ref=f22e224]
+              - row [ref=f22e227]:
+                - cell "11:25:00" [ref=f22e228]
+                - cell [ref=f22e229]
+                - cell "MNO-7788" [ref=f22e233]
+                - cell "—" [ref=f22e234]
+                - cell "15,500" [ref=f22e235]
+                - cell "80%" [ref=f22e236]
+                - cell "Firmado" [ref=f22e237]
+                - cell [ref=f22e238]:
+                  - generic [ref=f22e239]:
+                    - button "Ver firma" [ref=f22e240]
+                    - button "Eliminar" [ref=f22e243]
+              - row [ref=f22e246]:
+                - cell "09:22:00" [ref=f22e247]
+                - cell [ref=f22e248]
+                - cell "RST-2233" [ref=f22e252]
+                - cell "—" [ref=f22e253]
+                - cell "92,480" [ref=f22e254]
+                - cell "40%" [ref=f22e255]
+                - cell "Firmado" [ref=f22e256]
+                - cell [ref=f22e257]:
+                  - generic [ref=f22e258]:
+                    - button "Ver firma" [ref=f22e259]
+                    - button "Eliminar" [ref=f22e262]
+              - row [ref=f22e265]:
+                - cell "08:21:00" [ref=f22e266]
+                - cell [ref=f22e267]
+                - cell "CDE-5567" [ref=f22e271]
+                - cell "—" [ref=f22e272]
+                - cell "38,110" [ref=f22e273]
+                - cell "100%" [ref=f22e274]
+                - cell "Firmado" [ref=f22e275]
+                - cell [ref=f22e276]:
+                  - generic [ref=f22e277]:
+                    - button "Ver firma" [ref=f22e278]
+                    - button "Eliminar" [ref=f22e281]
+              - row [ref=f22e284]:
+                - cell "07:20:00" [ref=f22e285]
+                - cell [ref=f22e286]
+                - cell "HTR-7823" [ref=f22e290]
+                - cell "—" [ref=f22e291]
+                - cell "61,250" [ref=f22e292]
+                - cell "60%" [ref=f22e293]
+                - cell "Firmado" [ref=f22e294]
+                - cell [ref=f22e295]:
+                  - generic [ref=f22e296]:
+                    - button "Ver firma" [ref=f22e297]
+                    - button "Eliminar" [ref=f22e300]
+              - row [ref=f22e303]:
+                - cell "07:15:00" [ref=f22e304]
+                - cell [ref=f22e305]
+                - cell "AAA-BBB-123" [ref=f22e309]
+                - cell "—" [ref=f22e310]
+                - cell "45,230" [ref=f22e311]
+                - cell "80%" [ref=f22e312]
+                - cell "Firmado" [ref=f22e313]
+                - cell [ref=f22e314]:
+                  - generic [ref=f22e315]:
+                    - button "Ver firma" [ref=f22e316]
+                    - button "Eliminar" [ref=f22e319]

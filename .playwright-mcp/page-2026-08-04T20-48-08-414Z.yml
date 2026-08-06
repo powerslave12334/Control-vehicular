@@ -1,0 +1,308 @@
+- generic [ref=f10e1]:
+  - complementary [ref=f10e2]:
+    - generic [ref=f10e3]:
+      - generic [ref=f10e4]: A
+      - generic [ref=f10e5]:
+        - heading [level=1] [ref=f10e615]: Agua Inmaculada
+        - paragraph [ref=f10e7]: Control de Flota
+    - generic [ref=f10e8]:
+      - paragraph [ref=f10e9]: Navegación Admin
+      - navigation [ref=f10e10]:
+        - link [ref=f10e616] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+          - generic [ref=f10e14]: Dashboard / Resumen
+        - paragraph [ref=f10e15]: Vehículos
+        - link [ref=f10e617] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+          - generic [ref=f10e19]: Vehículos
+        - link [ref=f10e618] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+          - generic [ref=f10e23]: Mantenimiento
+        - link [ref=f10e619] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+          - generic [ref=f10e27]: Combustible
+        - paragraph [ref=f10e28]: Rutas
+        - link [ref=f10e620] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+          - generic [ref=f10e32]: Rutas
+        - link [ref=f10e621] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+          - generic [ref=f10e36]: Geolocalización
+        - link [ref=f10e622] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+          - generic [ref=f10e40]: Calendario
+        - paragraph [ref=f10e41]: Operaciones
+        - link [ref=f10e623] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+          - generic [ref=f10e45]: Operadores
+        - link [ref=f10e624] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+          - generic [ref=f10e49]: Gastos
+        - link [ref=f10e625] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+          - generic [ref=f10e53]: Incidencias
+        - link [ref=f10e626] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+          - generic [ref=f10e57]: Evidencias
+        - link [ref=f10e627] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+          - generic [ref=f10e61]: Portería
+        - link [ref=f10e628] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate/logs
+          - generic [ref=f10e65]: Bitácora
+        - paragraph [ref=f10e66]: Administración
+        - link [ref=f10e629] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+          - generic [ref=f10e70]: Reportes
+        - link [ref=f10e630] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+          - generic [ref=f10e74]: Usuarios
+        - link [ref=f10e631] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+          - generic [ref=f10e78]: Seguridad OWASP
+        - link [ref=f10e632] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+          - generic [ref=f10e82]: Catálogos
+        - link [ref=f10e633] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+          - generic [ref=f10e86]: Notificaciones
+    - generic [ref=f10e87]:
+      - generic [ref=f10e88]:
+        - generic [ref=f10e89]: AD
+        - generic [ref=f10e90]:
+          - paragraph [ref=f10e91]: Administrador
+          - paragraph [ref=f10e92]: Administrador del sistema
+      - button [ref=f10e634]: Cerrar Sesión
+  - generic [ref=f10e97]:
+    - banner [ref=f10e98]:
+      - generic [ref=f10e99]:
+        - heading [level=2] [ref=f10e635]: Monitoreo de Flota & Control en Tiempo Real
+        - generic [ref=f10e102]: OWASP Top 10 Secured
+      - generic [ref=f10e105]:
+        - link [ref=f10e636] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+          - generic [ref=f10e109]: "35"
+        - generic [ref=f10e110]: 2:48:07 p.m.
+        - generic [ref=f10e114]:
+          - generic [ref=f10e115]:
+            - paragraph [ref=f10e116]: Administrador
+            - paragraph [ref=f10e117]: Administrador del sistema
+          - generic [ref=f10e118]: AD
+    - main [ref=f10e119]:
+      - generic [ref=f10e121]:
+        - generic [ref=f10e122]:
+          - generic [ref=f10e123]:
+            - heading [level=2] [ref=f10e637]: Bitácora de Portería
+            - paragraph [ref=f10e125]: Todas las entradas y salidas registradas
+          - button [ref=f10e638]: Exportar CSV
+        - generic [ref=f10e129]:
+          - generic [ref=f10e130]:
+            - textbox [ref=f10e639]:
+              - /placeholder: Buscar (folio, conductor, placa, notas...)
+            - combobox [ref=f10e132]
+            - combobox [ref=f10e133]
+            - combobox [ref=f10e134]
+            - combobox [ref=f10e135]
+            - textbox [ref=f10e640]
+            - textbox [ref=f10e641]
+          - paragraph [ref=f10e394]: Mostrando 1-10 de 10
+        - table [ref=f10e140]:
+          - rowgroup [ref=f10e141]:
+            - row [ref=f10e642]:
+              - columnheader [ref=f10e643]: Fecha
+              - columnheader [ref=f10e644]: Hora
+              - columnheader [ref=f10e645]: Sentido
+              - columnheader [ref=f10e646]: Folio
+              - columnheader [ref=f10e647]: Placa
+              - columnheader [ref=f10e648]: Conductor
+              - columnheader [ref=f10e649]: Km
+              - columnheader [ref=f10e650]: Gas
+              - columnheader [ref=f10e651]: Llanta
+              - columnheader [ref=f10e652]: Estado
+              - columnheader [ref=f10e653]: Confirmado
+              - columnheader [ref=f10e654]: Acciones
+          - rowgroup [ref=f10e155]:
+            - row [ref=f10e655]:
+              - cell [ref=f10e656]: 04/08/2026
+              - cell [ref=f10e657]: 16:34
+              - cell [ref=f10e658]:
+                - generic [ref=f10e399]: Entrada
+              - cell [ref=f10e659]: E-2026-205
+              - cell [ref=f10e660]: WXY-1001
+              - cell [ref=f10e661]: Ana Torres
+              - cell [ref=f10e662]: 221,340
+              - cell [ref=f10e663]: 80%
+              - cell [ref=f10e664]: "No"
+              - cell [ref=f10e665]: Bueno
+              - cell [ref=f10e666]: —
+              - cell [ref=f10e408]:
+                - generic [ref=f10e409]:
+                  - button [ref=f10e667]
+                  - button [ref=f10e668]
+            - row [ref=f10e669]:
+              - cell [ref=f10e670]: 04/08/2026
+              - cell [ref=f10e671]: 16:34
+              - cell [ref=f10e672]:
+                - generic [ref=f10e421]: Entrada
+              - cell [ref=f10e673]: E-2026-204
+              - cell [ref=f10e674]: FGH-8876
+              - cell [ref=f10e675]: Carlos Ruiz
+              - cell [ref=f10e676]: 66,320
+              - cell [ref=f10e677]: 100%
+              - cell [ref=f10e678]: "No"
+              - cell [ref=f10e679]: Bueno
+              - cell [ref=f10e680]: —
+              - cell [ref=f10e430]:
+                - generic [ref=f10e431]:
+                  - button [ref=f10e681]
+                  - button [ref=f10e682]
+            - row [ref=f10e683]:
+              - cell [ref=f10e684]: 04/08/2026
+              - cell [ref=f10e685]: 16:34
+              - cell [ref=f10e686]:
+                - generic [ref=f10e443]: Entrada
+              - cell [ref=f10e687]: E-2026-203
+              - cell [ref=f10e688]: MXZ-3322
+              - cell [ref=f10e689]: María Gómez
+              - cell [ref=f10e690]: 118,450
+              - cell [ref=f10e691]: 40%
+              - cell [ref=f10e692]: "No"
+              - cell [ref=f10e693]: Regular
+              - cell [ref=f10e694]: —
+              - cell [ref=f10e452]:
+                - generic [ref=f10e453]:
+                  - button [ref=f10e695]
+                  - button [ref=f10e696]
+            - row [ref=f10e697]:
+              - cell [ref=f10e698]: 04/08/2026
+              - cell [ref=f10e699]: 16:34
+              - cell [ref=f10e700]:
+                - generic [ref=f10e465]: Entrada
+              - cell [ref=f10e701]: E-2026-202
+              - cell [ref=f10e702]: JKL-9911
+              - cell [ref=f10e703]: Luis Martínez
+              - cell [ref=f10e704]: 42,110
+              - cell [ref=f10e705]: 80%
+              - cell [ref=f10e706]: "No"
+              - cell [ref=f10e707]: Bueno
+              - cell [ref=f10e708]: —
+              - cell [ref=f10e474]:
+                - generic [ref=f10e475]:
+                  - button [ref=f10e709]
+                  - button [ref=f10e710]
+            - row [ref=f10e711]:
+              - cell [ref=f10e712]: 04/08/2026
+              - cell [ref=f10e713]: 16:34
+              - cell [ref=f10e714]:
+                - generic [ref=f10e487]: Entrada
+              - cell [ref=f10e715]: E-2026-201
+              - cell [ref=f10e716]: GHL-4512
+              - cell [ref=f10e717]: Juan Pérez
+              - cell [ref=f10e718]: 78,010
+              - cell [ref=f10e719]: 60%
+              - cell [ref=f10e720]: "No"
+              - cell [ref=f10e721]: Bueno
+              - cell [ref=f10e722]: —
+              - cell [ref=f10e496]:
+                - generic [ref=f10e497]:
+                  - button [ref=f10e723]
+                  - button [ref=f10e724]
+            - row [ref=f10e725]:
+              - cell [ref=f10e726]: 04/08/2026
+              - cell [ref=f10e727]: 16:34
+              - cell [ref=f10e728]:
+                - generic [ref=f10e509]: Salida
+              - cell [ref=f10e729]: R-2026-105
+              - cell [ref=f10e730]: MNO-7788
+              - cell [ref=f10e731]: —
+              - cell [ref=f10e732]: 15,500
+              - cell [ref=f10e733]: 80%
+              - cell [ref=f10e734]: Sí
+              - cell [ref=f10e735]: Bueno
+              - cell [ref=f10e736]: —
+              - cell [ref=f10e518]:
+                - generic [ref=f10e519]:
+                  - button [ref=f10e737]
+                  - button [ref=f10e738]
+            - row [ref=f10e739]:
+              - cell [ref=f10e740]: 04/08/2026
+              - cell [ref=f10e741]: 16:32
+              - cell [ref=f10e742]:
+                - generic [ref=f10e531]: Salida
+              - cell [ref=f10e743]: R-2026-104
+              - cell [ref=f10e744]: RST-2233
+              - cell [ref=f10e745]: —
+              - cell [ref=f10e746]: 92,480
+              - cell [ref=f10e747]: 40%
+              - cell [ref=f10e748]: Sí
+              - cell [ref=f10e749]: Regular
+              - cell [ref=f10e750]: —
+              - cell [ref=f10e540]:
+                - generic [ref=f10e541]:
+                  - button [ref=f10e751]
+                  - button [ref=f10e752]
+            - row [ref=f10e753]:
+              - cell [ref=f10e754]: 04/08/2026
+              - cell [ref=f10e755]: 16:32
+              - cell [ref=f10e756]:
+                - generic [ref=f10e553]: Salida
+              - cell [ref=f10e757]: R-2026-103
+              - cell [ref=f10e758]: CDE-5567
+              - cell [ref=f10e759]: —
+              - cell [ref=f10e760]: 38,110
+              - cell [ref=f10e761]: 100%
+              - cell [ref=f10e762]: "No"
+              - cell [ref=f10e763]: Bueno
+              - cell [ref=f10e764]: —
+              - cell [ref=f10e562]:
+                - generic [ref=f10e563]:
+                  - button [ref=f10e765]
+                  - button [ref=f10e766]
+            - row [ref=f10e767]:
+              - cell [ref=f10e768]: 04/08/2026
+              - cell [ref=f10e769]: 16:32
+              - cell [ref=f10e770]:
+                - generic [ref=f10e575]: Salida
+              - cell [ref=f10e771]: R-2026-102
+              - cell [ref=f10e772]: HTR-7823
+              - cell [ref=f10e773]: —
+              - cell [ref=f10e774]: 61,250
+              - cell [ref=f10e775]: 60%
+              - cell [ref=f10e776]: Sí
+              - cell [ref=f10e777]: Bueno
+              - cell [ref=f10e778]: —
+              - cell [ref=f10e584]:
+                - generic [ref=f10e585]:
+                  - button [ref=f10e779]
+                  - button [ref=f10e780]
+            - row [ref=f10e781]:
+              - cell [ref=f10e782]: 04/08/2026
+              - cell [ref=f10e783]: 16:32
+              - cell [ref=f10e784]:
+                - generic [ref=f10e597]: Salida
+              - cell [ref=f10e785]: R-2026-101
+              - cell [ref=f10e786]: AAA-BBB-123
+              - cell [ref=f10e787]: —
+              - cell [ref=f10e788]: 45,230
+              - cell [ref=f10e789]: 80%
+              - cell [ref=f10e790]: Sí
+              - cell [ref=f10e791]: Bueno
+              - cell [ref=f10e792]: —
+              - cell [ref=f10e606]:
+                - generic [ref=f10e607]:
+                  - button [ref=f10e793]
+                  - button [ref=f10e794]
+    - contentinfo [ref=f10e376]:
+      - generic [ref=f10e377]:
+        - generic [ref=f10e378]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f10e382]:
+          - generic [ref=f10e383]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f10e384]: • Servidor Seguro de Producción
+  - dialog [ref=f10e796]:
+    - generic [ref=f10e797]: "!"
+    - heading "Eliminar" [level=2] [ref=f10e799]
+    - generic [ref=f10e800]: ¿Eliminar este registro?
+    - text: "!"
+    - generic [ref=f10e801]:
+      - button "Sí, confirmar" [active] [ref=f10e802] [cursor=pointer]
+      - button "Cancelar" [ref=f10e803] [cursor=pointer]

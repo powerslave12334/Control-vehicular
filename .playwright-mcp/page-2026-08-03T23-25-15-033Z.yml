@@ -1,0 +1,139 @@
+- generic [active] [ref=f217e1]:
+  - complementary [ref=f217e2]:
+    - generic [ref=f217e3]:
+      - generic [ref=f217e4]: A
+      - generic [ref=f217e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f217e6]
+        - paragraph [ref=f217e7]: Control de Flota
+    - generic [ref=f217e8]:
+      - paragraph [ref=f217e9]: Navegación Admin
+      - navigation [ref=f217e10]:
+        - link "Dashboard / Resumen" [ref=f217e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f217e15]: Vehículos
+        - link "Vehículos" [ref=f217e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f217e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f217e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f217e28]: Rutas
+        - link "Rutas" [ref=f217e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f217e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f217e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f217e41]: Operaciones
+        - link "Operadores" [ref=f217e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f217e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f217e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f217e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f217e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f217e62]: Administración
+        - link "Reportes" [ref=f217e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f217e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f217e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f217e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f217e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f217e83]:
+      - generic [ref=f217e84]:
+        - generic [ref=f217e85]: AD
+        - generic [ref=f217e86]:
+          - paragraph [ref=f217e87]: Administrador
+          - paragraph [ref=f217e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f217e90]
+  - generic [ref=f217e93]:
+    - banner [ref=f217e94]:
+      - generic [ref=f217e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f217e96]
+        - generic [ref=f217e98]: OWASP Top 10 Secured
+      - generic [ref=f217e101]:
+        - link "35" [ref=f217e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f217e106]: "--:--:--"
+        - generic [ref=f217e110]:
+          - generic [ref=f217e111]:
+            - paragraph [ref=f217e112]: Administrador
+            - paragraph [ref=f217e113]: Administrador del sistema
+          - generic [ref=f217e114]: AD
+    - main [ref=f217e115]:
+      - generic [ref=f217e116]:
+        - generic [ref=f217e117]:
+          - heading "Geolocalización de Rutas" [level=2] [ref=f217e118]
+          - combobox [ref=f217e119]:
+            - option "07/08/2026 — Sanctorum Centro" [selected]
+            - option "07/08/2026 — Planta Cholula"
+            - option "06/08/2026 — Colonia La Paz"
+            - option "06/08/2026 — Mercado La Acocota"
+            - option "05/08/2026 — Aeropuerto Hermanos Serdán"
+            - option "05/08/2026 — Centro Comercial Angelópolis"
+            - option "04/08/2026 — Fraccionamiento Los Pinos"
+            - option "04/08/2026 — Parque Industrial Finsa"
+            - option "03/08/2026 — Sucursal Centro"
+            - option "03/08/2026 — Sucursal Norte"
+        - generic [ref=f217e121]:
+          - generic [ref=f217e122]:
+            - paragraph [ref=f217e123]: Cliente
+            - paragraph [ref=f217e124]: Sanctorum Centro
+          - generic [ref=f217e126]:
+            - paragraph [ref=f217e127]: Unidad
+            - paragraph [ref=f217e128]: HTR-7823
+          - generic [ref=f217e130]:
+            - paragraph [ref=f217e131]: Conductor
+            - paragraph [ref=f217e132]: Juan Pérez
+          - generic [ref=f217e134]:
+            - paragraph [ref=f217e135]: Km
+            - paragraph [ref=f217e136]: —
+          - generic [ref=f217e138]:
+            - paragraph [ref=f217e139]: Puntos
+            - paragraph [ref=f217e140]: "0"
+          - generic [ref=f217e141]: Programada
+        - generic [ref=f217e142]:
+          - generic [ref=f217e146]:
+            - generic:
+              - button "Combinaciones de teclas"
+            - region "Mapa" [ref=f217e147]
+            - generic [ref=f217e148]:
+              - generic [ref=f217e227]:
+                - generic:
+                  - generic:
+                    - button "Origen" [ref=f217e229] [cursor=pointer]
+                    - button "Destino" [ref=f217e230] [cursor=pointer]
+              - iframe [ref=f217e231]:
+                
+              - button "Cambiar a la vista en pantalla completa" [ref=f217e232] [cursor=pointer]
+              - button "Controles de visualización del mapa" [ref=f217e234] [cursor=pointer]
+              - link "Abre esta zona en Google Maps (se abre en una nueva ventana)" [ref=f217e236] [cursor=pointer]:
+                - /url: https://maps.google.com/maps?ll=19.12391,-98.236216&z=13&t=m&hl=es&gl=MX&mapclient=apiv3
+                - img "Google" [ref=f217e238]
+              - generic [ref=f217e239]:
+                - button "Combinaciones de teclas" [ref=f217e245] [cursor=pointer]
+                - generic [ref=f217e246]: Datos del mapa ©2026 Google, INEGI
+                - link "Términos (se abre en una nueva pestaña)" [ref=f217e255] [cursor=pointer]:
+                  - /url: https://www.google.com/intl/es_MX/help/terms_maps.html
+                  - text: Términos
+                - link "Notificar un problema de Maps (se abre en una nueva pestaña)" [ref=f217e260] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/@19.1239099,-98.2362158,13z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+                  - text: Notificar un problema de Maps
+          - generic [ref=f217e261]:
+            - generic [ref=f217e262]:
+              - heading "Recorrido" [level=3] [ref=f217e263]
+              - generic [ref=f217e264]: 0 puntos
+            - generic [ref=f217e265]: Sin puntos con coordenadas en esta ruta
+    - contentinfo [ref=f217e267]:
+      - generic [ref=f217e268]:
+        - generic [ref=f217e269]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f217e273]:
+          - generic [ref=f217e274]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f217e275]: • Servidor Seguro de Producción

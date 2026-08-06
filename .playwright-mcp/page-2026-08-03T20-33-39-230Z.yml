@@ -1,0 +1,174 @@
+- generic [active] [ref=f117e1]:
+  - complementary [ref=f117e2]:
+    - generic [ref=f117e3]:
+      - generic [ref=f117e4]: A
+      - generic [ref=f117e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f117e6]
+        - paragraph [ref=f117e7]: Control de Flota
+    - generic [ref=f117e8]:
+      - paragraph [ref=f117e9]: Navegación Admin
+      - navigation [ref=f117e10]:
+        - link "Dashboard / Resumen" [ref=f117e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f117e15]: Vehículos
+        - link "Vehículos" [ref=f117e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f117e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f117e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f117e28]: Rutas
+        - link "Rutas" [ref=f117e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f117e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f117e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f117e41]: Operaciones
+        - link "Operadores" [ref=f117e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f117e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f117e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f117e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f117e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f117e62]: Administración
+        - link "Reportes" [ref=f117e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f117e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f117e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f117e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f117e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f117e83]:
+      - generic [ref=f117e84]:
+        - generic [ref=f117e85]: AD
+        - generic [ref=f117e86]:
+          - paragraph [ref=f117e87]: Administrador
+          - paragraph [ref=f117e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f117e90]
+  - generic [ref=f117e93]:
+    - banner [ref=f117e94]:
+      - generic [ref=f117e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f117e96]
+        - generic [ref=f117e98]: OWASP Top 10 Secured
+      - generic [ref=f117e101]:
+        - link "79" [ref=f117e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f117e106]: "--:--:--"
+        - generic [ref=f117e110]:
+          - generic [ref=f117e111]:
+            - paragraph [ref=f117e112]: Administrador
+            - paragraph [ref=f117e113]: Administrador del sistema
+          - generic [ref=f117e114]: AD
+    - main [ref=f117e115]:
+      - generic [ref=f117e118]:
+        - generic [ref=f117e119]:
+          - button "Seguridad" [ref=f117e120]
+          - button "Actividad" [ref=f117e123]
+          - button "Logs del Sistema" [ref=f117e126]
+        - generic [ref=f117e129]:
+          - generic [ref=f117e130]:
+            - heading "Seguridad OWASP Top 10" [level=2] [ref=f117e132]
+            - generic [ref=f117e133]:
+              - button "Re-escanear" [ref=f117e134]
+              - generic [ref=f117e137]: Revisión requerida
+          - generic [ref=f117e138]:
+            - generic [ref=f117e139]:
+              - generic [ref=f117e140]:
+                - heading "CSRF Protection" [level=3] [ref=f117e144]
+                - generic [ref=f117e145]: Activo
+              - paragraph [ref=f117e146]: "Laravel protege rutas POST vía VerifyCsrfToken. Same-Site: LAX"
+            - generic [ref=f117e147]:
+              - generic [ref=f117e148]:
+                - heading "HttpOnly Cookies" [level=3] [ref=f117e152]
+                - generic [ref=f117e153]: Activo
+              - paragraph [ref=f117e154]: Session cookies con HttpOnly=true en config/session.php.
+            - generic [ref=f117e155]:
+              - generic [ref=f117e156]:
+                - heading "Password Hashing" [level=3] [ref=f117e160]
+                - generic [ref=f117e161]: Activo
+              - paragraph [ref=f117e162]: "Hash driver: bcrypt con 12 rounds."
+            - generic [ref=f117e163]:
+              - generic [ref=f117e164]:
+                - heading "XSS Protection" [level=3] [ref=f117e168]
+                - generic [ref=f117e169]: Activo
+              - paragraph [ref=f117e170]: "Blade {{ }} escapa output automáticamente. SweetAlert2 evita eval(). Sin uso de {!! !!} sin escapar en vistas."
+            - generic [ref=f117e171]:
+              - generic [ref=f117e172]:
+                - heading "Content-Security-Policy (CSP)" [level=3] [ref=f117e176]
+                - generic [ref=f117e177]: Faltante
+              - paragraph [ref=f117e178]: No se encontró el header Content-Security-Policy. Implementar middleware de seguridad.
+            - generic [ref=f117e179]:
+              - generic [ref=f117e180]:
+                - heading "Strict-Transport-Security (HSTS)" [level=3] [ref=f117e184]
+                - generic [ref=f117e185]: Faltante
+              - paragraph [ref=f117e186]: No se detectó HSTS. Forzar HTTPS + header Strict-Transport-Security en producción.
+            - generic [ref=f117e187]:
+              - generic [ref=f117e188]:
+                - heading "X-Frame-Options" [level=3] [ref=f117e192]
+                - generic [ref=f117e193]: Faltante
+              - paragraph [ref=f117e194]: No se detectó X-Frame-Options. Agregar DENY o SAMEORIGIN para prevenir clickjacking.
+            - generic [ref=f117e195]:
+              - generic [ref=f117e196]:
+                - heading "X-Content-Type-Options" [level=3] [ref=f117e200]
+                - generic [ref=f117e201]: Faltante
+              - paragraph [ref=f117e202]: "No se detectó el header. Agregar X-Content-Type-Options: nosniff."
+            - generic [ref=f117e203]:
+              - generic [ref=f117e204]:
+                - heading "Rate Limiting" [level=3] [ref=f117e208]
+                - generic [ref=f117e209]: Activo
+              - paragraph [ref=f117e210]: Middleware throttle disponible para limitar peticiones.
+            - generic [ref=f117e211]:
+              - generic [ref=f117e212]:
+                - heading "HTTPS Enforcement" [level=3] [ref=f117e216]
+                - generic [ref=f117e217]: Desarrollo
+              - paragraph [ref=f117e218]: "No se fuerza HTTPS. Entorno: local. Agregar APP_FORCE_HTTPS=true en producción."
+            - generic [ref=f117e219]:
+              - generic [ref=f117e220]:
+                - heading "Session Secure & Same-Site" [level=3] [ref=f117e224]
+                - generic [ref=f117e225]: Activo
+              - paragraph [ref=f117e226]: "Secure: null (auto), Same-Site: LAX"
+            - generic [ref=f117e227]:
+              - generic [ref=f117e228]:
+                - heading "Debug Mode" [level=3] [ref=f117e232]
+                - generic [ref=f117e233]: Desarrollo
+              - paragraph [ref=f117e234]: "APP_DEBUG=true (entorno: local — aceptable)."
+            - generic [ref=f117e235]:
+              - generic [ref=f117e236]:
+                - heading "APP Key" [level=3] [ref=f117e240]
+                - generic [ref=f117e241]: Activo
+              - paragraph [ref=f117e242]: APP_KEY configurada correctamente.
+            - generic [ref=f117e243]:
+              - generic [ref=f117e244]:
+                - heading "File Uploads" [level=3] [ref=f117e248]
+                - generic [ref=f117e249]: Información
+              - paragraph [ref=f117e250]: "upload_max_filesize: 2M, post_max_size: 8M. Los archivos se validan por tipo y tamaño en cada módulo."
+          - generic [ref=f117e251]:
+            - heading "Recomendaciones Adicionales" [level=3] [ref=f117e252]
+            - list [ref=f117e253]:
+              - listitem [ref=f117e254]:
+                - generic [ref=f117e257]: Usar HTTPS en producción forzado via middleware o .env FORCE_HTTPS=true.
+              - listitem [ref=f117e258]:
+                - generic [ref=f117e261]: Implementar 2FA para cuentas administrativas.
+              - listitem [ref=f117e262]:
+                - generic [ref=f117e265]: Rotar API keys y secrets periódicamente.
+              - listitem [ref=f117e266]:
+                - generic [ref=f117e269]: Auditar logs de acceso regularmente con monitoreo de intentos fallidos.
+              - listitem [ref=f117e270]:
+                - generic [ref=f117e273]:
+                  - text: Mantener dependencias actualizadas (
+                  - code [ref=f117e274]: composer audit
+                  - text: ).
+    - contentinfo [ref=f117e275]:
+      - generic [ref=f117e276]:
+        - generic [ref=f117e277]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f117e281]:
+          - generic [ref=f117e282]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f117e283]: • Servidor Seguro de Producción

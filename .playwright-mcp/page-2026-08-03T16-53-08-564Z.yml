@@ -1,0 +1,167 @@
+- generic [ref=f12e1]:
+  - complementary [ref=f12e2]:
+    - generic [ref=f12e3]:
+      - generic [ref=f12e4]: A
+      - generic [ref=f12e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f12e6]
+        - paragraph [ref=f12e7]: Control de Flota
+    - generic [ref=f12e8]:
+      - paragraph [ref=f12e9]: Navegación Admin
+      - navigation [ref=f12e10]:
+        - link "Dashboard / Resumen" [ref=f12e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f12e15]: Vehículos
+        - link "Vehículos" [ref=f12e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f12e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f12e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f12e28]: Rutas
+        - link "Rutas" [ref=f12e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f12e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f12e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f12e41]: Operaciones
+        - link "Operadores" [ref=f12e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f12e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f12e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f12e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f12e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f12e62]: Administración
+        - link "Reportes" [ref=f12e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f12e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f12e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f12e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f12e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f12e83]:
+      - generic [ref=f12e84]:
+        - generic [ref=f12e85]: AD
+        - generic [ref=f12e86]:
+          - paragraph [ref=f12e87]: Administrador
+          - paragraph [ref=f12e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f12e90]
+  - generic [ref=f12e93]:
+    - banner [ref=f12e94]:
+      - generic [ref=f12e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f12e96]
+        - generic [ref=f12e98]: OWASP Top 10 Secured
+      - generic [ref=f12e101]:
+        - link "57" [ref=f12e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f12e106]: "--:--:--"
+        - generic [ref=f12e110]:
+          - generic [ref=f12e111]:
+            - paragraph [ref=f12e112]: Administrador
+            - paragraph [ref=f12e113]: Administrador del sistema
+          - generic [ref=f12e114]: AD
+    - main [ref=f12e115]:
+      - generic [ref=f12e116]:
+        - generic [ref=f12e117]:
+          - generic [ref=f12e118]:
+            - generic [ref=f12e121]:
+              - generic [ref=f12e122]: KPI Operativo
+              - heading "Km Planeados vs Reales" [level=3] [ref=f12e123]
+              - paragraph [ref=f12e124]: 0.0%
+              - generic [ref=f12e125]: (Km Reales / Km Planeados) × 100
+            - generic [ref=f12e131]:
+              - generic [ref=f12e132]: "Reales: 0 km"
+              - generic [ref=f12e133]: "Planes: 0 km"
+          - generic [ref=f12e135]:
+            - generic [ref=f12e138]:
+              - generic [ref=f12e139]: Rendimiento
+              - heading "Rendimiento Promedio" [level=3] [ref=f12e140]
+              - paragraph [ref=f12e141]: N/D
+              - generic [ref=f12e142]: Km Reales / Litros Consumidos
+            - generic [ref=f12e147]:
+              - generic [ref=f12e148]: "Consumo: 0 L"
+              - generic [ref=f12e149]: "Costo: $0"
+          - generic [ref=f12e151]:
+            - generic [ref=f12e154]:
+              - generic [ref=f12e155]: Presupuesto
+              - heading "Combustible Consumido" [level=3] [ref=f12e156]
+              - paragraph [ref=f12e157]: 0.0%
+              - generic [ref=f12e158]: Consumo Real / Autorizado × 100
+            - generic [ref=f12e164]:
+              - generic [ref=f12e165]: "Real: 0 L"
+              - generic [ref=f12e166]: "Autorizado: 3,110 L"
+          - generic [ref=f12e168]:
+            - generic [ref=f12e171]:
+              - generic [ref=f12e172]: Eficiencia de Costo
+              - heading "Costo por Kilómetro" [level=3] [ref=f12e173]
+              - paragraph [ref=f12e174]: $0.00 MXN/Km
+              - generic [ref=f12e175]: Gasto Combustible / Km Reales
+            - generic [ref=f12e180]:
+              - generic [ref=f12e181]: "Gasto Comb.: $0"
+              - generic [ref=f12e182]: "Km Reales: 0"
+        - generic [ref=f12e184]:
+          - generic [ref=f12e185]:
+            - generic [ref=f12e186]:
+              - heading "Distribución de Flota" [level=3] [ref=f12e187]
+              - generic [ref=f12e188]: 11 unidades
+            - generic [ref=f12e189]: 11 Total
+          - generic [ref=f12e191]:
+            - generic [ref=f12e192]:
+              - heading "Km por Ruta" [level=3] [ref=f12e193]
+              - generic [ref=f12e194]: 0 rutas
+            - paragraph [ref=f12e195]: Sin datos de rutas
+          - generic [ref=f12e197]:
+            - heading "Combustible por Unidad" [level=3] [ref=f12e198]
+            - generic [ref=f12e199]: 11 vehículos
+        - generic [ref=f12e201]:
+          - generic [ref=f12e202]:
+            - generic [ref=f12e207]:
+              - heading "Productividad" [level=4] [ref=f12e208]
+              - heading "Cumplimiento de Instalaciones" [level=3] [ref=f12e209]
+            - generic [ref=f12e210]:
+              - generic [ref=f12e211]: 0.0%
+              - generic [ref=f12e212]: "(Meta: 90%)"
+            - generic [ref=f12e213]:
+              - generic [ref=f12e214]:
+                - generic [ref=f12e215]: "Realizadas:"
+                - generic [ref=f12e216]: "0"
+              - generic [ref=f12e217]:
+                - generic [ref=f12e218]: "Programadas:"
+                - generic [ref=f12e219]: "0"
+          - generic [ref=f12e220]:
+            - generic [ref=f12e225]:
+              - heading "Estado de Flota" [level=4] [ref=f12e226]
+              - heading "Disponibilidad de Flota" [level=3] [ref=f12e227]
+            - generic [ref=f12e228]:
+              - generic [ref=f12e229]: 100.0%
+              - generic [ref=f12e230]: (11/11 Unidades)
+            - generic [ref=f12e231]:
+              - generic [ref=f12e232]:
+                - generic [ref=f12e233]: "En mantenimiento:"
+                - generic [ref=f12e234]: 0.0%
+              - generic [ref=f12e235]:
+                - generic [ref=f12e236]: "Fuera de servicio:"
+                - generic [ref=f12e237]: 0 unidades
+          - generic [ref=f12e238]:
+            - generic [ref=f12e243]:
+              - heading "Finanzas Flota" [level=4] [ref=f12e244]
+              - heading "Costos Operativos" [level=3] [ref=f12e245]
+            - generic [ref=f12e246]:
+              - generic [ref=f12e247]: $0
+              - generic [ref=f12e248]: MXN
+            - generic [ref=f12e249]:
+              - generic [ref=f12e250]: "Combustible: $0"
+              - generic [ref=f12e253]: "Mantenimiento: $0"
+    - contentinfo [ref=f12e256]:
+      - generic [ref=f12e257]:
+        - generic [ref=f12e258]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f12e262]:
+          - generic [ref=f12e263]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f12e264]: • Servidor Seguro de Producción

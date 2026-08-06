@@ -1,0 +1,295 @@
+- generic [ref=f9e1]:
+  - complementary [ref=f9e2]:
+    - generic [ref=f9e3]:
+      - generic [ref=f9e4]: A
+      - generic [ref=f9e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f9e6]
+        - paragraph [ref=f9e7]: Control de Flota
+    - generic [ref=f9e8]:
+      - paragraph [ref=f9e9]: Navegación Admin
+      - navigation [ref=f9e10]:
+        - link "Dashboard / Resumen" [ref=f9e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f9e15]: Vehículos
+        - link "Vehículos" [ref=f9e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f9e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f9e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f9e28]: Rutas
+        - link "Rutas" [ref=f9e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f9e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f9e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f9e41]: Operaciones
+        - link "Operadores" [ref=f9e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f9e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f9e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f9e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f9e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - link "Bitácora" [ref=f9e62] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate/logs
+        - paragraph [ref=f9e66]: Administración
+        - link "Reportes" [ref=f9e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f9e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f9e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f9e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f9e83] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f9e87]:
+      - generic [ref=f9e88]:
+        - generic [ref=f9e89]: AD
+        - generic [ref=f9e90]:
+          - paragraph [ref=f9e91]: Administrador
+          - paragraph [ref=f9e92]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f9e94]
+  - generic [ref=f9e97]:
+    - banner [ref=f9e98]:
+      - generic [ref=f9e99]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f9e100]
+        - generic [ref=f9e102]: OWASP Top 10 Secured
+      - generic [ref=f9e105]:
+        - link "35" [ref=f9e106] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f9e110]: 2:45:59 p.m.
+        - generic [ref=f9e114]:
+          - generic [ref=f9e115]:
+            - paragraph [ref=f9e116]: Administrador
+            - paragraph [ref=f9e117]: Administrador del sistema
+          - generic [ref=f9e118]: AD
+    - main [ref=f9e119]:
+      - generic [ref=f9e121]:
+        - generic [ref=f9e122]:
+          - generic [ref=f9e123]:
+            - heading "Bitácora de Portería" [level=2] [ref=f9e124]
+            - paragraph [ref=f9e125]: Todas las entradas y salidas registradas
+          - button "Exportar CSV" [ref=f9e126]
+        - generic [ref=f9e129]:
+          - generic [ref=f9e130]:
+            - textbox "Buscar (folio, conductor, placa, notas...)" [ref=f9e131]
+            - combobox [ref=f9e132]:
+              - 'option "Sentido: Todos" [selected]'
+              - option "Entrada"
+              - option "Salida"
+            - combobox [ref=f9e133]:
+              - 'option "Vehículo: Todos" [selected]'
+              - option "AAA-BBB-123"
+              - option "GHL-4512"
+              - option "HTR-7823"
+              - option "JKL-9911"
+              - option "MXZ-3322"
+              - option "CDE-5567"
+              - option "FGH-8876"
+              - option "RST-2233"
+              - option "WXY-1001"
+              - option "QRS-4412"
+              - option "MNO-7788"
+              - option "PQR-3344"
+            - combobox [ref=f9e134]:
+              - 'option "Gasolina: Todas" [selected]'
+              - option "80%"
+              - option "60%"
+              - option "40%"
+              - option "20% (Reserva)"
+              - option "100% (Lleno)"
+            - combobox [ref=f9e135]:
+              - 'option "Llanta refacción: Todos" [selected]'
+              - option "Sí"
+              - option "No"
+            - textbox "Desde" [ref=f9e136]
+            - textbox "Hasta" [ref=f9e137]
+          - paragraph [ref=f9e138]: Mostrando 1-10 de 10
+        - table [ref=f9e140]:
+          - rowgroup [ref=f9e141]:
+            - row [ref=f9e142]:
+              - columnheader "Fecha" [ref=f9e143]
+              - columnheader "Hora" [ref=f9e144]
+              - columnheader "Sentido" [ref=f9e145]
+              - columnheader "Folio" [ref=f9e146]
+              - columnheader "Placa" [ref=f9e147]
+              - columnheader "Conductor" [ref=f9e148]
+              - columnheader "Km" [ref=f9e149]
+              - columnheader "Gas" [ref=f9e150]
+              - columnheader "Llanta" [ref=f9e151]
+              - columnheader "Estado" [ref=f9e152]
+              - columnheader "Confirmado" [ref=f9e153]
+              - columnheader "Acciones" [ref=f9e154]
+          - rowgroup [ref=f9e155]:
+            - row [ref=f9e156]:
+              - cell "04/08/2026" [ref=f9e157]
+              - cell "16:34" [ref=f9e158]
+              - cell "Entrada" [ref=f9e159]
+              - cell "E-2026-205" [ref=f9e161]
+              - cell "WXY-1001" [ref=f9e162]
+              - cell "Ana Torres" [ref=f9e163]
+              - cell "221,340" [ref=f9e164]
+              - cell "80%" [ref=f9e165]
+              - cell "No" [ref=f9e166]
+              - cell "Bueno" [ref=f9e167]
+              - cell "—" [ref=f9e168]
+              - cell [ref=f9e169]:
+                - generic [ref=f9e170]:
+                  - button "Ver detalle" [ref=f9e171]
+                  - button "Eliminar" [ref=f9e175]
+            - row [ref=f9e178]:
+              - cell "04/08/2026" [ref=f9e179]
+              - cell "16:34" [ref=f9e180]
+              - cell "Entrada" [ref=f9e181]
+              - cell "E-2026-204" [ref=f9e183]
+              - cell "FGH-8876" [ref=f9e184]
+              - cell "Carlos Ruiz" [ref=f9e185]
+              - cell "66,320" [ref=f9e186]
+              - cell "100%" [ref=f9e187]
+              - cell "No" [ref=f9e188]
+              - cell "Bueno" [ref=f9e189]
+              - cell "—" [ref=f9e190]
+              - cell [ref=f9e191]:
+                - generic [ref=f9e192]:
+                  - button "Ver detalle" [ref=f9e193]
+                  - button "Eliminar" [ref=f9e197]
+            - row [ref=f9e200]:
+              - cell "04/08/2026" [ref=f9e201]
+              - cell "16:34" [ref=f9e202]
+              - cell "Entrada" [ref=f9e203]
+              - cell "E-2026-203" [ref=f9e205]
+              - cell "MXZ-3322" [ref=f9e206]
+              - cell "María Gómez" [ref=f9e207]
+              - cell "118,450" [ref=f9e208]
+              - cell "40%" [ref=f9e209]
+              - cell "No" [ref=f9e210]
+              - cell "Regular" [ref=f9e211]
+              - cell "—" [ref=f9e212]
+              - cell [ref=f9e213]:
+                - generic [ref=f9e214]:
+                  - button "Ver detalle" [ref=f9e215]
+                  - button "Eliminar" [ref=f9e219]
+            - row [ref=f9e222]:
+              - cell "04/08/2026" [ref=f9e223]
+              - cell "16:34" [ref=f9e224]
+              - cell "Entrada" [ref=f9e225]
+              - cell "E-2026-202" [ref=f9e227]
+              - cell "JKL-9911" [ref=f9e228]
+              - cell "Luis Martínez" [ref=f9e229]
+              - cell "42,110" [ref=f9e230]
+              - cell "80%" [ref=f9e231]
+              - cell "No" [ref=f9e232]
+              - cell "Bueno" [ref=f9e233]
+              - cell "—" [ref=f9e234]
+              - cell [ref=f9e235]:
+                - generic [ref=f9e236]:
+                  - button "Ver detalle" [ref=f9e237]
+                  - button "Eliminar" [ref=f9e241]
+            - row [ref=f9e244]:
+              - cell "04/08/2026" [ref=f9e245]
+              - cell "16:34" [ref=f9e246]
+              - cell "Entrada" [ref=f9e247]
+              - cell "E-2026-201" [ref=f9e249]
+              - cell "GHL-4512" [ref=f9e250]
+              - cell "Juan Pérez" [ref=f9e251]
+              - cell "78,010" [ref=f9e252]
+              - cell "60%" [ref=f9e253]
+              - cell "No" [ref=f9e254]
+              - cell "Bueno" [ref=f9e255]
+              - cell "—" [ref=f9e256]
+              - cell [ref=f9e257]:
+                - generic [ref=f9e258]:
+                  - button "Ver detalle" [ref=f9e259]
+                  - button "Eliminar" [ref=f9e263]
+            - row [ref=f9e266]:
+              - cell "04/08/2026" [ref=f9e267]
+              - cell "16:34" [ref=f9e268]
+              - cell "Salida" [ref=f9e269]
+              - cell "R-2026-105" [ref=f9e271]
+              - cell "MNO-7788" [ref=f9e272]
+              - cell "—" [ref=f9e273]
+              - cell "15,500" [ref=f9e274]
+              - cell "80%" [ref=f9e275]
+              - cell "Sí" [ref=f9e276]
+              - cell "Bueno" [ref=f9e277]
+              - cell "—" [ref=f9e278]
+              - cell [ref=f9e279]:
+                - generic [ref=f9e280]:
+                  - button "Ver detalle" [ref=f9e281]
+                  - button "Eliminar" [ref=f9e285]
+            - row [ref=f9e288]:
+              - cell "04/08/2026" [ref=f9e289]
+              - cell "16:32" [ref=f9e290]
+              - cell "Salida" [ref=f9e291]
+              - cell "R-2026-104" [ref=f9e293]
+              - cell "RST-2233" [ref=f9e294]
+              - cell "—" [ref=f9e295]
+              - cell "92,480" [ref=f9e296]
+              - cell "40%" [ref=f9e297]
+              - cell "Sí" [ref=f9e298]
+              - cell "Regular" [ref=f9e299]
+              - cell "—" [ref=f9e300]
+              - cell [ref=f9e301]:
+                - generic [ref=f9e302]:
+                  - button "Ver detalle" [ref=f9e303]
+                  - button "Eliminar" [ref=f9e307]
+            - row [ref=f9e310]:
+              - cell "04/08/2026" [ref=f9e311]
+              - cell "16:32" [ref=f9e312]
+              - cell "Salida" [ref=f9e313]
+              - cell "R-2026-103" [ref=f9e315]
+              - cell "CDE-5567" [ref=f9e316]
+              - cell "—" [ref=f9e317]
+              - cell "38,110" [ref=f9e318]
+              - cell "100%" [ref=f9e319]
+              - cell "No" [ref=f9e320]
+              - cell "Bueno" [ref=f9e321]
+              - cell "—" [ref=f9e322]
+              - cell [ref=f9e323]:
+                - generic [ref=f9e324]:
+                  - button "Ver detalle" [ref=f9e325]
+                  - button "Eliminar" [ref=f9e329]
+            - row [ref=f9e332]:
+              - cell "04/08/2026" [ref=f9e333]
+              - cell "16:32" [ref=f9e334]
+              - cell "Salida" [ref=f9e335]
+              - cell "R-2026-102" [ref=f9e337]
+              - cell "HTR-7823" [ref=f9e338]
+              - cell "—" [ref=f9e339]
+              - cell "61,250" [ref=f9e340]
+              - cell "60%" [ref=f9e341]
+              - cell "Sí" [ref=f9e342]
+              - cell "Bueno" [ref=f9e343]
+              - cell "—" [ref=f9e344]
+              - cell [ref=f9e345]:
+                - generic [ref=f9e346]:
+                  - button "Ver detalle" [ref=f9e347]
+                  - button "Eliminar" [ref=f9e351]
+            - row [ref=f9e354]:
+              - cell "04/08/2026" [ref=f9e355]
+              - cell "16:32" [ref=f9e356]
+              - cell "Salida" [ref=f9e357]
+              - cell "R-2026-101" [ref=f9e359]
+              - cell "AAA-BBB-123" [ref=f9e360]
+              - cell "—" [ref=f9e361]
+              - cell "45,230" [ref=f9e362]
+              - cell "80%" [ref=f9e363]
+              - cell "Sí" [ref=f9e364]
+              - cell "Bueno" [ref=f9e365]
+              - cell "—" [ref=f9e366]
+              - cell [ref=f9e367]:
+                - generic [ref=f9e368]:
+                  - button "Ver detalle" [ref=f9e369]
+                  - button "Eliminar" [ref=f9e373]
+    - contentinfo [ref=f9e376]:
+      - generic [ref=f9e377]:
+        - generic [ref=f9e378]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f9e382]:
+          - generic [ref=f9e383]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f9e384]: • Servidor Seguro de Producción

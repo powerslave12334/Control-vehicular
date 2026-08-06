@@ -1,0 +1,165 @@
+- generic [active] [ref=f169e1]:
+  - complementary [ref=f169e2]:
+    - generic [ref=f169e3]:
+      - generic [ref=f169e4]: A
+      - generic [ref=f169e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f169e6]
+        - paragraph [ref=f169e7]: Control de Flota
+    - generic [ref=f169e8]:
+      - paragraph [ref=f169e9]: Navegación Admin
+      - navigation [ref=f169e10]:
+        - link "Dashboard / Resumen" [ref=f169e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f169e15]: Vehículos
+        - link "Vehículos" [ref=f169e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f169e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f169e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f169e28]: Rutas
+        - link "Rutas" [ref=f169e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f169e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f169e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f169e41]: Operaciones
+        - link "Operadores" [ref=f169e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f169e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f169e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f169e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f169e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f169e62]: Administración
+        - link "Reportes" [ref=f169e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f169e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f169e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f169e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f169e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f169e83]:
+      - generic [ref=f169e84]:
+        - generic [ref=f169e85]: AD
+        - generic [ref=f169e86]:
+          - paragraph [ref=f169e87]: Administrador
+          - paragraph [ref=f169e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f169e90]
+  - generic [ref=f169e93]:
+    - banner [ref=f169e94]:
+      - generic [ref=f169e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f169e96]
+        - generic [ref=f169e98]: OWASP Top 10 Secured
+      - generic [ref=f169e101]:
+        - link "12" [ref=f169e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f169e106]: "--:--:--"
+        - generic [ref=f169e110]:
+          - generic [ref=f169e111]:
+            - paragraph [ref=f169e112]: Administrador
+            - paragraph [ref=f169e113]: Administrador del sistema
+          - generic [ref=f169e114]: AD
+    - main [ref=f169e115]:
+      - generic [ref=f169e116]:
+        - generic [ref=f169e117]:
+          - generic [ref=f169e118]:
+            - heading "Control de Combustible y Presupuestos Semanales" [level=1] [ref=f169e119]
+            - paragraph [ref=f169e120]: Contraste de Consumo Real vs. Consumo Autorizado por semana.
+          - button "Registrar Carga" [ref=f169e121]
+        - generic [ref=f169e124]:
+          - generic [ref=f169e125]: "Semana:"
+          - combobox [ref=f169e126]:
+            - option "Esta semana" [selected]
+            - option "Semana del 27/07/2026"
+            - option "Semana del 20/07/2026"
+            - option "Semana del 13/07/2026"
+            - option "Semana del 06/07/2026"
+            - option "Semana del 29/06/2026"
+            - option "Semana del 22/06/2026"
+            - option "Semana del 15/06/2026"
+          - generic [ref=f169e127]: (03/08/2026 — 09/08/2026)
+        - generic [ref=f169e128]:
+          - generic [ref=f169e129]:
+            - heading "Consumo de Combustible por Unidad (Semanal)" [level=3] [ref=f169e130]
+            - generic [ref=f169e131]:
+              - generic [ref=f169e132]:
+                - generic [ref=f169e133]:
+                  - generic [ref=f169e134]: AAA-BBB-123
+                  - generic [ref=f169e135]: — / 300.0L
+                - generic [ref=f169e138]:
+                  - generic [ref=f169e139]: "Autorizado:"
+                  - generic [ref=f169e140]: 300.0 L
+                  - button [ref=f169e141]
+              - generic [ref=f169e144]:
+                - generic [ref=f169e145]:
+                  - generic [ref=f169e146]: GHL-4512
+                  - generic [ref=f169e147]: — / 250.0L
+                - generic [ref=f169e150]:
+                  - generic [ref=f169e151]: "Autorizado:"
+                  - generic [ref=f169e152]: 250.0 L
+                  - button [ref=f169e153]
+              - generic [ref=f169e156]:
+                - generic [ref=f169e157]:
+                  - generic [ref=f169e158]: HTR-7823
+                  - generic [ref=f169e159]: — / 280.0L
+                - generic [ref=f169e162]:
+                  - generic [ref=f169e163]: "Autorizado:"
+                  - generic [ref=f169e164]: 280.0 L
+                  - button [ref=f169e165]
+              - generic [ref=f169e168]:
+                - generic [ref=f169e169]:
+                  - generic [ref=f169e170]: JKL-9911
+                  - generic [ref=f169e171]: — / 500.0L
+                - generic [ref=f169e174]:
+                  - generic [ref=f169e175]: "Autorizado:"
+                  - generic [ref=f169e176]: 500.0 L
+                  - button [ref=f169e177]
+              - generic [ref=f169e180]:
+                - generic [ref=f169e181]:
+                  - generic [ref=f169e182]: MXZ-3322
+                  - generic [ref=f169e183]: — / 650.0L
+                - generic [ref=f169e186]:
+                  - generic [ref=f169e187]: "Autorizado:"
+                  - generic [ref=f169e188]: 650.0 L
+                  - button [ref=f169e189]
+              - generic [ref=f169e192]:
+                - generic [ref=f169e193]:
+                  - generic [ref=f169e194]: CDE-5567
+                  - generic [ref=f169e195]: — / 320.0L
+                - generic [ref=f169e198]:
+                  - generic [ref=f169e199]: "Autorizado:"
+                  - generic [ref=f169e200]: 320.0 L
+                  - button [ref=f169e201]
+          - generic [ref=f169e204]:
+            - heading "Historial de Tickets" [level=3] [ref=f169e206]
+            - generic [ref=f169e207]:
+              - textbox "Buscar (folio, operador, placa...)" [ref=f169e208]
+              - generic [ref=f169e209]:
+                - combobox [ref=f169e210]:
+                  - 'option "Vehículo: Todos" [selected]'
+                  - option "AAA-BBB-123"
+                  - option "GHL-4512"
+                  - option "HTR-7823"
+                  - option "JKL-9911"
+                  - option "MXZ-3322"
+                  - option "CDE-5567"
+                - combobox [ref=f169e211]:
+                  - 'option "Status: Todos" [selected]'
+                  - option "Pendiente"
+                  - option "Aprobado"
+                  - option "Rechazado"
+            - generic [ref=f169e212]: Sin registros en esta semana
+    - contentinfo [ref=f169e214]:
+      - generic [ref=f169e215]:
+        - generic [ref=f169e216]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f169e220]:
+          - generic [ref=f169e221]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f169e222]: • Servidor Seguro de Producción

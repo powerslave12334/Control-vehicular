@@ -1,0 +1,267 @@
+- generic [active] [ref=f11e1]:
+  - banner [ref=f11e2]:
+    - generic [ref=f11e3]:
+      - generic [ref=f11e4]:
+        - generic [ref=f11e5]: P
+        - generic [ref=f11e6]:
+          - text: Portería
+          - paragraph [ref=f11e7]: Administrador
+      - generic [ref=f11e8]:
+        - link "Inicio" [ref=f11e9] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - button "Cerrar sesión" [ref=f11e13]
+  - main [ref=f11e16]:
+    - generic [ref=f11e17]:
+      - generic [ref=f11e18]:
+        - generic [ref=f11e19]:
+          - generic [ref=f11e20]:
+            - paragraph [ref=f11e21]: Garita · Agua Inmaculada
+            - heading "Bitácora de portería" [level=2] [ref=f11e22]
+            - paragraph [ref=f11e23]: Registro de entradas y salidas de vehículos de la flota.
+          - generic [ref=f11e24]:
+            - paragraph [ref=f11e25]: 04 AGO. 2026
+            - generic [ref=f11e26]:
+              - generic [ref=f11e27]: Hora
+              - generic [ref=f11e28]: 14:48:32
+        - generic [ref=f11e29]:
+          - generic [ref=f11e34]:
+            - paragraph [ref=f11e35]: "5"
+            - paragraph [ref=f11e36]: Entradas hoy
+          - generic [ref=f11e41]:
+            - paragraph [ref=f11e42]: "5"
+            - paragraph [ref=f11e43]: Salidas hoy
+          - generic [ref=f11e48]:
+            - paragraph [ref=f11e49]: "5"
+            - paragraph [ref=f11e50]: En patio
+      - generic [ref=f11e51]:
+        - generic [ref=f11e53]:
+          - generic [ref=f11e54]:
+            - paragraph [ref=f11e55]: Nuevo pase
+            - heading "Registrar pase" [level=3] [ref=f11e56]
+          - generic [ref=f11e57]:
+            - generic [ref=f11e58]:
+              - generic [ref=f11e59]:
+                - generic [ref=f11e60]: Sentido
+                - generic [ref=f11e61]:
+                  - generic [ref=f11e62] [cursor=pointer]:
+                    - radio "Entrada" [checked] [ref=f11e63]
+                    - text: Entrada
+                  - generic [ref=f11e66] [cursor=pointer]:
+                    - radio "Salida" [ref=f11e67]
+                    - text: Salida
+              - generic [ref=f11e70]:
+                - generic [ref=f11e71]: Vehículo
+                - combobox [ref=f11e72]:
+                  - option "Seleccionar…" [selected]
+                  - option "AAA-BBB-123 · Toyota Hilux 4x4"
+                  - option "GHL-4512 · Toyota Hiace"
+                  - option "HTR-7823 · Nissan Frontier"
+                  - option "JKL-9911 · Isuzu NQR"
+                  - option "MXZ-3322 · Freightliner M2 106"
+                  - option "CDE-5567 · Chevrolet Silverado"
+                  - option "FGH-8876 · Ford Transit"
+                  - option "RST-2233 · Mercedes Benz Sprinter"
+                  - option "WXY-1001 · Kenworth T800"
+                  - option "QRS-4412 · Toyota Tundra"
+                  - option "MNO-7788 · Mitsubishi Fuso Canter"
+                  - option "PQR-3344 · RAM Promaster"
+              - generic [ref=f11e73]:
+                - generic [ref=f11e74]:
+                  - generic [ref=f11e75]: Conductor
+                  - textbox [ref=f11e76]
+                - generic [ref=f11e77]:
+                  - generic [ref=f11e78]: Folio
+                  - textbox "R-2026-001" [ref=f11e79]
+                - generic [ref=f11e80]:
+                  - generic [ref=f11e81]: Fecha entrada
+                  - textbox [ref=f11e82]: 2026-08-04
+                - generic [ref=f11e83]:
+                  - generic [ref=f11e84]: Hora entrada
+                  - textbox [ref=f11e85]: 20:48
+                - generic [ref=f11e86]:
+                  - generic [ref=f11e87]: Kilometraje
+                  - spinbutton "45 230" [ref=f11e88]
+                - generic [ref=f11e89]:
+                  - generic [ref=f11e90]: Gasolina
+                  - combobox [ref=f11e91]:
+                    - option "Seleccionar…" [selected]
+                    - option "80%"
+                    - option "60%"
+                    - option "40%"
+                    - option "20% (Reserva)"
+                    - option "100% (Lleno)"
+                - generic [ref=f11e92]:
+                  - generic [ref=f11e93]: Llanta refacción
+                  - generic [ref=f11e94]:
+                    - generic [ref=f11e95] [cursor=pointer]:
+                      - radio "Sí" [ref=f11e96]
+                      - text: Sí
+                    - generic [ref=f11e97] [cursor=pointer]:
+                      - radio "No" [checked] [ref=f11e98]
+                      - text: "No"
+                - generic [ref=f11e99]:
+                  - generic [ref=f11e100]: Foto del conductor
+                  - button "Choose File" [ref=f11e101]
+              - generic [ref=f11e102]:
+                - generic [ref=f11e103]:
+                  - generic [ref=f11e104]: Estado del vehículo
+                  - combobox [ref=f11e105]:
+                    - option "Seleccionar…" [selected]
+                    - option "Bueno"
+                    - option "Regular"
+                    - option "Malo"
+                - generic [ref=f11e106]:
+                  - generic [ref=f11e107]: Foto del vehículo
+                  - button "Choose File" [ref=f11e108]
+              - generic [ref=f11e109]:
+                - generic [ref=f11e110]: Observaciones
+                - textbox [ref=f11e111]
+              - generic [ref=f11e113] [cursor=pointer]:
+                - checkbox "Confirmo que revisé el estado del vehículo descrito arriba y que los datos capturados son correctos." [ref=f11e114]
+                - generic [ref=f11e115]: Confirmo que revisé el estado del vehículo descrito arriba y que los datos capturados son correctos.
+              - generic [ref=f11e116]:
+                - generic [ref=f11e117]: Firma
+                - generic [ref=f11e120]:
+                  - generic [ref=f11e121]: Firme aquí
+                  - button "Borrar firma" [ref=f11e122]
+            - generic [ref=f11e123]:
+              - button "Registrar pase" [ref=f11e124]
+              - button "Borrar campos" [ref=f11e125]
+        - generic [ref=f11e127]:
+          - generic [ref=f11e128]:
+            - generic [ref=f11e129]:
+              - paragraph [ref=f11e130]: Bitácora
+              - heading "martes 04 de agosto" [level=3] [ref=f11e131]
+            - generic [ref=f11e132]: 10 pases
+          - table [ref=f11e134]:
+            - rowgroup [ref=f11e135]:
+              - row [ref=f11e136]:
+                - columnheader "Hora" [ref=f11e137]
+                - columnheader "Sentido" [ref=f11e138]
+                - columnheader "Placa" [ref=f11e139]
+                - columnheader "Conductor" [ref=f11e140]
+                - columnheader "Km" [ref=f11e141]
+                - columnheader "Gas" [ref=f11e142]
+                - columnheader "Firma" [ref=f11e143]
+                - columnheader "Acciones" [ref=f11e144]
+            - rowgroup [ref=f11e146]:
+              - row [ref=f11e147]:
+                - cell "12:00:00" [ref=f11e148]
+                - cell [ref=f11e149]
+                - cell "WXY-1001" [ref=f11e153]
+                - cell "Ana Torres" [ref=f11e154]
+                - cell "221,340" [ref=f11e155]
+                - cell "80%" [ref=f11e156]
+                - cell "Firmado" [ref=f11e157]
+                - cell [ref=f11e158]:
+                  - generic [ref=f11e159]:
+                    - button "Ver firma" [ref=f11e160]
+                    - button "Eliminar" [ref=f11e163]
+              - row [ref=f11e166]:
+                - cell "10:30:00" [ref=f11e167]
+                - cell [ref=f11e168]
+                - cell "FGH-8876" [ref=f11e172]
+                - cell "Carlos Ruiz" [ref=f11e173]
+                - cell "66,320" [ref=f11e174]
+                - cell "100%" [ref=f11e175]
+                - cell "Firmado" [ref=f11e176]
+                - cell [ref=f11e177]:
+                  - generic [ref=f11e178]:
+                    - button "Ver firma" [ref=f11e179]
+                    - button "Eliminar" [ref=f11e182]
+              - row [ref=f11e185]:
+                - cell "09:50:00" [ref=f11e186]
+                - cell [ref=f11e187]
+                - cell "MXZ-3322" [ref=f11e191]
+                - cell "María Gómez" [ref=f11e192]
+                - cell "118,450" [ref=f11e193]
+                - cell "40%" [ref=f11e194]
+                - cell "Firmado" [ref=f11e195]
+                - cell [ref=f11e196]:
+                  - generic [ref=f11e197]:
+                    - button "Ver firma" [ref=f11e198]
+                    - button "Eliminar" [ref=f11e201]
+              - row [ref=f11e204]:
+                - cell "08:40:00" [ref=f11e205]
+                - cell [ref=f11e206]
+                - cell "JKL-9911" [ref=f11e210]
+                - cell "Luis Martínez" [ref=f11e211]
+                - cell "42,110" [ref=f11e212]
+                - cell "80%" [ref=f11e213]
+                - cell "Firmado" [ref=f11e214]
+                - cell [ref=f11e215]:
+                  - generic [ref=f11e216]:
+                    - button "Ver firma" [ref=f11e217]
+                    - button "Eliminar" [ref=f11e220]
+              - row [ref=f11e223]:
+                - cell "07:30:00" [ref=f11e224]
+                - cell [ref=f11e225]
+                - cell "GHL-4512" [ref=f11e229]
+                - cell "Juan Pérez" [ref=f11e230]
+                - cell "78,010" [ref=f11e231]
+                - cell "60%" [ref=f11e232]
+                - cell "Firmado" [ref=f11e233]
+                - cell [ref=f11e234]:
+                  - generic [ref=f11e235]:
+                    - button "Ver firma" [ref=f11e236]
+                    - button "Eliminar" [ref=f11e239]
+              - row [ref=f11e242]:
+                - cell "11:25:00" [ref=f11e243]
+                - cell [ref=f11e244]
+                - cell "MNO-7788" [ref=f11e248]
+                - cell "—" [ref=f11e249]
+                - cell "15,500" [ref=f11e250]
+                - cell "80%" [ref=f11e251]
+                - cell "Firmado" [ref=f11e252]
+                - cell [ref=f11e253]:
+                  - generic [ref=f11e254]:
+                    - button "Ver firma" [ref=f11e255]
+                    - button "Eliminar" [ref=f11e258]
+              - row [ref=f11e261]:
+                - cell "09:22:00" [ref=f11e262]
+                - cell [ref=f11e263]
+                - cell "RST-2233" [ref=f11e267]
+                - cell "—" [ref=f11e268]
+                - cell "92,480" [ref=f11e269]
+                - cell "40%" [ref=f11e270]
+                - cell "Firmado" [ref=f11e271]
+                - cell [ref=f11e272]:
+                  - generic [ref=f11e273]:
+                    - button "Ver firma" [ref=f11e274]
+                    - button "Eliminar" [ref=f11e277]
+              - row [ref=f11e280]:
+                - cell "08:21:00" [ref=f11e281]
+                - cell [ref=f11e282]
+                - cell "CDE-5567" [ref=f11e286]
+                - cell "—" [ref=f11e287]
+                - cell "38,110" [ref=f11e288]
+                - cell "100%" [ref=f11e289]
+                - cell "Firmado" [ref=f11e290]
+                - cell [ref=f11e291]:
+                  - generic [ref=f11e292]:
+                    - button "Ver firma" [ref=f11e293]
+                    - button "Eliminar" [ref=f11e296]
+              - row [ref=f11e299]:
+                - cell "07:20:00" [ref=f11e300]
+                - cell [ref=f11e301]
+                - cell "HTR-7823" [ref=f11e305]
+                - cell "—" [ref=f11e306]
+                - cell "61,250" [ref=f11e307]
+                - cell "60%" [ref=f11e308]
+                - cell "Firmado" [ref=f11e309]
+                - cell [ref=f11e310]:
+                  - generic [ref=f11e311]:
+                    - button "Ver firma" [ref=f11e312]
+                    - button "Eliminar" [ref=f11e315]
+              - row [ref=f11e318]:
+                - cell "07:15:00" [ref=f11e319]
+                - cell [ref=f11e320]
+                - cell "AAA-BBB-123" [ref=f11e324]
+                - cell "—" [ref=f11e325]
+                - cell "45,230" [ref=f11e326]
+                - cell "80%" [ref=f11e327]
+                - cell "Firmado" [ref=f11e328]
+                - cell [ref=f11e329]:
+                  - generic [ref=f11e330]:
+                    - button "Ver firma" [ref=f11e331]
+                    - button "Eliminar" [ref=f11e334]

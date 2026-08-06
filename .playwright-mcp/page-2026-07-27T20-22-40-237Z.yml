@@ -1,0 +1,190 @@
+- generic [active] [ref=f43e1]:
+  - complementary [ref=f43e2]:
+    - generic [ref=f43e3]:
+      - generic [ref=f43e4]: A
+      - generic [ref=f43e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f43e6]
+        - paragraph [ref=f43e7]: Control de Flota
+    - generic [ref=f43e8]:
+      - paragraph [ref=f43e9]: Navegación Admin
+      - navigation [ref=f43e10]:
+        - link "Dashboard / Resumen" [ref=f43e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f43e15]: Vehículos
+        - link "Vehículos" [ref=f43e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f43e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f43e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f43e28]: Rutas
+        - link "Rutas" [ref=f43e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f43e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f43e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f43e41]: Operaciones
+        - link "Operadores" [ref=f43e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f43e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f43e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f43e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - paragraph [ref=f43e58]: Administración
+        - link "Reportes" [ref=f43e59] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f43e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f43e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f43e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f43e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f43e79]:
+      - generic [ref=f43e80]:
+        - generic [ref=f43e81]: AD
+        - generic [ref=f43e82]:
+          - paragraph [ref=f43e83]: Admin Sistema
+          - paragraph [ref=f43e84]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f43e86]
+  - generic [ref=f43e89]:
+    - banner [ref=f43e90]:
+      - generic [ref=f43e91]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f43e92]
+        - generic [ref=f43e94]: OWASP Top 10 Secured
+      - generic [ref=f43e97]:
+        - link "8" [ref=f43e98] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f43e102]: "--:--:--"
+        - generic [ref=f43e106]:
+          - generic [ref=f43e107]:
+            - paragraph [ref=f43e108]: Admin Sistema
+            - paragraph [ref=f43e109]: Administrador del sistema
+          - generic [ref=f43e110]: AD
+    - main [ref=f43e111]:
+      - generic [ref=f43e112]:
+        - generic [ref=f43e113]:
+          - generic [ref=f43e114]:
+            - heading "Control de Gastos" [level=1] [ref=f43e115]
+            - paragraph [ref=f43e116]: Registro y aprobación de gastos operativos.
+          - generic [ref=f43e117]:
+            - button "Nueva Tarjeta" [ref=f43e118]
+            - button "Registrar Gasto" [ref=f43e121]
+        - generic [ref=f43e124]:
+          - generic [ref=f43e125]:
+            - generic [ref=f43e126]:
+              - generic [ref=f43e127]:
+                - text: AAA-1234-B
+                - heading "Nissan NP300" [level=4] [ref=f43e128]
+              - generic [ref=f43e129]: •••• 3456
+            - generic [ref=f43e130]:
+              - generic [ref=f43e131]:
+                - generic [ref=f43e132]: Gastado
+                - generic [ref=f43e133]: $1,026.00 / $5,000.00
+              - generic [ref=f43e136]:
+                - generic [ref=f43e137]: 20.5% utilizado
+                - generic [ref=f43e138]: $3,974.00 disponibles
+                - generic [ref=f43e139]:
+                  - generic [ref=f43e140]: 20.5% utilizado
+                  - generic [ref=f43e141]: $3,974.00 disponibles
+              - generic [ref=f43e142]:
+                - button "Editar tarjeta" [ref=f43e143]
+                - button "Eliminar tarjeta" [ref=f43e146]
+          - generic [ref=f43e149]:
+            - heading "Tarjetas Registradas" [level=3] [ref=f43e150]
+            - table [ref=f43e152]:
+              - rowgroup [ref=f43e153]:
+                - row [ref=f43e154]:
+                  - columnheader "Vehículo" [ref=f43e155]
+                  - columnheader "Nº Tarjeta" [ref=f43e156]
+                  - columnheader "Autorizado" [ref=f43e157]
+                  - columnheader "Gastado (Mes)" [ref=f43e158]
+                  - columnheader "Disponible" [ref=f43e159]
+                  - columnheader "Uso" [ref=f43e160]
+                  - columnheader "Acciones" [ref=f43e161]
+              - rowgroup [ref=f43e162]:
+                - row [ref=f43e163]:
+                  - cell "AAA-1234-B · Nissan NP300" [ref=f43e164]
+                  - cell "•••• 3456" [ref=f43e165]
+                  - cell "$5,000.00" [ref=f43e166]
+                  - cell "$1,026.00" [ref=f43e167]
+                  - cell "$3,974.00" [ref=f43e168]
+                  - cell "20.5%" [ref=f43e169]
+                  - cell [ref=f43e174]:
+                    - generic [ref=f43e175]:
+                      - button "Editar tarjeta" [ref=f43e176]
+                      - button "Eliminar tarjeta" [ref=f43e179]
+          - generic [ref=f43e182]:
+            - heading "Historial de Gastos" [level=3] [ref=f43e183]
+            - table [ref=f43e185]:
+              - rowgroup [ref=f43e186]:
+                - row [ref=f43e187]:
+                  - columnheader "#" [ref=f43e188]
+                  - columnheader "Fecha" [ref=f43e189]
+                  - columnheader "Vehículo" [ref=f43e190]
+                  - columnheader "Tipo" [ref=f43e191]
+                  - columnheader "Descripción" [ref=f43e192]
+                  - columnheader "Monto" [ref=f43e193]
+                  - columnheader "Estado" [ref=f43e194]
+                  - columnheader "Acciones" [ref=f43e195]
+              - rowgroup [ref=f43e196]:
+                - row [ref=f43e197]:
+                  - cell "#5" [ref=f43e198]
+                  - cell "31/07/2026" [ref=f43e199]
+                  - cell "AAA-1234-B" [ref=f43e200]
+                  - cell "gasolina" [ref=f43e201]
+                  - cell "metio gasolina" [ref=f43e202]
+                  - cell "$200.00" [ref=f43e203]
+                  - cell "Aprobado" [ref=f43e204]
+                  - cell [ref=f43e206]:
+                    - button "Ver detalle" [ref=f43e208]
+                - row [ref=f43e212]:
+                  - cell "#3" [ref=f43e213]
+                  - cell "30/07/2026" [ref=f43e214]
+                  - cell "AAA-1234-B" [ref=f43e215]
+                  - cell "casetas" [ref=f43e216]
+                  - cell "casetas" [ref=f43e217]
+                  - cell "$500.00" [ref=f43e218]
+                  - cell "Aprobado" [ref=f43e219]
+                  - cell [ref=f43e221]:
+                    - button "Ver detalle" [ref=f43e223]
+                - row [ref=f43e227]:
+                  - cell "#1" [ref=f43e228]
+                  - cell "27/07/2026" [ref=f43e229]
+                  - cell "AAA-1234-B" [ref=f43e230]
+                  - cell "Prueba" [ref=f43e231]
+                  - cell "Test" [ref=f43e232]
+                  - cell "$100.50" [ref=f43e233]
+                  - cell "Aprobado" [ref=f43e234]
+                  - cell [ref=f43e236]:
+                    - button "Ver detalle" [ref=f43e238]
+                - row [ref=f43e242]:
+                  - cell "#2" [ref=f43e243]
+                  - cell "27/07/2026" [ref=f43e244]
+                  - cell "AAA-1234-B" [ref=f43e245]
+                  - cell "Caseta" [ref=f43e246]
+                  - cell "Gasto de prueba" [ref=f43e247]
+                  - cell "$150.50" [ref=f43e248]
+                  - cell "Aprobado" [ref=f43e249]
+                  - cell [ref=f43e251]:
+                    - button "Ver detalle" [ref=f43e253]
+                - row [ref=f43e257]:
+                  - cell "#4" [ref=f43e258]
+                  - cell "27/07/2026" [ref=f43e259]
+                  - cell "AAA-1234-B" [ref=f43e260]
+                  - cell "Peaje automático" [ref=f43e261]
+                  - cell "Gasto aprobado automáticamente" [ref=f43e262]
+                  - cell "$75.00" [ref=f43e263]
+                  - cell "Aprobado" [ref=f43e264]
+                  - cell [ref=f43e266]:
+                    - button "Ver detalle" [ref=f43e268]
+    - contentinfo [ref=f43e272]:
+      - generic [ref=f43e273]:
+        - generic [ref=f43e274]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f43e278]:
+          - generic [ref=f43e279]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f43e280]: • Servidor Seguro de Producción

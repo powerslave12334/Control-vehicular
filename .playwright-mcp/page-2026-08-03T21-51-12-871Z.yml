@@ -1,0 +1,357 @@
+- generic [ref=f185e1]:
+  - complementary [ref=f185e2]:
+    - generic [ref=f185e3]:
+      - generic [ref=f185e4]: A
+      - generic [ref=f185e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f185e6]
+        - paragraph [ref=f185e7]: Control de Flota
+    - generic [ref=f185e8]:
+      - paragraph [ref=f185e9]: Navegación Admin
+      - navigation [ref=f185e10]:
+        - link "Dashboard / Resumen" [ref=f185e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f185e15]: Vehículos
+        - link "Vehículos" [ref=f185e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f185e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f185e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f185e28]: Rutas
+        - link "Rutas" [ref=f185e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f185e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f185e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f185e41]: Operaciones
+        - link "Operadores" [ref=f185e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f185e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f185e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f185e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f185e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f185e62]: Administración
+        - link "Reportes" [ref=f185e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f185e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f185e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f185e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f185e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f185e83]:
+      - generic [ref=f185e84]:
+        - generic [ref=f185e85]: AD
+        - generic [ref=f185e86]:
+          - paragraph [ref=f185e87]: Administrador
+          - paragraph [ref=f185e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f185e90]
+  - generic [ref=f185e93]:
+    - banner [ref=f185e94]:
+      - generic [ref=f185e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f185e96]
+        - generic [ref=f185e98]: OWASP Top 10 Secured
+      - generic [ref=f185e101]:
+        - link "28" [ref=f185e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f185e106]: "--:--:--"
+        - generic [ref=f185e110]:
+          - generic [ref=f185e111]:
+            - paragraph [ref=f185e112]: Administrador
+            - paragraph [ref=f185e113]: Administrador del sistema
+          - generic [ref=f185e114]: AD
+    - main [ref=f185e115]:
+      - generic [ref=f185e116]:
+        - generic [ref=f185e117]:
+          - heading "Expediente de Unidades Vehiculares (6)" [level=3] [ref=f185e118]
+          - button "Registrar Vehículo" [ref=f185e119]
+        - generic [ref=f185e123]:
+          - textbox "Buscar por marca, modelo, placas o VIN..." [ref=f185e125]
+          - combobox [ref=f185e126]:
+            - option "Todos los estatus" [selected]
+            - option "Activa"
+            - option "En mantenimiento"
+            - option "Fuera de servicio"
+          - combobox [ref=f185e127]:
+            - option "Todos los combustibles" [selected]
+            - option "Gasolina"
+            - option "Diesel"
+            - option "Gas LP"
+          - combobox [ref=f185e128]:
+            - option "Todos los tipos" [selected]
+            - option "Torton"
+            - option "Rabón"
+            - option "Camión"
+            - option "Pickup"
+            - option "Panel"
+            - option "Caja Seca"
+            - option "Plataforma"
+            - option "Refrigerado"
+            - option "Van"
+          - combobox [ref=f185e129]:
+            - 'option "GPS: Todos" [selected]'
+            - option "GPS Instalado"
+            - option "GPS No instalado"
+          - combobox [ref=f185e130]:
+            - option "Todos los choferes" [selected]
+            - option "Juan Pérez"
+        - generic [ref=f185e131]:
+          - generic [ref=f185e132]:
+            - generic [ref=f185e133]:
+              - generic [ref=f185e134]:
+                - text: V-6 · 3GCUKREC5PG234567
+                - heading "Chevrolet Silverado (2023)" [level=4] [ref=f185e135]
+              - generic [ref=f185e136]: Activa
+            - generic [ref=f185e137]:
+              - generic [ref=f185e138]:
+                - generic [ref=f185e139]: "Placas:"
+                - generic [ref=f185e140]: CDE-5567
+              - generic [ref=f185e141]:
+                - generic [ref=f185e142]: "Kilometraje Actual:"
+                - generic [ref=f185e143]: 28,700 Km
+              - generic [ref=f185e144]:
+                - generic [ref=f185e145]: "Combustible / Tanque:"
+                - generic [ref=f185e146]: Gasolina (90.00 L)
+              - generic [ref=f185e147]:
+                - generic [ref=f185e148]: "Último Servicio:"
+                - generic [ref=f185e149]: 2026-08-03 00:00:00
+              - generic [ref=f185e150]:
+                - generic [ref=f185e151]: "Próximo Servicio:"
+                - generic [ref=f185e152]: 2026-11-01 00:00:00
+              - generic [ref=f185e153]:
+                - generic [ref=f185e154]: "Límite Semanal Autorizado:"
+                - generic [ref=f185e155]: 320.00 L
+              - generic [ref=f185e156]:
+                - generic [ref=f185e157]: "Incidencias Totales:"
+                - generic [ref=f185e158]: 0 registradas
+              - generic [ref=f185e159]:
+                - generic [ref=f185e160]: "GPS:"
+                - generic [ref=f185e161]: Instalado
+            - generic [ref=f185e162]:
+              - generic [ref=f185e163]: "Cambiar Estatus:"
+              - generic [ref=f185e164]:
+                - button "Activa" [ref=f185e165]
+                - button "Taller" [ref=f185e166]
+                - button "Baja" [ref=f185e167]
+            - generic [ref=f185e168]:
+              - button "Expediente" [ref=f185e169]
+              - button "Editar" [ref=f185e170]
+              - button "Eliminar" [ref=f185e171]
+          - generic [ref=f185e172]:
+            - generic [ref=f185e173]:
+              - generic [ref=f185e174]:
+                - text: V-5 · 3ALACWFC9KD100234
+                - heading "Freightliner M2 106 (2019)" [level=4] [ref=f185e175]
+              - generic [ref=f185e176]: Activa
+            - generic [ref=f185e177]:
+              - generic [ref=f185e178]:
+                - generic [ref=f185e179]: "Placas:"
+                - generic [ref=f185e180]: MXZ-3322
+              - generic [ref=f185e181]:
+                - generic [ref=f185e182]: "Kilometraje Actual:"
+                - generic [ref=f185e183]: 198,500 Km
+              - generic [ref=f185e184]:
+                - generic [ref=f185e185]: "Combustible / Tanque:"
+                - generic [ref=f185e186]: Diesel (150.00 L)
+              - generic [ref=f185e187]:
+                - generic [ref=f185e188]: "Último Servicio:"
+                - generic [ref=f185e189]: 2026-08-03 00:00:00
+              - generic [ref=f185e190]:
+                - generic [ref=f185e191]: "Próximo Servicio:"
+                - generic [ref=f185e192]: 2026-11-01 00:00:00
+              - generic [ref=f185e193]:
+                - generic [ref=f185e194]: "Límite Semanal Autorizado:"
+                - generic [ref=f185e195]: 650.00 L
+              - generic [ref=f185e196]:
+                - generic [ref=f185e197]: "Incidencias Totales:"
+                - generic [ref=f185e198]: 0 registradas
+              - generic [ref=f185e199]:
+                - generic [ref=f185e200]: "GPS:"
+                - generic [ref=f185e201]: Instalado
+            - generic [ref=f185e202]:
+              - generic [ref=f185e203]: "Cambiar Estatus:"
+              - generic [ref=f185e204]:
+                - button "Activa" [ref=f185e205]
+                - button "Taller" [ref=f185e206]
+                - button "Baja" [ref=f185e207]
+            - generic [ref=f185e208]:
+              - button "Expediente" [ref=f185e209]
+              - button "Editar" [ref=f185e210]
+              - button "Eliminar" [ref=f185e211]
+          - generic [ref=f185e212]:
+            - generic [ref=f185e213]:
+              - generic [ref=f185e214]:
+                - text: V-4 · JALC4B16310012345
+                - heading "Isuzu NQR (2020)" [level=4] [ref=f185e215]
+              - generic [ref=f185e216]: Activa
+            - generic [ref=f185e217]:
+              - generic [ref=f185e218]:
+                - generic [ref=f185e219]: "Placas:"
+                - generic [ref=f185e220]: JKL-9911
+              - generic [ref=f185e221]:
+                - generic [ref=f185e222]: "Kilometraje Actual:"
+                - generic [ref=f185e223]: 142,000 Km
+              - generic [ref=f185e224]:
+                - generic [ref=f185e225]: "Combustible / Tanque:"
+                - generic [ref=f185e226]: Diesel (120.00 L)
+              - generic [ref=f185e227]:
+                - generic [ref=f185e228]: "Último Servicio:"
+                - generic [ref=f185e229]: 2026-08-03 00:00:00
+              - generic [ref=f185e230]:
+                - generic [ref=f185e231]: "Próximo Servicio:"
+                - generic [ref=f185e232]: 2026-11-01 00:00:00
+              - generic [ref=f185e233]:
+                - generic [ref=f185e234]: "Límite Semanal Autorizado:"
+                - generic [ref=f185e235]: 500.00 L
+              - generic [ref=f185e236]:
+                - generic [ref=f185e237]: "Incidencias Totales:"
+                - generic [ref=f185e238]: 0 registradas
+              - generic [ref=f185e239]:
+                - generic [ref=f185e240]: "GPS:"
+                - generic [ref=f185e241]: Instalado
+            - generic [ref=f185e242]:
+              - generic [ref=f185e243]: "Cambiar Estatus:"
+              - generic [ref=f185e244]:
+                - button "Activa" [ref=f185e245]
+                - button "Taller" [ref=f185e246]
+                - button "Baja" [ref=f185e247]
+            - generic [ref=f185e248]:
+              - button "Expediente" [ref=f185e249]
+              - button "Editar" [ref=f185e250]
+              - button "Eliminar" [ref=f185e251]
+          - generic [ref=f185e252]:
+            - generic [ref=f185e253]:
+              - generic [ref=f185e254]:
+                - text: V-3 · 3N6AD33C9N1234568
+                - heading "Nissan Frontier (2022)" [level=4] [ref=f185e255]
+              - generic [ref=f185e256]: Activa
+            - generic [ref=f185e257]:
+              - generic [ref=f185e258]:
+                - generic [ref=f185e259]: "Placas:"
+                - generic [ref=f185e260]: HTR-7823
+              - generic [ref=f185e261]:
+                - generic [ref=f185e262]: "Kilometraje Actual:"
+                - generic [ref=f185e263]: 38,500 Km
+              - generic [ref=f185e264]:
+                - generic [ref=f185e265]: "Combustible / Tanque:"
+                - generic [ref=f185e266]: Gasolina (70.00 L)
+              - generic [ref=f185e267]:
+                - generic [ref=f185e268]: "Último Servicio:"
+                - generic [ref=f185e269]: 2026-08-03 00:00:00
+              - generic [ref=f185e270]:
+                - generic [ref=f185e271]: "Próximo Servicio:"
+                - generic [ref=f185e272]: 2026-11-01 00:00:00
+              - generic [ref=f185e273]:
+                - generic [ref=f185e274]: "Límite Semanal Autorizado:"
+                - generic [ref=f185e275]: 280.00 L
+              - generic [ref=f185e276]:
+                - generic [ref=f185e277]: "Incidencias Totales:"
+                - generic [ref=f185e278]: 0 registradas
+              - generic [ref=f185e279]:
+                - generic [ref=f185e280]: "GPS:"
+                - generic [ref=f185e281]: Instalado
+            - generic [ref=f185e282]:
+              - generic [ref=f185e283]: "Cambiar Estatus:"
+              - generic [ref=f185e284]:
+                - button "Activa" [ref=f185e285]
+                - button "Taller" [ref=f185e286]
+                - button "Baja" [ref=f185e287]
+            - generic [ref=f185e288]:
+              - button "Expediente" [ref=f185e289]
+              - button "Editar" [ref=f185e290]
+              - button "Eliminar" [ref=f185e291]
+          - generic [ref=f185e292]:
+            - generic [ref=f185e293]:
+              - generic [ref=f185e294]:
+                - text: V-2 · JTFSK22P2N0234567
+                - heading "Toyota Hiace (2021)" [level=4] [ref=f185e295]
+              - generic [ref=f185e296]: Activa
+            - generic [ref=f185e297]:
+              - generic [ref=f185e298]:
+                - generic [ref=f185e299]: "Placas:"
+                - generic [ref=f185e300]: GHL-4512
+              - generic [ref=f185e301]:
+                - generic [ref=f185e302]: "Kilometraje Actual:"
+                - generic [ref=f185e303]: 61,200 Km
+              - generic [ref=f185e304]:
+                - generic [ref=f185e305]: "Combustible / Tanque:"
+                - generic [ref=f185e306]: Gasolina (70.00 L)
+              - generic [ref=f185e307]:
+                - generic [ref=f185e308]: "Último Servicio:"
+                - generic [ref=f185e309]: 2026-08-03 00:00:00
+              - generic [ref=f185e310]:
+                - generic [ref=f185e311]: "Próximo Servicio:"
+                - generic [ref=f185e312]: 2026-11-01 00:00:00
+              - generic [ref=f185e313]:
+                - generic [ref=f185e314]: "Límite Semanal Autorizado:"
+                - generic [ref=f185e315]: 250.00 L
+              - generic [ref=f185e316]:
+                - generic [ref=f185e317]: "Incidencias Totales:"
+                - generic [ref=f185e318]: 0 registradas
+              - generic [ref=f185e319]:
+                - generic [ref=f185e320]: "GPS:"
+                - generic [ref=f185e321]: Instalado
+            - generic [ref=f185e322]:
+              - generic [ref=f185e323]: "Cambiar Estatus:"
+              - generic [ref=f185e324]:
+                - button "Activa" [ref=f185e325]
+                - button "Taller" [ref=f185e326]
+                - button "Baja" [ref=f185e327]
+            - generic [ref=f185e328]:
+              - button "Expediente" [ref=f185e329]
+              - button "Editar" [ref=f185e330]
+              - button "Eliminar" [ref=f185e331]
+          - generic [ref=f185e332]:
+            - generic [ref=f185e333]:
+              - generic [ref=f185e334]:
+                - text: V-1 · 3TMLZ5FN3NM123456
+                - heading "Toyota Hilux 4x4 (2023)" [level=4] [ref=f185e335]
+              - generic [ref=f185e336]: Activa
+            - generic [ref=f185e337]:
+              - generic [ref=f185e338]:
+                - generic [ref=f185e339]: "Placas:"
+                - generic [ref=f185e340]: AAA-BBB-123
+              - generic [ref=f185e341]:
+                - generic [ref=f185e342]: "Kilometraje Actual:"
+                - generic [ref=f185e343]: 48,200 Km
+              - generic [ref=f185e344]:
+                - generic [ref=f185e345]: "Combustible / Tanque:"
+                - generic [ref=f185e346]: Gasolina (80.00 L)
+              - generic [ref=f185e347]:
+                - generic [ref=f185e348]: "Último Servicio:"
+                - generic [ref=f185e349]: 2026-08-03 00:00:00
+              - generic [ref=f185e350]:
+                - generic [ref=f185e351]: "Próximo Servicio:"
+                - generic [ref=f185e352]: 2026-11-01 00:00:00
+              - generic [ref=f185e353]:
+                - generic [ref=f185e354]: "Límite Semanal Autorizado:"
+                - generic [ref=f185e355]: 300.00 L
+              - generic [ref=f185e356]:
+                - generic [ref=f185e357]: "Incidencias Totales:"
+                - generic [ref=f185e358]: 0 registradas
+              - generic [ref=f185e359]:
+                - generic [ref=f185e360]: "GPS:"
+                - generic [ref=f185e361]: Instalado
+            - generic [ref=f185e362]:
+              - generic [ref=f185e363]: "Cambiar Estatus:"
+              - generic [ref=f185e364]:
+                - button "Activa" [ref=f185e365]
+                - button "Taller" [ref=f185e366]
+                - button "Baja" [ref=f185e367]
+            - generic [ref=f185e368]:
+              - button "Expediente" [ref=f185e369]
+              - button "Editar" [ref=f185e370]
+              - button "Eliminar" [ref=f185e371]
+    - contentinfo [ref=f185e373]:
+      - generic [ref=f185e374]:
+        - generic [ref=f185e375]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f185e379]:
+          - generic [ref=f185e380]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f185e381]: • Servidor Seguro de Producción

@@ -1,0 +1,239 @@
+- generic [active] [ref=f61e1]:
+  - complementary [ref=f61e2]:
+    - generic [ref=f61e3]:
+      - generic [ref=f61e4]: A
+      - generic [ref=f61e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f61e6]
+        - paragraph [ref=f61e7]: Control de Flota
+    - generic [ref=f61e8]:
+      - paragraph [ref=f61e9]: Navegación Admin
+      - navigation [ref=f61e10]:
+        - link "Dashboard / Resumen" [ref=f61e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f61e15]: Vehículos
+        - link "Vehículos" [ref=f61e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f61e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f61e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f61e28]: Rutas
+        - link "Rutas" [ref=f61e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f61e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f61e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f61e41]: Operaciones
+        - link "Operadores" [ref=f61e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f61e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f61e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f61e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f61e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f61e62]: Administración
+        - link "Reportes" [ref=f61e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f61e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f61e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f61e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f61e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f61e83]:
+      - generic [ref=f61e84]:
+        - generic [ref=f61e85]: AD
+        - generic [ref=f61e86]:
+          - paragraph [ref=f61e87]: Administrador
+          - paragraph [ref=f61e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f61e90]
+  - generic [ref=f61e93]:
+    - banner [ref=f61e94]:
+      - generic [ref=f61e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f61e96]
+        - generic [ref=f61e98]: OWASP Top 10 Secured
+      - generic [ref=f61e101]:
+        - link "79" [ref=f61e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f61e106]: "--:--:--"
+        - generic [ref=f61e110]:
+          - generic [ref=f61e111]:
+            - paragraph [ref=f61e112]: Administrador
+            - paragraph [ref=f61e113]: Administrador del sistema
+          - generic [ref=f61e114]: AD
+    - main [ref=f61e115]:
+      - generic [ref=f61e116]:
+        - generic [ref=f61e117]:
+          - generic [ref=f61e118]:
+            - heading "Calendario de Rutas" [level=2] [ref=f61e119]
+            - paragraph [ref=f61e120]: Tablero semanal de despacho
+          - generic [ref=f61e121]:
+            - generic [ref=f61e122]:
+              - button "Semana" [ref=f61e123]
+              - button "Mes" [ref=f61e124]
+            - button "Anterior" [ref=f61e126]
+            - generic [ref=f61e129]: 03/08/2026 — 09/08/2026
+            - button "Siguiente" [ref=f61e130]
+            - button "Hoy" [ref=f61e133]
+        - generic [ref=f61e135]:
+          - textbox "Buscar (cliente, folio, placa, operador...)" [ref=f61e136]
+          - combobox [ref=f61e137]:
+            - 'option "Estatus: Todos" [selected]'
+            - option "Programada"
+            - option "Asignada"
+            - option "En Tránsito"
+            - option "Instalando"
+            - option "Completada"
+            - option "Cancelada"
+          - combobox [ref=f61e138]:
+            - 'option "Vehículo: Todos" [selected]'
+            - option "AAA-BBB-123"
+            - option "GHL-4512"
+            - option "HTR-7823"
+            - option "JKL-9911"
+            - option "MXZ-3322"
+            - option "CDE-5567"
+            - option "FGH-8876"
+            - option "RST-2233"
+            - option "WXY-1001"
+            - option "QRS-4412"
+            - option "MNO-7788"
+          - combobox [ref=f61e139]:
+            - 'option "Operador: Todos" [selected]'
+            - option "Instalador"
+            - option "Prueba"
+        - generic [ref=f61e140]:
+          - generic [ref=f61e141]:
+            - generic [ref=f61e142]: "6"
+            - generic [ref=f61e143]: rutas
+          - generic [ref=f61e145]:
+            - generic [ref=f61e146]: "630"
+            - generic [ref=f61e147]: km planeados
+          - generic [ref=f61e149]:
+            - generic [ref=f61e151]: "0"
+            - generic [ref=f61e152]: en tránsito / instalando
+          - generic [ref=f61e153]:
+            - generic [ref=f61e155]: "0"
+            - generic [ref=f61e156]: completadas
+          - generic [ref=f61e157]:
+            - generic [ref=f61e159]: "0"
+            - generic [ref=f61e160]: canceladas
+        - table [ref=f61e163]:
+          - rowgroup [ref=f61e164]:
+            - row [ref=f61e165]:
+              - columnheader "Operador" [ref=f61e166]
+              - columnheader "lun. 03" [ref=f61e167]:
+                - generic [ref=f61e168]: lun.
+                - generic [ref=f61e169]: "03"
+              - columnheader "mar. 04" [ref=f61e170]:
+                - generic [ref=f61e171]: mar.
+                - generic [ref=f61e172]: "04"
+              - columnheader "mié. 05" [ref=f61e173]:
+                - generic [ref=f61e174]: mié.
+                - generic [ref=f61e175]: "05"
+              - columnheader "jue. 06" [ref=f61e176]:
+                - generic [ref=f61e177]: jue.
+                - generic [ref=f61e178]: "06"
+              - columnheader "vie. 07" [ref=f61e179]:
+                - generic [ref=f61e180]: vie.
+                - generic [ref=f61e181]: "07"
+              - columnheader "sáb. 08" [ref=f61e182]:
+                - generic [ref=f61e183]: sáb.
+                - generic [ref=f61e184]: "08"
+              - columnheader "dom. 09" [ref=f61e185]:
+                - generic [ref=f61e186]: dom.
+                - generic [ref=f61e187]: "09"
+          - rowgroup [ref=f61e188]:
+            - row [ref=f61e189]:
+              - cell "Instalador" [ref=f61e190]
+              - cell [ref=f61e191]:
+                - link "Programar ruta" [ref=f61e192] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell [ref=f61e195]:
+                - link "Programar ruta" [ref=f61e196] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell [ref=f61e199]:
+                - link "Programar ruta" [ref=f61e200] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell [ref=f61e203]:
+                - link "Programar ruta" [ref=f61e204] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell [ref=f61e207]:
+                - link "Programar ruta" [ref=f61e208] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell [ref=f61e211]:
+                - link "Programar ruta" [ref=f61e212] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell [ref=f61e215]:
+                - link "Programar ruta" [ref=f61e216] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+            - row [ref=f61e219]:
+              - cell "Prueba" [ref=f61e220]
+              - cell [ref=f61e221]:
+                - button "RUT-101 Sucursal Centro AAA-BBB-123 · 120 km" [ref=f61e222]:
+                  - generic [ref=f61e223]:
+                    - generic [ref=f61e224]: RUT-101
+                    - generic [ref=f61e227]: Sucursal Centro
+                    - generic [ref=f61e228]: AAA-BBB-123 · 120 km
+                - button "RUT-102 Sucursal Norte GHL-4512 · 85 km" [ref=f61e229]:
+                  - generic [ref=f61e230]:
+                    - generic [ref=f61e231]: RUT-102
+                    - generic [ref=f61e234]: Sucursal Norte
+                    - generic [ref=f61e235]: GHL-4512 · 85 km
+                - button "RUT-103 Fraccionamiento Los Pinos HTR-7823 · 150 km" [ref=f61e236]:
+                  - generic [ref=f61e237]:
+                    - generic [ref=f61e238]: RUT-103
+                    - generic [ref=f61e241]: Fraccionamiento Los Pinos
+                    - generic [ref=f61e242]: HTR-7823 · 150 km
+                - button "RUT-104 Parque Industrial Finsa JKL-9911 · 200 km" [ref=f61e243]:
+                  - generic [ref=f61e244]:
+                    - generic [ref=f61e245]: RUT-104
+                    - generic [ref=f61e248]: Parque Industrial Finsa
+                    - generic [ref=f61e249]: JKL-9911 · 200 km
+                - button "RUT-105 Aeropuerto Hermanos Serdán MXZ-3322 · 45 km" [ref=f61e250]:
+                  - generic [ref=f61e251]:
+                    - generic [ref=f61e252]: RUT-105
+                    - generic [ref=f61e255]: Aeropuerto Hermanos Serdán
+                    - generic [ref=f61e256]: MXZ-3322 · 45 km
+                - button "RUT-106 Centro Comercial Angelópolis CDE-5567 · 30 km" [ref=f61e257]:
+                  - generic [ref=f61e258]:
+                    - generic [ref=f61e259]: RUT-106
+                    - generic [ref=f61e262]: Centro Comercial Angelópolis
+                    - generic [ref=f61e263]: CDE-5567 · 30 km
+              - cell [ref=f61e264]:
+                - link "Programar ruta" [ref=f61e265] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell [ref=f61e268]:
+                - link "Programar ruta" [ref=f61e269] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell [ref=f61e272]:
+                - link "Programar ruta" [ref=f61e273] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell [ref=f61e276]:
+                - link "Programar ruta" [ref=f61e277] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell [ref=f61e280]:
+                - link "Programar ruta" [ref=f61e281] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell [ref=f61e284]:
+                - link "Programar ruta" [ref=f61e285] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+        - generic [ref=f61e288]:
+          - generic [ref=f61e289]: Programada
+          - generic [ref=f61e291]: En tránsito
+          - generic [ref=f61e293]: Instalando
+          - generic [ref=f61e295]: Completada
+          - generic [ref=f61e297]: Cancelada
+          - generic [ref=f61e299]: Días atenuados = pasados
+    - contentinfo [ref=f61e300]:
+      - generic [ref=f61e301]:
+        - generic [ref=f61e302]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f61e306]:
+          - generic [ref=f61e307]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f61e308]: • Servidor Seguro de Producción

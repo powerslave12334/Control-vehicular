@@ -1,0 +1,124 @@
+- generic [active] [ref=f212e1]:
+  - complementary [ref=f212e2]:
+    - generic [ref=f212e3]:
+      - generic [ref=f212e4]: A
+      - generic [ref=f212e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f212e6]
+        - paragraph [ref=f212e7]: Control de Flota
+    - generic [ref=f212e8]:
+      - paragraph [ref=f212e9]: Navegación Admin
+      - navigation [ref=f212e10]:
+        - link "Dashboard / Resumen" [ref=f212e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f212e15]: Vehículos
+        - link "Vehículos" [ref=f212e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f212e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f212e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f212e28]: Rutas
+        - link "Rutas" [ref=f212e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f212e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f212e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f212e41]: Operaciones
+        - link "Operadores" [ref=f212e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f212e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f212e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f212e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f212e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f212e62]: Administración
+        - link "Reportes" [ref=f212e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f212e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f212e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f212e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f212e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f212e83]:
+      - generic [ref=f212e84]:
+        - generic [ref=f212e85]: AD
+        - generic [ref=f212e86]:
+          - paragraph [ref=f212e87]: Administrador
+          - paragraph [ref=f212e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f212e90]
+  - generic [ref=f212e93]:
+    - banner [ref=f212e94]:
+      - generic [ref=f212e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f212e96]
+        - generic [ref=f212e98]: OWASP Top 10 Secured
+      - generic [ref=f212e101]:
+        - link "35" [ref=f212e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f212e106]: "--:--:--"
+        - generic [ref=f212e110]:
+          - generic [ref=f212e111]:
+            - paragraph [ref=f212e112]: Administrador
+            - paragraph [ref=f212e113]: Administrador del sistema
+          - generic [ref=f212e114]: AD
+    - main [ref=f212e115]:
+      - generic [ref=f212e116]:
+        - heading "Geolocalización de Rutas" [level=2] [ref=f212e118]
+        - generic [ref=f212e119]:
+          - generic [ref=f212e120]:
+            - generic [ref=f212e121]: "Ruta:"
+            - combobox [ref=f212e122]:
+              - option "07/08/2026 — Sanctorum Centro ()" [selected]
+              - option "07/08/2026 — Planta Cholula ()"
+              - option "06/08/2026 — Colonia La Paz ()"
+              - option "06/08/2026 — Mercado La Acocota ()"
+              - option "05/08/2026 — Aeropuerto Hermanos Serdán ()"
+              - option "05/08/2026 — Centro Comercial Angelópolis ()"
+              - option "04/08/2026 — Fraccionamiento Los Pinos ()"
+              - option "04/08/2026 — Parque Industrial Finsa ()"
+              - option "03/08/2026 — Sucursal Centro ()"
+              - option "03/08/2026 — Sucursal Norte ()"
+          - generic [ref=f212e123]:
+            - generic [ref=f212e124]:
+              - paragraph [ref=f212e125]: Cliente
+              - paragraph [ref=f212e126]: Sanctorum Centro
+            - generic [ref=f212e127]:
+              - paragraph [ref=f212e128]: Ciudad
+              - paragraph
+            - generic [ref=f212e129]:
+              - paragraph [ref=f212e130]: Conductor
+              - paragraph [ref=f212e131]: Juan Pérez
+            - generic [ref=f212e132]:
+              - paragraph [ref=f212e133]: Unidad
+              - paragraph [ref=f212e134]: HTR-7823
+            - generic [ref=f212e135]:
+              - paragraph [ref=f212e136]: Km Plan/Real
+              - paragraph [ref=f212e137]: 90.00 / 0.00
+            - generic [ref=f212e138]:
+              - paragraph [ref=f212e139]: Estado
+              - text: Programada
+            - generic [ref=f212e140]:
+              - paragraph [ref=f212e141]: Puntos
+              - paragraph [ref=f212e142]: 0 ubicaciones
+          - generic [ref=f212e145]:
+            - region "Mapa" [ref=f212e146]
+            - generic [ref=f212e147]:
+              - generic [ref=f212e266]:
+                - generic:
+                  - generic:
+                    - button "Origen" [ref=f212e268] [cursor=pointer]
+                    - button "Destino" [ref=f212e269] [cursor=pointer]
+              - iframe [ref=f212e270]:
+                
+    - contentinfo [ref=f212e271]:
+      - generic [ref=f212e272]:
+        - generic [ref=f212e273]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f212e277]:
+          - generic [ref=f212e278]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f212e279]: • Servidor Seguro de Producción

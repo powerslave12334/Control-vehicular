@@ -1,0 +1,681 @@
+- generic [ref=f114e1]:
+  - complementary [ref=f114e2]:
+    - generic [ref=f114e3]:
+      - generic [ref=f114e4]: A
+      - generic [ref=f114e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f114e6]
+        - paragraph [ref=f114e7]: Control de Flota
+    - generic [ref=f114e8]:
+      - paragraph [ref=f114e9]: Navegación Admin
+      - navigation [ref=f114e10]:
+        - link "Dashboard / Resumen" [ref=f114e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f114e15]: Vehículos
+        - link "Vehículos" [ref=f114e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f114e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f114e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f114e28]: Rutas
+        - link "Rutas" [ref=f114e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f114e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f114e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f114e41]: Operaciones
+        - link "Operadores" [ref=f114e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f114e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f114e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f114e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f114e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f114e62]: Administración
+        - link "Reportes" [ref=f114e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f114e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f114e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f114e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f114e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f114e83]:
+      - generic [ref=f114e84]:
+        - generic [ref=f114e85]: AD
+        - generic [ref=f114e86]:
+          - paragraph [ref=f114e87]: Administrador
+          - paragraph [ref=f114e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f114e90]
+  - generic [ref=f114e93]:
+    - banner [ref=f114e94]:
+      - generic [ref=f114e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f114e96]
+        - generic [ref=f114e98]: OWASP Top 10 Secured
+      - generic [ref=f114e101]:
+        - link "79" [ref=f114e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f114e106]: "--:--:--"
+        - generic [ref=f114e110]:
+          - generic [ref=f114e111]:
+            - paragraph [ref=f114e112]: Administrador
+            - paragraph [ref=f114e113]: Administrador del sistema
+          - generic [ref=f114e114]: AD
+    - main [ref=f114e115]:
+      - generic [ref=f114e118]:
+        - generic [ref=f114e119]:
+          - button "Seguridad" [ref=f114e120]
+          - button "Actividad" [ref=f114e123]
+          - button "Logs del Sistema" [ref=f114e126]
+        - generic [ref=f114e129]:
+          - generic [ref=f114e130]:
+            - heading "Seguridad OWASP Top 10" [level=2] [ref=f114e132]
+            - generic [ref=f114e133]:
+              - button "Re-escanear" [ref=f114e134]
+              - generic [ref=f114e137]: Revisión requerida
+          - generic [ref=f114e138]:
+            - generic [ref=f114e139]:
+              - generic [ref=f114e140]:
+                - heading "CSRF Protection" [level=3] [ref=f114e144]
+                - generic [ref=f114e145]: Activo
+              - paragraph [ref=f114e146]: "Laravel protege rutas POST vía VerifyCsrfToken. Same-Site: LAX"
+            - generic [ref=f114e147]:
+              - generic [ref=f114e148]:
+                - heading "HttpOnly Cookies" [level=3] [ref=f114e152]
+                - generic [ref=f114e153]: Activo
+              - paragraph [ref=f114e154]: Session cookies con HttpOnly=true en config/session.php.
+            - generic [ref=f114e155]:
+              - generic [ref=f114e156]:
+                - heading "Password Hashing" [level=3] [ref=f114e160]
+                - generic [ref=f114e161]: Activo
+              - paragraph [ref=f114e162]: "Hash driver: bcrypt con 12 rounds."
+            - generic [ref=f114e163]:
+              - generic [ref=f114e164]:
+                - heading "XSS Protection" [level=3] [ref=f114e168]
+                - generic [ref=f114e169]: Activo
+              - paragraph [ref=f114e170]: "Blade {{ }} escapa output automáticamente. SweetAlert2 evita eval(). Sin uso de {!! !!} sin escapar en vistas."
+            - generic [ref=f114e171]:
+              - generic [ref=f114e172]:
+                - heading "Content-Security-Policy (CSP)" [level=3] [ref=f114e176]
+                - generic [ref=f114e177]: Faltante
+              - paragraph [ref=f114e178]: No se encontró el header Content-Security-Policy. Implementar middleware de seguridad.
+            - generic [ref=f114e179]:
+              - generic [ref=f114e180]:
+                - heading "Strict-Transport-Security (HSTS)" [level=3] [ref=f114e184]
+                - generic [ref=f114e185]: Faltante
+              - paragraph [ref=f114e186]: No se detectó HSTS. Forzar HTTPS + header Strict-Transport-Security en producción.
+            - generic [ref=f114e187]:
+              - generic [ref=f114e188]:
+                - heading "X-Frame-Options" [level=3] [ref=f114e192]
+                - generic [ref=f114e193]: Faltante
+              - paragraph [ref=f114e194]: No se detectó X-Frame-Options. Agregar DENY o SAMEORIGIN para prevenir clickjacking.
+            - generic [ref=f114e195]:
+              - generic [ref=f114e196]:
+                - heading "X-Content-Type-Options" [level=3] [ref=f114e200]
+                - generic [ref=f114e201]: Faltante
+              - paragraph [ref=f114e202]: "No se detectó el header. Agregar X-Content-Type-Options: nosniff."
+            - generic [ref=f114e203]:
+              - generic [ref=f114e204]:
+                - heading "Rate Limiting" [level=3] [ref=f114e208]
+                - generic [ref=f114e209]: Activo
+              - paragraph [ref=f114e210]: Middleware throttle disponible para limitar peticiones.
+            - generic [ref=f114e211]:
+              - generic [ref=f114e212]:
+                - heading "HTTPS Enforcement" [level=3] [ref=f114e216]
+                - generic [ref=f114e217]: Desarrollo
+              - paragraph [ref=f114e218]: "No se fuerza HTTPS. Entorno: local. Agregar APP_FORCE_HTTPS=true en producción."
+            - generic [ref=f114e219]:
+              - generic [ref=f114e220]:
+                - heading "Session Secure & Same-Site" [level=3] [ref=f114e224]
+                - generic [ref=f114e225]: Activo
+              - paragraph [ref=f114e226]: "Secure: null (auto), Same-Site: LAX"
+            - generic [ref=f114e227]:
+              - generic [ref=f114e228]:
+                - heading "Debug Mode" [level=3] [ref=f114e232]
+                - generic [ref=f114e233]: Desarrollo
+              - paragraph [ref=f114e234]: "APP_DEBUG=true (entorno: local — aceptable)."
+            - generic [ref=f114e235]:
+              - generic [ref=f114e236]:
+                - heading "APP Key" [level=3] [ref=f114e240]
+                - generic [ref=f114e241]: Activo
+              - paragraph [ref=f114e242]: APP_KEY configurada correctamente.
+            - generic [ref=f114e243]:
+              - generic [ref=f114e244]:
+                - heading "File Uploads" [level=3] [ref=f114e248]
+                - generic [ref=f114e249]: Información
+              - paragraph [ref=f114e250]: "upload_max_filesize: 2M, post_max_size: 8M. Los archivos se validan por tipo y tamaño en cada módulo."
+          - generic [ref=f114e251]:
+            - heading "Recomendaciones Adicionales" [level=3] [ref=f114e252]
+            - list [ref=f114e253]:
+              - listitem [ref=f114e254]:
+                - generic [ref=f114e257]: Usar HTTPS en producción forzado via middleware o .env FORCE_HTTPS=true.
+              - listitem [ref=f114e258]:
+                - generic [ref=f114e261]: Implementar 2FA para cuentas administrativas.
+              - listitem [ref=f114e262]:
+                - generic [ref=f114e265]: Rotar API keys y secrets periódicamente.
+              - listitem [ref=f114e266]:
+                - generic [ref=f114e269]: Auditar logs de acceso regularmente con monitoreo de intentos fallidos.
+              - listitem [ref=f114e270]:
+                - generic [ref=f114e273]:
+                  - text: Mantener dependencias actualizadas (
+                  - code [ref=f114e274]: composer audit
+                  - text: ).
+        - generic [ref=f114e275]:
+          - generic [ref=f114e276]:
+            - generic [ref=f114e277]:
+              - heading "Registro de Actividad" [level=2] [ref=f114e278]
+              - paragraph [ref=f114e279]: 149 eventos registrados
+            - button "Recargar" [ref=f114e280]
+          - generic [ref=f114e283]:
+            - combobox [ref=f114e284]:
+              - option "Todos los eventos" [selected]
+              - option "Creado"
+              - option "Actualizado"
+              - option "Eliminado"
+              - option "Restaurado"
+              - option "Cambio de estado"
+            - textbox "Buscar entidad..." [ref=f114e285]
+          - table [ref=f114e287]:
+            - rowgroup [ref=f114e288]:
+              - row [ref=f114e289]:
+                - columnheader "Fecha/Hora" [ref=f114e290]
+                - columnheader "Usuario" [ref=f114e291]
+                - columnheader "Evento" [ref=f114e292]
+                - columnheader "Descripción" [ref=f114e293]
+                - columnheader "Entidad" [ref=f114e294]
+            - rowgroup [ref=f114e295]:
+              - row [ref=f114e296]:
+                - cell "03/08/2026 17:34:04" [ref=f114e297]
+                - cell "Administrador" [ref=f114e298]
+                - cell "Cambio Estado" [ref=f114e299]
+                - 'cell "Carga #9: pendiente → rechazado" [ref=f114e300]'
+                - cell "Refuel" [ref=f114e301]
+              - row [ref=f114e302]:
+                - cell "03/08/2026 17:33:43" [ref=f114e303]
+                - cell "Administrador" [ref=f114e304]
+                - cell "Creado" [ref=f114e305]
+                - 'cell "Carga #9 registrada" [ref=f114e306]'
+                - cell "Refuel" [ref=f114e307]
+              - row [ref=f114e308]:
+                - cell "03/08/2026 17:32:08" [ref=f114e309]
+                - cell "Administrador" [ref=f114e310]
+                - cell "Actualizado" [ref=f114e311]
+                - 'cell "Carga #8 actualizada" [ref=f114e312]'
+                - cell "Refuel" [ref=f114e313]
+              - row [ref=f114e314]:
+                - cell "03/08/2026 17:31:20" [ref=f114e315]
+                - cell "Administrador" [ref=f114e316]
+                - cell "Cambio Estado" [ref=f114e317]
+                - 'cell "Carga #8: pendiente → aprobado" [ref=f114e318]'
+                - cell "Refuel" [ref=f114e319]
+              - row [ref=f114e320]:
+                - cell "03/08/2026 17:30:57" [ref=f114e321]
+                - cell "Administrador" [ref=f114e322]
+                - cell "Creado" [ref=f114e323]
+                - 'cell "Carga #8 registrada" [ref=f114e324]'
+                - cell "Refuel" [ref=f114e325]
+              - row [ref=f114e326]:
+                - cell "03/08/2026 17:23:49" [ref=f114e327]
+                - cell "Administrador" [ref=f114e328]
+                - cell "Cambio Estado" [ref=f114e329]
+                - 'cell "Mantenimiento #12: en_progreso → completado" [ref=f114e330]'
+                - cell "Maintenance" [ref=f114e331]
+              - row [ref=f114e332]:
+                - cell "03/08/2026 17:21:59" [ref=f114e333]
+                - cell "Administrador" [ref=f114e334]
+                - cell "Creado" [ref=f114e335]
+                - 'cell "Mantenimiento #12 registrado" [ref=f114e336]'
+                - cell "Maintenance" [ref=f114e337]
+              - row [ref=f114e338]:
+                - cell "03/08/2026 17:11:06" [ref=f114e339]
+                - cell "Administrador" [ref=f114e340]
+                - cell "Creado" [ref=f114e341]
+                - 'cell "Mantenimiento #11 registrado" [ref=f114e342]'
+                - cell "Maintenance" [ref=f114e343]
+              - row [ref=f114e344]:
+                - cell "03/08/2026 17:11:03" [ref=f114e345]
+                - cell "Administrador" [ref=f114e346]
+                - cell "Creado" [ref=f114e347]
+                - 'cell "Mantenimiento #10 registrado" [ref=f114e348]'
+                - cell "Maintenance" [ref=f114e349]
+              - row [ref=f114e350]:
+                - cell "03/08/2026 17:11:00" [ref=f114e351]
+                - cell "Administrador" [ref=f114e352]
+                - cell "Creado" [ref=f114e353]
+                - 'cell "Mantenimiento #9 registrado" [ref=f114e354]'
+                - cell "Maintenance" [ref=f114e355]
+              - row [ref=f114e356]:
+                - cell "03/08/2026 17:10:57" [ref=f114e357]
+                - cell "Administrador" [ref=f114e358]
+                - cell "Creado" [ref=f114e359]
+                - 'cell "Mantenimiento #8 registrado" [ref=f114e360]'
+                - cell "Maintenance" [ref=f114e361]
+              - row [ref=f114e362]:
+                - cell "03/08/2026 17:10:54" [ref=f114e363]
+                - cell "Administrador" [ref=f114e364]
+                - cell "Creado" [ref=f114e365]
+                - 'cell "Mantenimiento #7 registrado" [ref=f114e366]'
+                - cell "Maintenance" [ref=f114e367]
+              - row [ref=f114e368]:
+                - cell "03/08/2026 17:10:51" [ref=f114e369]
+                - cell "Administrador" [ref=f114e370]
+                - cell "Creado" [ref=f114e371]
+                - 'cell "Mantenimiento #6 registrado" [ref=f114e372]'
+                - cell "Maintenance" [ref=f114e373]
+              - row [ref=f114e374]:
+                - cell "03/08/2026 17:10:48" [ref=f114e375]
+                - cell "Administrador" [ref=f114e376]
+                - cell "Creado" [ref=f114e377]
+                - 'cell "Mantenimiento #5 registrado" [ref=f114e378]'
+                - cell "Maintenance" [ref=f114e379]
+              - row [ref=f114e380]:
+                - cell "03/08/2026 17:10:45" [ref=f114e381]
+                - cell "Administrador" [ref=f114e382]
+                - cell "Creado" [ref=f114e383]
+                - 'cell "Mantenimiento #4 registrado" [ref=f114e384]'
+                - cell "Maintenance" [ref=f114e385]
+              - row [ref=f114e386]:
+                - cell "03/08/2026 17:10:42" [ref=f114e387]
+                - cell "Administrador" [ref=f114e388]
+                - cell "Creado" [ref=f114e389]
+                - 'cell "Mantenimiento #3 registrado" [ref=f114e390]'
+                - cell "Maintenance" [ref=f114e391]
+              - row [ref=f114e392]:
+                - cell "03/08/2026 17:10:39" [ref=f114e393]
+                - cell "Administrador" [ref=f114e394]
+                - cell "Creado" [ref=f114e395]
+                - 'cell "Mantenimiento #2 registrado" [ref=f114e396]'
+                - cell "Maintenance" [ref=f114e397]
+              - row [ref=f114e398]:
+                - cell "03/08/2026 17:10:36" [ref=f114e399]
+                - cell "Administrador" [ref=f114e400]
+                - cell "Creado" [ref=f114e401]
+                - 'cell "Mantenimiento #1 registrado" [ref=f114e402]'
+                - cell "Maintenance" [ref=f114e403]
+              - row [ref=f114e404]:
+                - cell "03/08/2026 16:54:50" [ref=f114e405]
+                - cell "Administrador" [ref=f114e406]
+                - cell "Creado" [ref=f114e407]
+                - 'cell "Ruta #35 creada" [ref=f114e408]'
+                - cell "Route" [ref=f114e409]
+              - row [ref=f114e410]:
+                - cell "03/08/2026 16:54:47" [ref=f114e411]
+                - cell "Administrador" [ref=f114e412]
+                - cell "Creado" [ref=f114e413]
+                - 'cell "Ruta #34 creada" [ref=f114e414]'
+                - cell "Route" [ref=f114e415]
+              - row [ref=f114e416]:
+                - cell "03/08/2026 16:54:44" [ref=f114e417]
+                - cell "Administrador" [ref=f114e418]
+                - cell "Creado" [ref=f114e419]
+                - 'cell "Ruta #33 creada" [ref=f114e420]'
+                - cell "Route" [ref=f114e421]
+              - row [ref=f114e422]:
+                - cell "03/08/2026 16:54:41" [ref=f114e423]
+                - cell "Administrador" [ref=f114e424]
+                - cell "Creado" [ref=f114e425]
+                - 'cell "Ruta #32 creada" [ref=f114e426]'
+                - cell "Route" [ref=f114e427]
+              - row [ref=f114e428]:
+                - cell "03/08/2026 16:54:25" [ref=f114e429]
+                - cell "Administrador" [ref=f114e430]
+                - cell "Creado" [ref=f114e431]
+                - 'cell "Ruta #31 creada" [ref=f114e432]'
+                - cell "Route" [ref=f114e433]
+              - row [ref=f114e434]:
+                - cell "03/08/2026 16:53:42" [ref=f114e435]
+                - cell "Administrador" [ref=f114e436]
+                - cell "Creado" [ref=f114e437]
+                - 'cell "Ruta #30 creada" [ref=f114e438]'
+                - cell "Route" [ref=f114e439]
+              - row [ref=f114e440]:
+                - cell "03/08/2026 16:50:15" [ref=f114e441]
+                - cell "Prueba" [ref=f114e442]
+                - cell "Actualizado" [ref=f114e443]
+                - cell "Vehículo HTR-7823 actualizado" [ref=f114e444]
+                - cell "Vehicle" [ref=f114e445]
+              - row [ref=f114e446]:
+                - cell "03/08/2026 16:50:15" [ref=f114e447]
+                - cell "Prueba" [ref=f114e448]
+                - cell "Cambio Estado" [ref=f114e449]
+                - 'cell "Ruta #27: En tránsito → Completada" [ref=f114e450]'
+                - cell "Route" [ref=f114e451]
+              - row [ref=f114e452]:
+                - cell "03/08/2026 16:49:53" [ref=f114e453]
+                - cell "Prueba" [ref=f114e454]
+                - cell "Cambio Estado" [ref=f114e455]
+                - 'cell "Ruta #27: Instalando → En tránsito" [ref=f114e456]'
+                - cell "Route" [ref=f114e457]
+              - row [ref=f114e458]:
+                - cell "03/08/2026 16:49:15" [ref=f114e459]
+                - cell "Prueba" [ref=f114e460]
+                - cell "Cambio Estado" [ref=f114e461]
+                - 'cell "Ruta #27: En tránsito → Instalando" [ref=f114e462]'
+                - cell "Route" [ref=f114e463]
+              - row [ref=f114e464]:
+                - cell "03/08/2026 16:48:27" [ref=f114e465]
+                - cell "Prueba" [ref=f114e466]
+                - cell "Cambio Estado" [ref=f114e467]
+                - 'cell "Ruta #27: Programada → En tránsito" [ref=f114e468]'
+                - cell "Route" [ref=f114e469]
+              - row [ref=f114e470]:
+                - cell "03/08/2026 16:20:42" [ref=f114e471]
+                - cell "Prueba" [ref=f114e472]
+                - cell "Actualizado" [ref=f114e473]
+                - cell "Vehículo HTR-7823 actualizado" [ref=f114e474]
+                - cell "Vehicle" [ref=f114e475]
+              - row [ref=f114e476]:
+                - cell "03/08/2026 16:20:42" [ref=f114e477]
+                - cell "Prueba" [ref=f114e478]
+                - cell "Cambio Estado" [ref=f114e479]
+                - 'cell "Ruta #27: En tránsito → Completada" [ref=f114e480]'
+                - cell "Route" [ref=f114e481]
+              - row [ref=f114e482]:
+                - cell "03/08/2026 16:19:50" [ref=f114e483]
+                - cell "Prueba" [ref=f114e484]
+                - cell "Cambio Estado" [ref=f114e485]
+                - 'cell "Ruta #27: Instalando → En tránsito" [ref=f114e486]'
+                - cell "Route" [ref=f114e487]
+              - row [ref=f114e488]:
+                - cell "03/08/2026 16:18:47" [ref=f114e489]
+                - cell "Prueba" [ref=f114e490]
+                - cell "Cambio Estado" [ref=f114e491]
+                - 'cell "Ruta #27: En tránsito → Instalando" [ref=f114e492]'
+                - cell "Route" [ref=f114e493]
+              - row [ref=f114e494]:
+                - cell "03/08/2026 16:17:38" [ref=f114e495]
+                - cell "Prueba" [ref=f114e496]
+                - cell "Actualizado" [ref=f114e497]
+                - cell "Vehículo HTR-7823 actualizado" [ref=f114e498]
+                - cell "Vehicle" [ref=f114e499]
+              - row [ref=f114e500]:
+                - cell "03/08/2026 16:17:38" [ref=f114e501]
+                - cell "Prueba" [ref=f114e502]
+                - cell "Creado" [ref=f114e503]
+                - 'cell "Carga #7 registrada" [ref=f114e504]'
+                - cell "Refuel" [ref=f114e505]
+              - row [ref=f114e506]:
+                - cell "03/08/2026 16:16:41" [ref=f114e507]
+                - cell "Prueba" [ref=f114e508]
+                - cell "Creado" [ref=f114e509]
+                - 'cell "Carga #6 registrada" [ref=f114e510]'
+                - cell "Refuel" [ref=f114e511]
+              - row [ref=f114e512]:
+                - cell "03/08/2026 16:16:41" [ref=f114e513]
+                - cell "Prueba" [ref=f114e514]
+                - cell "Actualizado" [ref=f114e515]
+                - cell "Vehículo HTR-7823 actualizado" [ref=f114e516]
+                - cell "Vehicle" [ref=f114e517]
+              - row [ref=f114e518]:
+                - cell "03/08/2026 16:15:58" [ref=f114e519]
+                - cell "Prueba" [ref=f114e520]
+                - cell "Actualizado" [ref=f114e521]
+                - cell "Vehículo HTR-7823 actualizado" [ref=f114e522]
+                - cell "Vehicle" [ref=f114e523]
+              - row [ref=f114e524]:
+                - cell "03/08/2026 16:15:58" [ref=f114e525]
+                - cell "Prueba" [ref=f114e526]
+                - cell "Cambio Estado" [ref=f114e527]
+                - 'cell "Ruta #27: Programada → En tránsito" [ref=f114e528]'
+                - cell "Route" [ref=f114e529]
+              - row [ref=f114e530]:
+                - cell "31/07/2026 23:57:45" [ref=f114e531]
+                - cell "Administrador" [ref=f114e532]
+                - cell "Actualizado" [ref=f114e533]
+                - cell "Vehículo MNO-7788 actualizado" [ref=f114e534]
+                - cell "Vehicle" [ref=f114e535]
+              - row [ref=f114e536]:
+                - cell "31/07/2026 23:57:25" [ref=f114e537]
+                - cell "Administrador" [ref=f114e538]
+                - cell "Actualizado" [ref=f114e539]
+                - cell "Vehículo QRS-4412 actualizado" [ref=f114e540]
+                - cell "Vehicle" [ref=f114e541]
+              - row [ref=f114e542]:
+                - cell "31/07/2026 23:57:07" [ref=f114e543]
+                - cell "Administrador" [ref=f114e544]
+                - cell "Actualizado" [ref=f114e545]
+                - cell "Vehículo WXY-1001 actualizado" [ref=f114e546]
+                - cell "Vehicle" [ref=f114e547]
+              - row [ref=f114e548]:
+                - cell "31/07/2026 23:56:49" [ref=f114e549]
+                - cell "Administrador" [ref=f114e550]
+                - cell "Actualizado" [ref=f114e551]
+                - cell "Vehículo RST-2233 actualizado" [ref=f114e552]
+                - cell "Vehicle" [ref=f114e553]
+              - row [ref=f114e554]:
+                - cell "31/07/2026 23:56:31" [ref=f114e555]
+                - cell "Administrador" [ref=f114e556]
+                - cell "Actualizado" [ref=f114e557]
+                - cell "Vehículo FGH-8876 actualizado" [ref=f114e558]
+                - cell "Vehicle" [ref=f114e559]
+              - row [ref=f114e560]:
+                - cell "31/07/2026 23:56:14" [ref=f114e561]
+                - cell "Administrador" [ref=f114e562]
+                - cell "Actualizado" [ref=f114e563]
+                - cell "Vehículo CDE-5567 actualizado" [ref=f114e564]
+                - cell "Vehicle" [ref=f114e565]
+              - row [ref=f114e566]:
+                - cell "31/07/2026 23:55:57" [ref=f114e567]
+                - cell "Administrador" [ref=f114e568]
+                - cell "Actualizado" [ref=f114e569]
+                - cell "Vehículo MXZ-3322 actualizado" [ref=f114e570]
+                - cell "Vehicle" [ref=f114e571]
+              - row [ref=f114e572]:
+                - cell "31/07/2026 23:55:39" [ref=f114e573]
+                - cell "Administrador" [ref=f114e574]
+                - cell "Actualizado" [ref=f114e575]
+                - cell "Vehículo JKL-9911 actualizado" [ref=f114e576]
+                - cell "Vehicle" [ref=f114e577]
+              - row [ref=f114e578]:
+                - cell "31/07/2026 23:55:20" [ref=f114e579]
+                - cell "Administrador" [ref=f114e580]
+                - cell "Actualizado" [ref=f114e581]
+                - cell "Vehículo HTR-7823 actualizado" [ref=f114e582]
+                - cell "Vehicle" [ref=f114e583]
+              - row [ref=f114e584]:
+                - cell "31/07/2026 23:55:01" [ref=f114e585]
+                - cell "Administrador" [ref=f114e586]
+                - cell "Actualizado" [ref=f114e587]
+                - cell "Vehículo GHL-4512 actualizado" [ref=f114e588]
+                - cell "Vehicle" [ref=f114e589]
+              - row [ref=f114e590]:
+                - cell "31/07/2026 23:47:52" [ref=f114e591]
+                - cell "Administrador" [ref=f114e592]
+                - cell "Creado" [ref=f114e593]
+                - 'cell "Ruta #29 creada" [ref=f114e594]'
+                - cell "Route" [ref=f114e595]
+          - generic [ref=f114e596]:
+            - button "«" [disabled] [ref=f114e597]
+            - button "‹" [disabled] [ref=f114e598]
+            - button "1" [ref=f114e599]
+            - button "2" [ref=f114e600]
+            - button "3" [ref=f114e601]
+            - button "›" [ref=f114e602]
+            - button "»" [ref=f114e603]
+        - generic [ref=f114e604]:
+          - generic [ref=f114e605]:
+            - generic [ref=f114e606]:
+              - heading "Logs del Sistema" [level=2] [ref=f114e607]
+              - paragraph [ref=f114e608]: 3,869 líneas · 768.2 KB
+            - generic [ref=f114e609]:
+              - button "Limpiar Log" [ref=f114e610]
+              - button "Recargar" [ref=f114e611]
+          - generic [ref=f114e612]:
+            - button "Todos" [ref=f114e613]
+            - button "ERROR" [ref=f114e614]
+            - button "WARNING" [ref=f114e615]
+            - button "INFO" [ref=f114e616]
+            - button "DEBUG" [ref=f114e617]
+            - button "CRITICAL" [ref=f114e618]
+            - button "NOTICE" [ref=f114e619]
+            - button "ALERT" [ref=f114e620]
+            - button "EMERGENCY" [ref=f114e621]
+          - generic [ref=f114e622]:
+            - 'button "2026-08-03 19:39:21 ERROR Undefined variable $summary (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/calendar.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): Undefined variable $summary (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inm" [ref=f114e624]':
+              - generic [ref=f114e625]: 2026-08-03 19:39:21
+              - generic [ref=f114e626]: ERROR
+              - generic [ref=f114e627]: "Undefined variable $summary (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/calendar.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): Undefined variable $summary (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inm"
+            - 'button "2026-07-31 21:32:53 ERROR Livewire only supports one HTML element per component. Multiple root elements detected for component: [route.route-manager] {\"userId\":1,\"exception\":\"[object] (Livewire\\\\Features\\\\SupportMultipleRootElementDetection\\\\MultipleRootElementsDetectedException(code: 0): Livewire only supports one HTML elem" [ref=f114e631]':
+              - generic [ref=f114e632]: 2026-07-31 21:32:53
+              - generic [ref=f114e633]: ERROR
+              - generic [ref=f114e634]: "Livewire only supports one HTML element per component. Multiple root elements detected for component: [route.route-manager] {\"userId\":1,\"exception\":\"[object] (Livewire\\\\Features\\\\SupportMultipleRootElementDetection\\\\MultipleRootElementsDetectedException(code: 0): Livewire only supports one HTML elem"
+            - 'button "2026-07-31 21:32:26 ERROR Livewire only supports one HTML element per component. Multiple root elements detected for component: [route.route-manager] {\"userId\":1,\"exception\":\"[object] (Livewire\\\\Features\\\\SupportMultipleRootElementDetection\\\\MultipleRootElementsDetectedException(code: 0): Livewire only supports one HTML elem" [ref=f114e638]':
+              - generic [ref=f114e639]: 2026-07-31 21:32:26
+              - generic [ref=f114e640]: ERROR
+              - generic [ref=f114e641]: "Livewire only supports one HTML element per component. Multiple root elements detected for component: [route.route-manager] {\"userId\":1,\"exception\":\"[object] (Livewire\\\\Features\\\\SupportMultipleRootElementDetection\\\\MultipleRootElementsDetectedException(code: 0): Livewire only supports one HTML elem"
+            - 'button "2026-07-31 21:28:57 ERROR Livewire only supports one HTML element per component. Multiple root elements detected for component: [route.route-manager] {\"userId\":1,\"exception\":\"[object] (Livewire\\\\Features\\\\SupportMultipleRootElementDetection\\\\MultipleRootElementsDetectedException(code: 0): Livewire only supports one HTML elem" [ref=f114e645]':
+              - generic [ref=f114e646]: 2026-07-31 21:28:57
+              - generic [ref=f114e647]: ERROR
+              - generic [ref=f114e648]: "Livewire only supports one HTML element per component. Multiple root elements detected for component: [route.route-manager] {\"userId\":1,\"exception\":\"[object] (Livewire\\\\Features\\\\SupportMultipleRootElementDetection\\\\MultipleRootElementsDetectedException(code: 0): Livewire only supports one HTML elem"
+            - 'button "2026-07-31 19:38:13 ERROR syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe" [ref=f114e652]':
+              - generic [ref=f114e653]: 2026-07-31 19:38:13
+              - generic [ref=f114e654]: ERROR
+              - generic [ref=f114e655]: "syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe"
+            - 'button "2026-07-31 18:41:46 ERROR syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe" [ref=f114e659]':
+              - generic [ref=f114e660]: 2026-07-31 18:41:46
+              - generic [ref=f114e661]: ERROR
+              - generic [ref=f114e662]: "syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe"
+            - 'button "2026-07-31 18:41:27 ERROR syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe" [ref=f114e666]':
+              - generic [ref=f114e667]: 2026-07-31 18:41:27
+              - generic [ref=f114e668]: ERROR
+              - generic [ref=f114e669]: "syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe"
+            - 'button "2026-07-31 18:41:06 ERROR syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe" [ref=f114e673]':
+              - generic [ref=f114e674]: 2026-07-31 18:41:06
+              - generic [ref=f114e675]: ERROR
+              - generic [ref=f114e676]: "syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe"
+            - 'button "2026-07-31 18:40:08 ERROR syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe" [ref=f114e680]':
+              - generic [ref=f114e681]: 2026-07-31 18:40:08
+              - generic [ref=f114e682]: ERROR
+              - generic [ref=f114e683]: "syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe"
+            - 'button "2026-07-31 18:40:05 ERROR syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe" [ref=f114e687]':
+              - generic [ref=f114e688]: 2026-07-31 18:40:05
+              - generic [ref=f114e689]: ERROR
+              - generic [ref=f114e690]: "syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe"
+            - 'button "2026-07-31 18:38:04 ERROR syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe" [ref=f114e694]':
+              - generic [ref=f114e695]: 2026-07-31 18:38:04
+              - generic [ref=f114e696]: ERROR
+              - generic [ref=f114e697]: "syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe"
+            - 'button "2026-07-31 18:34:57 ERROR syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe" [ref=f114e701]':
+              - generic [ref=f114e702]: 2026-07-31 18:34:57
+              - generic [ref=f114e703]: ERROR
+              - generic [ref=f114e704]: "syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe"
+            - 'button "2026-07-31 18:34:14 ERROR syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe" [ref=f114e708]':
+              - generic [ref=f114e709]: 2026-07-31 18:34:14
+              - generic [ref=f114e710]: ERROR
+              - generic [ref=f114e711]: "syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe"
+            - 'button "2026-07-31 18:33:08 ERROR syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe" [ref=f114e715]':
+              - generic [ref=f114e716]: 2026-07-31 18:33:08
+              - generic [ref=f114e717]: ERROR
+              - generic [ref=f114e718]: "syntax error, unexpected token \"endif\", expecting end of file (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): syntax error, unexpected token \\\"endif\\\", expe"
+            - 'button "2026-07-30 18:59:27 ERROR SQLSTATE[HY000]: General error: 1366 Incorrect integer value: ''Lleno'' for column ''fuel_level'' at row 1 (Connection: mysql, Host: 127.0.0.1, Port: 3306, Database: control_vehicular, SQL: update `route_steps` set `odometer` = 500, `fuel_level` = Lleno, `timestamp` = 2026-07-30 18:59:27, `photo` = driv" [ref=f114e722]':
+              - generic [ref=f114e723]: 2026-07-30 18:59:27
+              - generic [ref=f114e724]: ERROR
+              - generic [ref=f114e725]: "SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'Lleno' for column 'fuel_level' at row 1 (Connection: mysql, Host: 127.0.0.1, Port: 3306, Database: control_vehicular, SQL: update `route_steps` set `odometer` = 500, `fuel_level` = Lleno, `timestamp` = 2026-07-30 18:59:27, `photo` = driv"
+            - 'button "2026-07-30 18:56:25 ERROR Class \"App\\Livewire\\Fuel\\Refuel\" not found {\"userId\":1,\"exception\":\"[object] (Error(code: 0): Class \\\"App\\\\Livewire\\\\Fuel\\\\Refuel\\\" not found at /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/app/Livewire/Fuel/FuelManager.php:287)" [ref=f114e729]':
+              - generic [ref=f114e730]: 2026-07-30 18:56:25
+              - generic [ref=f114e731]: ERROR
+              - generic [ref=f114e732]: "Class \"App\\Livewire\\Fuel\\Refuel\" not found {\"userId\":1,\"exception\":\"[object] (Error(code: 0): Class \\\"App\\\\Livewire\\\\Fuel\\\\Refuel\\\" not found at /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/app/Livewire/Fuel/FuelManager.php:287)"
+            - 'button "2026-07-30 17:36:04 ERROR No arguments expected for \"db:show\" command, got \"--no-interaction\". {\"exception\":\"[object] (Symfony\\\\Component\\\\Console\\\\Exception\\\\RuntimeException(code: 0): No arguments expected for \\\"db:show\\\" command, got \\\"--no-interaction\\\". at /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/vendor" [ref=f114e736]':
+              - generic [ref=f114e737]: 2026-07-30 17:36:04
+              - generic [ref=f114e738]: ERROR
+              - generic [ref=f114e739]: "No arguments expected for \"db:show\" command, got \"--no-interaction\". {\"exception\":\"[object] (Symfony\\\\Component\\\\Console\\\\Exception\\\\RuntimeException(code: 0): No arguments expected for \\\"db:show\\\" command, got \\\"--no-interaction\\\". at /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/vendor"
+            - 'button "2026-07-30 17:20:08 ERROR Cannot assign App\\Domains\\Route\\Models\\Route to property App\\Livewire\\Driver\\DriverIncident::$route of type App\\Livewire\\Driver\\Route {\"userId\":3,\"exception\":\"[object] (TypeError(code: 0): Cannot assign App\\\\Domains\\\\Route\\\\Models\\\\Route to property App\\\\Livewire\\\\Driver\\\\DriverIncident::$route of t" [ref=f114e743]':
+              - generic [ref=f114e744]: 2026-07-30 17:20:08
+              - generic [ref=f114e745]: ERROR
+              - generic [ref=f114e746]: "Cannot assign App\\Domains\\Route\\Models\\Route to property App\\Livewire\\Driver\\DriverIncident::$route of type App\\Livewire\\Driver\\Route {\"userId\":3,\"exception\":\"[object] (TypeError(code: 0): Cannot assign App\\\\Domains\\\\Route\\\\Models\\\\Route to property App\\\\Livewire\\\\Driver\\\\DriverIncident::$route of t"
+            - 'button "2026-07-30 17:20:06 ERROR Cannot assign App\\Domains\\Route\\Models\\Route to property App\\Livewire\\Driver\\DriverRefuel::$route of type App\\Livewire\\Driver\\Route {\"userId\":3,\"exception\":\"[object] (TypeError(code: 0): Cannot assign App\\\\Domains\\\\Route\\\\Models\\\\Route to property App\\\\Livewire\\\\Driver\\\\DriverRefuel::$route of type" [ref=f114e750]':
+              - generic [ref=f114e751]: 2026-07-30 17:20:06
+              - generic [ref=f114e752]: ERROR
+              - generic [ref=f114e753]: "Cannot assign App\\Domains\\Route\\Models\\Route to property App\\Livewire\\Driver\\DriverRefuel::$route of type App\\Livewire\\Driver\\Route {\"userId\":3,\"exception\":\"[object] (TypeError(code: 0): Cannot assign App\\\\Domains\\\\Route\\\\Models\\\\Route to property App\\\\Livewire\\\\Driver\\\\DriverRefuel::$route of type"
+            - 'button "2026-07-30 16:52:04 ERROR Unable to call component method. Public method [sendLocation] not found on component {\"userId\":3,\"exception\":\"[object] (Livewire\\\\Exceptions\\\\MethodNotFoundException(code: 0): Unable to call component method. Public method [sendLocation] not found on component at /home/sistemas/Escritorio/agua-inmac" [ref=f114e757]':
+              - generic [ref=f114e758]: 2026-07-30 16:52:04
+              - generic [ref=f114e759]: ERROR
+              - generic [ref=f114e760]: "Unable to call component method. Public method [sendLocation] not found on component {\"userId\":3,\"exception\":\"[object] (Livewire\\\\Exceptions\\\\MethodNotFoundException(code: 0): Unable to call component method. Public method [sendLocation] not found on component at /home/sistemas/Escritorio/agua-inmac"
+            - 'button "2026-07-30 16:51:43 ERROR Unable to call component method. Public method [sendLocation] not found on component {\"userId\":3,\"exception\":\"[object] (Livewire\\\\Exceptions\\\\MethodNotFoundException(code: 0): Unable to call component method. Public method [sendLocation] not found on component at /home/sistemas/Escritorio/agua-inmac" [ref=f114e764]':
+              - generic [ref=f114e765]: 2026-07-30 16:51:43
+              - generic [ref=f114e766]: ERROR
+              - generic [ref=f114e767]: "Unable to call component method. Public method [sendLocation] not found on component {\"userId\":3,\"exception\":\"[object] (Livewire\\\\Exceptions\\\\MethodNotFoundException(code: 0): Unable to call component method. Public method [sendLocation] not found on component at /home/sistemas/Escritorio/agua-inmac"
+            - 'button "2026-07-30 16:48:16 ERROR SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`control_vehicular`.`routes`, CONSTRAINT `routes_driver_id_foreign` FOREIGN KEY (`driver_id`) REFERENCES `operators` (`id`)) (Connection: mysql, Host: 127.0.0.1, Port: 3306, Databa" [ref=f114e771]':
+              - generic [ref=f114e772]: 2026-07-30 16:48:16
+              - generic [ref=f114e773]: ERROR
+              - generic [ref=f114e774]: "SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`control_vehicular`.`routes`, CONSTRAINT `routes_driver_id_foreign` FOREIGN KEY (`driver_id`) REFERENCES `operators` (`id`)) (Connection: mysql, Host: 127.0.0.1, Port: 3306, Databa"
+            - 'button "2026-07-29 23:54:35 ERROR SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column ''estimated_duration'' at row 1 (Connection: mysql, Host: 127.0.0.1, Port: 3306, Database: control_vehicular, SQL: alter table `routes` modify `estimated_duration` decimal(5, 2) null) {\"exception\":\"[object] (Illuminate\\\\Da" [ref=f114e778]':
+              - generic [ref=f114e779]: 2026-07-29 23:54:35
+              - generic [ref=f114e780]: ERROR
+              - generic [ref=f114e781]: "SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'estimated_duration' at row 1 (Connection: mysql, Host: 127.0.0.1, Port: 3306, Database: control_vehicular, SQL: alter table `routes` modify `estimated_duration` decimal(5, 2) null) {\"exception\":\"[object] (Illuminate\\\\Da"
+            - 'button "2026-07-29 21:02:55 ERROR \"approved\" is not a valid backing value for enum App\\Domains\\Expense\\Enums\\ExpenseStatusEnum (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/expense-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): \\\"approved\\\"" [ref=f114e785]':
+              - generic [ref=f114e786]: 2026-07-29 21:02:55
+              - generic [ref=f114e787]: ERROR
+              - generic [ref=f114e788]: "\"approved\" is not a valid backing value for enum App\\Domains\\Expense\\Enums\\ExpenseStatusEnum (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/expense-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): \\\"approved\\\""
+            - 'button "2026-07-29 21:02:39 ERROR \"approved\" is not a valid backing value for enum App\\Domains\\Expense\\Enums\\ExpenseStatusEnum (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/expense-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): \\\"approved\\\"" [ref=f114e792]':
+              - generic [ref=f114e793]: 2026-07-29 21:02:39
+              - generic [ref=f114e794]: ERROR
+              - generic [ref=f114e795]: "\"approved\" is not a valid backing value for enum App\\Domains\\Expense\\Enums\\ExpenseStatusEnum (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/expense-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): \\\"approved\\\""
+            - 'button "2026-07-29 21:02:33 ERROR \"approved\" is not a valid backing value for enum App\\Domains\\Expense\\Enums\\ExpenseStatusEnum (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/expense-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): \\\"approved\\\"" [ref=f114e799]':
+              - generic [ref=f114e800]: 2026-07-29 21:02:33
+              - generic [ref=f114e801]: ERROR
+              - generic [ref=f114e802]: "\"approved\" is not a valid backing value for enum App\\Domains\\Expense\\Enums\\ExpenseStatusEnum (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/expense-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): \\\"approved\\\""
+            - 'button "2026-07-29 20:37:03 ERROR The \"intl\" PHP extension is required to use the [format] method. {\"exception\":\"[object] (RuntimeException(code: 0): The \\\"intl\\\" PHP extension is required to use the [format] method. at /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/vendor/laravel/framework/src/Illuminate/Support/Number.p" [ref=f114e806]':
+              - generic [ref=f114e807]: 2026-07-29 20:37:03
+              - generic [ref=f114e808]: ERROR
+              - generic [ref=f114e809]: "The \"intl\" PHP extension is required to use the [format] method. {\"exception\":\"[object] (RuntimeException(code: 0): The \\\"intl\\\" PHP extension is required to use the [format] method. at /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/vendor/laravel/framework/src/Illuminate/Support/Number.p"
+            - 'button "2026-07-29 20:30:27 ERROR The \"--pretend\" option does not exist. {\"exception\":\"[object] (Symfony\\\\Component\\\\Console\\\\Exception\\\\RuntimeException(code: 0): The \\\"--pretend\\\" option does not exist. at /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/vendor/symfony/console/Input/ArgvInput.php:226)" [ref=f114e813]':
+              - generic [ref=f114e814]: 2026-07-29 20:30:27
+              - generic [ref=f114e815]: ERROR
+              - generic [ref=f114e816]: "The \"--pretend\" option does not exist. {\"exception\":\"[object] (Symfony\\\\Component\\\\Console\\\\Exception\\\\RuntimeException(code: 0): The \\\"--pretend\\\" option does not exist. at /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/vendor/symfony/console/Input/ArgvInput.php:226)"
+            - 'button "2026-07-29 20:16:17 ERROR The \"intl\" PHP extension is required to use the [format] method. {\"exception\":\"[object] (RuntimeException(code: 0): The \\\"intl\\\" PHP extension is required to use the [format] method. at /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/vendor/laravel/framework/src/Illuminate/Support/Number.p" [ref=f114e820]':
+              - generic [ref=f114e821]: 2026-07-29 20:16:17
+              - generic [ref=f114e822]: ERROR
+              - generic [ref=f114e823]: "The \"intl\" PHP extension is required to use the [format] method. {\"exception\":\"[object] (RuntimeException(code: 0): The \\\"intl\\\" PHP extension is required to use the [format] method. at /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/vendor/laravel/framework/src/Illuminate/Support/Number.p"
+            - 'button "2026-07-29 20:16:16 ERROR The \"intl\" PHP extension is required to use the [format] method. {\"exception\":\"[object] (RuntimeException(code: 0): The \\\"intl\\\" PHP extension is required to use the [format] method. at /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/vendor/laravel/framework/src/Illuminate/Support/Number.p" [ref=f114e827]':
+              - generic [ref=f114e828]: 2026-07-29 20:16:16
+              - generic [ref=f114e829]: ERROR
+              - generic [ref=f114e830]: "The \"intl\" PHP extension is required to use the [format] method. {\"exception\":\"[object] (RuntimeException(code: 0): The \\\"intl\\\" PHP extension is required to use the [format] method. at /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/vendor/laravel/framework/src/Illuminate/Support/Number.p"
+            - 'button "2026-07-29 18:24:03 ERROR Unclosed ''['' on line 484 does not match '')'' (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): Unclosed ''['' on line 484 does not match '')'' (View: /home/sistema" [ref=f114e834]':
+              - generic [ref=f114e835]: 2026-07-29 18:24:03
+              - generic [ref=f114e836]: ERROR
+              - generic [ref=f114e837]: "Unclosed '[' on line 484 does not match ')' (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): Unclosed '[' on line 484 does not match ')' (View: /home/sistema"
+            - 'button "2026-07-29 18:23:47 ERROR Unclosed ''['' on line 484 does not match '')'' (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): Unclosed ''['' on line 484 does not match '')'' (View: /home/sistema" [ref=f114e841]':
+              - generic [ref=f114e842]: 2026-07-29 18:23:47
+              - generic [ref=f114e843]: ERROR
+              - generic [ref=f114e844]: "Unclosed '[' on line 484 does not match ')' (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): Unclosed '[' on line 484 does not match ')' (View: /home/sistema"
+            - 'button "2026-07-29 18:23:43 ERROR Unclosed ''['' on line 484 does not match '')'' (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): Unclosed ''['' on line 484 does not match '')'' (View: /home/sistema" [ref=f114e848]':
+              - generic [ref=f114e849]: 2026-07-29 18:23:43
+              - generic [ref=f114e850]: ERROR
+              - generic [ref=f114e851]: "Unclosed '[' on line 484 does not match ')' (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): Unclosed '[' on line 484 does not match ')' (View: /home/sistema"
+            - 'button "2026-07-29 18:23:35 ERROR Unclosed ''['' on line 485 does not match '')'' (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): Unclosed ''['' on line 485 does not match '')'' (View: /home/sistema" [ref=f114e855]':
+              - generic [ref=f114e856]: 2026-07-29 18:23:35
+              - generic [ref=f114e857]: ERROR
+              - generic [ref=f114e858]: "Unclosed '[' on line 485 does not match ')' (View: /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/resources/views/livewire/route-manager.blade.php) {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\View\\\\ViewException(code: 0): Unclosed '[' on line 485 does not match ')' (View: /home/sistema"
+            - 'button "2026-07-29 18:21:53 ERROR Invalid route action: [RouteSimulator]. {\"exception\":\"[object] (UnexpectedValueException(code: 0): Invalid route action: [RouteSimulator]. at /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/vendor/laravel/framework/src/Illuminate/Routing/RouteAction.php:92)" [ref=f114e862]':
+              - generic [ref=f114e863]: 2026-07-29 18:21:53
+              - generic [ref=f114e864]: ERROR
+              - generic [ref=f114e865]: "Invalid route action: [RouteSimulator]. {\"exception\":\"[object] (UnexpectedValueException(code: 0): Invalid route action: [RouteSimulator]. at /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/vendor/laravel/framework/src/Illuminate/Routing/RouteAction.php:92)"
+            - 'button "2026-07-29 18:17:50 ERROR There are no commands defined in the \"vite\" namespace. {\"exception\":\"[object] (Symfony\\\\Component\\\\Console\\\\Exception\\\\NamespaceNotFoundException(code: 0): There are no commands defined in the \\\"vite\\\" namespace. at /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/vendor/symfony/console/App" [ref=f114e869]':
+              - generic [ref=f114e870]: 2026-07-29 18:17:50
+              - generic [ref=f114e871]: ERROR
+              - generic [ref=f114e872]: "There are no commands defined in the \"vite\" namespace. {\"exception\":\"[object] (Symfony\\\\Component\\\\Console\\\\Exception\\\\NamespaceNotFoundException(code: 0): There are no commands defined in the \\\"vite\\\" namespace. at /home/sistemas/Escritorio/agua-inmaculada/agua-inmaculada/vendor/symfony/console/App"
+            - 'button "2026-07-29 18:06:36 ERROR Unable to resolve dependency [Parameter #1 [ <required> ?string $value ]] in class App\\Livewire\\Route\\RouteManager {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\Contracts\\\\Container\\\\BindingResolutionException(code: 0): Unable to resolve dependency [Parameter #1 [ <required> ?string $value ]] in cl" [ref=f114e876]':
+              - generic [ref=f114e877]: 2026-07-29 18:06:36
+              - generic [ref=f114e878]: ERROR
+              - generic [ref=f114e879]: "Unable to resolve dependency [Parameter #1 [ <required> ?string $value ]] in class App\\Livewire\\Route\\RouteManager {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\Contracts\\\\Container\\\\BindingResolutionException(code: 0): Unable to resolve dependency [Parameter #1 [ <required> ?string $value ]] in cl"
+            - 'button "2026-07-29 17:57:38 ERROR Unable to resolve dependency [Parameter #1 [ <required> ?string $value ]] in class App\\Livewire\\Route\\RouteManager {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\Contracts\\\\Container\\\\BindingResolutionException(code: 0): Unable to resolve dependency [Parameter #1 [ <required> ?string $value ]] in cl" [ref=f114e883]':
+              - generic [ref=f114e884]: 2026-07-29 17:57:38
+              - generic [ref=f114e885]: ERROR
+              - generic [ref=f114e886]: "Unable to resolve dependency [Parameter #1 [ <required> ?string $value ]] in class App\\Livewire\\Route\\RouteManager {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\Contracts\\\\Container\\\\BindingResolutionException(code: 0): Unable to resolve dependency [Parameter #1 [ <required> ?string $value ]] in cl"
+            - 'button "2026-07-29 17:57:31 ERROR Unable to resolve dependency [Parameter #1 [ <required> ?string $value ]] in class App\\Livewire\\Route\\RouteManager {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\Contracts\\\\Container\\\\BindingResolutionException(code: 0): Unable to resolve dependency [Parameter #1 [ <required> ?string $value ]] in cl" [ref=f114e890]':
+              - generic [ref=f114e891]: 2026-07-29 17:57:31
+              - generic [ref=f114e892]: ERROR
+              - generic [ref=f114e893]: "Unable to resolve dependency [Parameter #1 [ <required> ?string $value ]] in class App\\Livewire\\Route\\RouteManager {\"userId\":1,\"exception\":\"[object] (Illuminate\\\\Contracts\\\\Container\\\\BindingResolutionException(code: 0): Unable to resolve dependency [Parameter #1 [ <required> ?string $value ]] in cl"
+    - contentinfo [ref=f114e896]:
+      - generic [ref=f114e897]:
+        - generic [ref=f114e898]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f114e902]:
+          - generic [ref=f114e903]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f114e904]: • Servidor Seguro de Producción

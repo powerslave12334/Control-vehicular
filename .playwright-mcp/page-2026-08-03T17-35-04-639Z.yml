@@ -1,0 +1,408 @@
+- generic [active] [ref=f46e1]:
+  - complementary [ref=f46e2]:
+    - generic [ref=f46e3]:
+      - generic [ref=f46e4]: A
+      - generic [ref=f46e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f46e6]
+        - paragraph [ref=f46e7]: Control de Flota
+    - generic [ref=f46e8]:
+      - paragraph [ref=f46e9]: Navegación Admin
+      - navigation [ref=f46e10]:
+        - link "Dashboard / Resumen" [ref=f46e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f46e15]: Vehículos
+        - link "Vehículos" [ref=f46e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f46e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f46e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f46e28]: Rutas
+        - link "Rutas" [ref=f46e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f46e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f46e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f46e41]: Operaciones
+        - link "Operadores" [ref=f46e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f46e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f46e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f46e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f46e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f46e62]: Administración
+        - link "Reportes" [ref=f46e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f46e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f46e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f46e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f46e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f46e83]:
+      - generic [ref=f46e84]:
+        - generic [ref=f46e85]: AD
+        - generic [ref=f46e86]:
+          - paragraph [ref=f46e87]: Administrador
+          - paragraph [ref=f46e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f46e90]
+  - generic [ref=f46e93]:
+    - banner [ref=f46e94]:
+      - generic [ref=f46e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f46e96]
+        - generic [ref=f46e98]: OWASP Top 10 Secured
+      - generic [ref=f46e101]:
+        - link "79" [ref=f46e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f46e106]: "--:--:--"
+        - generic [ref=f46e110]:
+          - generic [ref=f46e111]:
+            - paragraph [ref=f46e112]: Administrador
+            - paragraph [ref=f46e113]: Administrador del sistema
+          - generic [ref=f46e114]: AD
+    - main [ref=f46e115]:
+      - generic [ref=f46e116]:
+        - generic [ref=f46e117]:
+          - generic [ref=f46e118]:
+            - heading "Control de Combustible y Presupuestos Semanales" [level=1] [ref=f46e119]
+            - paragraph [ref=f46e120]: Contraste de Consumo Real vs. Consumo Autorizado por semana.
+          - button "Registrar Carga" [ref=f46e121]
+        - generic [ref=f46e124]:
+          - generic [ref=f46e125]: "Semana:"
+          - combobox [ref=f46e126]:
+            - option "Esta semana" [selected]
+            - option "Semana del 27/07/2026"
+            - option "Semana del 20/07/2026"
+            - option "Semana del 13/07/2026"
+            - option "Semana del 06/07/2026"
+            - option "Semana del 29/06/2026"
+            - option "Semana del 22/06/2026"
+            - option "Semana del 15/06/2026"
+          - generic [ref=f46e127]: (03/08/2026 — 09/08/2026)
+        - generic [ref=f46e128]:
+          - generic [ref=f46e129]:
+            - heading "Consumo de Combustible por Unidad (Semanal)" [level=3] [ref=f46e130]
+            - generic [ref=f46e131]:
+              - generic [ref=f46e132]:
+                - generic [ref=f46e133]:
+                  - generic [ref=f46e134]: AAA-BBB-123
+                  - generic [ref=f46e135]:
+                    - generic [ref=f46e136]: — / 300.0L
+                    - generic [ref=f46e137]: 85.3%
+                - paragraph [ref=f46e140]: "* Basado en litros comprados (sin datos de nivel de combustible)"
+                - generic [ref=f46e141]:
+                  - generic [ref=f46e142]: "Autorizado:"
+                  - generic [ref=f46e143]: 300.0 L
+                  - button [ref=f46e144]
+              - generic [ref=f46e147]:
+                - generic [ref=f46e148]:
+                  - generic [ref=f46e149]: GHL-4512
+                  - generic [ref=f46e150]: — / 250.0L
+                - generic [ref=f46e153]:
+                  - generic [ref=f46e154]: "Autorizado:"
+                  - generic [ref=f46e155]: 250.0 L
+                  - button [ref=f46e156]
+              - generic [ref=f46e159]:
+                - generic [ref=f46e160]:
+                  - generic [ref=f46e161]: HTR-7823
+                  - generic [ref=f46e162]: — / 200.0L
+                - generic [ref=f46e165]:
+                  - generic [ref=f46e166]: "Autorizado:"
+                  - generic [ref=f46e167]: 200.0 L
+                  - button [ref=f46e168]
+              - generic [ref=f46e171]:
+                - generic [ref=f46e172]:
+                  - generic [ref=f46e173]: JKL-9911
+                  - generic [ref=f46e174]: — / 300.0L
+                - generic [ref=f46e177]:
+                  - generic [ref=f46e178]: "Autorizado:"
+                  - generic [ref=f46e179]: 300.0 L
+                  - button [ref=f46e180]
+              - generic [ref=f46e183]:
+                - generic [ref=f46e184]:
+                  - generic [ref=f46e185]: MXZ-3322
+                  - generic [ref=f46e186]: — / 400.0L
+                - generic [ref=f46e189]:
+                  - generic [ref=f46e190]: "Autorizado:"
+                  - generic [ref=f46e191]: 400.0 L
+                  - button [ref=f46e192]
+              - generic [ref=f46e195]:
+                - generic [ref=f46e196]:
+                  - generic [ref=f46e197]: CDE-5567
+                  - generic [ref=f46e198]: — / 180.0L
+                - generic [ref=f46e201]:
+                  - generic [ref=f46e202]: "Autorizado:"
+                  - generic [ref=f46e203]: 180.0 L
+                  - button [ref=f46e204]
+              - generic [ref=f46e207]:
+                - generic [ref=f46e208]:
+                  - generic [ref=f46e209]: FGH-8876
+                  - generic [ref=f46e210]: — / 220.0L
+                - generic [ref=f46e213]:
+                  - generic [ref=f46e214]: "Autorizado:"
+                  - generic [ref=f46e215]: 220.0 L
+                  - button [ref=f46e216]
+              - generic [ref=f46e219]:
+                - generic [ref=f46e220]:
+                  - generic [ref=f46e221]: RST-2233
+                  - generic [ref=f46e222]: — / 260.0L
+                - generic [ref=f46e225]:
+                  - generic [ref=f46e226]: "Autorizado:"
+                  - generic [ref=f46e227]: 260.0 L
+                  - button [ref=f46e228]
+              - generic [ref=f46e231]:
+                - generic [ref=f46e232]:
+                  - generic [ref=f46e233]: WXY-1001
+                  - generic [ref=f46e234]: — / 500.0L
+                - generic [ref=f46e237]:
+                  - generic [ref=f46e238]: "Autorizado:"
+                  - generic [ref=f46e239]: 500.0 L
+                  - button [ref=f46e240]
+              - generic [ref=f46e243]:
+                - generic [ref=f46e244]:
+                  - generic [ref=f46e245]: QRS-4412
+                  - generic [ref=f46e246]: — / 220.0L
+                - generic [ref=f46e249]:
+                  - generic [ref=f46e250]: "Autorizado:"
+                  - generic [ref=f46e251]: 220.0 L
+                  - button [ref=f46e252]
+              - generic [ref=f46e255]:
+                - generic [ref=f46e256]:
+                  - generic [ref=f46e257]: MNO-7788
+                  - generic [ref=f46e258]: — / 280.0L
+                - generic [ref=f46e261]:
+                  - generic [ref=f46e262]: "Autorizado:"
+                  - generic [ref=f46e263]: 280.0 L
+                  - button [ref=f46e264]
+          - generic [ref=f46e267]:
+            - heading "Historial de Tickets" [level=3] [ref=f46e269]
+            - generic [ref=f46e270]:
+              - textbox "Buscar (folio, operador, placa...)" [ref=f46e271]
+              - generic [ref=f46e272]:
+                - combobox [ref=f46e273]:
+                  - 'option "Vehículo: Todos" [selected]'
+                  - option "AAA-BBB-123"
+                  - option "GHL-4512"
+                  - option "HTR-7823"
+                  - option "JKL-9911"
+                  - option "MXZ-3322"
+                  - option "CDE-5567"
+                  - option "FGH-8876"
+                  - option "RST-2233"
+                  - option "WXY-1001"
+                  - option "QRS-4412"
+                  - option "MNO-7788"
+                - combobox [ref=f46e274]:
+                  - 'option "Status: Todos" [selected]'
+                  - option "Pendiente"
+                  - option "Aprobado"
+                  - option "Rechazado"
+            - generic [ref=f46e275]:
+              - generic [ref=f46e276]:
+                - generic [ref=f46e277]:
+                  - generic [ref=f46e278]: "#8"
+                  - generic [ref=f46e279]: Aprobado
+                - generic [ref=f46e280]:
+                  - generic [ref=f46e281]: 40.0L
+                  - generic [ref=f46e282]: Prueba
+                - generic [ref=f46e283]:
+                  - generic [ref=f46e284]: 45,000 km
+                  - generic [ref=f46e285]: $950.00
+                - generic [ref=f46e286]:
+                  - generic [ref=f46e287]: Tarjeta
+                  - generic [ref=f46e288]: 03/08/2026
+                - img "Ticket" [ref=f46e289] [cursor=pointer]
+                - generic [ref=f46e290]:
+                  - button "Ver detalle" [ref=f46e291]
+                  - button "Editar" [ref=f46e295]
+                  - button "Eliminar" [ref=f46e298]
+              - generic [ref=f46e301]:
+                - generic [ref=f46e302]:
+                  - generic [ref=f46e303]: "#9"
+                  - generic [ref=f46e304]: Rechazado
+                - generic [ref=f46e305]:
+                  - generic [ref=f46e306]: 30.0L
+                  - generic [ref=f46e307]: Prueba
+                - generic [ref=f46e308]:
+                  - generic [ref=f46e309]: 45,500 km
+                  - generic [ref=f46e310]: $700.00
+                - generic [ref=f46e311]:
+                  - generic [ref=f46e312]: Tarjeta
+                  - generic [ref=f46e313]: 03/08/2026
+                - generic [ref=f46e314]:
+                  - button "Ver detalle" [ref=f46e315]
+                  - button "Editar" [ref=f46e319]
+                  - button "Eliminar" [ref=f46e322]
+              - generic [ref=f46e325]:
+                - generic [ref=f46e326]:
+                  - generic [ref=f46e327]: "#10"
+                  - generic [ref=f46e328]: Pendiente
+                - generic [ref=f46e329]:
+                  - generic [ref=f46e330]: 10.0L
+                  - generic [ref=f46e331]: Prueba
+                - generic [ref=f46e332]:
+                  - generic [ref=f46e333]: 1,000 km
+                  - generic [ref=f46e334]: $100.00
+                - generic [ref=f46e335]:
+                  - generic [ref=f46e336]: Tarjeta
+                  - generic [ref=f46e337]: 03/08/2026
+                - generic [ref=f46e338]:
+                  - button "Ver detalle" [ref=f46e339]
+                  - button "Editar" [ref=f46e343]
+                  - button "Aprobar" [ref=f46e346]
+                  - button "Rechazar" [ref=f46e349]
+                  - button "Eliminar" [ref=f46e352]
+              - generic [ref=f46e355]:
+                - generic [ref=f46e356]:
+                  - generic [ref=f46e357]: "#11"
+                  - generic [ref=f46e358]: Pendiente
+                - generic [ref=f46e359]:
+                  - generic [ref=f46e360]: 11.0L
+                  - generic [ref=f46e361]: Prueba
+                - generic [ref=f46e362]:
+                  - generic [ref=f46e363]: 1,010 km
+                  - generic [ref=f46e364]: $110.00
+                - generic [ref=f46e365]:
+                  - generic [ref=f46e366]: Tarjeta
+                  - generic [ref=f46e367]: 03/08/2026
+                - generic [ref=f46e368]:
+                  - button "Ver detalle" [ref=f46e369]
+                  - button "Editar" [ref=f46e373]
+                  - button "Aprobar" [ref=f46e376]
+                  - button "Rechazar" [ref=f46e379]
+                  - button "Eliminar" [ref=f46e382]
+              - generic [ref=f46e385]:
+                - generic [ref=f46e386]:
+                  - generic [ref=f46e387]: "#12"
+                  - generic [ref=f46e388]: Pendiente
+                - generic [ref=f46e389]:
+                  - generic [ref=f46e390]: 12.0L
+                  - generic [ref=f46e391]: Prueba
+                - generic [ref=f46e392]:
+                  - generic [ref=f46e393]: 1,020 km
+                  - generic [ref=f46e394]: $120.00
+                - generic [ref=f46e395]:
+                  - generic [ref=f46e396]: Tarjeta
+                  - generic [ref=f46e397]: 03/08/2026
+                - generic [ref=f46e398]:
+                  - button "Ver detalle" [ref=f46e399]
+                  - button "Editar" [ref=f46e403]
+                  - button "Aprobar" [ref=f46e406]
+                  - button "Rechazar" [ref=f46e409]
+                  - button "Eliminar" [ref=f46e412]
+              - generic [ref=f46e415]:
+                - generic [ref=f46e416]:
+                  - generic [ref=f46e417]: "#13"
+                  - generic [ref=f46e418]: Pendiente
+                - generic [ref=f46e419]:
+                  - generic [ref=f46e420]: 13.0L
+                  - generic [ref=f46e421]: Prueba
+                - generic [ref=f46e422]:
+                  - generic [ref=f46e423]: 1,030 km
+                  - generic [ref=f46e424]: $130.00
+                - generic [ref=f46e425]:
+                  - generic [ref=f46e426]: Tarjeta
+                  - generic [ref=f46e427]: 03/08/2026
+                - generic [ref=f46e428]:
+                  - button "Ver detalle" [ref=f46e429]
+                  - button "Editar" [ref=f46e433]
+                  - button "Aprobar" [ref=f46e436]
+                  - button "Rechazar" [ref=f46e439]
+                  - button "Eliminar" [ref=f46e442]
+              - generic [ref=f46e445]:
+                - generic [ref=f46e446]:
+                  - generic [ref=f46e447]: "#14"
+                  - generic [ref=f46e448]: Pendiente
+                - generic [ref=f46e449]:
+                  - generic [ref=f46e450]: 14.0L
+                  - generic [ref=f46e451]: Prueba
+                - generic [ref=f46e452]:
+                  - generic [ref=f46e453]: 1,040 km
+                  - generic [ref=f46e454]: $140.00
+                - generic [ref=f46e455]:
+                  - generic [ref=f46e456]: Tarjeta
+                  - generic [ref=f46e457]: 03/08/2026
+                - generic [ref=f46e458]:
+                  - button "Ver detalle" [ref=f46e459]
+                  - button "Editar" [ref=f46e463]
+                  - button "Aprobar" [ref=f46e466]
+                  - button "Rechazar" [ref=f46e469]
+                  - button "Eliminar" [ref=f46e472]
+              - generic [ref=f46e475]:
+                - generic [ref=f46e476]:
+                  - generic [ref=f46e477]: "#15"
+                  - generic [ref=f46e478]: Pendiente
+                - generic [ref=f46e479]:
+                  - generic [ref=f46e480]: 15.0L
+                  - generic [ref=f46e481]: Prueba
+                - generic [ref=f46e482]:
+                  - generic [ref=f46e483]: 1,050 km
+                  - generic [ref=f46e484]: $150.00
+                - generic [ref=f46e485]:
+                  - generic [ref=f46e486]: Tarjeta
+                  - generic [ref=f46e487]: 03/08/2026
+                - generic [ref=f46e488]:
+                  - button "Ver detalle" [ref=f46e489]
+                  - button "Editar" [ref=f46e493]
+                  - button "Aprobar" [ref=f46e496]
+                  - button "Rechazar" [ref=f46e499]
+                  - button "Eliminar" [ref=f46e502]
+              - generic [ref=f46e505]:
+                - generic [ref=f46e506]:
+                  - generic [ref=f46e507]: "#16"
+                  - generic [ref=f46e508]: Pendiente
+                - generic [ref=f46e509]:
+                  - generic [ref=f46e510]: 16.0L
+                  - generic [ref=f46e511]: Prueba
+                - generic [ref=f46e512]:
+                  - generic [ref=f46e513]: 1,060 km
+                  - generic [ref=f46e514]: $160.00
+                - generic [ref=f46e515]:
+                  - generic [ref=f46e516]: Tarjeta
+                  - generic [ref=f46e517]: 03/08/2026
+                - generic [ref=f46e518]:
+                  - button "Ver detalle" [ref=f46e519]
+                  - button "Editar" [ref=f46e523]
+                  - button "Aprobar" [ref=f46e526]
+                  - button "Rechazar" [ref=f46e529]
+                  - button "Eliminar" [ref=f46e532]
+              - generic [ref=f46e535]:
+                - generic [ref=f46e536]:
+                  - generic [ref=f46e537]: "#17"
+                  - generic [ref=f46e538]: Pendiente
+                - generic [ref=f46e539]:
+                  - generic [ref=f46e540]: 17.0L
+                  - generic [ref=f46e541]: Prueba
+                - generic [ref=f46e542]:
+                  - generic [ref=f46e543]: 1,070 km
+                  - generic [ref=f46e544]: $170.00
+                - generic [ref=f46e545]:
+                  - generic [ref=f46e546]: Tarjeta
+                  - generic [ref=f46e547]: 03/08/2026
+                - generic [ref=f46e548]:
+                  - button "Ver detalle" [ref=f46e549]
+                  - button "Editar" [ref=f46e553]
+                  - button "Aprobar" [ref=f46e556]
+                  - button "Rechazar" [ref=f46e559]
+                  - button "Eliminar" [ref=f46e562]
+            - navigation "Pagination Navigation" [ref=f46e567]:
+              - generic [ref=f46e568]:
+                - paragraph [ref=f46e570]: Showing 1 to 10 of 14 results
+                - generic [ref=f46e572]:
+                  - generic "&laquo; Previous" [ref=f46e574]
+                  - generic [ref=f46e578]: "1"
+                  - button "Go to page 2" [ref=f46e582]: "2"
+                  - button "Next &raquo;" [ref=f46e584]
+    - contentinfo [ref=f46e587]:
+      - generic [ref=f46e588]:
+        - generic [ref=f46e589]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f46e593]:
+          - generic [ref=f46e594]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f46e595]: • Servidor Seguro de Producción

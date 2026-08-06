@@ -1,0 +1,198 @@
+- generic [active] [ref=f91e1]:
+  - complementary [ref=f91e2]:
+    - generic [ref=f91e3]:
+      - generic [ref=f91e4]: A
+      - generic [ref=f91e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f91e6]
+        - paragraph [ref=f91e7]: Control de Flota
+    - generic [ref=f91e8]:
+      - paragraph [ref=f91e9]: Navegación Admin
+      - navigation [ref=f91e10]:
+        - link "Dashboard / Resumen" [ref=f91e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f91e15]: Vehículos
+        - link "Vehículos" [ref=f91e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f91e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f91e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f91e28]: Rutas
+        - link "Rutas" [ref=f91e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f91e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f91e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f91e41]: Operaciones
+        - link "Operadores" [ref=f91e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f91e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f91e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f91e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f91e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f91e62]: Administración
+        - link "Reportes" [ref=f91e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f91e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f91e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f91e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f91e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f91e83]:
+      - generic [ref=f91e84]:
+        - generic [ref=f91e85]: AD
+        - generic [ref=f91e86]:
+          - paragraph [ref=f91e87]: Administrador
+          - paragraph [ref=f91e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f91e90]
+  - generic [ref=f91e93]:
+    - banner [ref=f91e94]:
+      - generic [ref=f91e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f91e96]
+        - generic [ref=f91e98]: OWASP Top 10 Secured
+      - generic [ref=f91e101]:
+        - link "79" [ref=f91e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f91e106]: "--:--:--"
+        - generic [ref=f91e110]:
+          - generic [ref=f91e111]:
+            - paragraph [ref=f91e112]: Administrador
+            - paragraph [ref=f91e113]: Administrador del sistema
+          - generic [ref=f91e114]: AD
+    - main [ref=f91e115]:
+      - generic [ref=f91e116]:
+        - generic [ref=f91e117]:
+          - heading "Operadores (18)" [level=3] [ref=f91e118]
+          - generic [ref=f91e119]: Usuarios con roles Operador, Chofer e Instalador
+        - generic [ref=f91e120]:
+          - textbox "Buscar (nombre, email, teléfono...)" [ref=f91e121]
+          - combobox [ref=f91e122]:
+            - 'option "Rol: Todos" [selected]'
+            - option "Operador"
+            - option "Chofer"
+            - option "Instalador"
+          - combobox [ref=f91e123]:
+            - 'option "Estatus: Todos" [selected]'
+            - option "Activo"
+            - option "Inactivo"
+        - table [ref=f91e125]:
+          - rowgroup [ref=f91e126]:
+            - row [ref=f91e127]:
+              - columnheader "Nombre" [ref=f91e128]
+              - columnheader "Rol" [ref=f91e129]
+              - columnheader "Teléfono" [ref=f91e130]
+              - columnheader "Email" [ref=f91e131]
+              - columnheader "Estatus" [ref=f91e132]
+          - rowgroup [ref=f91e133]:
+            - row [ref=f91e134]:
+              - cell "Instalador" [ref=f91e135]
+              - cell "Instalador" [ref=f91e136]
+              - cell "2218487027" [ref=f91e137]
+              - cell "Instalador@gmail.com" [ref=f91e138]
+              - cell "Activo" [ref=f91e139]
+            - row [ref=f91e140]:
+              - cell "Operador Test 1" [ref=f91e141]
+              - cell "Chofer" [ref=f91e142]
+              - cell "—" [ref=f91e143]
+              - cell "op-test-1@example.com" [ref=f91e144]
+              - cell "Activo" [ref=f91e145]
+            - row [ref=f91e146]:
+              - cell "Operador Test 10" [ref=f91e147]
+              - cell "Chofer" [ref=f91e148]
+              - cell "—" [ref=f91e149]
+              - cell "op-test-10@example.com" [ref=f91e150]
+              - cell "Activo" [ref=f91e151]
+            - row [ref=f91e152]:
+              - cell "Operador Test 11" [ref=f91e153]
+              - cell "Chofer" [ref=f91e154]
+              - cell "—" [ref=f91e155]
+              - cell "op-test-11@example.com" [ref=f91e156]
+              - cell "Activo" [ref=f91e157]
+            - row [ref=f91e158]:
+              - cell "Operador Test 12" [ref=f91e159]
+              - cell "Chofer" [ref=f91e160]
+              - cell "—" [ref=f91e161]
+              - cell "op-test-12@example.com" [ref=f91e162]
+              - cell "Activo" [ref=f91e163]
+            - row [ref=f91e164]:
+              - cell "Operador Test 13" [ref=f91e165]
+              - cell "Chofer" [ref=f91e166]
+              - cell "—" [ref=f91e167]
+              - cell "op-test-13@example.com" [ref=f91e168]
+              - cell "Activo" [ref=f91e169]
+            - row [ref=f91e170]:
+              - cell "Operador Test 14" [ref=f91e171]
+              - cell "Chofer" [ref=f91e172]
+              - cell "—" [ref=f91e173]
+              - cell "op-test-14@example.com" [ref=f91e174]
+              - cell "Activo" [ref=f91e175]
+            - row [ref=f91e176]:
+              - cell "Operador Test 15" [ref=f91e177]
+              - cell "Chofer" [ref=f91e178]
+              - cell "—" [ref=f91e179]
+              - cell "op-test-15@example.com" [ref=f91e180]
+              - cell "Activo" [ref=f91e181]
+            - row [ref=f91e182]:
+              - cell "Operador Test 16" [ref=f91e183]
+              - cell "Chofer" [ref=f91e184]
+              - cell "—" [ref=f91e185]
+              - cell "op-test-16@example.com" [ref=f91e186]
+              - cell "Activo" [ref=f91e187]
+            - row [ref=f91e188]:
+              - cell "Operador Test 2" [ref=f91e189]
+              - cell "Chofer" [ref=f91e190]
+              - cell "—" [ref=f91e191]
+              - cell "op-test-2@example.com" [ref=f91e192]
+              - cell "Activo" [ref=f91e193]
+            - row [ref=f91e194]:
+              - cell "Operador Test 3" [ref=f91e195]
+              - cell "Chofer" [ref=f91e196]
+              - cell "—" [ref=f91e197]
+              - cell "op-test-3@example.com" [ref=f91e198]
+              - cell "Activo" [ref=f91e199]
+            - row [ref=f91e200]:
+              - cell "Operador Test 4" [ref=f91e201]
+              - cell "Chofer" [ref=f91e202]
+              - cell "—" [ref=f91e203]
+              - cell "op-test-4@example.com" [ref=f91e204]
+              - cell "Activo" [ref=f91e205]
+            - row [ref=f91e206]:
+              - cell "Operador Test 5" [ref=f91e207]
+              - cell "Chofer" [ref=f91e208]
+              - cell "—" [ref=f91e209]
+              - cell "op-test-5@example.com" [ref=f91e210]
+              - cell "Activo" [ref=f91e211]
+            - row [ref=f91e212]:
+              - cell "Operador Test 6" [ref=f91e213]
+              - cell "Chofer" [ref=f91e214]
+              - cell "—" [ref=f91e215]
+              - cell "op-test-6@example.com" [ref=f91e216]
+              - cell "Activo" [ref=f91e217]
+            - row [ref=f91e218]:
+              - cell "Operador Test 7" [ref=f91e219]
+              - cell "Chofer" [ref=f91e220]
+              - cell "—" [ref=f91e221]
+              - cell "op-test-7@example.com" [ref=f91e222]
+              - cell "Activo" [ref=f91e223]
+        - navigation "Pagination Navigation" [ref=f91e226]:
+          - generic [ref=f91e227]:
+            - paragraph [ref=f91e229]: Showing 1 to 15 of 18 results
+            - generic [ref=f91e231]:
+              - generic "&laquo; Previous" [ref=f91e233]
+              - generic [ref=f91e237]: "1"
+              - button "Go to page 2" [ref=f91e241]: "2"
+              - button "Next &raquo;" [ref=f91e243]
+    - contentinfo [ref=f91e246]:
+      - generic [ref=f91e247]:
+        - generic [ref=f91e248]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f91e252]:
+          - generic [ref=f91e253]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f91e254]: • Servidor Seguro de Producción

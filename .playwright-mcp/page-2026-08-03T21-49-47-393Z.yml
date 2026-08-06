@@ -1,0 +1,286 @@
+- generic [active] [ref=f181e1]:
+  - complementary [ref=f181e2]:
+    - generic [ref=f181e3]:
+      - generic [ref=f181e4]: A
+      - generic [ref=f181e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f181e6]
+        - paragraph [ref=f181e7]: Control de Flota
+    - generic [ref=f181e8]:
+      - paragraph [ref=f181e9]: Navegación Admin
+      - navigation [ref=f181e10]:
+        - link "Dashboard / Resumen" [ref=f181e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f181e15]: Vehículos
+        - link "Vehículos" [ref=f181e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f181e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f181e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f181e28]: Rutas
+        - link "Rutas" [ref=f181e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f181e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f181e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f181e41]: Operaciones
+        - link "Operadores" [ref=f181e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f181e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f181e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f181e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f181e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f181e62]: Administración
+        - link "Reportes" [ref=f181e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f181e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f181e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f181e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f181e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f181e83]:
+      - generic [ref=f181e84]:
+        - generic [ref=f181e85]: AD
+        - generic [ref=f181e86]:
+          - paragraph [ref=f181e87]: Administrador
+          - paragraph [ref=f181e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f181e90]
+  - generic [ref=f181e93]:
+    - banner [ref=f181e94]:
+      - generic [ref=f181e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f181e96]
+        - generic [ref=f181e98]: OWASP Top 10 Secured
+      - generic [ref=f181e101]:
+        - link "28" [ref=f181e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f181e106]: "--:--:--"
+        - generic [ref=f181e110]:
+          - generic [ref=f181e111]:
+            - paragraph [ref=f181e112]: Administrador
+            - paragraph [ref=f181e113]: Administrador del sistema
+          - generic [ref=f181e114]: AD
+    - main [ref=f181e115]:
+      - generic [ref=f181e116]:
+        - generic [ref=f181e117]:
+          - heading "Programa de Instalaciones y Rutas de la Flota" [level=3] [ref=f181e118]
+          - button "Programar Nueva Ruta" [ref=f181e119]
+        - generic [ref=f181e122]:
+          - generic [ref=f181e123]:
+            - textbox "Buscar (cliente, operador, placa, código...)" [ref=f181e124]
+            - combobox [ref=f181e125]:
+              - 'option "Vehículo: Todos" [selected]'
+              - option "AAA-BBB-123"
+              - option "GHL-4512"
+              - option "HTR-7823"
+              - option "JKL-9911"
+              - option "MXZ-3322"
+              - option "CDE-5567"
+            - combobox [ref=f181e126]:
+              - 'option "Estatus: Todos" [selected]'
+              - option "Programada"
+              - option "Asignada"
+              - option "En Tránsito"
+              - option "Instalando"
+              - option "Completada"
+              - option "Cancelada"
+            - textbox "Desde" [ref=f181e127]
+            - generic [ref=f181e128]: →
+            - textbox "Hasta" [ref=f181e129]
+          - paragraph [ref=f181e130]: Mostrando 1-10 de 10
+        - table [ref=f181e132]:
+          - rowgroup [ref=f181e133]:
+            - row [ref=f181e134]:
+              - columnheader "ID" [ref=f181e135]
+              - columnheader "Fecha" [ref=f181e136]
+              - columnheader "Cliente / Proyecto" [ref=f181e137]
+              - columnheader "Vehículo" [ref=f181e138]
+              - columnheader "Operador" [ref=f181e139]
+              - columnheader "Km Planeados" [ref=f181e140]
+              - columnheader "Gasto Autorizado" [ref=f181e141]
+              - columnheader "Estatus" [ref=f181e142]
+              - columnheader "Acciones" [ref=f181e143]
+          - rowgroup [ref=f181e144]:
+            - row [ref=f181e145]:
+              - cell "9" [ref=f181e146]
+              - cell "07/08/2026" [ref=f181e147]
+              - cell "Sanctorum Centro" [ref=f181e148]
+              - cell "HTR-7823" [ref=f181e149]
+              - cell "Juan Pérez" [ref=f181e150]
+              - cell "90 Km" [ref=f181e151]
+              - cell "Sin autorizar" [ref=f181e152]:
+                - generic [ref=f181e153]:
+                  - generic [ref=f181e154]: Sin autorizar
+                  - button "Configurar gasto autorizado" [ref=f181e155]
+              - cell "Programada" [ref=f181e158]
+              - cell [ref=f181e159]:
+                - generic [ref=f181e160]:
+                  - button "Detalle" [ref=f181e161]
+                  - button "Editar" [ref=f181e165]
+                  - button "Eliminar" [ref=f181e168]
+            - row [ref=f181e171]:
+              - cell "10" [ref=f181e172]
+              - cell "07/08/2026" [ref=f181e173]
+              - cell "Planta Cholula" [ref=f181e174]
+              - cell "JKL-9911" [ref=f181e175]
+              - cell "Juan Pérez" [ref=f181e176]
+              - cell "65 Km" [ref=f181e177]
+              - cell "Sin autorizar" [ref=f181e178]:
+                - generic [ref=f181e179]:
+                  - generic [ref=f181e180]: Sin autorizar
+                  - button "Configurar gasto autorizado" [ref=f181e181]
+              - cell "Programada" [ref=f181e184]
+              - cell [ref=f181e185]:
+                - generic [ref=f181e186]:
+                  - button "Detalle" [ref=f181e187]
+                  - button "Editar" [ref=f181e191]
+                  - button "Eliminar" [ref=f181e194]
+            - row [ref=f181e197]:
+              - cell "7" [ref=f181e198]
+              - cell "06/08/2026" [ref=f181e199]
+              - cell "Colonia La Paz" [ref=f181e200]
+              - cell "AAA-BBB-123" [ref=f181e201]
+              - cell "Juan Pérez" [ref=f181e202]
+              - cell "75 Km" [ref=f181e203]
+              - cell "Sin autorizar" [ref=f181e204]:
+                - generic [ref=f181e205]:
+                  - generic [ref=f181e206]: Sin autorizar
+                  - button "Configurar gasto autorizado" [ref=f181e207]
+              - cell "Programada" [ref=f181e210]
+              - cell [ref=f181e211]:
+                - generic [ref=f181e212]:
+                  - button "Detalle" [ref=f181e213]
+                  - button "Editar" [ref=f181e217]
+                  - button "Eliminar" [ref=f181e220]
+            - row [ref=f181e223]:
+              - cell "8" [ref=f181e224]
+              - cell "06/08/2026" [ref=f181e225]
+              - cell "Mercado La Acocota" [ref=f181e226]
+              - cell "GHL-4512" [ref=f181e227]
+              - cell "Juan Pérez" [ref=f181e228]
+              - cell "55 Km" [ref=f181e229]
+              - cell "Sin autorizar" [ref=f181e230]:
+                - generic [ref=f181e231]:
+                  - generic [ref=f181e232]: Sin autorizar
+                  - button "Configurar gasto autorizado" [ref=f181e233]
+              - cell "Programada" [ref=f181e236]
+              - cell [ref=f181e237]:
+                - generic [ref=f181e238]:
+                  - button "Detalle" [ref=f181e239]
+                  - button "Editar" [ref=f181e243]
+                  - button "Eliminar" [ref=f181e246]
+            - row [ref=f181e249]:
+              - cell "5" [ref=f181e250]
+              - cell "05/08/2026" [ref=f181e251]
+              - cell "Aeropuerto Hermanos Serdán" [ref=f181e252]
+              - cell "MXZ-3322" [ref=f181e253]
+              - cell "Juan Pérez" [ref=f181e254]
+              - cell "45 Km" [ref=f181e255]
+              - cell "Sin autorizar" [ref=f181e256]:
+                - generic [ref=f181e257]:
+                  - generic [ref=f181e258]: Sin autorizar
+                  - button "Configurar gasto autorizado" [ref=f181e259]
+              - cell "Programada" [ref=f181e262]
+              - cell [ref=f181e263]:
+                - generic [ref=f181e264]:
+                  - button "Detalle" [ref=f181e265]
+                  - button "Editar" [ref=f181e269]
+                  - button "Eliminar" [ref=f181e272]
+            - row [ref=f181e275]:
+              - cell "6" [ref=f181e276]
+              - cell "05/08/2026" [ref=f181e277]
+              - cell "Centro Comercial Angelópolis" [ref=f181e278]
+              - cell "CDE-5567" [ref=f181e279]
+              - cell "Juan Pérez" [ref=f181e280]
+              - cell "30 Km" [ref=f181e281]
+              - cell "Sin autorizar" [ref=f181e282]:
+                - generic [ref=f181e283]:
+                  - generic [ref=f181e284]: Sin autorizar
+                  - button "Configurar gasto autorizado" [ref=f181e285]
+              - cell "Asignada" [ref=f181e288]
+              - cell [ref=f181e289]:
+                - generic [ref=f181e290]:
+                  - button "Detalle" [ref=f181e291]
+                  - button "Editar" [ref=f181e295]
+                  - button "Eliminar" [ref=f181e298]
+            - row [ref=f181e301]:
+              - cell "3" [ref=f181e302]
+              - cell "04/08/2026" [ref=f181e303]
+              - cell "Fraccionamiento Los Pinos" [ref=f181e304]
+              - cell "HTR-7823" [ref=f181e305]
+              - cell "Juan Pérez" [ref=f181e306]
+              - cell "150 Km" [ref=f181e307]
+              - cell "Sin autorizar" [ref=f181e308]:
+                - generic [ref=f181e309]:
+                  - generic [ref=f181e310]: Sin autorizar
+                  - button "Configurar gasto autorizado" [ref=f181e311]
+              - cell "Asignada" [ref=f181e314]
+              - cell [ref=f181e315]:
+                - generic [ref=f181e316]:
+                  - button "Detalle" [ref=f181e317]
+                  - button "Editar" [ref=f181e321]
+                  - button "Eliminar" [ref=f181e324]
+            - row [ref=f181e327]:
+              - cell "4" [ref=f181e328]
+              - cell "04/08/2026" [ref=f181e329]
+              - cell "Parque Industrial Finsa" [ref=f181e330]
+              - cell "JKL-9911" [ref=f181e331]
+              - cell "Juan Pérez" [ref=f181e332]
+              - cell "200 Km" [ref=f181e333]
+              - cell "Sin autorizar" [ref=f181e334]:
+                - generic [ref=f181e335]:
+                  - generic [ref=f181e336]: Sin autorizar
+                  - button "Configurar gasto autorizado" [ref=f181e337]
+              - cell "Programada" [ref=f181e340]
+              - cell [ref=f181e341]:
+                - generic [ref=f181e342]:
+                  - button "Detalle" [ref=f181e343]
+                  - button "Editar" [ref=f181e347]
+                  - button "Eliminar" [ref=f181e350]
+            - row [ref=f181e353]:
+              - cell "1" [ref=f181e354]
+              - cell "03/08/2026" [ref=f181e355]
+              - cell "Sucursal Centro" [ref=f181e356]
+              - cell "AAA-BBB-123" [ref=f181e357]
+              - cell "Juan Pérez" [ref=f181e358]
+              - cell "120 Km" [ref=f181e359]
+              - cell "Sin autorizar" [ref=f181e360]:
+                - generic [ref=f181e361]:
+                  - generic [ref=f181e362]: Sin autorizar
+                  - button "Configurar gasto autorizado" [ref=f181e363]
+              - cell "Programada" [ref=f181e366]
+              - cell [ref=f181e367]:
+                - generic [ref=f181e368]:
+                  - button "Detalle" [ref=f181e369]
+                  - button "Editar" [ref=f181e373]
+                  - button "Eliminar" [ref=f181e376]
+            - row [ref=f181e379]:
+              - cell "2" [ref=f181e380]
+              - cell "03/08/2026" [ref=f181e381]
+              - cell "Sucursal Norte" [ref=f181e382]
+              - cell "GHL-4512" [ref=f181e383]
+              - cell "Juan Pérez" [ref=f181e384]
+              - cell "85 Km" [ref=f181e385]
+              - cell "Sin autorizar" [ref=f181e386]:
+                - generic [ref=f181e387]:
+                  - generic [ref=f181e388]: Sin autorizar
+                  - button "Configurar gasto autorizado" [ref=f181e389]
+              - cell "Programada" [ref=f181e392]
+              - cell [ref=f181e393]:
+                - generic [ref=f181e394]:
+                  - button "Detalle" [ref=f181e395]
+                  - button "Editar" [ref=f181e399]
+                  - button "Eliminar" [ref=f181e402]
+    - contentinfo [ref=f181e405]:
+      - generic [ref=f181e406]:
+        - generic [ref=f181e407]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f181e411]:
+          - generic [ref=f181e412]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f181e413]: • Servidor Seguro de Producción

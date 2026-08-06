@@ -1,0 +1,190 @@
+- generic [ref=f163e1]:
+  - complementary [ref=f163e2]:
+    - generic [ref=f163e3]:
+      - generic [ref=f163e4]: A
+      - generic [ref=f163e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f163e6]
+        - paragraph [ref=f163e7]: Control de Flota
+    - generic [ref=f163e8]:
+      - paragraph [ref=f163e9]: Navegación Admin
+      - navigation [ref=f163e10]:
+        - link "Dashboard / Resumen" [ref=f163e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f163e15]: Vehículos
+        - link "Vehículos" [ref=f163e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f163e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f163e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f163e28]: Rutas
+        - link "Rutas" [ref=f163e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f163e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f163e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f163e41]: Operaciones
+        - link "Operadores" [ref=f163e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f163e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f163e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f163e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f163e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f163e62]: Administración
+        - link "Reportes" [ref=f163e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f163e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f163e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f163e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f163e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f163e83]:
+      - generic [ref=f163e84]:
+        - generic [ref=f163e85]: AD
+        - generic [ref=f163e86]:
+          - paragraph [ref=f163e87]: Administrador
+          - paragraph [ref=f163e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f163e90]
+  - generic [ref=f163e93]:
+    - banner [ref=f163e94]:
+      - generic [ref=f163e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f163e96]
+        - generic [ref=f163e98]: OWASP Top 10 Secured
+      - generic [ref=f163e101]:
+        - link "Notificaciones" [ref=f163e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f163e105]: 3:33:21 p.m.
+        - generic [ref=f163e109]:
+          - generic [ref=f163e110]:
+            - paragraph [ref=f163e111]: Administrador
+            - paragraph [ref=f163e112]: Administrador del sistema
+          - generic [ref=f163e113]: AD
+    - main [ref=f163e114]:
+      - generic [ref=f163e115]:
+        - generic [ref=f163e116]:
+          - heading "Expediente de Unidades Vehiculares (0)" [level=3] [ref=f163e117]
+          - button "Registrar Vehículo" [active] [ref=f163e118]
+        - generic [ref=f163e122]:
+          - textbox "Buscar por marca, modelo, placas o VIN..." [ref=f163e124]
+          - combobox [ref=f163e125]:
+            - option "Todos los estatus" [selected]
+            - option "Activa"
+            - option "En mantenimiento"
+            - option "Fuera de servicio"
+          - combobox [ref=f163e126]:
+            - option "Todos los combustibles" [selected]
+            - option "Gasolina"
+            - option "Diesel"
+            - option "Gas LP"
+          - combobox [ref=f163e127]:
+            - option "Todos los tipos" [selected]
+            - option "Torton"
+            - option "Rabón"
+            - option "Camión"
+            - option "Pickup"
+            - option "Panel"
+            - option "Caja Seca"
+            - option "Plataforma"
+            - option "Refrigerado"
+            - option "Van"
+          - combobox [ref=f163e128]:
+            - 'option "GPS: Todos" [selected]'
+            - option "GPS Instalado"
+            - option "GPS No instalado"
+          - combobox [ref=f163e129]:
+            - option "Todos los choferes" [selected]
+        - generic [ref=f163e144]:
+          - generic [ref=f163e145]:
+            - heading "Nuevo Vehículo" [level=3] [ref=f163e146]
+            - button [ref=f163e147]
+          - generic [ref=f163e150]:
+            - generic [ref=f163e151]:
+              - generic [ref=f163e152]: Marca
+              - textbox [ref=f163e153]
+            - generic [ref=f163e154]:
+              - generic [ref=f163e155]: Modelo
+              - textbox [ref=f163e156]
+            - generic [ref=f163e157]:
+              - generic [ref=f163e158]: Año
+              - spinbutton [ref=f163e159]
+            - generic [ref=f163e160]:
+              - generic [ref=f163e161]: Placas
+              - textbox [ref=f163e162]
+            - generic [ref=f163e163]:
+              - generic [ref=f163e164]: Tipo Combustible
+              - combobox [ref=f163e165]:
+                - option "Gasolina" [selected]
+                - option "Diesel"
+                - option "Gas LP"
+            - generic [ref=f163e166]:
+              - generic [ref=f163e167]: Capacidad de Carga
+              - combobox [ref=f163e168]:
+                - option "1.0 Toneladas" [selected]
+                - option "1.2 Toneladas"
+                - option "1.8 Toneladas"
+                - option "2.5 Toneladas"
+            - generic [ref=f163e169]:
+              - generic [ref=f163e170]: Capacidad Tanque (L)
+              - spinbutton [ref=f163e171]
+            - generic [ref=f163e172]:
+              - generic [ref=f163e173]: VIN
+              - textbox [ref=f163e174]
+            - generic [ref=f163e175]:
+              - generic [ref=f163e176]: Color
+              - textbox [ref=f163e177]
+            - generic [ref=f163e178]:
+              - generic [ref=f163e179]: Motor
+              - textbox [ref=f163e180]
+            - generic [ref=f163e181]:
+              - generic [ref=f163e182]: Fecha de Adquisición
+              - textbox [ref=f163e183]
+            - generic [ref=f163e184]:
+              - generic [ref=f163e185]: Costo de Adquisición ($)
+              - spinbutton [ref=f163e186]
+            - generic [ref=f163e187]:
+              - generic [ref=f163e188]: Tipo de Vehículo
+              - combobox [ref=f163e189]:
+                - option "Seleccionar..." [selected]
+                - option "Torton"
+                - option "Rabón"
+                - option "Camión"
+                - option "Pickup"
+                - option "Panel"
+                - option "Caja Seca"
+                - option "Plataforma"
+                - option "Refrigerado"
+                - option "Van"
+            - generic [ref=f163e190]:
+              - generic [ref=f163e191]: Chofer Asignado
+              - combobox [ref=f163e192]:
+                - option "Sin asignar" [selected]
+            - generic [ref=f163e193]:
+              - generic [ref=f163e194]: Odómetro Actual (Km)
+              - spinbutton [ref=f163e195]: "1000"
+            - generic [ref=f163e196]:
+              - generic [ref=f163e197]: Combustible Autorizado (L/semana)
+              - spinbutton [ref=f163e198]: "100"
+            - generic [ref=f163e200] [cursor=pointer]:
+              - checkbox "GPS Instalado" [checked] [ref=f163e201]
+              - generic [ref=f163e202]: GPS Instalado
+            - generic [ref=f163e203]:
+              - generic [ref=f163e204]: Notas
+              - textbox [ref=f163e205]
+            - generic [ref=f163e206]:
+              - button "Guardar" [ref=f163e207]
+              - button "Cancelar" [ref=f163e208]
+        - generic [ref=f163e130]: No hay vehículos registrados
+    - contentinfo [ref=f163e133]:
+      - generic [ref=f163e134]:
+        - generic [ref=f163e135]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f163e139]:
+          - generic [ref=f163e140]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f163e141]: • Servidor Seguro de Producción

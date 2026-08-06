@@ -1,0 +1,112 @@
+- generic [active] [ref=f216e1]:
+  - complementary [ref=f216e2]:
+    - generic [ref=f216e3]:
+      - generic [ref=f216e4]: A
+      - generic [ref=f216e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f216e6]
+        - paragraph [ref=f216e7]: Control de Flota
+    - generic [ref=f216e8]:
+      - paragraph [ref=f216e9]: Navegación Admin
+      - navigation [ref=f216e10]:
+        - link "Dashboard / Resumen" [ref=f216e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f216e15]: Vehículos
+        - link "Vehículos" [ref=f216e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f216e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f216e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f216e28]: Rutas
+        - link "Rutas" [ref=f216e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f216e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f216e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f216e41]: Operaciones
+        - link "Operadores" [ref=f216e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f216e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f216e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f216e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f216e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f216e62]: Administración
+        - link "Reportes" [ref=f216e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f216e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f216e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f216e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f216e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f216e83]:
+      - generic [ref=f216e84]:
+        - generic [ref=f216e85]: AD
+        - generic [ref=f216e86]:
+          - paragraph [ref=f216e87]: Administrador
+          - paragraph [ref=f216e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f216e90]
+  - generic [ref=f216e93]:
+    - banner [ref=f216e94]:
+      - generic [ref=f216e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f216e96]
+        - generic [ref=f216e98]: OWASP Top 10 Secured
+      - generic [ref=f216e101]:
+        - link "35" [ref=f216e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f216e106]: "--:--:--"
+        - generic [ref=f216e110]:
+          - generic [ref=f216e111]:
+            - paragraph [ref=f216e112]: Administrador
+            - paragraph [ref=f216e113]: Administrador del sistema
+          - generic [ref=f216e114]: AD
+    - main [ref=f216e115]:
+      - generic [ref=f216e116]:
+        - generic [ref=f216e117]:
+          - heading "Geolocalización de Rutas" [level=2] [ref=f216e118]
+          - combobox [ref=f216e119]:
+            - option "07/08/2026 — Sanctorum Centro" [selected]
+            - option "07/08/2026 — Planta Cholula"
+            - option "06/08/2026 — Colonia La Paz"
+            - option "06/08/2026 — Mercado La Acocota"
+            - option "05/08/2026 — Aeropuerto Hermanos Serdán"
+            - option "05/08/2026 — Centro Comercial Angelópolis"
+            - option "04/08/2026 — Fraccionamiento Los Pinos"
+            - option "04/08/2026 — Parque Industrial Finsa"
+            - option "03/08/2026 — Sucursal Centro"
+            - option "03/08/2026 — Sucursal Norte"
+        - generic [ref=f216e121]:
+          - generic [ref=f216e122]:
+            - paragraph [ref=f216e123]: Cliente
+            - paragraph [ref=f216e124]: Sanctorum Centro
+          - generic [ref=f216e126]:
+            - paragraph [ref=f216e127]: Unidad
+            - paragraph [ref=f216e128]: HTR-7823
+          - generic [ref=f216e130]:
+            - paragraph [ref=f216e131]: Conductor
+            - paragraph [ref=f216e132]: Juan Pérez
+          - generic [ref=f216e134]:
+            - paragraph [ref=f216e135]: Km
+            - paragraph [ref=f216e136]: —
+          - generic [ref=f216e138]:
+            - paragraph [ref=f216e139]: Puntos
+            - paragraph [ref=f216e140]: "0"
+          - generic [ref=f216e141]: Programada
+        - generic [ref=f216e146]:
+          - generic [ref=f216e147]:
+            - heading "Recorrido" [level=3] [ref=f216e148]
+            - generic [ref=f216e149]: 0 puntos
+          - generic [ref=f216e150]: Sin puntos con coordenadas en esta ruta
+    - contentinfo [ref=f216e152]:
+      - generic [ref=f216e153]:
+        - generic [ref=f216e154]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f216e158]:
+          - generic [ref=f216e159]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f216e160]: • Servidor Seguro de Producción

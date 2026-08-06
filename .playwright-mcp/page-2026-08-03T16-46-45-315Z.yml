@@ -1,0 +1,38 @@
+- generic [ref=f18e1]:
+  - banner [ref=f18e2]:
+    - generic [ref=f18e3]:
+      - generic [ref=f18e4]:
+        - generic [ref=f18e5]: A
+        - generic [ref=f18e6]:
+          - text: Chofer
+          - paragraph [ref=f18e7]: Prueba
+      - generic [ref=f18e8]:
+        - link "Inicio" [ref=f18e9] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/driver/dashboard
+        - button "Cerrar sesión" [ref=f18e13]
+  - main [ref=f18e16]:
+    - generic [ref=f18e17]:
+      - link "Volver al inicio" [ref=f18e18] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/driver/dashboard
+      - generic [ref=f18e21]:
+        - generic [ref=f18e22]:
+          - generic [ref=f18e23]:
+            - heading "Fraccionamiento Los Pinos" [level=1] [ref=f18e24]
+            - paragraph [ref=f18e25]: Emilio Carranza 7, Agrícola Ignacio Zaragoza, 72710 Heroica Puebla de Zaragoza, Pue. → Fracc. Los Pinos, San Andrés Cholula
+          - generic [ref=f18e26]: Programada
+        - generic [ref=f18e27]:
+          - generic [ref=f18e28]:
+            - paragraph [ref=f18e29]: Unidad
+            - paragraph [ref=f18e30]: HTR-7823
+          - generic [ref=f18e31]:
+            - paragraph [ref=f18e32]: Km Planeados
+            - paragraph [ref=f18e33]: 150.00 km
+      - generic [ref=f18e34]:
+        - generic [ref=f18e35]:
+          - button "Bitácora" [ref=f18e36]
+          - button "Mov. Extras" [ref=f18e37]
+          - button "Reportar Fallas" [ref=f18e38]
+        - generic [ref=f18e39]:
+          - paragraph [ref=f18e41]: No hay pasos definidos para esta ruta
+          - button "Carga de Combustible" [ref=f18e43]
+          - heading "Progreso" [level=3] [ref=f18e51]

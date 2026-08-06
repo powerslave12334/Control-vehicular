@@ -1,0 +1,270 @@
+- generic [ref=f19e1]:
+  - complementary [ref=f19e2]:
+    - generic [ref=f19e3]:
+      - generic [ref=f19e4]: A
+      - generic [ref=f19e5]:
+        - heading "Agua Inmaculada" [level=1] [ref=f19e6]
+        - paragraph [ref=f19e7]: Control de Flota
+    - generic [ref=f19e8]:
+      - paragraph [ref=f19e9]: Navegación Admin
+      - navigation [ref=f19e10]:
+        - link "Dashboard / Resumen" [ref=f19e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+        - paragraph [ref=f19e15]: Vehículos
+        - link "Vehículos" [ref=f19e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/vehicles
+        - link "Mantenimiento" [ref=f19e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/maintenance
+        - link "Combustible" [ref=f19e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fuel
+        - paragraph [ref=f19e28]: Rutas
+        - link "Rutas" [ref=f19e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/routes
+        - link "Geolocalización" [ref=f19e33] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/geolocation
+        - link "Calendario" [ref=f19e37] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/calendar
+        - paragraph [ref=f19e41]: Operaciones
+        - link "Operadores" [ref=f19e42] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/operators
+        - link "Gastos" [ref=f19e46] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/expenses
+        - link "Incidencias" [ref=f19e50] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/incidents
+        - link "Evidencias" [ref=f19e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/evidence
+        - link "Portería" [ref=f19e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/gate
+        - paragraph [ref=f19e62]: Administración
+        - link "Reportes" [ref=f19e63] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/reports
+        - link "Usuarios" [ref=f19e67] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/users
+        - link "Seguridad OWASP" [ref=f19e71] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/security
+        - link "Catálogos" [ref=f19e75] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/catalogs
+        - link "Notificaciones" [ref=f19e79] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+    - generic [ref=f19e83]:
+      - generic [ref=f19e84]:
+        - generic [ref=f19e85]: AD
+        - generic [ref=f19e86]:
+          - paragraph [ref=f19e87]: Administrador
+          - paragraph [ref=f19e88]: Administrador del sistema
+      - button "Cerrar Sesión" [ref=f19e90]
+  - generic [ref=f19e93]:
+    - banner [ref=f19e94]:
+      - generic [ref=f19e95]:
+        - heading "Monitoreo de Flota & Control en Tiempo Real" [level=2] [ref=f19e96]
+        - generic [ref=f19e98]: OWASP Top 10 Secured
+      - generic [ref=f19e101]:
+        - link "79" [ref=f19e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/notifications
+        - generic [ref=f19e106]: 12:49:39 p.m.
+        - generic [ref=f19e110]:
+          - generic [ref=f19e111]:
+            - paragraph [ref=f19e112]: Administrador
+            - paragraph [ref=f19e113]: Administrador del sistema
+          - generic [ref=f19e114]: AD
+    - main [ref=f19e115]:
+      - generic [ref=f19e116]:
+        - generic [ref=f19e117]:
+          - generic [ref=f19e118]:
+            - heading "Calendario de Rutas" [level=2] [ref=f19e119]
+            - paragraph [ref=f19e120]: Tablero mensual de despacho
+          - generic [ref=f19e121]:
+            - generic [ref=f19e122]:
+              - button "Semana" [ref=f19e123]
+              - button "Mes" [active] [ref=f19e124]
+            - button "Anterior" [ref=f19e126]
+            - generic [ref=f19e129]: Agosto 2026
+            - button "Siguiente" [ref=f19e130]
+            - button "Hoy" [ref=f19e133]
+        - generic [ref=f19e311]:
+          - generic [ref=f19e312]: "Operador:"
+          - button "Todos" [ref=f19e313]
+          - button "Instalador" [ref=f19e314]
+          - button "Prueba" [ref=f19e315]
+        - generic [ref=f19e134]:
+          - generic [ref=f19e135]:
+            - generic [ref=f19e136]: "6"
+            - generic [ref=f19e137]: rutas
+          - generic [ref=f19e139]:
+            - generic [ref=f19e140]: "630"
+            - generic [ref=f19e141]: km planeados
+          - generic [ref=f19e143]:
+            - generic [ref=f19e145]: "0"
+            - generic [ref=f19e146]: en tránsito / instalando
+          - generic [ref=f19e147]:
+            - generic [ref=f19e149]: "0"
+            - generic [ref=f19e150]: completadas
+          - generic [ref=f19e151]:
+            - generic [ref=f19e153]: "0"
+            - generic [ref=f19e154]: canceladas
+        - table [ref=f19e318]:
+          - rowgroup [ref=f19e319]:
+            - row [ref=f19e320]:
+              - columnheader "lun." [ref=f19e321]
+              - columnheader "mar." [ref=f19e322]
+              - columnheader "mié." [ref=f19e323]
+              - columnheader "jue." [ref=f19e324]
+              - columnheader "vie." [ref=f19e325]
+              - columnheader "sáb." [ref=f19e326]
+              - columnheader "dom." [ref=f19e327]
+          - rowgroup [ref=f19e328]:
+            - row [ref=f19e329]:
+              - cell "27" [ref=f19e330]
+              - cell "28" [ref=f19e333]
+              - cell "29" [ref=f19e336]
+              - cell "30" [ref=f19e339]
+              - cell "31" [ref=f19e342]
+              - cell "01" [ref=f19e345]:
+                - link "Programar ruta" [ref=f19e349] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "02" [ref=f19e352]:
+                - link "Programar ruta" [ref=f19e356] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+            - row [ref=f19e359]:
+              - cell "03 6 RUT-101 Sucursal Centro Prueba · AAA-BBB-123 · 120 km RUT-102 Sucursal Norte Prueba · GHL-4512 · 85 km RUT-103 Fraccionamiento Los Pinos Prueba · HTR-7823 · 150 km RUT-104 Parque Industrial Finsa Prueba · JKL-9911 · 200 km RUT-105 Aeropuerto Hermanos Serdán Prueba · MXZ-3322 · 45 km RUT-106 Centro Comercial Angelópolis Prueba · CDE-5567 · 30 km" [ref=f19e360]:
+                - generic [ref=f19e361]:
+                  - generic [ref=f19e362]: "03"
+                  - generic [ref=f19e363]: "6"
+                - generic [ref=f19e365]:
+                  - button "RUT-101 Sucursal Centro Prueba · AAA-BBB-123 · 120 km" [ref=f19e366]:
+                    - generic [ref=f19e367]:
+                      - generic [ref=f19e368]: RUT-101
+                      - generic [ref=f19e371]: Sucursal Centro
+                      - generic [ref=f19e372]: Prueba · AAA-BBB-123 · 120 km
+                  - button "RUT-102 Sucursal Norte Prueba · GHL-4512 · 85 km" [ref=f19e373]:
+                    - generic [ref=f19e374]:
+                      - generic [ref=f19e375]: RUT-102
+                      - generic [ref=f19e378]: Sucursal Norte
+                      - generic [ref=f19e379]: Prueba · GHL-4512 · 85 km
+                  - button "RUT-103 Fraccionamiento Los Pinos Prueba · HTR-7823 · 150 km" [ref=f19e380]:
+                    - generic [ref=f19e381]:
+                      - generic [ref=f19e382]: RUT-103
+                      - generic [ref=f19e385]: Fraccionamiento Los Pinos
+                      - generic [ref=f19e386]: Prueba · HTR-7823 · 150 km
+                  - button "RUT-104 Parque Industrial Finsa Prueba · JKL-9911 · 200 km" [ref=f19e387]:
+                    - generic [ref=f19e388]:
+                      - generic [ref=f19e389]: RUT-104
+                      - generic [ref=f19e392]: Parque Industrial Finsa
+                      - generic [ref=f19e393]: Prueba · JKL-9911 · 200 km
+                  - button "RUT-105 Aeropuerto Hermanos Serdán Prueba · MXZ-3322 · 45 km" [ref=f19e394]:
+                    - generic [ref=f19e395]:
+                      - generic [ref=f19e396]: RUT-105
+                      - generic [ref=f19e399]: Aeropuerto Hermanos Serdán
+                      - generic [ref=f19e400]: Prueba · MXZ-3322 · 45 km
+                  - button "RUT-106 Centro Comercial Angelópolis Prueba · CDE-5567 · 30 km" [ref=f19e401]:
+                    - generic [ref=f19e402]:
+                      - generic [ref=f19e403]: RUT-106
+                      - generic [ref=f19e406]: Centro Comercial Angelópolis
+                      - generic [ref=f19e407]: Prueba · CDE-5567 · 30 km
+              - cell "04" [ref=f19e408]:
+                - link "Programar ruta" [ref=f19e412] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "05" [ref=f19e415]:
+                - link "Programar ruta" [ref=f19e419] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "06" [ref=f19e422]:
+                - link "Programar ruta" [ref=f19e426] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "07" [ref=f19e429]:
+                - link "Programar ruta" [ref=f19e433] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "08" [ref=f19e436]:
+                - link "Programar ruta" [ref=f19e440] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "09" [ref=f19e443]:
+                - link "Programar ruta" [ref=f19e447] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+            - row [ref=f19e450]:
+              - cell "10" [ref=f19e451]:
+                - link "Programar ruta" [ref=f19e455] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "11" [ref=f19e458]:
+                - link "Programar ruta" [ref=f19e462] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "12" [ref=f19e465]:
+                - link "Programar ruta" [ref=f19e469] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "13" [ref=f19e472]:
+                - link "Programar ruta" [ref=f19e476] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "14" [ref=f19e479]:
+                - link "Programar ruta" [ref=f19e483] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "15" [ref=f19e486]:
+                - link "Programar ruta" [ref=f19e490] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "16" [ref=f19e493]:
+                - link "Programar ruta" [ref=f19e497] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+            - row [ref=f19e500]:
+              - cell "17" [ref=f19e501]:
+                - link "Programar ruta" [ref=f19e505] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "18" [ref=f19e508]:
+                - link "Programar ruta" [ref=f19e512] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "19" [ref=f19e515]:
+                - link "Programar ruta" [ref=f19e519] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "20" [ref=f19e522]:
+                - link "Programar ruta" [ref=f19e526] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "21" [ref=f19e529]:
+                - link "Programar ruta" [ref=f19e533] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "22" [ref=f19e536]:
+                - link "Programar ruta" [ref=f19e540] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "23" [ref=f19e543]:
+                - link "Programar ruta" [ref=f19e547] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+            - row [ref=f19e550]:
+              - cell "24" [ref=f19e551]:
+                - link "Programar ruta" [ref=f19e555] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "25" [ref=f19e558]:
+                - link "Programar ruta" [ref=f19e562] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "26" [ref=f19e565]:
+                - link "Programar ruta" [ref=f19e569] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "27" [ref=f19e572]:
+                - link "Programar ruta" [ref=f19e576] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "28" [ref=f19e579]:
+                - link "Programar ruta" [ref=f19e583] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "29" [ref=f19e586]:
+                - link "Programar ruta" [ref=f19e590] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "30" [ref=f19e593]:
+                - link "Programar ruta" [ref=f19e597] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+            - row [ref=f19e600]:
+              - cell "31" [ref=f19e601]:
+                - link "Programar ruta" [ref=f19e605] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/routes
+              - cell "01" [ref=f19e608]
+              - cell "02" [ref=f19e611]
+              - cell "03" [ref=f19e614]
+              - cell "04" [ref=f19e617]
+              - cell "05" [ref=f19e620]
+              - cell "06" [ref=f19e623]
+        - generic [ref=f19e290]:
+          - generic [ref=f19e291]: Programada
+          - generic [ref=f19e293]: En tránsito
+          - generic [ref=f19e295]: Instalando
+          - generic [ref=f19e297]: Completada
+          - generic [ref=f19e299]: Cancelada
+          - generic [ref=f19e301]: Días tenues = fuera del mes
+    - contentinfo [ref=f19e302]:
+      - generic [ref=f19e303]:
+        - generic [ref=f19e304]: © 2026 Agua Inmaculada S.A. de C.V. Todos los derechos reservados.
+        - generic [ref=f19e308]:
+          - generic [ref=f19e309]: OWASP Top 10 • CSP • HttpOnly • Anti-CSRF Activo
+          - generic [ref=f19e310]: • Servidor Seguro de Producción
