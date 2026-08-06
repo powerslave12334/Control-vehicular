@@ -20,8 +20,12 @@ return new class extends Migration
                 $table->foreignId('resolved_by')->nullable()->constrained('users')->after('resolved_at');
             });
 
-            if (DB::getDriverName() !== 'sqlite') {
+            if (DB::getDriverName() === 'mysql') {
                 DB::statement("ALTER TABLE incidents MODIFY status VARCHAR(50) NOT NULL DEFAULT 'reported'");
+            } elseif (DB::getDriverName() === 'pgsql') {
+                DB::statement("ALTER TABLE incidents ALTER COLUMN status TYPE VARCHAR(50)");
+                DB::statement("ALTER TABLE incidents ALTER COLUMN status SET NOT NULL");
+                DB::statement("ALTER TABLE incidents ALTER COLUMN status SET DEFAULT 'reported'");
             }
         }
     }

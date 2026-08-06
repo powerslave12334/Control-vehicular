@@ -47,6 +47,19 @@ return [
             'report' => false,
         ],
 
+        'supabase' => [
+            'driver' => 's3',
+            'key' => env('SUPABASE_STORAGE_ACCESS_KEY'),
+            'secret' => env('SUPABASE_STORAGE_SECRET_KEY'),
+            'region' => env('SUPABASE_STORAGE_REGION', 'staging'),
+            'bucket' => env('SUPABASE_STORAGE_BUCKET', 'uploads'),
+            'url' => env('SUPABASE_STORAGE_URL'),
+            'endpoint' => env('SUPABASE_STORAGE_ENDPOINT'),
+            'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', true),
+            'throw' => false,
+            'report' => false,
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),

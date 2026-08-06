@@ -159,7 +159,7 @@ class MaintenanceManager extends Component
 
         $evidencePath = $this->existing_evidence ?: null;
         if ($this->evidence) {
-            $evidencePath = $this->evidence->store('maintenance', 'public');
+            $evidencePath = $this->evidence->store('maintenance');
         }
 
         if ($this->status === 'en_progreso' && ! $this->start_date) {

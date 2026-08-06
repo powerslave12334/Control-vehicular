@@ -110,7 +110,7 @@ class IncidentManager extends Component
 
         $photoPath = null;
         if ($this->photo) {
-            $photoPath = $this->photo->store('incidents', 'public');
+            $photoPath = $this->photo->store('incidents');
         }
 
         $data = [

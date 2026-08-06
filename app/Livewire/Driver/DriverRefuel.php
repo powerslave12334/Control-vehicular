@@ -56,7 +56,7 @@ class DriverRefuel extends Component
 
         if ($this->ticket_photo) {
             $data = $dto->toArray();
-            $data['ticket_photo'] = $this->ticket_photo->store('driver/tickets', 'public');
+            $data['ticket_photo'] = $this->ticket_photo->store('driver/tickets');
             $dto = RefuelData::fromArray($data);
         }
 

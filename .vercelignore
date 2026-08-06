@@ -1,0 +1,16 @@
+/vendor
+/node_modules
+/.env
+/.git
+/.github
+/tests
+/*.png
+/*.jpg
+/*.jpeg
+/storage/logs
+/storage/framework/cache
+/ESPECIFICACIONES.md
+
+# Mantener build de assets (public/build) y config
+!/public/build
+!/public/img

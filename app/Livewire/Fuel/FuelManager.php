@@ -213,7 +213,7 @@ class FuelManager extends Component
 
         $ticketPhotoPath = $this->existing_ticket_photo ?: null;
         if ($this->ticket_photo) {
-            $ticketPhotoPath = $this->ticket_photo->store('fuel/tickets', 'public');
+            $ticketPhotoPath = $this->ticket_photo->store('fuel/tickets');
         }
 
         $data = [

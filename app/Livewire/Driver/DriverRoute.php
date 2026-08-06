@@ -145,7 +145,7 @@ class DriverRoute extends Component
         }
 
         if ($this->formPhoto) {
-            $data['photo'] = $this->formPhoto->store('driver/photos', 'public');
+            $data['photo'] = $this->formPhoto->store('driver/photos');
         }
 
         $this->currentStep->update($data);
@@ -257,7 +257,7 @@ class DriverRoute extends Component
         ];
 
         if ($this->refuelTicketPhoto) {
-            $data['ticket_photo'] = $this->refuelTicketPhoto->store('driver/tickets', 'public');
+            $data['ticket_photo'] = $this->refuelTicketPhoto->store('driver/tickets');
         }
 
         Refuel::create($data);
@@ -292,7 +292,7 @@ class DriverRoute extends Component
         ];
 
         if ($this->em_photo) {
-            $data['photo'] = $this->em_photo->store('driver/movements', 'public');
+            $data['photo'] = $this->em_photo->store('driver/movements');
         }
 
         ExtraordinaryMovement::create($data);

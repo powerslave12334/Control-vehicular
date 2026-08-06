@@ -194,11 +194,11 @@ class GateManager extends Component
         ];
 
         if ($this->photo) {
-            $data['photo'] = $this->photo->store('gate/photos', 'public');
+            $data['photo'] = $this->photo->store('gate/photos');
         }
 
         if ($this->driver_photo) {
-            $data['driver_photo'] = $this->driver_photo->store('gate/driver_photos', 'public');
+            $data['driver_photo'] = $this->driver_photo->store('gate/driver_photos');
         }
 
         if ($this->type === 'entry') {
