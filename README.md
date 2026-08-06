@@ -93,7 +93,7 @@ Este script levanta en paralelo con `concurrently`:
 | `/dashboard` | Panel principal |
 | `/vehicles` | Gestión de vehículos |
 | `/operators` | Gestión de operadores |
-| `/routes` | Riesgos y rutas |
+| `/routes` | Registro y planificación de rutas |
 | `/geolocation` | Seguimiento geolocalizado |
 | `/fuel` | Control de combustible |
 | `/maintenance` | Mantenimientos |
